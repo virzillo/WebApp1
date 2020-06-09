@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::prefix('admin')->group(function () {
 Route::get('/', 'PagesController@index');
 
 
@@ -26,6 +26,7 @@ Route::get('/icons/fontawesome', 'PagesController@fontawesome');
 Route::get('/icons/lineawesome', 'PagesController@lineawesome');
 Route::get('/icons/socicons', 'PagesController@socicons');
 Route::get('/icons/svg', 'PagesController@svg');
+});
 
 // Quick search dummy route to display html elements in search dropdown (header search)
 Route::get('/quick-search', 'PagesController@quickSearch')->name('quick-search');

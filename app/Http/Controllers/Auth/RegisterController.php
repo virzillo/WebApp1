@@ -70,9 +70,9 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+        //assegnazione ruolo in fase iscrizione
          $user->assignRole('super-admin');
           return $user;
-        //   dd($test);
     }
 
 }
