@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::prefix('admin')->group(function () {
 Route::get('/', 'PagesController@index');
+Route::get('/utenti', 'UsersController@index');
 
 
 // Demo routes
