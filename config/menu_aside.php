@@ -33,8 +33,8 @@ return [
                         ],
 
                         [
-                            'title' => 'Add User',
-                            'page' => 'custom/apps/user/add-user'
+                            'title' => 'Inserisci Utente',
+                            'page' => 'admin/utenti/inserisci'
                         ],
                         [
                             'title' => 'Edit User',

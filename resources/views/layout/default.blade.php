@@ -6,6 +6,7 @@
 
         {{-- Title Section --}}
         <title>{{ config('app.name') }} | @yield('title', $page_title ?? '')</title>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- Meta Data --}}
         <meta name="description" content="@yield('page_description', $page_description ?? '')"/>
@@ -32,7 +33,7 @@
     </head>
 
     <body {{ Metronic::printAttrs('body') }} {{ Metronic::printClasses('body') }}>
-
+        <div id="app"></div>
         @if (config('layout.page-loader.type') != '')
             @include('layout.partials._page-loader')
         @endif
