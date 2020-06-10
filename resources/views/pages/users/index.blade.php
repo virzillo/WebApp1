@@ -120,7 +120,7 @@
                     <td>{{$user->id}}</td>
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
-                    <td>{{$user->getRoleNames()}}</td>
+                    <td>{{$user->getRoleNames()->first()}}</td>
 
                     <td nowrap></td>
                 </tr>
