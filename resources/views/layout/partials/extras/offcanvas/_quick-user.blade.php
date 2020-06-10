@@ -24,7 +24,7 @@
             </div>
             <div class="d-flex flex-column">
                 <a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">
-					James Jones
+					{{ Auth::user()->name }}
 				</a>
                 <div class="text-muted mt-1">
                     Application Developer
@@ -35,7 +35,7 @@
                             <span class="navi-icon mr-1">
 								{{ Metronic::getSVG("media/svg/icons/Communication/Mail-notification.svg", "svg-icon-lg svg-icon-primary") }}
 							</span>
-                            <span class="navi-text text-muted text-hover-primary">jm@softplus.com</span>
+                            <span class="navi-text text-muted text-hover-primary">{{ Auth::user()->email }}</span>
                         </span>
                     </a>
                 </div>
@@ -122,7 +122,32 @@
 		                </div>
 		            </div>
 		        </div>
-		    </a>
+			</a>
+
+			{{-- Item --}}
+
+		    <a  class="navi-item" href="{{ route('logout') }}"
+			onclick="event.preventDefault();
+						  document.getElementById('logout-form').submit();">
+		        <div class="navi-link">
+					<div class="symbol symbol-40 bg-light mr-3">
+						<div class="symbol-label">
+							{{ Metronic::getSVG("media/svg/icons/Navigation/Close.svg", "svg-icon-md svg-icon-primary") }}
+						</div>
+				   	</div>
+		            <div class="navi-text">
+		                <div class="font-weight-bold">
+							{{ __('Logout') }}
+		                </div>
+		                <div class="text-muted">
+		                    Scollega il tuo Account
+		                </div>
+		            </div>
+		        </div>
+			</a>
+			<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+				@csrf
+			</form>
 		</div>
 
 		{{-- Separator --}}
