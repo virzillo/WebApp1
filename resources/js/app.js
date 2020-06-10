@@ -5,7 +5,8 @@
  */
 
 require('./bootstrap');
-require('./script');
+
+
 
 // custom select2
 $('#kt_datatable_search_status').select2();

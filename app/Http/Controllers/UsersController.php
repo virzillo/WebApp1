@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 
 class UsersController extends Controller
@@ -16,7 +17,7 @@ class UsersController extends Controller
     {
         $page_title = 'Utenti';
         $page_description = 'Some description for the page';
-
-        return view('pages.users.index', compact('page_title', 'page_description'));
+        $users=User::all();
+        return view('pages.users.index', compact('page_title', 'page_description','users'));
     }
 }
