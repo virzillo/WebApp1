@@ -5,7 +5,6 @@
 
 {{-- Content --}}
 @section('content')
-
 <div class="card card-custom">
     <!--begin::Header-->
     <div class="card-header flex-wrap border-0 pt-6 pb-0">
@@ -184,16 +183,36 @@
 
 {{-- Scripts Section --}}
 @section('scripts')
+
     {{-- vendors --}}
     <script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}" type="text/javascript"></script>
 
     {{-- page scripts --}}
     <script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript"></script>
+    {{-- <script src="{{ asset('js/pages/features/miscellaneous/toastr.js?v=7.0.3') }}"></script> --}}
+    <script>
+       toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+            };
 
-    {{-- <script>
-        $('#tab1').DataTable( {
-            responsive: true
-        } );
-    </script> --}}
+toastr.success("New order has been placed!", "error");
+    </script>
+
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+
+
 @endsection

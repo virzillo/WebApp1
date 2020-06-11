@@ -130,7 +130,9 @@ class UsersController extends Controller
       User::find($id)->delete();
       //elimina utente e immagine associata ad esso
      // Storage::delete('public/user_image/'.$user->user_image);
-      return redirect()->action('UsersController@index')->with('status','Utente eliminato con successo!');
+    //  toastr()->success('Success Message');
+
+      return back()->with('status','Utente eliminato con successo!');
     }
 
 
