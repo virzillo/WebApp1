@@ -45,17 +45,14 @@ return [
                     'submenu' => [
 
                         [
-                            'title' => 'Elenco',
-                            'page' => 'custom/apps/projects/add-project'
+                            'title' => 'Visualizza Progetti',
+                            'page' => 'admin/progetti'
                         ],
                         [
                             'title' => 'Inserisci Progetto',
                             'page' => 'custom/apps/projects/edit-project'
                         ],
-                        [
-                            'title' => 'Visualizza Progetti',
-                            'page' => 'custom/apps/projects/edit-project'
-                        ]
+
                     ]
                 ],
                 [

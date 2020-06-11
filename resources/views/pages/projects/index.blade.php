@@ -12,8 +12,8 @@
     <!--begin::Header-->
     <div class="card-header flex-wrap border-0 pt-6 pb-0">
         <div class="card-title">
-            <h3 class="card-label">Gestione Utenti
-            <span class="d-block text-muted pt-2 font-size-sm">User management made easy</span></h3>
+            <h3 class="card-label">Gestione progetti
+            <span class="d-block text-muted pt-2 font-size-sm">descrizione pagina</span></h3>
         </div>
         <div class="card-toolbar">
             <!--begin::Dropdown-->
@@ -30,6 +30,8 @@
                     </svg>
                     <!--end::Svg Icon-->
                 </span>Export</button>
+
+
                 <!--begin::Dropdown Menu-->
                 <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
                     <!--begin::Navigation-->
@@ -79,10 +81,12 @@
                     <!--end::Navigation-->
                 </div>
                 <!--end::Dropdown Menu-->
+
+
             </div>
             <!--end::Dropdown-->
             <!--begin::Button-->
-            <a href="{{route('crea.utente')}}" class="btn btn-primary font-weight-bolder">
+            <a href="" class="btn btn-primary font-weight-bolder">
             <span class="svg-icon svg-icon-md">
                 <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -93,7 +97,7 @@
                     </g>
                 </svg>
                 <!--end::Svg Icon-->
-            </span>New Record</a>
+            </span>Crea nuovo</a>
             <!--end::Button-->
         </div>
     </div>
@@ -103,7 +107,7 @@
 
 
 
-        <table class="table table-bordered table-hover" id="kt_datatable">
+        <table class="table table-bordered table-hover" id="kt_datatable_progetti">
             <thead>
             <tr>
                 <th></th>
@@ -116,21 +120,21 @@
             </tr>
             </thead>
             <tbody>
-                @foreach ($users as $user)
+                {{-- @foreach ($users as $user) --}}
                 <tr>
                     <td></td>
-                    <td>{{$user->id}}</td>
-                    <td>{{$user->name}}</td>
-                    <td>{{$user->email}}</td>
-                    <td>{{$user->getRoleNames()->first()}}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
 
                     <td nowrap>
-                        <form action="{{route('elimina.utente', $user->id)}}" method="POST">
+                        <form action="" method="POST">
                             @method('delete')
                             @csrf
-                            {{-- {{ method_field('DELETE') }} {{csrf_field()}} --}}
 
-                        <a href="utenti/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
+
+                        {{-- <a href="progetti/{{$projects->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza"> --}}
+                        <a href="" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
                             <span class="svg-icon svg-icon-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -141,7 +145,9 @@
                                 </svg>
                             </span>
                         </a>
-                        <a href="utenti/{{$user->id}}/modifica" class="btn btn-sm btn-clean btn-icon mr-2" title="Modifica">
+                        {{-- <a href="progetti/{{$projects->id}}/modifica" class="btn btn-sm btn-clean btn-icon mr-2" title="Modifica"> --}}
+                        <a href="" class="btn btn-sm btn-clean btn-icon mr-2" title="Modifica">
+
                             <span class="svg-icon svg-icon-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -167,7 +173,7 @@
 
                     </td>
                 </tr>
-                @endforeach
+                {{-- @endforeach --}}
 
 
             </tbody>

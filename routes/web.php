@@ -14,14 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 Route::prefix('admin')->group(function () {
 Route::get('/', 'PagesController@index');
+
 Route::get('/utenti', 'UsersController@index');
 Route::get('/utenti/inserisci', 'UsersController@create');
 Route::post('/utenti/inserisci', 'UsersController@register')->name('crea.utente');
-
 Route::get('/utenti/{id}', 'UsersController@show');
 Route::get('/utenti/{id}/modifica', 'UsersController@edit');
 Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
 
+Route::view('/progetti', 'pages.projects.index');
 
 // Demo routes
 Route::get('/datatables', 'PagesController@datatables');
