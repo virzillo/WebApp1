@@ -40,8 +40,10 @@ Route::get('/dashboard', 'PagesController@index');
 
     Route::get('/categorie', 'CategoryController@index')->name('categorie');
     Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
-    Route::get('/categorie/{id}', 'CategoryController@show')->name('modifica.categorie');
-    Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
+    Route::get('/categorie/{id}', 'CategoryController@show')->name('mostra.categoria');
+
+    Route::post('/categorie', 'CategoryController@store')->name('crea.categoria');
+    Route::post('/categorie/{id}/modifica', 'CategoryController@update')->name('modifica.categoria');
     Route::delete('/categorie/{id}/elimina', 'CategoryController@destroy')->name('elimina.categoria');
 
 

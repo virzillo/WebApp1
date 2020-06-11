@@ -135,7 +135,7 @@
                             @csrf
 
                         {{-- <a href="progetti/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza"> --}}
-                        <a href="" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
+                        <a href="{{route('mostra.categoria', $category->id)}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
                             <span class="svg-icon svg-icon-md">
                                 <?php echo Metronic::getSVG("media/svg/icons/General/Edit.svg"); ?>
                             </span>

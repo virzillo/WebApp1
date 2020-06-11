@@ -56,11 +56,12 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category)
+    public function show(Category $category , $id)
     {
         $page_title = 'Visualizza Categoria';
         $page_description = 'Some description for the page';
-        return view('pages.categories.show');
+        $category=Category::find($id);
+        return view('pages.categories.show',compact('category'));
 
     }
 
@@ -82,9 +83,21 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(Request $request, Category $category , $id)
     {
-        //
+        $this->validateRequest();
+
+        $category = Category::find($id);
+        $category->titolo = $request->get('titolo');
+        $category->pubblicato = $request->get('pubblicato');
+
+        $category->save();
+
+        $notification = array(
+            'message' => 'Corso modificato con successo!',
+            'alert-type' => 'success'
+        );
+        return redirect(action('CategoryController@index'))->with($notification);
     }
 
     /**

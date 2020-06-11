@@ -7,73 +7,67 @@
 
 
 
-<!--begin::Card-->
-<div class="card card-custom card-stretch">
-    <!--begin::Header-->
-    <div class="card-header py-3">
-        <div class="card-title align-items-start flex-column">
-            <h3 class="card-label font-weight-bolder text-dark">Personal Information</h3>
-            <span class="text-muted font-weight-bold font-size-sm mt-1">Update your personal informaiton</span>
-        </div>
+<div class="card card-custom gutter-b example example-compact">
+    <div class="card-header">
+        <h3 class="card-title">Crea nuova categoria</h3>
         <div class="card-toolbar">
-            <button type="reset" class="btn btn-success mr-2">Save Changes</button>
-            <button type="reset" class="btn btn-secondary">Cancel</button>
+            <div class="example-tools justify-content-center">
+                {{-- <span class="example-toggle" data-toggle="tooltip" title="" data-original-title="View code"></span>
+                <span class="example-copy" data-toggle="tooltip" title="" data-original-title="Copy code"></span> --}}
+            </div>
         </div>
     </div>
-    <!--end::Header-->
     <!--begin::Form-->
-    <form class="form">
-        <!--begin::Body-->
+    <form method="POST" action="{{ route('modifica.categoria' , $category->id) }}">
+        @method('post')
+        @csrf
         <div class="card-body">
-            <div class="row">
-                <label class="col-xl-3"></label>
-                <div class="col-lg-9 col-xl-6">
-                    <h5 class="font-weight-bold mb-6">Informazioni Progetto</h5>
+            <div class="form-group row">
+                <div class="col-lg-6">
+                    <label>Titolo:</label>
+                    <input type="text" class="form-control" placeholder="inserisci titolo" name="titolo" value="{{$category->titolo}}">
+                    <span class="form-text text-muted"> </span>
+                </div>
+                <div class="col-lg-6">
+                    <label>Pubblicato:</label>
+                    <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato" >
+                        @if ($category->titolo=='si')
+                             <option value="si">si</option>
+                            <option value="no">no</option>
+
+                        @else
+                            <option value="no">no</option>
+                            <option value="si">si</option>
+
+                        @endif
+                    </select>
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-xl-3 col-lg-3 col-form-label text-right">Immagine</label>
-                <div class="col-lg-9 col-xl-6">
-                    <div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(assets/media/users/blank.png)">
-                        <div class="image-input-wrapper" style="background-image: url(assets/media/users/300_21.jpg)"></div>
-                        <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Change avatar">
-                            <i class="fa fa-pen icon-sm text-muted"></i>
-                            <input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg" />
-                            <input type="hidden" name="profile_avatar_remove" />
-                        </label>
-                        <span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="cancel" data-toggle="tooltip" title="Cancel avatar">
-                            <i class="ki ki-bold-close icon-xs text-muted"></i>
-                        </span>
-                        <span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="remove" data-toggle="tooltip" title="Remove avatar">
-                            <i class="ki ki-bold-close icon-xs text-muted"></i>
-                        </span>
-                    </div>
-                    <span class="form-text text-muted">Allowed file types: png, jpg, jpeg.</span>
+                <div class="col-lg-6">
+
                 </div>
-            </div>
-            <div class="form-group row">
-                <label class="col-xl-3 col-lg-3 col-form-label text-right">Nome</label>
-                <div class="col-lg-9 col-xl-6">
-                    <input class="form-control form-control-lg form-control-solid" type="text" value="" />
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="col-xl-3 col-lg-3 col-form-label text-right">Email</label>
-                <div class="col-lg-9 col-xl-6">
-                    <input type="text" class="form-control form-control-lg form-control-solid" value="" placeholder="Email" />
+
+
+                <div class="col-lg-6">
 
                 </div>
             </div>
-            <div class="form-group row">
-                <label class="col-xl-3 col-lg-3 col-form-label text-right">Descrizione</label>
-                <div class="col-lg-9 col-xl-6">
-                    <textarea name="descrizione" id="" cols="30" rows="10"></textarea>
 
-                </div>
-            </div>
 
         </div>
-        <!--end::Body-->
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-lg-6">
+
+                </div>
+                <div class="col-lg-6 text-right">
+                    {{-- <button type="reset" class="btn btn-danger">Delete</button> --}}
+                    <button type="submit" class="btn btn-primary mr-2">Save</button>
+                    <button type="reset" class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
+        </div>
     </form>
     <!--end::Form-->
 </div>
@@ -91,6 +85,10 @@
 
 {{-- Scripts Section --}}
 @section('scripts')
-
+<script>
+    $(document).ready(function() {
+        $('.select2').select2();
+    });
+</script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 @endsection

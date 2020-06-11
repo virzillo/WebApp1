@@ -18,7 +18,7 @@
         </div>
     </div>
     <!--begin::Form-->
-    <form method="POST" action="{{ route('salva.categoria') }}">
+    <form method="POST" action="{{ route('crea.categoria') }}">
 
         @csrf
         <div class="card-body">
