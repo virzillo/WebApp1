@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,25 +15,28 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('admin')->group(function () {
 Route::get('/', 'PagesController@index');
 
-Route::get('/utenti', 'UsersController@index');
-Route::get('/utenti/inserisci', 'UsersController@create');
-Route::post('/utenti/inserisci', 'UsersController@register')->name('crea.utente');
-Route::get('/utenti/{id}', 'UsersController@show');
-Route::get('/utenti/{id}/modifica', 'UsersController@edit');
-Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
+    Route::get('/utenti', 'UsersController@index');
+    Route::get('/utenti/inserisci', 'UsersController@create');
+    Route::post('/utenti/inserisci', 'UsersController@register')->name('crea.utente');
+    Route::get('/utenti/{id}', 'UsersController@show');
+    Route::get('/utenti/{id}/modifica', 'UsersController@edit');
+    Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
 
-Route::view('/progetti', 'pages.projects.index');
+    Route::view('/progetti', 'pages.projects.index');
 
-// Demo routes
-Route::get('/datatables', 'PagesController@datatables');
-Route::get('/ktdatatables', 'PagesController@ktDatatables');
-Route::get('/select2', 'PagesController@select2');
-Route::get('/icons/custom-icons', 'PagesController@customIcons');
-Route::get('/icons/flaticon', 'PagesController@flaticon');
-Route::get('/icons/fontawesome', 'PagesController@fontawesome');
-Route::get('/icons/lineawesome', 'PagesController@lineawesome');
-Route::get('/icons/socicons', 'PagesController@socicons');
-Route::get('/icons/svg', 'PagesController@svg');
+    Route::get('/articoli', 'PostController@index')->name('articoli');
+
+
+    // Demo routes
+    Route::get('/datatables', 'PagesController@datatables');
+    Route::get('/ktdatatables', 'PagesController@ktDatatables');
+    Route::get('/select2', 'PagesController@select2');
+    Route::get('/icons/custom-icons', 'PagesController@customIcons');
+    Route::get('/icons/flaticon', 'PagesController@flaticon');
+    Route::get('/icons/fontawesome', 'PagesController@fontawesome');
+    Route::get('/icons/lineawesome', 'PagesController@lineawesome');
+    Route::get('/icons/socicons', 'PagesController@socicons');
+    Route::get('/icons/svg', 'PagesController@svg');
 });
 
 // Quick search dummy route to display html elements in search dropdown (header search)

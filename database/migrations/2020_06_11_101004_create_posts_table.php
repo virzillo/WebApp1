@@ -16,18 +16,23 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
 
-            $table->foreignId('category_id');
-            $table->foreignId('service_id');
-            $table->foreignId('info_id');
 
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
+            $table->unsignedInteger('category_id');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+
+            $table->unsignedInteger('service_id');
+            $table->foreign('service_id')->references('id')->on('categories')->onDelete('cascade');
 
             $table->string('titolo');
             $table->string('descrizione')->nullable();;
             $table->text('testo')->nullable();;
             $table->string('immagine')->nullable();;
-            $table->string('slug');
-            $table->enum('pubblicato',['si','no']);
-            $table->enum('evidenza',['si','no']);
+            $table->string('slug')->index();
+            $table->enum('pubblicato',['si','no'])->default('no');
+            $table->enum('evidenza',['si','no'])->default('no');
 
             $table->timestamps();
             $table->timestamp('pubblicato_il')->nullable();
