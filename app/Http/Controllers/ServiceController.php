@@ -14,7 +14,8 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.services.index');
+
     }
 
     /**
@@ -24,7 +25,8 @@ class ServiceController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.services.create');
+
     }
 
     /**
@@ -46,7 +48,8 @@ class ServiceController extends Controller
      */
     public function show(Service $service)
     {
-        //
+        return view('pages.services.show');
+
     }
 
     /**

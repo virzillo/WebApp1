@@ -29,10 +29,21 @@ Route::get('/dashboard', 'PagesController@index');
 
     Route::view('/progetti', 'pages.projects.index');
     Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
-
     Route::get('/progetti/{id}', 'ProjectController@show')->name('modifica.progetto');
 
     Route::get('/articoli', 'PostController@index')->name('articoli');
+
+    Route::get('/servizi', 'ServiceController@index')->name('servizi');
+    Route::get('/servizi/crea', 'ServiceController@create')->name('crea.servizio');
+    Route::get('/servizi/{id}', 'ServiceController@show')->name('modifica.servizio');
+
+
+    Route::get('/categorie', 'CategoryController@index')->name('categorie');
+    Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
+    Route::get('/categorie/{id}', 'CategoryController@show')->name('modifica.categorie');
+    Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
+    Route::delete('/categorie/{id}/elimina', 'CategoryController@destroy')->name('elimina.categoria');
+
 
 
     // Demo routes

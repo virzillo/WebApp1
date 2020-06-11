@@ -14,7 +14,11 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        $page_title = 'Categorie';
+        $page_description = 'Some description for the page';
+        $categories=Category::all();
+        return view('pages.categories.index',compact('categories','page_title','page_description'));
+
     }
 
     /**
@@ -24,7 +28,10 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+        $page_title = 'Crea Categoria';
+        $page_description = 'Some description for the page';
+        return view('pages.categories.create');
+
     }
 
     /**
@@ -35,7 +42,12 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Category::create($this->validateRequest());
+        $notification = array(
+            'message' => 'Corso inserito con successo!',
+            'alert-type' => 'success'
+        );
+        return back()->with($notification);
     }
 
     /**
@@ -46,7 +58,10 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
+        $page_title = 'Visualizza Categoria';
+        $page_description = 'Some description for the page';
+        return view('pages.categories.show');
+
     }
 
     /**
@@ -78,8 +93,26 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Category $category)
+    public function destroy( $id)
     {
-        //
+        $category = Category::find($id);
+        $category->delete();
+
+        $notification = array(
+            'message' => 'Categoria Eliminato con successo!',
+            'alert-type' => 'success'
+        );
+
+        return back()->with($notification);
+    }
+
+    private function validateRequest()
+    {
+
+        return  request()->validate([
+            'titolo' => 'required|min:2',
+            'pubblicato' => 'required',
+
+        ]);
     }
 }

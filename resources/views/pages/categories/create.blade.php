@@ -9,7 +9,7 @@
 
 <div class="card card-custom gutter-b example example-compact">
     <div class="card-header">
-        <h3 class="card-title">Crea nuovo progetto</h3>
+        <h3 class="card-title">Crea nuova categoria</h3>
         <div class="card-toolbar">
             <div class="example-tools justify-content-center">
                 {{-- <span class="example-toggle" data-toggle="tooltip" title="" data-original-title="View code"></span>
@@ -18,37 +18,35 @@
         </div>
     </div>
     <!--begin::Form-->
-    <form class="form">
+    <form method="POST" action="{{ route('salva.categoria') }}">
+
+        @csrf
         <div class="card-body">
             <div class="form-group row">
                 <div class="col-lg-6">
                     <label>Titolo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci titolo">
+                    <input type="text" class="form-control" placeholder="inserisci titolo" name="titolo">
                     <span class="form-text text-muted"> </span>
                 </div>
-                <div class="col-lg-6">
-                    <label>Icona:</label>
-                    <input type="text" class="form-control" placeholder="inserisci icona">
-                    <span class="form-text text-muted"><a href="/admin/icons/fontawesome" class="" target="_blank">elenco</a> </span>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-lg-6">
-                    <label>Descrizione:</label>
-                    <textarea type="text" class="form-control" placeholder="inserisci descrizione"></textarea>
-                    <span class="form-text text-muted"> </span>
-                </div>
-
-
                 <div class="col-lg-6">
                     <label>Pubblicato:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_1" name="role">
+                    <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
 
                         <option value="si">si</option>
                         <option value="no">no</option>
 
 
                     </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-lg-6">
+
+                </div>
+
+
+                <div class="col-lg-6">
+
                 </div>
             </div>
 
@@ -61,7 +59,7 @@
                 </div>
                 <div class="col-lg-6 text-right">
                     {{-- <button type="reset" class="btn btn-danger">Delete</button> --}}
-                    <button type="reset" class="btn btn-primary mr-2">Save</button>
+                    <button type="submit" class="btn btn-primary mr-2">Save</button>
                     <button type="reset" class="btn btn-secondary">Cancel</button>
                 </div>
             </div>

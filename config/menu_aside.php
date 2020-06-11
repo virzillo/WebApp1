@@ -28,12 +28,12 @@ return [
                     'submenu' => [
 
                         [
-                            'title' => 'Visualizza Utenti',
+                            'title' => 'Visualizza',
                             'page' => 'admin/utenti'
                         ],
 
                         [
-                            'title' => 'Inserisci Utente',
+                            'title' => 'Inserisci',
                             'page' => 'admin/utenti/inserisci'
                         ],
 
@@ -45,11 +45,11 @@ return [
                     'submenu' => [
 
                         [
-                            'title' => 'Visualizza Articoli',
+                            'title' => 'Visualizza',
                             'page' => 'admin/articoli'
                         ],
                         [
-                            'title' => 'Inserisci Articoli',
+                            'title' => 'Inserisci',
                             'page' => ''
                         ],
 
@@ -61,11 +61,11 @@ return [
                     'submenu' => [
 
                         [
-                            'title' => 'Visualizza Progetti',
+                            'title' => 'Visualizza',
                             'page' => 'admin/progetti'
                         ],
                         [
-                            'title' => 'Inserisci Progetto',
+                            'title' => 'Inserisci',
                             'page' => 'admin/progetti/crea'
                         ],
 
@@ -77,17 +77,13 @@ return [
                     'submenu' => [
 
                         [
-                            'title' => 'Elenco',
-                            'page' => 'custom/apps/projects/add-project'
+                            'title' => 'Visualizza',
+                            'page' => 'admin/servizi'
                         ],
                         [
-                            'title' => 'Inserisci Servizio',
-                            'page' => 'custom/apps/projects/edit-project'
+                            'title' => 'Inserisci',
+                            'page' => 'admin/servizi/crea'
                         ],
-                        [
-                            'title' => 'Visualizza Servizio',
-                            'page' => 'custom/apps/projects/edit-project'
-                        ]
                     ]
                 ],
                 [
@@ -96,12 +92,12 @@ return [
                     'submenu' => [
 
                         [
-                            'title' => 'Elenco',
-                            'page' => 'custom/apps/projects/add-project'
+                            'title' => 'Visualizza',
+                            'page' => 'admin/categorie'
                         ],
                         [
-                            'title' => 'Inserisci Categoria',
-                            'page' => 'custom/apps/projects/edit-project'
+                            'title' => 'Inserisci',
+                            'page' => 'admin/categorie/crea'
                         ],
 
                     ]
