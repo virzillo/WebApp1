@@ -12,8 +12,13 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::prefix('admin')->group(function () {
-Route::get('/', 'PagesController@index');
+Route::get('/dashboard', 'PagesController@index');
 
     Route::get('/utenti', 'UsersController@index');
     Route::get('/utenti/inserisci', 'UsersController@create');
@@ -23,6 +28,9 @@ Route::get('/', 'PagesController@index');
     Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
 
     Route::view('/progetti', 'pages.projects.index');
+    Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
+
+    Route::get('/progetti/{id}', 'ProjectController@show')->name('modifica.progetto');
 
     Route::get('/articoli', 'PostController@index')->name('articoli');
 
