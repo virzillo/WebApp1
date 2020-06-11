@@ -18,9 +18,9 @@ Route::get('/utenti', 'UsersController@index');
 Route::get('/utenti/inserisci', 'UsersController@create');
 Route::post('/utenti/inserisci', 'UsersController@register')->name('crea.utente');
 
-Route::get('/utenti/visualizza/{id}', 'UsersController@show');
-Route::get('/utenti/modifica/{id}', 'UsersController@edit');
-Route::delete('/utenti/elimina/{id}', 'UsersController@destroy')->name('elimina.utente');
+Route::get('/utenti/{id}', 'UsersController@show');
+Route::get('/utenti/{id}/modifica', 'UsersController@edit');
+Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
 
 
 // Demo routes

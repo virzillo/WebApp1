@@ -1,10 +1,13 @@
 {{-- Extends layout --}}
 @extends('layout.default')
 
-@section('title')Visualizza Utenti  @endsection
 
 {{-- Content --}}
 @section('content')
+
+@include('layout.alerts')
+
+
 <div class="card card-custom">
     <!--begin::Header-->
     <div class="card-header flex-wrap border-0 pt-6 pb-0">
@@ -79,7 +82,7 @@
             </div>
             <!--end::Dropdown-->
             <!--begin::Button-->
-            <a href="#" class="btn btn-primary font-weight-bolder">
+            <a href="{{route('crea.utente')}}" class="btn btn-primary font-weight-bolder">
             <span class="svg-icon svg-icon-md">
                 <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -123,9 +126,11 @@
 
                     <td nowrap>
                         <form action="{{route('elimina.utente', $user->id)}}" method="POST">
-                            {{ method_field('DELETE') }} {{csrf_field()}}
+                            @method('delete')
+                            @csrf
+                            {{-- {{ method_field('DELETE') }} {{csrf_field()}} --}}
 
-                        <a href="utenti/visualizza/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Edit details">
+                        <a href="utenti/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
                             <span class="svg-icon svg-icon-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -136,7 +141,7 @@
                                 </svg>
                             </span>
                         </a>
-                        <a href="utenti/modifica/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Edit details">
+                        <a href="utenti/{{$user->id}}/modifica" class="btn btn-sm btn-clean btn-icon mr-2" title="Modifica">
                             <span class="svg-icon svg-icon-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -190,7 +195,7 @@
     {{-- page scripts --}}
     <script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript"></script>
     {{-- <script src="{{ asset('js/pages/features/miscellaneous/toastr.js?v=7.0.3') }}"></script> --}}
-    <script>
+    {{-- <script>
        toastr.options = {
             "closeButton": false,
             "debug": false,
@@ -210,7 +215,7 @@
             };
 
 toastr.success("New order has been placed!", "error");
-    </script>
+    </script> --}}
 
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 

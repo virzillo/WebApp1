@@ -1,7 +1,6 @@
 {{-- Extends layout --}}
 @extends('layout.default')
 
-@section('title')Visualizza Utenti  @endsection
 
 {{-- Content --}}
 @section('content')

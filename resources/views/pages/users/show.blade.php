@@ -1,7 +1,6 @@
 {{-- Extends layout --}}
 @extends('layout.default')
 
-@section('title')Visualizza Utenti  @endsection
 
 {{-- Content --}}
 @section('content')
@@ -32,7 +31,7 @@
                     <h5 class="font-weight-bold mb-6">Informazioni Utente</h5>
                 </div>
             </div>
-            <div class="form-group row">
+            {{-- <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Avatar</label>
                 <div class="col-lg-9 col-xl-6">
                     <div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url(assets/media/users/blank.png)">
@@ -51,7 +50,7 @@
                     </div>
                     <span class="form-text text-muted">Allowed file types: png, jpg, jpeg.</span>
                 </div>
-            </div>
+            </div> --}}
             <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Nome</label>
                 <div class="col-lg-9 col-xl-6">
@@ -72,13 +71,31 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label class="col-xl-3 col-lg-3 col-form-label text-right">Nuova Password</label>
+                <div class="col-lg-9 col-xl-6">
+                    <input id="password" type="password" class="form-control form-control-lg form-control-solid @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" >
+
+                    @error('password')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-xl-3 col-lg-3 col-form-label text-right">Ripeti password</label>
+                <div class="col-lg-9 col-xl-6">
+                    <input id="password-confirm" type="password" class="form-control form-control-lg form-control-solid" name="password_confirmation" required autocomplete="new-password">
+                </div>
+            </div>
+            <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Ruolo</label>
                 <div class="col-lg-9 col-xl-6">
                     <input class="form-control form-control-lg form-control-solid" type="text" value="{{$user->getRoleNames()->first()}}" />
                     <span class="form-text text-muted"></span>
                 </div>
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 <label class="col-xl-3"></label>
                 <div class="col-lg-9 col-xl-6">
                     <h5 class="font-weight-bold mt-10 mb-6">Contact Info</h5>
@@ -121,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <!--end::Body-->
     </form>

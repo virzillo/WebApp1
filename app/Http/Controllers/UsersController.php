@@ -59,9 +59,11 @@ class UsersController extends Controller
         //     return $response;
         // }
 
-        return $request->wantsJson()
-        ? new Response('', 201)
-        : redirect($this->redirectPath());
+        return redirect(action('UsersController@index'))->with('success','Utente creato con successo');
+
+        // return $request->wantsJson()
+        // ? new Response('', 201)
+        // : redirect($this->redirectPath())->with('success','Utente crearo con successo');
     }
 
     /**
@@ -132,7 +134,7 @@ class UsersController extends Controller
      // Storage::delete('public/user_image/'.$user->user_image);
     //  toastr()->success('Success Message');
 
-      return back()->with('status','Utente eliminato con successo!');
+      return back()->with('success','Utente eliminato con successo!');
     }
 
 
