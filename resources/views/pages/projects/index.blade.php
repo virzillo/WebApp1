@@ -5,7 +5,6 @@
 {{-- Content --}}
 @section('content')
 
-@include('layout.alerts')
 
 
 <div class="card card-custom">

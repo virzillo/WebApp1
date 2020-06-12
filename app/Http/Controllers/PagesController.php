@@ -107,6 +107,14 @@ class PagesController extends Controller
         return view('pages.icons.svg', compact('page_title', 'page_description'));
     }
 
+    public function shareserviceicons()
+    {
+        $page_title = 'svg';
+        $page_description = 'This is svg test page';
+
+        return view('pages.icons.shareserviceicons', compact('page_title', 'page_description'));
+    }
+
     // Quicksearch Result
     public function quickSearch()
     {

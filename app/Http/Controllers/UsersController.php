@@ -59,7 +59,12 @@ class UsersController extends Controller
         //     return $response;
         // }
 
-        return redirect(action('UsersController@index'))->with('success','Utente creato con successo');
+        $notification = array(
+            'message' => 'Utente creato con successo!',
+            'alert-type' => 'success'
+        );
+
+        return redirect(action('UsersController@index'))->with($notification);
 
         // return $request->wantsJson()
         // ? new Response('', 201)
@@ -76,41 +81,39 @@ class UsersController extends Controller
     {
         $page_title = 'Utenti';
         $page_description = 'Some description for the page';
-         $user= User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
         //assegnazione ruolo in fase iscrizione
-         $user->assignRole($data['role']);
-          return $user;
+        $user->assignRole($data['role']);
+        return $user;
     }
 
     public function index()
     {
         $page_title = 'Utenti';
         $page_description = 'Some description for the page';
-        $users=User::all();
-        return view('pages.users.index', compact('page_title', 'page_description','users'));
+        $users = User::all();
+        return view('pages.users.index', compact('page_title', 'page_description', 'users'));
     }
 
     public function create()
     {
         $page_title = 'Crea Utente';
         $page_description = 'Some description for the page';
-        $roles=Role::all();
-        return view('pages.users.create', compact('page_title', 'page_description','roles'));
-
+        $roles = Role::all();
+        return view('pages.users.create', compact('page_title', 'page_description', 'roles'));
     }
 
     public function show($id)
     {
 
-      $page_title = 'Visualizza Utente';
-      $page_description = 'Some description for the page';
-      $user = User::where('id', $id)->first();
-      return view('pages.users.show', compact('page_title', 'page_description','user'));
-
+        $page_title = 'Visualizza Utente';
+        $page_description = 'Some description for the page';
+        $user = User::where('id', $id)->first();
+        return view('pages.users.show', compact('page_title', 'page_description', 'user'));
     }
 
     public function edit($id)
@@ -118,25 +121,27 @@ class UsersController extends Controller
         $page_title = 'Modifica Utente';
         $page_description = 'Some description for the page';
         $user = User::find($id);
-        return view('pages.users.edit', compact('page_title', 'page_description','user'));
+        return view('pages.users.edit', compact('page_title', 'page_description', 'user'));
     }
 
-     /**
+    /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
+
+
     {
-      User::find($id)->delete();
-      //elimina utente e immagine associata ad esso
-     // Storage::delete('public/user_image/'.$user->user_image);
-    //  toastr()->success('Success Message');
+        User::find($id)->delete();
+        //elimina utente e immagine associata ad esso
+        // Storage::delete('public/user_image/'.$user->user_image);
 
-      return back()->with('success','Utente eliminato con successo!');
+        $notification = array(
+            'message' => 'Utente eliminato con successo!',
+            'alert-type' => 'success'
+        );
+        return back()->with($notification);
     }
-
-
-
 }

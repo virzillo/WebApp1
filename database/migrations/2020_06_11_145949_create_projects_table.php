@@ -22,11 +22,16 @@ class CreateProjectsTable extends Migration
             $table->foreignId('service_id')->constrained('services');
 
 
-            $table->string('nome');
-            $table->string('descrizione')->nullable();;
-            $table->text('testo')->nullable();;
-            $table->string('immagine')->nullable();;
+            $table->string('titolo');
+            $table->string('descrizione')->nullable();
+            $table->text('testo')->nullable();
+            $table->string('immagine')->nullable();
             $table->string('slug')->index();
+
+            $table->string('meta_titolo')->nullable();
+            $table->string('meta_descrizione')->nullable();
+            $table->string('meta_keywords')->nullable();
+
             $table->enum('pubblicato',['si','no'])->default('no');
             $table->enum('evidenza',['si','no'])->default('no');
 

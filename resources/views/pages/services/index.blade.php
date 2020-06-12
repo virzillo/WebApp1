@@ -5,7 +5,6 @@
 {{-- Content --}}
 @section('content')
 
-@include('layout.alerts')
 
 
 <div class="card card-custom">
@@ -108,8 +107,8 @@
             <tr>
                 <th></th>
                 <th>ID</th>
-                <th>Nome</th>
-                <th>Immagine</th>
+                <th>Titolo</th>
+                <th>Icona</th>
                 <th>Pubbicato</th>
 
                 <th>Actions</th>

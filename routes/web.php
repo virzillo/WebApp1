@@ -58,6 +58,8 @@ Route::get('/dashboard', 'PagesController@index');
     Route::get('/icons/lineawesome', 'PagesController@lineawesome');
     Route::get('/icons/socicons', 'PagesController@socicons');
     Route::get('/icons/svg', 'PagesController@svg');
+    Route::get('/icons/svg', 'PagesController@shareserviceicons');
+
 });
 
 // Quick search dummy route to display html elements in search dropdown (header search)
