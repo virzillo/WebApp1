@@ -138,7 +138,7 @@
                         </a>
                         </a>
 
-                            <button type="submit"  class="btn btn-sm btn-clean btn-icon " id="conferma" onclick="ConfirmDelete()">
+                            <button type="submit"  class="btn btn-sm btn-clean btn-icon "onclick="ConfirmDelete()">
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
 
