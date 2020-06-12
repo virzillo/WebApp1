@@ -11,7 +11,7 @@
     <!--begin::Header-->
     <div class="card-header flex-wrap border-0 pt-6 pb-0">
         <div class="card-title">
-            <h3 class="card-label">Gestione Progetti
+            <h3 class="card-label">Gestione Servizi
             <span class="d-block text-muted pt-2 font-size-sm">User management made easy</span></h3>
         </div>
         <div class="card-toolbar">
@@ -81,7 +81,7 @@
             </div>
             <!--end::Dropdown-->
             <!--begin::Button-->
-            <a href="" class="btn btn-primary font-weight-bolder">
+            <a href="{{route('crea.servizio')}}" class="btn btn-primary font-weight-bolder">
             <span class="svg-icon svg-icon-md">
                 <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -115,24 +115,32 @@
             </tr>
             </thead>
             <tbody>
-                {{-- @foreach ($projects as $project) --}}
+                @foreach ($services as $service)
                 <tr>
                     <td></td>
-                    {{-- <td>{{$projects->id}}</td>
-                    <td>{{$projects->name}}</td> --}}
-                    <td> </td>
-                    <td> </td>
+                    <td>{{$service->id}}</td>
+                    <td>{{$service->titolo}}</td>
 
-                    <td class="warning" nowrap>
-                        {{-- <form action="{{route('elimina.utente', $user->id)}}" method="POST"> --}}
+                    <td><i class="{{$service->icona}}" aria-hidden="true"></i></td>
+                    <td>
+                        @if ($service->pubblicato === 'si')
+                        <span class="label label-lg font-weight-bold label-light-success label-inline">si</span>
+
+                        @else
+                        <span class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
+                        @endif
+                    </td>
+
+
+
+                    <td  nowrap>
+                        <form action="{{route('elimina.servizio', $service->id)}}" method="POST">
                         <form action="" method="">
+                            @method('delete')
+                            @csrf
 
-                            {{-- @method('delete')
-                            @csrf --}}
-                            {{-- {{ method_field('DELETE') }} {{csrf_field()}} --}}
 
-                        {{-- <a href="progetti/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza"> --}}
-                        <a href="" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
+                        <a href="{{route('modifica.servizio',$service->id)}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
 
                             <span class="svg-icon svg-icon-md">
                                 <?php echo Metronic::getSVG("media/svg/icons/General/Edit.svg"); ?>
@@ -152,7 +160,7 @@
 
                     </td>
                 </tr>
-                {{-- @endforeach --}}
+                @endforeach
 
 
             </tbody>

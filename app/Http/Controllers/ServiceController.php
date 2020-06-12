@@ -14,7 +14,10 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        return view('pages.services.index');
+        $page_title = 'Elenco Servizi';
+        $page_description = 'Some description for the page';
+        $services=Service::all();
+        return view('pages.services.index',compact('services','page_title','page_description'));
 
     }
 
@@ -25,7 +28,9 @@ class ServiceController extends Controller
      */
     public function create()
     {
-        return view('pages.services.create');
+        $page_title = 'Crea Servizio';
+        $page_description = 'Some description for the page';
+        return view('pages.services.create',compact('page_title','page_description'));
 
     }
 
@@ -37,7 +42,14 @@ class ServiceController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        Service::create($this->validateRequest());
+        $notification = array(
+            'message' => 'Servizio inserito con successo!',
+            'alert-type' => 'success'
+        );
+        // return back()->with($notification);
+        return redirect(action('ServicesController@index'))->with($notification);
     }
 
     /**
@@ -48,7 +60,6 @@ class ServiceController extends Controller
      */
     public function show(Service $service)
     {
-        return view('pages.services.show');
 
     }
 
@@ -60,7 +71,10 @@ class ServiceController extends Controller
      */
     public function edit(Service $service)
     {
-        //
+        $page_title = 'Modifica Servizio';
+        $page_description = 'Some description for the page';
+        return view('pages.services.edit',compact('page_title','page_description'));
+
     }
 
     /**
@@ -83,6 +97,28 @@ class ServiceController extends Controller
      */
     public function destroy(Service $service)
     {
-        //
+        $service = Service::find($service->id);
+        $service->delete();
+
+        $notification = array(
+            'message' => 'Categoria Eliminato con successo!',
+            'alert-type' => 'success'
+        );
+
+        return back()->with($notification);
     }
+
+    private function validateRequest()
+    {
+
+        return  request()->validate([
+            'titolo' => 'required|min:2',
+            'descrizione' => 'required|min:2',
+            'icona' => 'required|min:2',
+            'pubblicato' => 'required',
+
+        ]);
+    }
+
+
 }

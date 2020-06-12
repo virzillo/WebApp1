@@ -30,7 +30,8 @@ class CategoryController extends Controller
     {
         $page_title = 'Crea Categoria';
         $page_description = 'Some description for the page';
-        return view('pages.categories.create');
+        $categories=Category::all();
+        return view('pages.categories.create',compact('categories','page_title','page_description'));
 
     }
 
@@ -56,12 +57,13 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category , $id)
+    public function show(Category $category)
     {
         $page_title = 'Visualizza Categoria';
         $page_description = 'Some description for the page';
-        $category=Category::find($id);
-        return view('pages.categories.show',compact('category'));
+        $categories=Category::all();
+        $editcategory=Category::find($category->id);
+        return view('pages.categories.show',compact('categories','editcategory','page_title','page_description'));
 
     }
 
@@ -73,7 +75,10 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-        //
+        $page_title = 'Visualizza Categoria';
+        $page_description = 'Some description for the page';
+        $category=Category::find($category->id);
+        return view('pages.categories.edit',compact('category','page_title','page_description'));
     }
 
     /**
@@ -83,11 +88,11 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category , $id)
+    public function update(Request $request, Category $category )
     {
         $this->validateRequest();
 
-        $category = Category::find($id);
+        $category = Category::find($category->id);
         $category->titolo = $request->get('titolo');
         $category->pubblicato = $request->get('pubblicato');
 
@@ -106,9 +111,9 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy( $id)
+    public function destroy( $category)
     {
-        $category = Category::find($id);
+        $category = Category::find($category->id);
         $category->delete();
 
         $notification = array(

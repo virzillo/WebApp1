@@ -109,8 +109,8 @@ class PagesController extends Controller
 
     public function shareserviceicons()
     {
-        $page_title = 'svg';
-        $page_description = 'This is svg test page';
+        $page_title = 'share service pack';
+        $page_description = 'Elenco codici per icone';
 
         return view('pages.icons.shareserviceicons', compact('page_title', 'page_description'));
     }

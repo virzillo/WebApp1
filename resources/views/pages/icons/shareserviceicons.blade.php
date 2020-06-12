@@ -25,14 +25,14 @@
             <div class="card card-custom gutter-b card-stretch">
                 <div class="card-header">
                     <div class="card-title">
-                        <h3 class="card-label">Base Examples</h3>
+                        <h3 class="card-label">Info</h3>
                     </div>
                 </div>
                 <div class="card-body">
                     <!--begin::Example-->
                     <div>
                         <p>
-                            <code>Fontawesome</code> icons can be used as <code>class="fa {class}"</code>.
+                            Copiare il codice dell'icona scelta inserendo fa davanti <code>'fa fa-address-book'</code>.
                         </p>
                         <div class="example-preview">
                             <i class="fa fa-comment-alt mr-5"></i>
@@ -48,6302 +48,6313 @@
             </div>
             <!--end::Card-->
         </div>
-        <div class="row">
+        <div class="col-lg-12">
+            <!--begin::Card-->
+            <div class="card card-custom gutter-b card-stretch">
+                <div class="card-header">
+                    <div class="card-title">
+                        <h3 class="card-label">Color Options</h3>
+                    </div>
+                </div>
+                <div class="card-body">
 
+                <div class="row">
 
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use 500px"></i>
-              fa-500px
 
-              <span class="text-muted">[&amp;#xf26e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use 500px"></i>
+                        fa-500px
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-book"></i>
-              fa-address-book
+                        <span class="text-muted">[&amp;#xf26e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-book"></i>
+                        fa-address-book
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-book-o"></i>
-              fa-address-book-o
+                        <span class="text-muted">[&amp;#xf2b9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ba;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-book-o"></i>
+                        fa-address-book-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-card"></i>
-              fa-address-card
+                        <span class="text-muted">[&amp;#xf2ba;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2bb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-card"></i>
+                        fa-address-card
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-card-o"></i>
-              fa-address-card-o
+                        <span class="text-muted">[&amp;#xf2bb;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2bc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use address-card-o"></i>
+                        fa-address-card-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2bc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use adjust"></i>
-              fa-adjust
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf042;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use adjust"></i>
+                        fa-adjust
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf042;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use adn"></i>
-              fa-adn
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf170;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use adn"></i>
+                        fa-adn
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf170;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-center"></i>
-              fa-align-center
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf037;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-center"></i>
+                        fa-align-center
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf037;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-justify"></i>
-              fa-align-justify
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf039;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-justify"></i>
+                        fa-align-justify
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf039;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-left"></i>
-              fa-align-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf036;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-left"></i>
+                        fa-align-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf036;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right"></i>
-              fa-align-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf038;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right"></i>
+                        fa-align-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use amazon"></i>
-              fa-amazon
+                        <span class="text-muted">[&amp;#xf038;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf270;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use amazon"></i>
+                        fa-amazon
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf270;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ambulance"></i>
-              fa-ambulance
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f9;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ambulance"></i>
+                        fa-ambulance
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use american-sign-language-interpreting"></i>
-              fa-american-sign-language-interpreting
+                        <span class="text-muted">[&amp;#xf0f9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use american-sign-language-interpreting"></i>
+                        fa-american-sign-language-interpreting
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use anchor"></i>
-              fa-anchor
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf13d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use anchor"></i>
+                        fa-anchor
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf13d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use android"></i>
-              fa-android
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf17b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use android"></i>
+                        fa-android
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angellist"></i>
-              fa-angellist
+                        <span class="text-muted">[&amp;#xf17b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf209;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angellist"></i>
+                        fa-angellist
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf209;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-down"></i>
-              fa-angle-double-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf103;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-down"></i>
+                        fa-angle-double-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf103;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-left"></i>
-              fa-angle-double-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf100;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-left"></i>
+                        fa-angle-double-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf100;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-right"></i>
-              fa-angle-double-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf101;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-right"></i>
+                        fa-angle-double-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf101;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-up"></i>
-              fa-angle-double-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf102;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-double-up"></i>
+                        fa-angle-double-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf102;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-down"></i>
-              fa-angle-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf107;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-down"></i>
+                        fa-angle-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf107;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-left"></i>
-              fa-angle-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf104;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-left"></i>
+                        fa-angle-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf104;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-right"></i>
-              fa-angle-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf105;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-right"></i>
+                        fa-angle-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf105;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-up"></i>
-              fa-angle-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf106;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use angle-up"></i>
+                        fa-angle-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf106;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use apple"></i>
-              fa-apple
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf179;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use apple"></i>
+                        fa-apple
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf179;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use archive"></i>
-              fa-archive
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf187;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use archive"></i>
+                        fa-archive
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use area-chart"></i>
-              fa-area-chart
+                        <span class="text-muted">[&amp;#xf187;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1fe;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use area-chart"></i>
+                        fa-area-chart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1fe;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-down"></i>
-              fa-arrow-circle-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ab;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-down"></i>
+                        fa-arrow-circle-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ab;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-left"></i>
-              fa-arrow-circle-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a8;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-left"></i>
+                        fa-arrow-circle-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-down"></i>
-              fa-arrow-circle-o-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf01a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-down"></i>
+                        fa-arrow-circle-o-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-left"></i>
-              fa-arrow-circle-o-left
+                        <span class="text-muted">[&amp;#xf01a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf190;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-left"></i>
+                        fa-arrow-circle-o-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-right"></i>
-              fa-arrow-circle-o-right
+                        <span class="text-muted">[&amp;#xf190;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf18e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-right"></i>
+                        fa-arrow-circle-o-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf18e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-up"></i>
-              fa-arrow-circle-o-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf01b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-o-up"></i>
+                        fa-arrow-circle-o-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf01b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-right"></i>
-              fa-arrow-circle-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a9;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-right"></i>
+                        fa-arrow-circle-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-up"></i>
-              fa-arrow-circle-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0aa;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-circle-up"></i>
+                        fa-arrow-circle-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0aa;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-down"></i>
-              fa-arrow-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf063;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-down"></i>
+                        fa-arrow-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf063;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-left"></i>
-              fa-arrow-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf060;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-left"></i>
+                        fa-arrow-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf060;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-right"></i>
-              fa-arrow-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf061;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-right"></i>
+                        fa-arrow-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf061;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-up"></i>
-              fa-arrow-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf062;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrow-up"></i>
+                        fa-arrow-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf062;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows"></i>
-              fa-arrows
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf047;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows"></i>
+                        fa-arrows
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf047;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows-alt"></i>
-              fa-arrows-alt
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0b2;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows-alt"></i>
+                        fa-arrows-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0b2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows-h"></i>
-              fa-arrows-h
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf07e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows-h"></i>
+                        fa-arrows-h
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf07e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows-v"></i>
-              fa-arrows-v
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf07d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use arrows-v"></i>
+                        fa-arrows-v
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use asl-interpreting"></i>
-              fa-asl-interpreting
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2a3;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf07d;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use assistive-listening-systems"></i>
-              fa-assistive-listening-systems
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use asl-interpreting"></i>
+                        fa-asl-interpreting
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2a3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use assistive-listening-systems"></i>
+                        fa-assistive-listening-systems
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use asterisk"></i>
-              fa-asterisk
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf069;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use asterisk"></i>
+                        fa-asterisk
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use at"></i>
-              fa-at
+                        <span class="text-muted">[&amp;#xf069;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1fa;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use at"></i>
+                        fa-at
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use audio-description"></i>
-              fa-audio-description
+                        <span class="text-muted">[&amp;#xf1fa;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf29e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use audio-description"></i>
+                        fa-audio-description
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use automobile"></i>
-              fa-automobile
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1b9;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf29e;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use automobile"></i>
+                        fa-automobile
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1b9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use backward"></i>
-              fa-backward
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf04a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use backward"></i>
+                        fa-backward
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use balance-scale"></i>
-              fa-balance-scale
+                        <span class="text-muted">[&amp;#xf04a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf24e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use balance-scale"></i>
+                        fa-balance-scale
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf24e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ban"></i>
-              fa-ban
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf05e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ban"></i>
+                        fa-ban
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bandcamp"></i>
-              fa-bandcamp
+                        <span class="text-muted">[&amp;#xf05e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bandcamp"></i>
+                        fa-bandcamp
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bank"></i>
-              fa-bank
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf19c;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf2d5;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bank"></i>
+                        fa-bank
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf19c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bar-chart"></i>
-              fa-bar-chart
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf080;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bar-chart"></i>
+                        fa-bar-chart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf080;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bar-chart-o"></i>
-              fa-bar-chart-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf080;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bar-chart-o"></i>
+                        fa-bar-chart-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf080;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use barcode"></i>
-              fa-barcode
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf02a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use barcode"></i>
+                        fa-barcode
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf02a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bars"></i>
-              fa-bars
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c9;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bars"></i>
+                        fa-bars
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bath"></i>
-              fa-bath
+                        <span class="text-muted">[&amp;#xf0c9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2cd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bath"></i>
+                        fa-bath
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bathtub"></i>
-              fa-bathtub
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2cd;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf2cd;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery"></i>
-              fa-battery
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf240;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bathtub"></i>
+                        fa-bathtub
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2cd;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-0"></i>
-              fa-battery-0
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf244;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery"></i>
+                        fa-battery
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf240;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-1"></i>
-              fa-battery-1
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf243;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-0"></i>
+                        fa-battery-0
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf244;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-2"></i>
-              fa-battery-2
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf242;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-1"></i>
+                        fa-battery-1
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf243;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-3"></i>
-              fa-battery-3
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf241;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-2"></i>
+                        fa-battery-2
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf242;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-4"></i>
-              fa-battery-4
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf240;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-3"></i>
+                        fa-battery-3
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf241;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-empty"></i>
-              fa-battery-empty
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-4"></i>
+                        fa-battery-4
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf240;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf244;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-empty"></i>
+                        fa-battery-empty
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-full"></i>
-              fa-battery-full
+                        <span class="text-muted">[&amp;#xf244;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf240;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-full"></i>
+                        fa-battery-full
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-half"></i>
-              fa-battery-half
+                        <span class="text-muted">[&amp;#xf240;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf242;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-half"></i>
+                        fa-battery-half
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-quarter"></i>
-              fa-battery-quarter
+                        <span class="text-muted">[&amp;#xf242;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf243;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-quarter"></i>
+                        fa-battery-quarter
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-three-quarters"></i>
-              fa-battery-three-quarters
+                        <span class="text-muted">[&amp;#xf243;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf241;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use battery-three-quarters"></i>
+                        fa-battery-three-quarters
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bed"></i>
-              fa-bed
+                        <span class="text-muted">[&amp;#xf241;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf236;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bed"></i>
+                        fa-bed
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf236;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use beer"></i>
-              fa-beer
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0fc;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use beer"></i>
+                        fa-beer
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use behance"></i>
-              fa-behance
+                        <span class="text-muted">[&amp;#xf0fc;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use behance"></i>
+                        fa-behance
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use behance-square"></i>
-              fa-behance-square
+                        <span class="text-muted">[&amp;#xf1b4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use behance-square"></i>
+                        fa-behance-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1b5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell"></i>
-              fa-bell
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f3;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell"></i>
+                        fa-bell
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0f3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell-o"></i>
-              fa-bell-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a2;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell-o"></i>
+                        fa-bell-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell-slash"></i>
-              fa-bell-slash
+                        <span class="text-muted">[&amp;#xf0a2;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell-slash"></i>
+                        fa-bell-slash
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell-slash-o"></i>
-              fa-bell-slash-o
+                        <span class="text-muted">[&amp;#xf1f6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bell-slash-o"></i>
+                        fa-bell-slash-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bicycle"></i>
-              fa-bicycle
+                        <span class="text-muted">[&amp;#xf1f7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf206;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bicycle"></i>
+                        fa-bicycle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use binoculars"></i>
-              fa-binoculars
+                        <span class="text-muted">[&amp;#xf206;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use binoculars"></i>
+                        fa-binoculars
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use birthday-cake"></i>
-              fa-birthday-cake
+                        <span class="text-muted">[&amp;#xf1e5;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1fd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use birthday-cake"></i>
+                        fa-birthday-cake
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1fd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bitbucket"></i>
-              fa-bitbucket
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf171;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bitbucket"></i>
+                        fa-bitbucket
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf171;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bitbucket-square"></i>
-              fa-bitbucket-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf172;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bitbucket-square"></i>
+                        fa-bitbucket-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf172;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bitcoin"></i>
-              fa-bitcoin
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf15a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use black-tie"></i>
-              fa-black-tie
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bitcoin"></i>
+                        fa-bitcoin
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf15a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf27e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use black-tie"></i>
+                        fa-black-tie
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use blind"></i>
-              fa-blind
+                        <span class="text-muted">[&amp;#xf27e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf29d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use blind"></i>
+                        fa-blind
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bluetooth"></i>
-              fa-bluetooth
+                        <span class="text-muted">[&amp;#xf29d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf293;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bluetooth"></i>
+                        fa-bluetooth
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bluetooth-b"></i>
-              fa-bluetooth-b
+                        <span class="text-muted">[&amp;#xf293;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf294;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bluetooth-b"></i>
+                        fa-bluetooth-b
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf294;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bold"></i>
-              fa-bold
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf032;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bold"></i>
+                        fa-bold
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf032;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bolt"></i>
-              fa-bolt
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e7;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bolt"></i>
+                        fa-bolt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bomb"></i>
-              fa-bomb
+                        <span class="text-muted">[&amp;#xf0e7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bomb"></i>
+                        fa-bomb
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use book"></i>
-              fa-book
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf02d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use book"></i>
+                        fa-book
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf02d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bookmark"></i>
-              fa-bookmark
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf02e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bookmark"></i>
+                        fa-bookmark
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf02e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bookmark-o"></i>
-              fa-bookmark-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf097;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bookmark-o"></i>
+                        fa-bookmark-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use braille"></i>
-              fa-braille
+                        <span class="text-muted">[&amp;#xf097;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use braille"></i>
+                        fa-braille
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use briefcase"></i>
-              fa-briefcase
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0b1;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use briefcase"></i>
+                        fa-briefcase
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0b1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use btc"></i>
-              fa-btc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf15a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use btc"></i>
+                        fa-btc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf15a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bug"></i>
-              fa-bug
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf188;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bug"></i>
+                        fa-bug
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use building"></i>
-              fa-building
+                        <span class="text-muted">[&amp;#xf188;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ad;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use building"></i>
+                        fa-building
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1ad;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use building-o"></i>
-              fa-building-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f7;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use building-o"></i>
+                        fa-building-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0f7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bullhorn"></i>
-              fa-bullhorn
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a1;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bullhorn"></i>
+                        fa-bullhorn
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bullseye"></i>
-              fa-bullseye
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf140;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bullseye"></i>
+                        fa-bullseye
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use bus"></i>
-              fa-bus
+                        <span class="text-muted">[&amp;#xf140;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf207;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use bus"></i>
+                        fa-bus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use buysellads"></i>
-              fa-buysellads
+                        <span class="text-muted">[&amp;#xf207;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf20d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use buysellads"></i>
+                        fa-buysellads
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cab"></i>
-              fa-cab
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1ba;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf20d;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calculator"></i>
-              fa-calculator
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cab"></i>
+                        fa-cab
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1ba;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ec;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calculator"></i>
+                        fa-calculator
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1ec;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar"></i>
-              fa-calendar
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf073;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar"></i>
+                        fa-calendar
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-check-o"></i>
-              fa-calendar-check-o
+                        <span class="text-muted">[&amp;#xf073;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf274;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-check-o"></i>
+                        fa-calendar-check-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-minus-o"></i>
-              fa-calendar-minus-o
+                        <span class="text-muted">[&amp;#xf274;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf272;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-minus-o"></i>
+                        fa-calendar-minus-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf272;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-o"></i>
-              fa-calendar-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf133;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-o"></i>
+                        fa-calendar-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-plus-o"></i>
-              fa-calendar-plus-o
+                        <span class="text-muted">[&amp;#xf133;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf271;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-plus-o"></i>
+                        fa-calendar-plus-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-times-o"></i>
-              fa-calendar-times-o
+                        <span class="text-muted">[&amp;#xf271;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf273;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use calendar-times-o"></i>
+                        fa-calendar-times-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf273;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use camera"></i>
-              fa-camera
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf030;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use camera"></i>
+                        fa-camera
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf030;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use camera-retro"></i>
-              fa-camera-retro
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf083;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use camera-retro"></i>
+                        fa-camera-retro
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use car"></i>
-              fa-car
+                        <span class="text-muted">[&amp;#xf083;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use car"></i>
+                        fa-car
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1b9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-down"></i>
-              fa-caret-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d7;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-down"></i>
+                        fa-caret-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0d7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-left"></i>
-              fa-caret-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d9;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-left"></i>
+                        fa-caret-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0d9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-right"></i>
-              fa-caret-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0da;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-right"></i>
+                        fa-caret-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0da;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-down"></i>
-              fa-caret-square-o-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf150;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-down"></i>
+                        fa-caret-square-o-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-left"></i>
-              fa-caret-square-o-left
+                        <span class="text-muted">[&amp;#xf150;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf191;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-left"></i>
+                        fa-caret-square-o-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf191;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-right"></i>
-              fa-caret-square-o-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf152;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-right"></i>
+                        fa-caret-square-o-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf152;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-up"></i>
-              fa-caret-square-o-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf151;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-square-o-up"></i>
+                        fa-caret-square-o-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf151;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-up"></i>
-              fa-caret-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d8;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use caret-up"></i>
+                        fa-caret-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cart-arrow-down"></i>
-              fa-cart-arrow-down
+                        <span class="text-muted">[&amp;#xf0d8;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf218;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cart-arrow-down"></i>
+                        fa-cart-arrow-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cart-plus"></i>
-              fa-cart-plus
+                        <span class="text-muted">[&amp;#xf218;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf217;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cart-plus"></i>
+                        fa-cart-plus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc"></i>
-              fa-cc
+                        <span class="text-muted">[&amp;#xf217;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf20a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc"></i>
+                        fa-cc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-amex"></i>
-              fa-cc-amex
+                        <span class="text-muted">[&amp;#xf20a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-amex"></i>
+                        fa-cc-amex
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-diners-club"></i>
-              fa-cc-diners-club
+                        <span class="text-muted">[&amp;#xf1f3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf24c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-diners-club"></i>
+                        fa-cc-diners-club
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-discover"></i>
-              fa-cc-discover
+                        <span class="text-muted">[&amp;#xf24c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-discover"></i>
+                        fa-cc-discover
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-jcb"></i>
-              fa-cc-jcb
+                        <span class="text-muted">[&amp;#xf1f2;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf24b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-jcb"></i>
+                        fa-cc-jcb
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-mastercard"></i>
-              fa-cc-mastercard
+                        <span class="text-muted">[&amp;#xf24b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-mastercard"></i>
+                        fa-cc-mastercard
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-paypal"></i>
-              fa-cc-paypal
+                        <span class="text-muted">[&amp;#xf1f1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-paypal"></i>
+                        fa-cc-paypal
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-stripe"></i>
-              fa-cc-stripe
+                        <span class="text-muted">[&amp;#xf1f4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-stripe"></i>
+                        fa-cc-stripe
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-visa"></i>
-              fa-cc-visa
+                        <span class="text-muted">[&amp;#xf1f5;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cc-visa"></i>
+                        fa-cc-visa
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1f0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use certificate"></i>
-              fa-certificate
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a3;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use certificate"></i>
+                        fa-certificate
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chain"></i>
-              fa-chain
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chain"></i>
+                        fa-chain
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chain-broken"></i>
-              fa-chain-broken
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf127;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chain-broken"></i>
+                        fa-chain-broken
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf127;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use check"></i>
-              fa-check
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf00c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use check"></i>
+                        fa-check
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf00c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-circle"></i>
-              fa-check-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf058;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-circle"></i>
+                        fa-check-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf058;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-circle-o"></i>
-              fa-check-circle-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf05d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-circle-o"></i>
+                        fa-check-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf05d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-square"></i>
-              fa-check-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf14a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-square"></i>
+                        fa-check-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf14a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-square-o"></i>
-              fa-check-square-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf046;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use check-square-o"></i>
+                        fa-check-square-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf046;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-down"></i>
-              fa-chevron-circle-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf13a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-down"></i>
+                        fa-chevron-circle-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf13a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-left"></i>
-              fa-chevron-circle-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf137;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-left"></i>
+                        fa-chevron-circle-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf137;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-right"></i>
-              fa-chevron-circle-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf138;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-right"></i>
+                        fa-chevron-circle-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf138;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-up"></i>
-              fa-chevron-circle-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf139;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-circle-up"></i>
+                        fa-chevron-circle-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf139;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-down"></i>
-              fa-chevron-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf078;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-down"></i>
+                        fa-chevron-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf078;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-left"></i>
-              fa-chevron-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf053;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-left"></i>
+                        fa-chevron-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf053;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-right"></i>
-              fa-chevron-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf054;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-right"></i>
+                        fa-chevron-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf054;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-up"></i>
-              fa-chevron-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf077;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chevron-up"></i>
+                        fa-chevron-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use child"></i>
-              fa-child
+                        <span class="text-muted">[&amp;#xf077;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ae;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use child"></i>
+                        fa-child
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use chrome"></i>
-              fa-chrome
+                        <span class="text-muted">[&amp;#xf1ae;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf268;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use chrome"></i>
+                        fa-chrome
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf268;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle"></i>
-              fa-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf111;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle"></i>
+                        fa-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf111;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle-o"></i>
-              fa-circle-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf10c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle-o"></i>
+                        fa-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle-o-notch"></i>
-              fa-circle-o-notch
+                        <span class="text-muted">[&amp;#xf10c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ce;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle-o-notch"></i>
+                        fa-circle-o-notch
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle-thin"></i>
-              fa-circle-thin
+                        <span class="text-muted">[&amp;#xf1ce;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1db;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use circle-thin"></i>
+                        fa-circle-thin
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1db;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use clipboard"></i>
-              fa-clipboard
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ea;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use clipboard"></i>
+                        fa-clipboard
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ea;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use clock-o"></i>
-              fa-clock-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf017;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use clock-o"></i>
+                        fa-clock-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use clone"></i>
-              fa-clone
+                        <span class="text-muted">[&amp;#xf017;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf24d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use clone"></i>
+                        fa-clone
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf24d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use close"></i>
-              fa-close
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf00d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use close"></i>
+                        fa-close
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf00d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cloud"></i>
-              fa-cloud
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c2;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cloud"></i>
+                        fa-cloud
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0c2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cloud-download"></i>
-              fa-cloud-download
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ed;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cloud-download"></i>
+                        fa-cloud-download
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ed;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cloud-upload"></i>
-              fa-cloud-upload
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ee;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cloud-upload"></i>
+                        fa-cloud-upload
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ee;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cny"></i>
-              fa-cny
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf157;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cny"></i>
+                        fa-cny
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf157;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use code"></i>
-              fa-code
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf121;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use code"></i>
+                        fa-code
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf121;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use code-fork"></i>
-              fa-code-fork
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf126;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use code-fork"></i>
+                        fa-code-fork
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use codepen"></i>
-              fa-codepen
+                        <span class="text-muted">[&amp;#xf126;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1cb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use codepen"></i>
+                        fa-codepen
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use codiepie"></i>
-              fa-codiepie
+                        <span class="text-muted">[&amp;#xf1cb;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf284;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use codiepie"></i>
+                        fa-codiepie
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf284;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use coffee"></i>
-              fa-coffee
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f4;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use coffee"></i>
+                        fa-coffee
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0f4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cog"></i>
-              fa-cog
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf013;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cog"></i>
+                        fa-cog
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf013;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cogs"></i>
-              fa-cogs
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf085;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cogs"></i>
+                        fa-cogs
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf085;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use columns"></i>
-              fa-columns
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0db;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use columns"></i>
+                        fa-columns
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0db;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use comment"></i>
-              fa-comment
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf075;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use comment"></i>
+                        fa-comment
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf075;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use comment-o"></i>
-              fa-comment-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e5;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use comment-o"></i>
+                        fa-comment-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use commenting"></i>
-              fa-commenting
+                        <span class="text-muted">[&amp;#xf0e5;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf27a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use commenting"></i>
+                        fa-commenting
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use commenting-o"></i>
-              fa-commenting-o
+                        <span class="text-muted">[&amp;#xf27a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf27b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use commenting-o"></i>
+                        fa-commenting-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf27b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use comments"></i>
-              fa-comments
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf086;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use comments"></i>
+                        fa-comments
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf086;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use comments-o"></i>
-              fa-comments-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e6;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use comments-o"></i>
+                        fa-comments-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0e6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use compass"></i>
-              fa-compass
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf14e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use compass"></i>
+                        fa-compass
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf14e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use compress"></i>
-              fa-compress
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf066;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use compress"></i>
+                        fa-compress
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use connectdevelop"></i>
-              fa-connectdevelop
+                        <span class="text-muted">[&amp;#xf066;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf20e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use connectdevelop"></i>
+                        fa-connectdevelop
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use contao"></i>
-              fa-contao
+                        <span class="text-muted">[&amp;#xf20e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf26d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use contao"></i>
+                        fa-contao
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf26d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use copy"></i>
-              fa-copy
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use copyright"></i>
-              fa-copyright
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use copy"></i>
+                        fa-copy
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c5;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use copyright"></i>
+                        fa-copyright
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use creative-commons"></i>
-              fa-creative-commons
+                        <span class="text-muted">[&amp;#xf1f9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf25e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use creative-commons"></i>
+                        fa-creative-commons
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf25e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use credit-card"></i>
-              fa-credit-card
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf09d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use credit-card"></i>
+                        fa-credit-card
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use credit-card-alt"></i>
-              fa-credit-card-alt
+                        <span class="text-muted">[&amp;#xf09d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf283;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use credit-card-alt"></i>
+                        fa-credit-card-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf283;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use crop"></i>
-              fa-crop
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf125;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use crop"></i>
+                        fa-crop
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf125;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use crosshairs"></i>
-              fa-crosshairs
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf05b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use crosshairs"></i>
+                        fa-crosshairs
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf05b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use css3"></i>
-              fa-css3
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf13c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use css3"></i>
+                        fa-css3
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cube"></i>
-              fa-cube
+                        <span class="text-muted">[&amp;#xf13c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cube"></i>
+                        fa-cube
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cubes"></i>
-              fa-cubes
+                        <span class="text-muted">[&amp;#xf1b2;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cubes"></i>
+                        fa-cubes
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1b3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cut"></i>
-              fa-cut
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cut"></i>
+                        fa-cut
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use cutlery"></i>
-              fa-cutlery
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f5;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use cutlery"></i>
+                        fa-cutlery
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0f5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dashboard"></i>
-              fa-dashboard
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0e4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dashcube"></i>
-              fa-dashcube
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dashboard"></i>
+                        fa-dashboard
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0e4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf210;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dashcube"></i>
+                        fa-dashcube
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use database"></i>
-              fa-database
+                        <span class="text-muted">[&amp;#xf210;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use database"></i>
+                        fa-database
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use deaf"></i>
-              fa-deaf
+                        <span class="text-muted">[&amp;#xf1c0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use deaf"></i>
+                        fa-deaf
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use deafness"></i>
-              fa-deafness
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2a4;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf2a4;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use deafness"></i>
+                        fa-deafness
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2a4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dedent"></i>
-              fa-dedent
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf03b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use delicious"></i>
-              fa-delicious
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dedent"></i>
+                        fa-dedent
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf03b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use delicious"></i>
+                        fa-delicious
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1a5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use desktop"></i>
-              fa-desktop
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf108;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use desktop"></i>
+                        fa-desktop
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use deviantart"></i>
-              fa-deviantart
+                        <span class="text-muted">[&amp;#xf108;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1bd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use deviantart"></i>
+                        fa-deviantart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use diamond"></i>
-              fa-diamond
+                        <span class="text-muted">[&amp;#xf1bd;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf219;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use diamond"></i>
+                        fa-diamond
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use digg"></i>
-              fa-digg
+                        <span class="text-muted">[&amp;#xf219;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use digg"></i>
+                        fa-digg
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1a6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dollar"></i>
-              fa-dollar
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf155;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dot-circle-o"></i>
-              fa-dot-circle-o
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dollar"></i>
+                        fa-dollar
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf155;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf192;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dot-circle-o"></i>
+                        fa-dot-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf192;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use download"></i>
-              fa-download
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf019;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use download"></i>
+                        fa-download
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf019;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dribbble"></i>
-              fa-dribbble
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf17d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dribbble"></i>
+                        fa-dribbble
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use drivers-license"></i>
-              fa-drivers-license
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2c2;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf17d;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use drivers-license-o"></i>
-              fa-drivers-license-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2c3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use drivers-license"></i>
+                        fa-drivers-license
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2c2;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use drivers-license-o"></i>
+                        fa-drivers-license-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2c3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use dropbox"></i>
-              fa-dropbox
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf16b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use dropbox"></i>
+                        fa-dropbox
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use drupal"></i>
-              fa-drupal
+                        <span class="text-muted">[&amp;#xf16b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use drupal"></i>
+                        fa-drupal
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use edge"></i>
-              fa-edge
+                        <span class="text-muted">[&amp;#xf1a9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf282;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use edge"></i>
+                        fa-edge
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf282;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use edit"></i>
-              fa-edit
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf044;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eercast"></i>
-              fa-eercast
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use edit"></i>
+                        fa-edit
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf044;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2da;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eercast"></i>
+                        fa-eercast
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2da;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eject"></i>
-              fa-eject
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf052;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eject"></i>
+                        fa-eject
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf052;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ellipsis-h"></i>
-              fa-ellipsis-h
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf141;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ellipsis-h"></i>
+                        fa-ellipsis-h
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf141;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ellipsis-v"></i>
-              fa-ellipsis-v
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf142;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ellipsis-v"></i>
+                        fa-ellipsis-v
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use empire"></i>
-              fa-empire
+                        <span class="text-muted">[&amp;#xf142;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use empire"></i>
+                        fa-empire
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1d1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope"></i>
-              fa-envelope
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e0;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope"></i>
+                        fa-envelope
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0e0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-o"></i>
-              fa-envelope-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf003;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-o"></i>
+                        fa-envelope-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-open"></i>
-              fa-envelope-open
+                        <span class="text-muted">[&amp;#xf003;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-open"></i>
+                        fa-envelope-open
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-open-o"></i>
-              fa-envelope-open-o
+                        <span class="text-muted">[&amp;#xf2b6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-open-o"></i>
+                        fa-envelope-open-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-square"></i>
-              fa-envelope-square
+                        <span class="text-muted">[&amp;#xf2b7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf199;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use envelope-square"></i>
+                        fa-envelope-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use envira"></i>
-              fa-envira
+                        <span class="text-muted">[&amp;#xf199;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf299;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use envira"></i>
+                        fa-envira
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf299;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eraser"></i>
-              fa-eraser
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf12d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eraser"></i>
+                        fa-eraser
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use etsy"></i>
-              fa-etsy
+                        <span class="text-muted">[&amp;#xf12d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use etsy"></i>
+                        fa-etsy
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2d7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eur"></i>
-              fa-eur
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf153;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eur"></i>
+                        fa-eur
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf153;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use euro"></i>
-              fa-euro
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf153;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use euro"></i>
+                        fa-euro
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf153;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use exchange"></i>
-              fa-exchange
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ec;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use exchange"></i>
+                        fa-exchange
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ec;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use exclamation"></i>
-              fa-exclamation
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf12a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use exclamation"></i>
+                        fa-exclamation
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf12a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use exclamation-circle"></i>
-              fa-exclamation-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf06a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use exclamation-circle"></i>
+                        fa-exclamation-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf06a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use exclamation-triangle"></i>
-              fa-exclamation-triangle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf071;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use exclamation-triangle"></i>
+                        fa-exclamation-triangle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf071;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use expand"></i>
-              fa-expand
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf065;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use expand"></i>
+                        fa-expand
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use expeditedssl"></i>
-              fa-expeditedssl
+                        <span class="text-muted">[&amp;#xf065;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf23e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use expeditedssl"></i>
+                        fa-expeditedssl
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf23e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use external-link"></i>
-              fa-external-link
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf08e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use external-link"></i>
+                        fa-external-link
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf08e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use external-link-square"></i>
-              fa-external-link-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf14c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use external-link-square"></i>
+                        fa-external-link-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf14c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eye"></i>
-              fa-eye
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf06e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eye"></i>
+                        fa-eye
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf06e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eye-slash"></i>
-              fa-eye-slash
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf070;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eye-slash"></i>
+                        fa-eye-slash
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use eyedropper"></i>
-              fa-eyedropper
+                        <span class="text-muted">[&amp;#xf070;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1fb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use eyedropper"></i>
+                        fa-eyedropper
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fa"></i>
-              fa-fa
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2b4;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1fb;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fa"></i>
+                        fa-fa
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2b4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook"></i>
-              fa-facebook
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf09a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook"></i>
+                        fa-facebook
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf09a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook-f"></i>
-              fa-facebook-f
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf09a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook-official"></i>
-              fa-facebook-official
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook-f"></i>
+                        fa-facebook-f
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf09a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf230;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook-official"></i>
+                        fa-facebook-official
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf230;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook-square"></i>
-              fa-facebook-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf082;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use facebook-square"></i>
+                        fa-facebook-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf082;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fast-backward"></i>
-              fa-fast-backward
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf049;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fast-backward"></i>
+                        fa-fast-backward
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf049;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fast-forward"></i>
-              fa-fast-forward
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf050;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fast-forward"></i>
+                        fa-fast-forward
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fax"></i>
-              fa-fax
+                        <span class="text-muted">[&amp;#xf050;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ac;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fax"></i>
+                        fa-fax
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1ac;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use feed"></i>
-              fa-feed
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf09e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use feed"></i>
+                        fa-feed
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf09e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use female"></i>
-              fa-female
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf182;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use female"></i>
+                        fa-female
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf182;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fighter-jet"></i>
-              fa-fighter-jet
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0fb;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fighter-jet"></i>
+                        fa-fighter-jet
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0fb;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file"></i>
-              fa-file
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf15b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file"></i>
+                        fa-file
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-archive-o"></i>
-              fa-file-archive-o
+                        <span class="text-muted">[&amp;#xf15b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-archive-o"></i>
+                        fa-file-archive-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-audio-o"></i>
-              fa-file-audio-o
+                        <span class="text-muted">[&amp;#xf1c6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-audio-o"></i>
+                        fa-file-audio-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-code-o"></i>
-              fa-file-code-o
+                        <span class="text-muted">[&amp;#xf1c7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-code-o"></i>
+                        fa-file-code-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-excel-o"></i>
-              fa-file-excel-o
+                        <span class="text-muted">[&amp;#xf1c9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-excel-o"></i>
+                        fa-file-excel-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-image-o"></i>
-              fa-file-image-o
+                        <span class="text-muted">[&amp;#xf1c3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-image-o"></i>
+                        fa-file-image-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-movie-o"></i>
-              fa-file-movie-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1c8;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1c5;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-movie-o"></i>
+                        fa-file-movie-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1c8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-o"></i>
-              fa-file-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf016;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-o"></i>
+                        fa-file-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-pdf-o"></i>
-              fa-file-pdf-o
+                        <span class="text-muted">[&amp;#xf016;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-pdf-o"></i>
+                        fa-file-pdf-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-photo-o"></i>
-              fa-file-photo-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1c5;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1c1;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-picture-o"></i>
-              fa-file-picture-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1c5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-photo-o"></i>
+                        fa-file-photo-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1c5;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-powerpoint-o"></i>
-              fa-file-powerpoint-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-picture-o"></i>
+                        fa-file-picture-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1c5;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-powerpoint-o"></i>
+                        fa-file-powerpoint-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-sound-o"></i>
-              fa-file-sound-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1c7;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1c4;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-sound-o"></i>
+                        fa-file-sound-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1c7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-text"></i>
-              fa-file-text
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf15c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-text"></i>
+                        fa-file-text
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf15c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-text-o"></i>
-              fa-file-text-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f6;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-text-o"></i>
+                        fa-file-text-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-video-o"></i>
-              fa-file-video-o
+                        <span class="text-muted">[&amp;#xf0f6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-video-o"></i>
+                        fa-file-video-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-word-o"></i>
-              fa-file-word-o
+                        <span class="text-muted">[&amp;#xf1c8;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1c2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-word-o"></i>
+                        fa-file-word-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-zip-o"></i>
-              fa-file-zip-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1c6;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1c2;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use file-zip-o"></i>
+                        fa-file-zip-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1c6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use files-o"></i>
-              fa-files-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c5;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use files-o"></i>
+                        fa-files-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0c5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use film"></i>
-              fa-film
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf008;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use film"></i>
+                        fa-film
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf008;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use filter"></i>
-              fa-filter
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0b0;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use filter"></i>
+                        fa-filter
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0b0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fire"></i>
-              fa-fire
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf06d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fire"></i>
+                        fa-fire
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf06d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fire-extinguisher"></i>
-              fa-fire-extinguisher
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf134;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fire-extinguisher"></i>
+                        fa-fire-extinguisher
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use firefox"></i>
-              fa-firefox
+                        <span class="text-muted">[&amp;#xf134;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf269;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use firefox"></i>
+                        fa-firefox
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use first-order"></i>
-              fa-first-order
+                        <span class="text-muted">[&amp;#xf269;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use first-order"></i>
+                        fa-first-order
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2b0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use flag"></i>
-              fa-flag
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf024;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use flag"></i>
+                        fa-flag
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf024;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use flag-checkered"></i>
-              fa-flag-checkered
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf11e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use flag-checkered"></i>
+                        fa-flag-checkered
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf11e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use flag-o"></i>
-              fa-flag-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf11d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use flag-o"></i>
+                        fa-flag-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf11d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use flash"></i>
-              fa-flash
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0e7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use flash"></i>
+                        fa-flash
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0e7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use flask"></i>
-              fa-flask
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c3;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use flask"></i>
+                        fa-flask
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0c3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use flickr"></i>
-              fa-flickr
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf16e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use flickr"></i>
+                        fa-flickr
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf16e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use floppy-o"></i>
-              fa-floppy-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c7;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use floppy-o"></i>
+                        fa-floppy-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0c7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder"></i>
-              fa-folder
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf07b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder"></i>
+                        fa-folder
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf07b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder-o"></i>
-              fa-folder-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf114;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder-o"></i>
+                        fa-folder-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf114;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder-open"></i>
-              fa-folder-open
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf07c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder-open"></i>
+                        fa-folder-open
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf07c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder-open-o"></i>
-              fa-folder-open-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf115;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use folder-open-o"></i>
+                        fa-folder-open-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf115;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use font"></i>
-              fa-font
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf031;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use font"></i>
+                        fa-font
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use font-awesome"></i>
-              fa-font-awesome
+                        <span class="text-muted">[&amp;#xf031;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use font-awesome"></i>
+                        fa-font-awesome
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fonticons"></i>
-              fa-fonticons
+                        <span class="text-muted">[&amp;#xf2b4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf280;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fonticons"></i>
+                        fa-fonticons
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use fort-awesome"></i>
-              fa-fort-awesome
+                        <span class="text-muted">[&amp;#xf280;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf286;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use fort-awesome"></i>
+                        fa-fort-awesome
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use forumbee"></i>
-              fa-forumbee
+                        <span class="text-muted">[&amp;#xf286;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf211;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use forumbee"></i>
+                        fa-forumbee
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf211;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use forward"></i>
-              fa-forward
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf04e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use forward"></i>
+                        fa-forward
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf04e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use foursquare"></i>
-              fa-foursquare
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf180;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use foursquare"></i>
+                        fa-foursquare
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use free-code-camp"></i>
-              fa-free-code-camp
+                        <span class="text-muted">[&amp;#xf180;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use free-code-camp"></i>
+                        fa-free-code-camp
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2c5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use frown-o"></i>
-              fa-frown-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf119;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use frown-o"></i>
+                        fa-frown-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use futbol-o"></i>
-              fa-futbol-o
+                        <span class="text-muted">[&amp;#xf119;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use futbol-o"></i>
+                        fa-futbol-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gamepad"></i>
-              fa-gamepad
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf11b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gamepad"></i>
+                        fa-gamepad
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf11b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gavel"></i>
-              fa-gavel
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e3;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gavel"></i>
+                        fa-gavel
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0e3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gbp"></i>
-              fa-gbp
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf154;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gbp"></i>
+                        fa-gbp
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ge"></i>
-              fa-ge
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d1;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf154;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ge"></i>
+                        fa-ge
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gear"></i>
-              fa-gear
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf013;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gear"></i>
+                        fa-gear
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf013;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gears"></i>
-              fa-gears
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf085;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use genderless"></i>
-              fa-genderless
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gears"></i>
+                        fa-gears
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf085;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf22d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use genderless"></i>
+                        fa-genderless
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use get-pocket"></i>
-              fa-get-pocket
+                        <span class="text-muted">[&amp;#xf22d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf265;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use get-pocket"></i>
+                        fa-get-pocket
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gg"></i>
-              fa-gg
+                        <span class="text-muted">[&amp;#xf265;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf260;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gg"></i>
+                        fa-gg
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gg-circle"></i>
-              fa-gg-circle
+                        <span class="text-muted">[&amp;#xf260;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf261;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gg-circle"></i>
+                        fa-gg-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf261;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gift"></i>
-              fa-gift
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf06b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gift"></i>
+                        fa-gift
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use git"></i>
-              fa-git
+                        <span class="text-muted">[&amp;#xf06b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use git"></i>
+                        fa-git
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use git-square"></i>
-              fa-git-square
+                        <span class="text-muted">[&amp;#xf1d3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use git-square"></i>
+                        fa-git-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1d2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use github"></i>
-              fa-github
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf09b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use github"></i>
+                        fa-github
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf09b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use github-alt"></i>
-              fa-github-alt
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf113;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use github-alt"></i>
+                        fa-github-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf113;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use github-square"></i>
-              fa-github-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf092;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use github-square"></i>
+                        fa-github-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gitlab"></i>
-              fa-gitlab
+                        <span class="text-muted">[&amp;#xf092;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf296;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gitlab"></i>
+                        fa-gitlab
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf296;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gittip"></i>
-              fa-gittip
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf184;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gittip"></i>
+                        fa-gittip
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf184;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use glass"></i>
-              fa-glass
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf000;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use glass"></i>
+                        fa-glass
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use glide"></i>
-              fa-glide
+                        <span class="text-muted">[&amp;#xf000;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use glide"></i>
+                        fa-glide
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use glide-g"></i>
-              fa-glide-g
+                        <span class="text-muted">[&amp;#xf2a5;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use glide-g"></i>
+                        fa-glide-g
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use globe"></i>
-              fa-globe
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ac;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use globe"></i>
+                        fa-globe
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use google"></i>
-              fa-google
+                        <span class="text-muted">[&amp;#xf0ac;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use google"></i>
+                        fa-google
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1a0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus"></i>
-              fa-google-plus
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d5;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus"></i>
+                        fa-google-plus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus-circle"></i>
-              fa-google-plus-circle
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2b3;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf0d5;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus-official"></i>
-              fa-google-plus-official
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus-circle"></i>
+                        fa-google-plus-circle
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2b3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus-official"></i>
+                        fa-google-plus-official
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2b3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus-square"></i>
-              fa-google-plus-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d4;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-plus-square"></i>
+                        fa-google-plus-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-wallet"></i>
-              fa-google-wallet
+                        <span class="text-muted">[&amp;#xf0d4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ee;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use google-wallet"></i>
+                        fa-google-wallet
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use graduation-cap"></i>
-              fa-graduation-cap
+                        <span class="text-muted">[&amp;#xf1ee;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf19d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use graduation-cap"></i>
+                        fa-graduation-cap
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf19d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use gratipay"></i>
-              fa-gratipay
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf184;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use gratipay"></i>
+                        fa-gratipay
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use grav"></i>
-              fa-grav
+                        <span class="text-muted">[&amp;#xf184;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use grav"></i>
+                        fa-grav
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2d6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use group"></i>
-              fa-group
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use group"></i>
+                        fa-group
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use h-square"></i>
-              fa-h-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0fd;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use h-square"></i>
+                        fa-h-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hacker-news"></i>
-              fa-hacker-news
+                        <span class="text-muted">[&amp;#xf0fd;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hacker-news"></i>
+                        fa-hacker-news
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-grab-o"></i>
-              fa-hand-grab-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf255;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1d4;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-lizard-o"></i>
-              fa-hand-lizard-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-grab-o"></i>
+                        fa-hand-grab-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf255;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf258;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-lizard-o"></i>
+                        fa-hand-lizard-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf258;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-down"></i>
-              fa-hand-o-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a7;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-down"></i>
+                        fa-hand-o-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-left"></i>
-              fa-hand-o-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a5;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-left"></i>
+                        fa-hand-o-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-right"></i>
-              fa-hand-o-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a4;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-right"></i>
+                        fa-hand-o-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0a4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-up"></i>
-              fa-hand-o-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a6;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-o-up"></i>
+                        fa-hand-o-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-paper-o"></i>
-              fa-hand-paper-o
+                        <span class="text-muted">[&amp;#xf0a6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf256;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-paper-o"></i>
+                        fa-hand-paper-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-peace-o"></i>
-              fa-hand-peace-o
+                        <span class="text-muted">[&amp;#xf256;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf25b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-peace-o"></i>
+                        fa-hand-peace-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-pointer-o"></i>
-              fa-hand-pointer-o
+                        <span class="text-muted">[&amp;#xf25b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf25a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-pointer-o"></i>
+                        fa-hand-pointer-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-rock-o"></i>
-              fa-hand-rock-o
+                        <span class="text-muted">[&amp;#xf25a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf255;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-rock-o"></i>
+                        fa-hand-rock-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-scissors-o"></i>
-              fa-hand-scissors-o
+                        <span class="text-muted">[&amp;#xf255;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf257;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-scissors-o"></i>
+                        fa-hand-scissors-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-spock-o"></i>
-              fa-hand-spock-o
+                        <span class="text-muted">[&amp;#xf257;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf259;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-spock-o"></i>
+                        fa-hand-spock-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-stop-o"></i>
-              fa-hand-stop-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf256;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf259;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use handshake-o"></i>
-              fa-handshake-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hand-stop-o"></i>
+                        fa-hand-stop-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf256;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use handshake-o"></i>
+                        fa-handshake-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hard-of-hearing"></i>
-              fa-hard-of-hearing
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2a4;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf2b5;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hashtag"></i>
-              fa-hashtag
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hard-of-hearing"></i>
+                        fa-hard-of-hearing
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2a4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf292;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hashtag"></i>
+                        fa-hashtag
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf292;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hdd-o"></i>
-              fa-hdd-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0a0;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hdd-o"></i>
+                        fa-hdd-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use header"></i>
-              fa-header
+                        <span class="text-muted">[&amp;#xf0a0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1dc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use header"></i>
+                        fa-header
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1dc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use headphones"></i>
-              fa-headphones
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf025;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use headphones"></i>
+                        fa-headphones
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf025;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use heart"></i>
-              fa-heart
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf004;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use heart"></i>
+                        fa-heart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf004;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use heart-o"></i>
-              fa-heart-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf08a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use heart-o"></i>
+                        fa-heart-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use heartbeat"></i>
-              fa-heartbeat
+                        <span class="text-muted">[&amp;#xf08a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf21e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use heartbeat"></i>
+                        fa-heartbeat
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use history"></i>
-              fa-history
+                        <span class="text-muted">[&amp;#xf21e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1da;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use history"></i>
+                        fa-history
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1da;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use home"></i>
-              fa-home
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf015;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use home"></i>
+                        fa-home
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf015;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hospital-o"></i>
-              fa-hospital-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f8;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hospital-o"></i>
+                        fa-hospital-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hotel"></i>
-              fa-hotel
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf236;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf0f8;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass"></i>
-              fa-hourglass
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hotel"></i>
+                        fa-hotel
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf236;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf254;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass"></i>
+                        fa-hourglass
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-1"></i>
-              fa-hourglass-1
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf251;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf254;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-2"></i>
-              fa-hourglass-2
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf252;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-1"></i>
+                        fa-hourglass-1
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf251;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-3"></i>
-              fa-hourglass-3
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf253;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-2"></i>
+                        fa-hourglass-2
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf252;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-end"></i>
-              fa-hourglass-end
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-3"></i>
+                        fa-hourglass-3
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf253;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf253;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-end"></i>
+                        fa-hourglass-end
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-half"></i>
-              fa-hourglass-half
+                        <span class="text-muted">[&amp;#xf253;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf252;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-half"></i>
+                        fa-hourglass-half
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-o"></i>
-              fa-hourglass-o
+                        <span class="text-muted">[&amp;#xf252;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf250;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-o"></i>
+                        fa-hourglass-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-start"></i>
-              fa-hourglass-start
+                        <span class="text-muted">[&amp;#xf250;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf251;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use hourglass-start"></i>
+                        fa-hourglass-start
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use houzz"></i>
-              fa-houzz
+                        <span class="text-muted">[&amp;#xf251;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf27c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use houzz"></i>
+                        fa-houzz
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf27c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use html5"></i>
-              fa-html5
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf13b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use html5"></i>
+                        fa-html5
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use i-cursor"></i>
-              fa-i-cursor
+                        <span class="text-muted">[&amp;#xf13b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf246;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use i-cursor"></i>
+                        fa-i-cursor
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use id-badge"></i>
-              fa-id-badge
+                        <span class="text-muted">[&amp;#xf246;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use id-badge"></i>
+                        fa-id-badge
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use id-card"></i>
-              fa-id-card
+                        <span class="text-muted">[&amp;#xf2c1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use id-card"></i>
+                        fa-id-card
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use id-card-o"></i>
-              fa-id-card-o
+                        <span class="text-muted">[&amp;#xf2c2;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use id-card-o"></i>
+                        fa-id-card-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ils"></i>
-              fa-ils
+                        <span class="text-muted">[&amp;#xf2c3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf20b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ils"></i>
+                        fa-ils
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf20b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use image"></i>
-              fa-image
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf03e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use imdb"></i>
-              fa-imdb
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use image"></i>
+                        fa-image
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf03e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use imdb"></i>
+                        fa-imdb
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2d8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use inbox"></i>
-              fa-inbox
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf01c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use inbox"></i>
+                        fa-inbox
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf01c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use indent"></i>
-              fa-indent
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf03c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use indent"></i>
+                        fa-indent
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use industry"></i>
-              fa-industry
+                        <span class="text-muted">[&amp;#xf03c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf275;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use industry"></i>
+                        fa-industry
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf275;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use info"></i>
-              fa-info
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf129;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use info"></i>
+                        fa-info
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf129;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use info-circle"></i>
-              fa-info-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf05a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use info-circle"></i>
+                        fa-info-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf05a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use inr"></i>
-              fa-inr
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf156;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use inr"></i>
+                        fa-inr
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use instagram"></i>
-              fa-instagram
+                        <span class="text-muted">[&amp;#xf156;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf16d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use instagram"></i>
+                        fa-instagram
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use institution"></i>
-              fa-institution
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf19c;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf16d;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use internet-explorer"></i>
-              fa-internet-explorer
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use institution"></i>
+                        fa-institution
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf19c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf26b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use internet-explorer"></i>
+                        fa-internet-explorer
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use intersex"></i>
-              fa-intersex
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf224;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf26b;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ioxhost"></i>
-              fa-ioxhost
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use intersex"></i>
+                        fa-intersex
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf224;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf208;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ioxhost"></i>
+                        fa-ioxhost
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf208;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use italic"></i>
-              fa-italic
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf033;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use italic"></i>
+                        fa-italic
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use joomla"></i>
-              fa-joomla
+                        <span class="text-muted">[&amp;#xf033;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1aa;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use joomla"></i>
+                        fa-joomla
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1aa;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use jpy"></i>
-              fa-jpy
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf157;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use jpy"></i>
+                        fa-jpy
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use jsfiddle"></i>
-              fa-jsfiddle
+                        <span class="text-muted">[&amp;#xf157;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1cc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use jsfiddle"></i>
+                        fa-jsfiddle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1cc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use key"></i>
-              fa-key
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf084;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use key"></i>
+                        fa-key
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf084;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use keyboard-o"></i>
-              fa-keyboard-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf11c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use keyboard-o"></i>
+                        fa-keyboard-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf11c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use krw"></i>
-              fa-krw
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf159;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use krw"></i>
+                        fa-krw
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use language"></i>
-              fa-language
+                        <span class="text-muted">[&amp;#xf159;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ab;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use language"></i>
+                        fa-language
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1ab;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use laptop"></i>
-              fa-laptop
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf109;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use laptop"></i>
+                        fa-laptop
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use lastfm"></i>
-              fa-lastfm
+                        <span class="text-muted">[&amp;#xf109;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf202;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use lastfm"></i>
+                        fa-lastfm
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use lastfm-square"></i>
-              fa-lastfm-square
+                        <span class="text-muted">[&amp;#xf202;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf203;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use lastfm-square"></i>
+                        fa-lastfm-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf203;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use leaf"></i>
-              fa-leaf
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf06c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use leaf"></i>
+                        fa-leaf
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use leanpub"></i>
-              fa-leanpub
+                        <span class="text-muted">[&amp;#xf06c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf212;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use leanpub"></i>
+                        fa-leanpub
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf212;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use legal"></i>
-              fa-legal
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0e3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use legal"></i>
+                        fa-legal
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0e3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use lemon-o"></i>
-              fa-lemon-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf094;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use lemon-o"></i>
+                        fa-lemon-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf094;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use level-down"></i>
-              fa-level-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf149;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use level-down"></i>
+                        fa-level-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf149;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use level-up"></i>
-              fa-level-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf148;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use level-up"></i>
+                        fa-level-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-bouy"></i>
-              fa-life-bouy
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1cd;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf148;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-buoy"></i>
-              fa-life-buoy
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1cd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-bouy"></i>
+                        fa-life-bouy
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1cd;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-ring"></i>
-              fa-life-ring
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-buoy"></i>
+                        fa-life-buoy
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1cd;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1cd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-ring"></i>
+                        fa-life-ring
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-saver"></i>
-              fa-life-saver
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1cd;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf1cd;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use life-saver"></i>
+                        fa-life-saver
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1cd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use lightbulb-o"></i>
-              fa-lightbulb-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0eb;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use lightbulb-o"></i>
+                        fa-lightbulb-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use line-chart"></i>
-              fa-line-chart
+                        <span class="text-muted">[&amp;#xf0eb;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf201;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use line-chart"></i>
+                        fa-line-chart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf201;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use link"></i>
-              fa-link
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c1;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use link"></i>
+                        fa-link
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0c1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use linkedin"></i>
-              fa-linkedin
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e1;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use linkedin"></i>
+                        fa-linkedin
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0e1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use linkedin-square"></i>
-              fa-linkedin-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf08c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use linkedin-square"></i>
+                        fa-linkedin-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use linode"></i>
-              fa-linode
+                        <span class="text-muted">[&amp;#xf08c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use linode"></i>
+                        fa-linode
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2b8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use linux"></i>
-              fa-linux
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf17c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use linux"></i>
+                        fa-linux
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf17c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use list"></i>
-              fa-list
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf03a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use list"></i>
+                        fa-list
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf03a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use list-alt"></i>
-              fa-list-alt
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf022;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use list-alt"></i>
+                        fa-list-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf022;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use list-ol"></i>
-              fa-list-ol
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0cb;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use list-ol"></i>
+                        fa-list-ol
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0cb;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use list-ul"></i>
-              fa-list-ul
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ca;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use list-ul"></i>
+                        fa-list-ul
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ca;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use location-arrow"></i>
-              fa-location-arrow
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf124;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use location-arrow"></i>
+                        fa-location-arrow
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf124;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use lock"></i>
-              fa-lock
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf023;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use lock"></i>
+                        fa-lock
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf023;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-down"></i>
-              fa-long-arrow-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf175;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-down"></i>
+                        fa-long-arrow-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf175;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-left"></i>
-              fa-long-arrow-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf177;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-left"></i>
+                        fa-long-arrow-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf177;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-right"></i>
-              fa-long-arrow-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf178;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-right"></i>
+                        fa-long-arrow-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf178;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-up"></i>
-              fa-long-arrow-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf176;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use long-arrow-up"></i>
+                        fa-long-arrow-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use low-vision"></i>
-              fa-low-vision
+                        <span class="text-muted">[&amp;#xf176;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use low-vision"></i>
+                        fa-low-vision
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use magic"></i>
-              fa-magic
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d0;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use magic"></i>
+                        fa-magic
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0d0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use magnet"></i>
-              fa-magnet
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf076;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use magnet"></i>
+                        fa-magnet
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf076;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mail-forward"></i>
-              fa-mail-forward
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf064;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mail-forward"></i>
+                        fa-mail-forward
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf064;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mail-reply"></i>
-              fa-mail-reply
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf112;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mail-reply"></i>
+                        fa-mail-reply
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf112;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mail-reply-all"></i>
-              fa-mail-reply-all
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf122;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mail-reply-all"></i>
+                        fa-mail-reply-all
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf122;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use male"></i>
-              fa-male
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf183;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use male"></i>
+                        fa-male
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use map"></i>
-              fa-map
+                        <span class="text-muted">[&amp;#xf183;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf279;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use map"></i>
+                        fa-map
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf279;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-marker"></i>
-              fa-map-marker
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf041;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-marker"></i>
+                        fa-map-marker
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-o"></i>
-              fa-map-o
+                        <span class="text-muted">[&amp;#xf041;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf278;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-o"></i>
+                        fa-map-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-pin"></i>
-              fa-map-pin
+                        <span class="text-muted">[&amp;#xf278;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf276;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-pin"></i>
+                        fa-map-pin
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-signs"></i>
-              fa-map-signs
+                        <span class="text-muted">[&amp;#xf276;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf277;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use map-signs"></i>
+                        fa-map-signs
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars"></i>
-              fa-mars
+                        <span class="text-muted">[&amp;#xf277;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf222;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars"></i>
+                        fa-mars
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-double"></i>
-              fa-mars-double
+                        <span class="text-muted">[&amp;#xf222;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf227;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-double"></i>
+                        fa-mars-double
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-stroke"></i>
-              fa-mars-stroke
+                        <span class="text-muted">[&amp;#xf227;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf229;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-stroke"></i>
+                        fa-mars-stroke
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-stroke-h"></i>
-              fa-mars-stroke-h
+                        <span class="text-muted">[&amp;#xf229;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf22b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-stroke-h"></i>
+                        fa-mars-stroke-h
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-stroke-v"></i>
-              fa-mars-stroke-v
+                        <span class="text-muted">[&amp;#xf22b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf22a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mars-stroke-v"></i>
+                        fa-mars-stroke-v
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf22a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use maxcdn"></i>
-              fa-maxcdn
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf136;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use maxcdn"></i>
+                        fa-maxcdn
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use meanpath"></i>
-              fa-meanpath
+                        <span class="text-muted">[&amp;#xf136;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf20c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use meanpath"></i>
+                        fa-meanpath
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use medium"></i>
-              fa-medium
+                        <span class="text-muted">[&amp;#xf20c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf23a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use medium"></i>
+                        fa-medium
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf23a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use medkit"></i>
-              fa-medkit
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0fa;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use medkit"></i>
+                        fa-medkit
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use meetup"></i>
-              fa-meetup
+                        <span class="text-muted">[&amp;#xf0fa;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2e0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use meetup"></i>
+                        fa-meetup
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2e0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use meh-o"></i>
-              fa-meh-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf11a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use meh-o"></i>
+                        fa-meh-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mercury"></i>
-              fa-mercury
+                        <span class="text-muted">[&amp;#xf11a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf223;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mercury"></i>
+                        fa-mercury
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use microchip"></i>
-              fa-microchip
+                        <span class="text-muted">[&amp;#xf223;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2db;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use microchip"></i>
+                        fa-microchip
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2db;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use microphone"></i>
-              fa-microphone
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf130;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use microphone"></i>
+                        fa-microphone
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf130;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use microphone-slash"></i>
-              fa-microphone-slash
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf131;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use microphone-slash"></i>
+                        fa-microphone-slash
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf131;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus"></i>
-              fa-minus
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf068;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus"></i>
+                        fa-minus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf068;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus-circle"></i>
-              fa-minus-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf056;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus-circle"></i>
+                        fa-minus-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf056;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus-square"></i>
-              fa-minus-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf146;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus-square"></i>
+                        fa-minus-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf146;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus-square-o"></i>
-              fa-minus-square-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf147;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use minus-square-o"></i>
+                        fa-minus-square-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mixcloud"></i>
-              fa-mixcloud
+                        <span class="text-muted">[&amp;#xf147;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf289;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mixcloud"></i>
+                        fa-mixcloud
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf289;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mobile"></i>
-              fa-mobile
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf10b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mobile"></i>
+                        fa-mobile
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf10b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mobile-phone"></i>
-              fa-mobile-phone
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf10b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use modx"></i>
-              fa-modx
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mobile-phone"></i>
+                        fa-mobile-phone
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf10b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf285;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use modx"></i>
+                        fa-modx
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf285;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use money"></i>
-              fa-money
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d6;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use money"></i>
+                        fa-money
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0d6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use moon-o"></i>
-              fa-moon-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf186;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use moon-o"></i>
+                        fa-moon-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mortar-board"></i>
-              fa-mortar-board
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf19d;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf186;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use motorcycle"></i>
-              fa-motorcycle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mortar-board"></i>
+                        fa-mortar-board
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf19d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf21c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use motorcycle"></i>
+                        fa-motorcycle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use mouse-pointer"></i>
-              fa-mouse-pointer
+                        <span class="text-muted">[&amp;#xf21c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf245;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use mouse-pointer"></i>
+                        fa-mouse-pointer
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf245;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use music"></i>
-              fa-music
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf001;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use music"></i>
+                        fa-music
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf001;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use navicon"></i>
-              fa-navicon
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use neuter"></i>
-              fa-neuter
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use navicon"></i>
+                        fa-navicon
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf22c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use neuter"></i>
+                        fa-neuter
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use newspaper-o"></i>
-              fa-newspaper-o
+                        <span class="text-muted">[&amp;#xf22c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ea;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use newspaper-o"></i>
+                        fa-newspaper-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use object-group"></i>
-              fa-object-group
+                        <span class="text-muted">[&amp;#xf1ea;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf247;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use object-group"></i>
+                        fa-object-group
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use object-ungroup"></i>
-              fa-object-ungroup
+                        <span class="text-muted">[&amp;#xf247;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf248;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use object-ungroup"></i>
+                        fa-object-ungroup
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use odnoklassniki"></i>
-              fa-odnoklassniki
+                        <span class="text-muted">[&amp;#xf248;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf263;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use odnoklassniki"></i>
+                        fa-odnoklassniki
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use odnoklassniki-square"></i>
-              fa-odnoklassniki-square
+                        <span class="text-muted">[&amp;#xf263;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf264;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use odnoklassniki-square"></i>
+                        fa-odnoklassniki-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use opencart"></i>
-              fa-opencart
+                        <span class="text-muted">[&amp;#xf264;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf23d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use opencart"></i>
+                        fa-opencart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use openid"></i>
-              fa-openid
+                        <span class="text-muted">[&amp;#xf23d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf19b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use openid"></i>
+                        fa-openid
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use opera"></i>
-              fa-opera
+                        <span class="text-muted">[&amp;#xf19b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf26a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use opera"></i>
+                        fa-opera
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use optin-monster"></i>
-              fa-optin-monster
+                        <span class="text-muted">[&amp;#xf26a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf23c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use optin-monster"></i>
+                        fa-optin-monster
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf23c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use outdent"></i>
-              fa-outdent
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf03b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use outdent"></i>
+                        fa-outdent
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pagelines"></i>
-              fa-pagelines
+                        <span class="text-muted">[&amp;#xf03b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf18c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pagelines"></i>
+                        fa-pagelines
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paint-brush"></i>
-              fa-paint-brush
+                        <span class="text-muted">[&amp;#xf18c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1fc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paint-brush"></i>
+                        fa-paint-brush
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paper-plane"></i>
-              fa-paper-plane
+                        <span class="text-muted">[&amp;#xf1fc;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paper-plane"></i>
+                        fa-paper-plane
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paper-plane-o"></i>
-              fa-paper-plane-o
+                        <span class="text-muted">[&amp;#xf1d8;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paper-plane-o"></i>
+                        fa-paper-plane-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1d9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paperclip"></i>
-              fa-paperclip
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c6;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paperclip"></i>
+                        fa-paperclip
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paragraph"></i>
-              fa-paragraph
+                        <span class="text-muted">[&amp;#xf0c6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1dd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paragraph"></i>
+                        fa-paragraph
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1dd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paste"></i>
-              fa-paste
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0ea;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paste"></i>
+                        fa-paste
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0ea;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pause"></i>
-              fa-pause
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf04c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pause"></i>
+                        fa-pause
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pause-circle"></i>
-              fa-pause-circle
+                        <span class="text-muted">[&amp;#xf04c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf28b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pause-circle"></i>
+                        fa-pause-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pause-circle-o"></i>
-              fa-pause-circle-o
+                        <span class="text-muted">[&amp;#xf28b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf28c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pause-circle-o"></i>
+                        fa-pause-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paw"></i>
-              fa-paw
+                        <span class="text-muted">[&amp;#xf28c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paw"></i>
+                        fa-paw
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use paypal"></i>
-              fa-paypal
+                        <span class="text-muted">[&amp;#xf1b0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ed;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use paypal"></i>
+                        fa-paypal
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1ed;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pencil"></i>
-              fa-pencil
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf040;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pencil"></i>
+                        fa-pencil
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf040;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pencil-square"></i>
-              fa-pencil-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf14b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pencil-square"></i>
+                        fa-pencil-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf14b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pencil-square-o"></i>
-              fa-pencil-square-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf044;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pencil-square-o"></i>
+                        fa-pencil-square-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use percent"></i>
-              fa-percent
+                        <span class="text-muted">[&amp;#xf044;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf295;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use percent"></i>
+                        fa-percent
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf295;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use phone"></i>
-              fa-phone
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf095;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use phone"></i>
+                        fa-phone
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf095;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use phone-square"></i>
-              fa-phone-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf098;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use phone-square"></i>
+                        fa-phone-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf098;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use photo"></i>
-              fa-photo
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf03e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use photo"></i>
+                        fa-photo
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf03e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use picture-o"></i>
-              fa-picture-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf03e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use picture-o"></i>
+                        fa-picture-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pie-chart"></i>
-              fa-pie-chart
+                        <span class="text-muted">[&amp;#xf03e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf200;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pie-chart"></i>
+                        fa-pie-chart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pied-piper"></i>
-              fa-pied-piper
+                        <span class="text-muted">[&amp;#xf200;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ae;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pied-piper"></i>
+                        fa-pied-piper
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pied-piper-alt"></i>
-              fa-pied-piper-alt
+                        <span class="text-muted">[&amp;#xf2ae;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pied-piper-alt"></i>
+                        fa-pied-piper-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pied-piper-pp"></i>
-              fa-pied-piper-pp
+                        <span class="text-muted">[&amp;#xf1a8;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pied-piper-pp"></i>
+                        fa-pied-piper-pp
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1a7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pinterest"></i>
-              fa-pinterest
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d2;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pinterest"></i>
+                        fa-pinterest
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pinterest-p"></i>
-              fa-pinterest-p
+                        <span class="text-muted">[&amp;#xf0d2;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf231;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pinterest-p"></i>
+                        fa-pinterest-p
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf231;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use pinterest-square"></i>
-              fa-pinterest-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d3;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use pinterest-square"></i>
+                        fa-pinterest-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0d3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use plane"></i>
-              fa-plane
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf072;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use plane"></i>
+                        fa-plane
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf072;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use play"></i>
-              fa-play
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf04b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use play"></i>
+                        fa-play
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf04b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use play-circle"></i>
-              fa-play-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf144;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use play-circle"></i>
+                        fa-play-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf144;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use play-circle-o"></i>
-              fa-play-circle-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf01d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use play-circle-o"></i>
+                        fa-play-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use plug"></i>
-              fa-plug
+                        <span class="text-muted">[&amp;#xf01d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use plug"></i>
+                        fa-plug
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus"></i>
-              fa-plus
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf067;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus"></i>
+                        fa-plus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf067;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus-circle"></i>
-              fa-plus-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf055;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus-circle"></i>
+                        fa-plus-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf055;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus-square"></i>
-              fa-plus-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0fe;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus-square"></i>
+                        fa-plus-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus-square-o"></i>
-              fa-plus-square-o
+                        <span class="text-muted">[&amp;#xf0fe;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf196;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use plus-square-o"></i>
+                        fa-plus-square-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use podcast"></i>
-              fa-podcast
+                        <span class="text-muted">[&amp;#xf196;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ce;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use podcast"></i>
+                        fa-podcast
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2ce;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use power-off"></i>
-              fa-power-off
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf011;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use power-off"></i>
+                        fa-power-off
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf011;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use print"></i>
-              fa-print
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf02f;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use print"></i>
+                        fa-print
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use product-hunt"></i>
-              fa-product-hunt
+                        <span class="text-muted">[&amp;#xf02f;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf288;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use product-hunt"></i>
+                        fa-product-hunt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf288;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use puzzle-piece"></i>
-              fa-puzzle-piece
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf12e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use puzzle-piece"></i>
+                        fa-puzzle-piece
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use qq"></i>
-              fa-qq
+                        <span class="text-muted">[&amp;#xf12e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use qq"></i>
+                        fa-qq
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1d6;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use qrcode"></i>
-              fa-qrcode
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf029;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use qrcode"></i>
+                        fa-qrcode
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf029;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use question"></i>
-              fa-question
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf128;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use question"></i>
+                        fa-question
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf128;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use question-circle"></i>
-              fa-question-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf059;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use question-circle"></i>
+                        fa-question-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use question-circle-o"></i>
-              fa-question-circle-o
+                        <span class="text-muted">[&amp;#xf059;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf29c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use question-circle-o"></i>
+                        fa-question-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use quora"></i>
-              fa-quora
+                        <span class="text-muted">[&amp;#xf29c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use quora"></i>
+                        fa-quora
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2c4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use quote-left"></i>
-              fa-quote-left
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf10d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use quote-left"></i>
+                        fa-quote-left
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf10d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use quote-right"></i>
-              fa-quote-right
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf10e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use quote-right"></i>
+                        fa-quote-right
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ra"></i>
-              fa-ra
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d0;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf10e;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ra"></i>
+                        fa-ra
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use random"></i>
-              fa-random
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf074;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use random"></i>
+                        fa-random
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ravelry"></i>
-              fa-ravelry
+                        <span class="text-muted">[&amp;#xf074;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ravelry"></i>
+                        fa-ravelry
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rebel"></i>
-              fa-rebel
+                        <span class="text-muted">[&amp;#xf2d9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rebel"></i>
+                        fa-rebel
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use recycle"></i>
-              fa-recycle
+                        <span class="text-muted">[&amp;#xf1d0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use recycle"></i>
+                        fa-recycle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use reddit"></i>
-              fa-reddit
+                        <span class="text-muted">[&amp;#xf1b8;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use reddit"></i>
+                        fa-reddit
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use reddit-alien"></i>
-              fa-reddit-alien
+                        <span class="text-muted">[&amp;#xf1a1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf281;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use reddit-alien"></i>
+                        fa-reddit-alien
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use reddit-square"></i>
-              fa-reddit-square
+                        <span class="text-muted">[&amp;#xf281;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use reddit-square"></i>
+                        fa-reddit-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1a2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use refresh"></i>
-              fa-refresh
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf021;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use refresh"></i>
+                        fa-refresh
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use registered"></i>
-              fa-registered
+                        <span class="text-muted">[&amp;#xf021;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf25d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use registered"></i>
+                        fa-registered
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf25d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use remove"></i>
-              fa-remove
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf00d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use remove"></i>
+                        fa-remove
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf00d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use renren"></i>
-              fa-renren
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf18b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use renren"></i>
+                        fa-renren
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf18b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use reorder"></i>
-              fa-reorder
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use reorder"></i>
+                        fa-reorder
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use repeat"></i>
-              fa-repeat
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf01e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use repeat"></i>
+                        fa-repeat
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf01e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use reply"></i>
-              fa-reply
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf112;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use reply"></i>
+                        fa-reply
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf112;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use reply-all"></i>
-              fa-reply-all
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf122;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use reply-all"></i>
+                        fa-reply-all
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use resistance"></i>
-              fa-resistance
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d0;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf122;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use resistance"></i>
+                        fa-resistance
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use retweet"></i>
-              fa-retweet
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf079;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use retweet"></i>
+                        fa-retweet
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf079;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rmb"></i>
-              fa-rmb
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf157;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rmb"></i>
+                        fa-rmb
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf157;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use road"></i>
-              fa-road
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf018;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use road"></i>
+                        fa-road
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf018;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rocket"></i>
-              fa-rocket
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf135;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rocket"></i>
+                        fa-rocket
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf135;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rotate-left"></i>
-              fa-rotate-left
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0e2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rotate-left"></i>
+                        fa-rotate-left
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0e2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rotate-right"></i>
-              fa-rotate-right
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf01e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rouble"></i>
-              fa-rouble
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf158;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rotate-right"></i>
+                        fa-rotate-right
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf01e;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rouble"></i>
+                        fa-rouble
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf158;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rss"></i>
-              fa-rss
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf09e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rss"></i>
+                        fa-rss
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf09e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rss-square"></i>
-              fa-rss-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf143;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rss-square"></i>
+                        fa-rss-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rub"></i>
-              fa-rub
+                        <span class="text-muted">[&amp;#xf143;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf158;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rub"></i>
+                        fa-rub
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ruble"></i>
-              fa-ruble
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf158;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf158;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ruble"></i>
+                        fa-ruble
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf158;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use rupee"></i>
-              fa-rupee
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf156;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use s15"></i>
-              fa-s15
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2cd;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use rupee"></i>
+                        fa-rupee
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf156;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use safari"></i>
-              fa-safari
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use s15"></i>
+                        fa-s15
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2cd;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf267;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use safari"></i>
+                        fa-safari
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf267;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use save"></i>
-              fa-save
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0c7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use save"></i>
+                        fa-save
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0c7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use scissors"></i>
-              fa-scissors
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c4;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use scissors"></i>
+                        fa-scissors
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use scribd"></i>
-              fa-scribd
+                        <span class="text-muted">[&amp;#xf0c4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf28a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use scribd"></i>
+                        fa-scribd
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf28a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use search"></i>
-              fa-search
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf002;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use search"></i>
+                        fa-search
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf002;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use search-minus"></i>
-              fa-search-minus
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf010;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use search-minus"></i>
+                        fa-search-minus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf010;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use search-plus"></i>
-              fa-search-plus
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf00e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use search-plus"></i>
+                        fa-search-plus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sellsy"></i>
-              fa-sellsy
+                        <span class="text-muted">[&amp;#xf00e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf213;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sellsy"></i>
+                        fa-sellsy
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use send"></i>
-              fa-send
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d8;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf213;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use send-o"></i>
-              fa-send-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use send"></i>
+                        fa-send
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d8;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use server"></i>
-              fa-server
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use send-o"></i>
+                        fa-send-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf233;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use server"></i>
+                        fa-server
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf233;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use share"></i>
-              fa-share
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf064;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use share"></i>
+                        fa-share
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-alt"></i>
-              fa-share-alt
+                        <span class="text-muted">[&amp;#xf064;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-alt"></i>
+                        fa-share-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-alt-square"></i>
-              fa-share-alt-square
+                        <span class="text-muted">[&amp;#xf1e0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-alt-square"></i>
+                        fa-share-alt-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-square"></i>
-              fa-share-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf14d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-square"></i>
+                        fa-share-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf14d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-square-o"></i>
-              fa-share-square-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf045;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use share-square-o"></i>
+                        fa-share-square-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shekel"></i>
-              fa-shekel
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf20b;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf045;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sheqel"></i>
-              fa-sheqel
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf20b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shekel"></i>
+                        fa-shekel
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf20b;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sheqel"></i>
+                        fa-sheqel
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf20b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shield"></i>
-              fa-shield
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf132;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shield"></i>
+                        fa-shield
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ship"></i>
-              fa-ship
+                        <span class="text-muted">[&amp;#xf132;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf21a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ship"></i>
+                        fa-ship
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shirtsinbulk"></i>
-              fa-shirtsinbulk
+                        <span class="text-muted">[&amp;#xf21a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf214;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shirtsinbulk"></i>
+                        fa-shirtsinbulk
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shopping-bag"></i>
-              fa-shopping-bag
+                        <span class="text-muted">[&amp;#xf214;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf290;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shopping-bag"></i>
+                        fa-shopping-bag
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shopping-basket"></i>
-              fa-shopping-basket
+                        <span class="text-muted">[&amp;#xf290;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf291;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shopping-basket"></i>
+                        fa-shopping-basket
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf291;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shopping-cart"></i>
-              fa-shopping-cart
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf07a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shopping-cart"></i>
+                        fa-shopping-cart
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use shower"></i>
-              fa-shower
+                        <span class="text-muted">[&amp;#xf07a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2cc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use shower"></i>
+                        fa-shower
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2cc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-in"></i>
-              fa-sign-in
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf090;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-in"></i>
+                        fa-sign-in
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-language"></i>
-              fa-sign-language
+                        <span class="text-muted">[&amp;#xf090;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-language"></i>
+                        fa-sign-language
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-out"></i>
-              fa-sign-out
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf08b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-out"></i>
+                        fa-sign-out
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf08b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use signal"></i>
-              fa-signal
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf012;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use signal"></i>
+                        fa-signal
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use signing"></i>
-              fa-signing
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2a7;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf012;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use simplybuilt"></i>
-              fa-simplybuilt
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use signing"></i>
+                        fa-signing
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2a7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf215;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use simplybuilt"></i>
+                        fa-simplybuilt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf215;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sitemap"></i>
-              fa-sitemap
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e8;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sitemap"></i>
+                        fa-sitemap
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use skyatlas"></i>
-              fa-skyatlas
+                        <span class="text-muted">[&amp;#xf0e8;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf216;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use skyatlas"></i>
+                        fa-skyatlas
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf216;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use skype"></i>
-              fa-skype
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf17e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use skype"></i>
+                        fa-skype
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use slack"></i>
-              fa-slack
+                        <span class="text-muted">[&amp;#xf17e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf198;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use slack"></i>
+                        fa-slack
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sliders"></i>
-              fa-sliders
+                        <span class="text-muted">[&amp;#xf198;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1de;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sliders"></i>
+                        fa-sliders
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use slideshare"></i>
-              fa-slideshare
+                        <span class="text-muted">[&amp;#xf1de;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use slideshare"></i>
+                        fa-slideshare
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use smile-o"></i>
-              fa-smile-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf118;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use smile-o"></i>
+                        fa-smile-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use snapchat"></i>
-              fa-snapchat
+                        <span class="text-muted">[&amp;#xf118;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ab;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use snapchat"></i>
+                        fa-snapchat
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use snapchat-ghost"></i>
-              fa-snapchat-ghost
+                        <span class="text-muted">[&amp;#xf2ab;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ac;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use snapchat-ghost"></i>
+                        fa-snapchat-ghost
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use snapchat-square"></i>
-              fa-snapchat-square
+                        <span class="text-muted">[&amp;#xf2ac;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ad;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use snapchat-square"></i>
+                        fa-snapchat-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use snowflake-o"></i>
-              fa-snowflake-o
+                        <span class="text-muted">[&amp;#xf2ad;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2dc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use snowflake-o"></i>
+                        fa-snowflake-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use soccer-ball-o"></i>
-              fa-soccer-ball-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1e3;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf2dc;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use soccer-ball-o"></i>
+                        fa-soccer-ball-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1e3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort"></i>
-              fa-sort
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0dc;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort"></i>
+                        fa-sort
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0dc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-alpha-asc"></i>
-              fa-sort-alpha-asc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf15d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-alpha-asc"></i>
+                        fa-sort-alpha-asc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf15d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-alpha-desc"></i>
-              fa-sort-alpha-desc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf15e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-alpha-desc"></i>
+                        fa-sort-alpha-desc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf15e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-amount-asc"></i>
-              fa-sort-amount-asc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf160;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-amount-asc"></i>
+                        fa-sort-amount-asc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf160;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-amount-desc"></i>
-              fa-sort-amount-desc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf161;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-amount-desc"></i>
+                        fa-sort-amount-desc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf161;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-asc"></i>
-              fa-sort-asc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0de;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-asc"></i>
+                        fa-sort-asc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0de;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-desc"></i>
-              fa-sort-desc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0dd;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-desc"></i>
+                        fa-sort-desc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0dd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-down"></i>
-              fa-sort-down
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0dd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-down"></i>
+                        fa-sort-down
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0dd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-numeric-asc"></i>
-              fa-sort-numeric-asc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf162;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-numeric-asc"></i>
+                        fa-sort-numeric-asc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf162;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-numeric-desc"></i>
-              fa-sort-numeric-desc
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf163;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-numeric-desc"></i>
+                        fa-sort-numeric-desc
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf163;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-up"></i>
-              fa-sort-up
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0de;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use soundcloud"></i>
-              fa-soundcloud
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sort-up"></i>
+                        fa-sort-up
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0de;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1be;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use soundcloud"></i>
+                        fa-soundcloud
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use space-shuttle"></i>
-              fa-space-shuttle
+                        <span class="text-muted">[&amp;#xf1be;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf197;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use space-shuttle"></i>
+                        fa-space-shuttle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf197;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use spinner"></i>
-              fa-spinner
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf110;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use spinner"></i>
+                        fa-spinner
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use spoon"></i>
-              fa-spoon
+                        <span class="text-muted">[&amp;#xf110;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use spoon"></i>
+                        fa-spoon
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use spotify"></i>
-              fa-spotify
+                        <span class="text-muted">[&amp;#xf1b1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1bc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use spotify"></i>
+                        fa-spotify
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1bc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use square"></i>
-              fa-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c8;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use square"></i>
+                        fa-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0c8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use square-o"></i>
-              fa-square-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf096;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use square-o"></i>
+                        fa-square-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stack-exchange"></i>
-              fa-stack-exchange
+                        <span class="text-muted">[&amp;#xf096;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf18d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stack-exchange"></i>
+                        fa-stack-exchange
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf18d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stack-overflow"></i>
-              fa-stack-overflow
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf16c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stack-overflow"></i>
+                        fa-stack-overflow
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf16c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use star"></i>
-              fa-star
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf005;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use star"></i>
+                        fa-star
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf005;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half"></i>
-              fa-star-half
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf089;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half"></i>
+                        fa-star-half
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf089;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half-empty"></i>
-              fa-star-half-empty
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf123;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half-empty"></i>
+                        fa-star-half-empty
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf123;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half-full"></i>
-              fa-star-half-full
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf123;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half-full"></i>
+                        fa-star-half-full
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf123;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half-o"></i>
-              fa-star-half-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf123;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-half-o"></i>
+                        fa-star-half-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf123;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-o"></i>
-              fa-star-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf006;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use star-o"></i>
+                        fa-star-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use steam"></i>
-              fa-steam
+                        <span class="text-muted">[&amp;#xf006;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use steam"></i>
+                        fa-steam
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use steam-square"></i>
-              fa-steam-square
+                        <span class="text-muted">[&amp;#xf1b6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1b7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use steam-square"></i>
+                        fa-steam-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1b7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use step-backward"></i>
-              fa-step-backward
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf048;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use step-backward"></i>
+                        fa-step-backward
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf048;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use step-forward"></i>
-              fa-step-forward
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf051;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use step-forward"></i>
+                        fa-step-forward
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf051;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stethoscope"></i>
-              fa-stethoscope
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f1;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stethoscope"></i>
+                        fa-stethoscope
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sticky-note"></i>
-              fa-sticky-note
+                        <span class="text-muted">[&amp;#xf0f1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf249;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sticky-note"></i>
+                        fa-sticky-note
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sticky-note-o"></i>
-              fa-sticky-note-o
+                        <span class="text-muted">[&amp;#xf249;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf24a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sticky-note-o"></i>
+                        fa-sticky-note-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf24a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stop"></i>
-              fa-stop
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf04d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stop"></i>
+                        fa-stop
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stop-circle"></i>
-              fa-stop-circle
+                        <span class="text-muted">[&amp;#xf04d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf28d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stop-circle"></i>
+                        fa-stop-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stop-circle-o"></i>
-              fa-stop-circle-o
+                        <span class="text-muted">[&amp;#xf28d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf28e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stop-circle-o"></i>
+                        fa-stop-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use street-view"></i>
-              fa-street-view
+                        <span class="text-muted">[&amp;#xf28e;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf21d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use street-view"></i>
+                        fa-street-view
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf21d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use strikethrough"></i>
-              fa-strikethrough
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0cc;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use strikethrough"></i>
+                        fa-strikethrough
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stumbleupon"></i>
-              fa-stumbleupon
+                        <span class="text-muted">[&amp;#xf0cc;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stumbleupon"></i>
+                        fa-stumbleupon
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use stumbleupon-circle"></i>
-              fa-stumbleupon-circle
+                        <span class="text-muted">[&amp;#xf1a4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1a3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use stumbleupon-circle"></i>
+                        fa-stumbleupon-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1a3;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use subscript"></i>
-              fa-subscript
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf12c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use subscript"></i>
+                        fa-subscript
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use subway"></i>
-              fa-subway
+                        <span class="text-muted">[&amp;#xf12c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf239;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use subway"></i>
+                        fa-subway
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf239;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use suitcase"></i>
-              fa-suitcase
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f2;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use suitcase"></i>
+                        fa-suitcase
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0f2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use sun-o"></i>
-              fa-sun-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf185;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use sun-o"></i>
+                        fa-sun-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use superpowers"></i>
-              fa-superpowers
+                        <span class="text-muted">[&amp;#xf185;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2dd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use superpowers"></i>
+                        fa-superpowers
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2dd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use superscript"></i>
-              fa-superscript
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf12b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use superscript"></i>
+                        fa-superscript
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use support"></i>
-              fa-support
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1cd;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf12b;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use support"></i>
+                        fa-support
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1cd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use table"></i>
-              fa-table
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ce;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use table"></i>
+                        fa-table
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ce;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tablet"></i>
-              fa-tablet
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf10a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tablet"></i>
+                        fa-tablet
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf10a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tachometer"></i>
-              fa-tachometer
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e4;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tachometer"></i>
+                        fa-tachometer
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0e4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tag"></i>
-              fa-tag
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf02b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tag"></i>
+                        fa-tag
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf02b;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tags"></i>
-              fa-tags
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf02c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tags"></i>
+                        fa-tags
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf02c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tasks"></i>
-              fa-tasks
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ae;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tasks"></i>
+                        fa-tasks
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use taxi"></i>
-              fa-taxi
+                        <span class="text-muted">[&amp;#xf0ae;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ba;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use taxi"></i>
+                        fa-taxi
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use telegram"></i>
-              fa-telegram
+                        <span class="text-muted">[&amp;#xf1ba;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c6;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use telegram"></i>
+                        fa-telegram
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use television"></i>
-              fa-television
+                        <span class="text-muted">[&amp;#xf2c6;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf26c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use television"></i>
+                        fa-television
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tencent-weibo"></i>
-              fa-tencent-weibo
+                        <span class="text-muted">[&amp;#xf26c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d5;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tencent-weibo"></i>
+                        fa-tencent-weibo
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1d5;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use terminal"></i>
-              fa-terminal
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf120;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use terminal"></i>
+                        fa-terminal
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf120;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use text-height"></i>
-              fa-text-height
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf034;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use text-height"></i>
+                        fa-text-height
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf034;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use text-width"></i>
-              fa-text-width
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf035;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use text-width"></i>
+                        fa-text-width
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf035;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use th"></i>
-              fa-th
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf00a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use th"></i>
+                        fa-th
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf00a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use th-large"></i>
-              fa-th-large
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf009;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use th-large"></i>
+                        fa-th-large
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf009;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use th-list"></i>
-              fa-th-list
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf00b;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use th-list"></i>
+                        fa-th-list
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use themeisle"></i>
-              fa-themeisle
+                        <span class="text-muted">[&amp;#xf00b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use themeisle"></i>
+                        fa-themeisle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer"></i>
-              fa-thermometer
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2c7;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf2b2;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-0"></i>
-              fa-thermometer-0
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2cb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer"></i>
+                        fa-thermometer
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2c7;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-1"></i>
-              fa-thermometer-1
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2ca;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-0"></i>
+                        fa-thermometer-0
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2cb;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-2"></i>
-              fa-thermometer-2
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2c9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-1"></i>
+                        fa-thermometer-1
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2ca;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-3"></i>
-              fa-thermometer-3
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2c8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-2"></i>
+                        fa-thermometer-2
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2c9;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-4"></i>
-              fa-thermometer-4
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2c7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-3"></i>
+                        fa-thermometer-3
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2c8;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-empty"></i>
-              fa-thermometer-empty
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-4"></i>
+                        fa-thermometer-4
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2c7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2cb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-empty"></i>
+                        fa-thermometer-empty
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-full"></i>
-              fa-thermometer-full
+                        <span class="text-muted">[&amp;#xf2cb;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-full"></i>
+                        fa-thermometer-full
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-half"></i>
-              fa-thermometer-half
+                        <span class="text-muted">[&amp;#xf2c7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-half"></i>
+                        fa-thermometer-half
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-quarter"></i>
-              fa-thermometer-quarter
+                        <span class="text-muted">[&amp;#xf2c9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2ca;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-quarter"></i>
+                        fa-thermometer-quarter
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-three-quarters"></i>
-              fa-thermometer-three-quarters
+                        <span class="text-muted">[&amp;#xf2ca;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thermometer-three-quarters"></i>
+                        fa-thermometer-three-quarters
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2c8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumb-tack"></i>
-              fa-thumb-tack
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf08d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumb-tack"></i>
+                        fa-thumb-tack
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf08d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-down"></i>
-              fa-thumbs-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf165;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-down"></i>
+                        fa-thumbs-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf165;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-o-down"></i>
-              fa-thumbs-o-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf088;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-o-down"></i>
+                        fa-thumbs-o-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf088;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-o-up"></i>
-              fa-thumbs-o-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf087;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-o-up"></i>
+                        fa-thumbs-o-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf087;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-up"></i>
-              fa-thumbs-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf164;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use thumbs-up"></i>
+                        fa-thumbs-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf164;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use ticket"></i>
-              fa-ticket
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf145;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use ticket"></i>
+                        fa-ticket
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf145;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use times"></i>
-              fa-times
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf00d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use times"></i>
+                        fa-times
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf00d;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-circle"></i>
-              fa-times-circle
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf057;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-circle"></i>
+                        fa-times-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf057;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-circle-o"></i>
-              fa-times-circle-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf05c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-circle-o"></i>
+                        fa-times-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-rectangle"></i>
-              fa-times-rectangle
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2d3;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf05c;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-rectangle-o"></i>
-              fa-times-rectangle-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2d4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-rectangle"></i>
+                        fa-times-rectangle
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2d3;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use times-rectangle-o"></i>
+                        fa-times-rectangle-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2d4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tint"></i>
-              fa-tint
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf043;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tint"></i>
+                        fa-tint
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf043;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-down"></i>
-              fa-toggle-down
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf150;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-left"></i>
-              fa-toggle-left
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf191;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-down"></i>
+                        fa-toggle-down
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf150;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-off"></i>
-              fa-toggle-off
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-left"></i>
+                        fa-toggle-left
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf191;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf204;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-off"></i>
+                        fa-toggle-off
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-on"></i>
-              fa-toggle-on
+                        <span class="text-muted">[&amp;#xf204;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf205;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-on"></i>
+                        fa-toggle-on
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf205;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-right"></i>
-              fa-toggle-right
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf152;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-right"></i>
+                        fa-toggle-right
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf152;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-up"></i>
-              fa-toggle-up
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf151;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use trademark"></i>
-              fa-trademark
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use toggle-up"></i>
+                        fa-toggle-up
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf151;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf25c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use trademark"></i>
+                        fa-trademark
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use train"></i>
-              fa-train
+                        <span class="text-muted">[&amp;#xf25c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf238;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use train"></i>
+                        fa-train
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use transgender"></i>
-              fa-transgender
+                        <span class="text-muted">[&amp;#xf238;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf224;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use transgender"></i>
+                        fa-transgender
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use transgender-alt"></i>
-              fa-transgender-alt
+                        <span class="text-muted">[&amp;#xf224;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf225;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use transgender-alt"></i>
+                        fa-transgender-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use trash"></i>
-              fa-trash
+                        <span class="text-muted">[&amp;#xf225;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1f8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use trash"></i>
+                        fa-trash
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1f8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use trash-o"></i>
-              fa-trash-o
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf014;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use trash-o"></i>
+                        fa-trash-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tree"></i>
-              fa-tree
+                        <span class="text-muted">[&amp;#xf014;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1bb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tree"></i>
+                        fa-tree
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1bb;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use trello"></i>
-              fa-trello
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf181;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use trello"></i>
+                        fa-trello
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tripadvisor"></i>
-              fa-tripadvisor
+                        <span class="text-muted">[&amp;#xf181;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf262;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tripadvisor"></i>
+                        fa-tripadvisor
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf262;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use trophy"></i>
-              fa-trophy
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf091;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use trophy"></i>
+                        fa-trophy
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf091;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use truck"></i>
-              fa-truck
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0d1;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use truck"></i>
+                        fa-truck
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use try"></i>
-              fa-try
+                        <span class="text-muted">[&amp;#xf0d1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf195;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use try"></i>
+                        fa-try
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tty"></i>
-              fa-tty
+                        <span class="text-muted">[&amp;#xf195;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tty"></i>
+                        fa-tty
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e4;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tumblr"></i>
-              fa-tumblr
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf173;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tumblr"></i>
+                        fa-tumblr
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf173;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tumblr-square"></i>
-              fa-tumblr-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf174;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tumblr-square"></i>
+                        fa-tumblr-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use turkish-lira"></i>
-              fa-turkish-lira
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf195;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf174;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use tv"></i>
-              fa-tv
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf26c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use turkish-lira"></i>
+                        fa-turkish-lira
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf195;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use twitch"></i>
-              fa-twitch
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use tv"></i>
+                        fa-tv
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf26c;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e8;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use twitch"></i>
+                        fa-twitch
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e8;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use twitter"></i>
-              fa-twitter
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf099;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use twitter"></i>
+                        fa-twitter
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf099;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use twitter-square"></i>
-              fa-twitter-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf081;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use twitter-square"></i>
+                        fa-twitter-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf081;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use umbrella"></i>
-              fa-umbrella
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e9;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use umbrella"></i>
+                        fa-umbrella
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0e9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use underline"></i>
-              fa-underline
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0cd;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use underline"></i>
+                        fa-underline
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0cd;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use undo"></i>
-              fa-undo
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0e2;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use undo"></i>
+                        fa-undo
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use universal-access"></i>
-              fa-universal-access
+                        <span class="text-muted">[&amp;#xf0e2;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf29a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use universal-access"></i>
+                        fa-universal-access
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use university"></i>
-              fa-university
+                        <span class="text-muted">[&amp;#xf29a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf19c;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use university"></i>
+                        fa-university
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf19c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use unlink"></i>
-              fa-unlink
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf127;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use unlink"></i>
+                        fa-unlink
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf127;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use unlock"></i>
-              fa-unlock
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf09c;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use unlock"></i>
+                        fa-unlock
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf09c;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use unlock-alt"></i>
-              fa-unlock-alt
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf13e;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use unlock-alt"></i>
+                        fa-unlock-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf13e;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use unsorted"></i>
-              fa-unsorted
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf0dc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use unsorted"></i>
+                        fa-unsorted
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf0dc;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use upload"></i>
-              fa-upload
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf093;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use upload"></i>
+                        fa-upload
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.5</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use usb"></i>
-              fa-usb
+                        <span class="text-muted">[&amp;#xf093;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf287;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.5</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use usb"></i>
+                        fa-usb
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf287;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use usd"></i>
-              fa-usd
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf155;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use usd"></i>
+                        fa-usd
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf155;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user"></i>
-              fa-user
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf007;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user"></i>
+                        fa-user
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-circle"></i>
-              fa-user-circle
+                        <span class="text-muted">[&amp;#xf007;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2bd;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-circle"></i>
+                        fa-user-circle
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-circle-o"></i>
-              fa-user-circle-o
+                        <span class="text-muted">[&amp;#xf2bd;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2be;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-circle-o"></i>
+                        fa-user-circle-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2be;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-md"></i>
-              fa-user-md
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0f0;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-md"></i>
+                        fa-user-md
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-o"></i>
-              fa-user-o
+                        <span class="text-muted">[&amp;#xf0f0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2c0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-o"></i>
+                        fa-user-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-plus"></i>
-              fa-user-plus
+                        <span class="text-muted">[&amp;#xf2c0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf234;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-plus"></i>
+                        fa-user-plus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-secret"></i>
-              fa-user-secret
+                        <span class="text-muted">[&amp;#xf234;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf21b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-secret"></i>
+                        fa-user-secret
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-times"></i>
-              fa-user-times
+                        <span class="text-muted">[&amp;#xf21b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf235;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use user-times"></i>
+                        fa-user-times
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf235;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use users"></i>
-              fa-users
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0c0;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use users"></i>
+                        fa-users
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use vcard"></i>
-              fa-vcard
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2bb;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf0c0;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use vcard-o"></i>
-              fa-vcard-o
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf2bc;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use vcard"></i>
+                        fa-vcard
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2bb;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use venus"></i>
-              fa-venus
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use vcard-o"></i>
+                        fa-vcard-o
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf2bc;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf221;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use venus"></i>
+                        fa-venus
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use venus-double"></i>
-              fa-venus-double
+                        <span class="text-muted">[&amp;#xf221;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf226;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use venus-double"></i>
+                        fa-venus-double
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use venus-mars"></i>
-              fa-venus-mars
+                        <span class="text-muted">[&amp;#xf226;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf228;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use venus-mars"></i>
+                        fa-venus-mars
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use viacoin"></i>
-              fa-viacoin
+                        <span class="text-muted">[&amp;#xf228;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf237;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use viacoin"></i>
+                        fa-viacoin
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use viadeo"></i>
-              fa-viadeo
+                        <span class="text-muted">[&amp;#xf237;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use viadeo"></i>
+                        fa-viadeo
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use viadeo-square"></i>
-              fa-viadeo-square
+                        <span class="text-muted">[&amp;#xf2a9;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2aa;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use viadeo-square"></i>
+                        fa-viadeo-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2aa;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use video-camera"></i>
-              fa-video-camera
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf03d;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use video-camera"></i>
+                        fa-video-camera
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use vimeo"></i>
-              fa-vimeo
+                        <span class="text-muted">[&amp;#xf03d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf27d;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use vimeo"></i>
+                        fa-vimeo
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use vimeo-square"></i>
-              fa-vimeo-square
+                        <span class="text-muted">[&amp;#xf27d;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf194;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use vimeo-square"></i>
+                        fa-vimeo-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use vine"></i>
-              fa-vine
+                        <span class="text-muted">[&amp;#xf194;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1ca;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use vine"></i>
+                        fa-vine
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1ca;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use vk"></i>
-              fa-vk
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf189;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use vk"></i>
+                        fa-vk
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-control-phone"></i>
-              fa-volume-control-phone
+                        <span class="text-muted">[&amp;#xf189;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2a0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-control-phone"></i>
+                        fa-volume-control-phone
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2a0;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-down"></i>
-              fa-volume-down
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf027;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-down"></i>
+                        fa-volume-down
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf027;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-off"></i>
-              fa-volume-off
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf026;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-off"></i>
+                        fa-volume-off
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf026;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-up"></i>
-              fa-volume-up
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf028;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use volume-up"></i>
+                        fa-volume-up
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf028;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use warning"></i>
-              fa-warning
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf071;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wechat"></i>
-              fa-wechat
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d7;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use warning"></i>
+                        fa-warning
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf071;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wechat"></i>
+                        fa-wechat
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d7;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use weibo"></i>
-              fa-weibo
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf18a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use weibo"></i>
+                        fa-weibo
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use weixin"></i>
-              fa-weixin
+                        <span class="text-muted">[&amp;#xf18a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1d7;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use weixin"></i>
+                        fa-weixin
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.3</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use whatsapp"></i>
-              fa-whatsapp
+                        <span class="text-muted">[&amp;#xf1d7;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf232;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.3</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use whatsapp"></i>
+                        fa-whatsapp
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.0</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wheelchair"></i>
-              fa-wheelchair
+                        <span class="text-muted">[&amp;#xf232;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf193;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.0</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wheelchair"></i>
+                        fa-wheelchair
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wheelchair-alt"></i>
-              fa-wheelchair-alt
+                        <span class="text-muted">[&amp;#xf193;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf29b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wheelchair-alt"></i>
+                        fa-wheelchair-alt
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wifi"></i>
-              fa-wifi
+                        <span class="text-muted">[&amp;#xf29b;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1eb;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wifi"></i>
+                        fa-wifi
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wikipedia-w"></i>
-              fa-wikipedia-w
+                        <span class="text-muted">[&amp;#xf1eb;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf266;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wikipedia-w"></i>
+                        fa-wikipedia-w
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-close"></i>
-              fa-window-close
+                        <span class="text-muted">[&amp;#xf266;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d3;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-close"></i>
+                        fa-window-close
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-close-o"></i>
-              fa-window-close-o
+                        <span class="text-muted">[&amp;#xf2d3;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-close-o"></i>
+                        fa-window-close-o
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-maximize"></i>
-              fa-window-maximize
+                        <span class="text-muted">[&amp;#xf2d4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d0;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-maximize"></i>
+                        fa-window-maximize
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-minimize"></i>
-              fa-window-minimize
+                        <span class="text-muted">[&amp;#xf2d0;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-minimize"></i>
+                        fa-window-minimize
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-restore"></i>
-              fa-window-restore
+                        <span class="text-muted">[&amp;#xf2d1;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2d2;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use window-restore"></i>
+                        fa-window-restore
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2d2;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use windows"></i>
-              fa-windows
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf17a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use windows"></i>
+                        fa-windows
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf17a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use won"></i>
-              fa-won
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf159;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wordpress"></i>
-              fa-wordpress
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use won"></i>
+                        fa-won
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf159;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf19a;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wordpress"></i>
+                        fa-wordpress
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wpbeginner"></i>
-              fa-wpbeginner
+                        <span class="text-muted">[&amp;#xf19a;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf297;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wpbeginner"></i>
+                        fa-wpbeginner
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.7</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wpexplorer"></i>
-              fa-wpexplorer
+                        <span class="text-muted">[&amp;#xf297;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2de;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.7</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wpexplorer"></i>
+                        fa-wpexplorer
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wpforms"></i>
-              fa-wpforms
+                        <span class="text-muted">[&amp;#xf2de;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf298;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wpforms"></i>
+                        fa-wpforms
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf298;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use wrench"></i>
-              fa-wrench
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf0ad;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use wrench"></i>
+                        fa-wrench
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf0ad;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use xing"></i>
-              fa-xing
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf168;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use xing"></i>
+                        fa-xing
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf168;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use xing-square"></i>
-              fa-xing-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf169;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use xing-square"></i>
+                        fa-xing-square
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use y-combinator"></i>
-              fa-y-combinator
+                        <span class="text-muted">[&amp;#xf169;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf23b;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use y-combinator"></i>
+                        fa-y-combinator
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use y-combinator-square"></i>
-              fa-y-combinator-square
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d4;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf23b;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use yahoo"></i>
-              fa-yahoo
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use y-combinator-square"></i>
+                        fa-y-combinator-square
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf19e;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use yahoo"></i>
+                        fa-yahoo
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.4</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use yc"></i>
-              fa-yc
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf23b;]</span>
-            </div>
+                        <span class="text-muted">[&amp;#xf19e;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.1</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use yc-square"></i>
-              fa-yc-square
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf1d4;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.4</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use yc"></i>
+                        fa-yc
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf23b;]</span>
+                        </div>
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.2</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use yelp"></i>
-              fa-yelp
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.1</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use yc-square"></i>
+                        fa-yc-square
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf1d4;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf1e9;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.2</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use yelp"></i>
+                        fa-yelp
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf1e9;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use yen"></i>
-              fa-yen
-               <span class="text-muted">(alias)</span>
-              <span class="text-muted">[&amp;#xf157;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
-              <small class="text-muted pull-right">4.6</small>
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use yoast"></i>
-              fa-yoast
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use yen"></i>
+                        fa-yen
+                        <span class="text-muted">(alias)</span>
+                        <span class="text-muted">[&amp;#xf157;]</span>
+                        </div>
 
-              <span class="text-muted">[&amp;#xf2b1;]</span>
-            </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <small class="text-muted pull-right">4.6</small>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use yoast"></i>
+                        fa-yoast
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf2b1;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use youtube"></i>
-              fa-youtube
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf167;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use youtube"></i>
+                        fa-youtube
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf167;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use youtube-play"></i>
-              fa-youtube-play
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf16a;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use youtube-play"></i>
+                        fa-youtube-play
 
-            <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
+                        <span class="text-muted">[&amp;#xf16a;]</span>
+                        </div>
 
-              <i class="fa fa-fw" aria-hidden="true" title="Copy to use youtube-square"></i>
-              fa-youtube-square
+                        <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
 
-              <span class="text-muted">[&amp;#xf166;]</span>
-            </div>
+                        <i class="fa fa-fw" aria-hidden="true" title="Copy to use youtube-square"></i>
+                        fa-youtube-square
 
-          </div>
-    </div>
+                        <span class="text-muted">[&amp;#xf166;]</span>
+                        </div>
+
+                    </div>
+                </div>
     <!--end::Row-->
-
+            </div>
+        </div>
 
 
 @endsection

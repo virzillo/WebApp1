@@ -35,16 +35,19 @@ Route::get('/dashboard', 'PagesController@index');
 
     Route::get('/servizi', 'ServiceController@index')->name('servizi');
     Route::get('/servizi/crea', 'ServiceController@create')->name('crea.servizio');
-    Route::get('/servizi/{id}', 'ServiceController@show')->name('modifica.servizio');
+    Route::get('/servizi/{service}', 'ServiceController@edit')->name('modifica.servizio');
+    Route::post('/servizi', 'ServiceController@store')->name('salva.servizio');
+    Route::delete('/servizi/{service}', 'ServiceController@destroy')->name('elimina.servizio');
+
 
 
     Route::get('/categorie', 'CategoryController@index')->name('categorie');
     Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
-    Route::get('/categorie/{id}', 'CategoryController@show')->name('mostra.categoria');
+    Route::get('/categorie/{category}', 'CategoryController@show')->name('mostra.categoria');
 
-    Route::post('/categorie', 'CategoryController@store')->name('crea.categoria');
-    Route::post('/categorie/{id}/modifica', 'CategoryController@update')->name('modifica.categoria');
-    Route::delete('/categorie/{id}/elimina', 'CategoryController@destroy')->name('elimina.categoria');
+    Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
+    Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
+    Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
 
 
@@ -58,7 +61,7 @@ Route::get('/dashboard', 'PagesController@index');
     Route::get('/icons/lineawesome', 'PagesController@lineawesome');
     Route::get('/icons/socicons', 'PagesController@socicons');
     Route::get('/icons/svg', 'PagesController@svg');
-    Route::get('/icons/svg', 'PagesController@shareserviceicons');
+    Route::get('/icons/shareserviceicons', 'PagesController@shareserviceicons');
 
 });
 
