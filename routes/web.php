@@ -35,15 +35,16 @@ Route::get('/dashboard', 'PagesController@index');
 
     Route::get('/servizi', 'ServiceController@index')->name('servizi');
     Route::get('/servizi/crea', 'ServiceController@create')->name('crea.servizio');
-    Route::get('/servizi/{service}', 'ServiceController@edit')->name('modifica.servizio');
+    Route::get('/servizi/{service}', 'ServiceController@edit')->name('mostra.servizio');
     Route::post('/servizi', 'ServiceController@store')->name('salva.servizio');
+    Route::put('/servizi/{service}', 'ServiceController@update')->name('modifica.servizio');
     Route::delete('/servizi/{service}', 'ServiceController@destroy')->name('elimina.servizio');
 
 
 
     Route::get('/categorie', 'CategoryController@index')->name('categorie');
     Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
-    Route::get('/categorie/{category}', 'CategoryController@show')->name('mostra.categoria');
+    Route::get('/categorie/{category}', 'CategoryController@edit')->name('mostra.categoria');
 
     Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
     Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');

@@ -176,6 +176,65 @@
         </div>
     </div>
 
+    <div class="col-xl-4">
+        <div class="card card-custom gutter-b card-stretch">
+            <div class="card-header">
+                <div class="card-title">
+                    <h3 class="card-label">Modulo modifica</h3>
+                </div>
+            </div>
+            <div class="card-body">
+                <!--begin::Example-->
+             @isset($edicategory)
+             <form method="POST" action="{{ route('modifica.categoria' , $category->id) }}">
+
+                @method('PUT')
+                @csrf
+                <div class="card-body">
+                    <div class="form-group row">
+
+                            <label>Titolo:</label>
+                            <input type="text" class="form-control form-control-lg form-control-solid" placeholder="inserisci titolo" name="titolo" value="{{$category->titolo}}">
+                            <span class="form-text text-muted"> </span>
+
+                            <label>Pubblicato:</label>
+                            <select class="form-control form-control-lg form-control-solid kt-select2 select2" id="kt_select2_1" name="pubblicato" >
+                                @if ($category->pubblicato=='si')
+                                     <option value="si">si</option>
+                                    <option value="no">no</option>
+
+                                @else
+                                    <option value="no">no</option>
+                                    <option value="si">si</option>
+
+                                @endif
+                            </select>
+
+                    </div>
+
+
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-6 text-right">
+                            {{-- <button type="reset" class="btn btn-danger">Delete</button> --}}
+                            <button type="submit" class="btn btn-primary mr-2">Save</button>
+                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                @endisset($editcategory)
+
+
+
+                <!--end::Example-->
+            </div>
+        </div>
+    </div>
 
 </div>
 

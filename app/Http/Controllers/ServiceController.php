@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -49,7 +56,7 @@ class ServiceController extends Controller
             'alert-type' => 'success'
         );
         // return back()->with($notification);
-        return redirect(action('ServicesController@index'))->with($notification);
+        return redirect(action('ServiceController@index'))->with($notification);
     }
 
     /**
@@ -73,7 +80,8 @@ class ServiceController extends Controller
     {
         $page_title = 'Modifica Servizio';
         $page_description = 'Some description for the page';
-        return view('pages.services.edit',compact('page_title','page_description'));
+        $service=Service::find($service->id);
+        return view('pages.services.edit',compact('service','page_title','page_description'));
 
     }
 
@@ -86,7 +94,22 @@ class ServiceController extends Controller
      */
     public function update(Request $request, Service $service)
     {
-        //
+        $this->validateRequest();
+
+        $service = Service::find($service->id);
+        $service->titolo = $request->get('titolo');
+        $service->icona = $request->get('icona');
+        $service->descrizione = $request->get('descrizione');
+
+        $service->pubblicato = $request->get('pubblicato');
+
+        $service->save();
+
+        $notification = array(
+            'message' => 'Servizio modificato con successo!',
+            'alert-type' => 'success'
+        );
+        return redirect(action('ServiceController@index'))->with($notification);
     }
 
     /**
@@ -101,7 +124,7 @@ class ServiceController extends Controller
         $service->delete();
 
         $notification = array(
-            'message' => 'Categoria Eliminato con successo!',
+            'message' => 'Servizio eliminato con successo!',
             'alert-type' => 'success'
         );
 
