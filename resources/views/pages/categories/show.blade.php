@@ -31,7 +31,7 @@
                 <div class="col-lg-6">
                     <label>Pubblicato:</label>
                     <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato" >
-                        @if ($category->titolo=='si')
+                        @if ($category->pubblicato=='si')
                              <option value="si">si</option>
                             <option value="no">no</option>
 
