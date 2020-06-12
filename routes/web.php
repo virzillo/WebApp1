@@ -42,15 +42,15 @@ Route::get('/dashboard', 'PagesController@index');
 
 
 
-    Route::get('/categorie', 'CategoryController@index')->name('categorie');
-    Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
-    Route::get('/categorie/{category}', 'CategoryController@edit')->name('mostra.categoria');
+    // Route::get('/categorie', 'CategoryController@index')->name('categorie');
+    // Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
+    // Route::get('/categorie/{category}', 'CategoryController@edit')->name('mostra.categoria');
 
-    Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
-    Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
-    Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
+    // Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
+    // Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
+    // Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
-
+    Route::resource('category' , 'CategoryController');
 
     // Demo routes
     Route::get('/datatables', 'PagesController@datatables');

@@ -18,7 +18,7 @@
         </div>
     </div>
     <!--begin::Form-->
-    <form method="POST" action="{{ route('salva.categoria') }}">
+    <form method="POST" action="{{ route('category.store') }}">
 
         @csrf
         <div class="card-body">
@@ -66,80 +66,6 @@
         </div>
     </form>
     <!--end::Form-->
-</div>
-
-<div class="row">
-    <div class="col-xl-12">
-        <!--begin::Card-->
-        <div class="card card-custom gutter-b card-stretch">
-            <div class="card-header">
-                <div class="card-title">
-                    <h3 class="card-label">Base Examples</h3>
-                </div>
-            </div>
-            <div class="card-body">
-                <!--begin::Example-->
-                <table class="table table-bordered table-hover" id="kt_datatable">
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>ID</th>
-                            <th>Titolo</th>
-                            <th>Pubbicato</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($categories as $category)
-                        <tr>
-                            <td></td>
-                            <td>{{$category->id}}</td>
-                            <td>{{$category->titolo}}</td>
-                            <td>
-                                @if ($category->pubblicato === 'si')
-                                <span class="label label-lg font-weight-bold label-light-success label-inline">si</span>
-
-                                @else
-                                <span class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
-                                @endif
-                            </td>
-
-
-                            <td class="warning" nowrap>
-                                <form action="{{route('elimina.categoria', $category->id)}}" method="POST">
-                                    @method('delete')
-                                    @csrf
-
-                                    {{-- <a href="progetti/{{$user->id}}" class="btn btn-sm btn-clean btn-icon mr-2"
-                                    title="Visualizza"> --}}
-                                    <a href="{{route('mostra.categoria', $category->id)}}"
-                                        class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
-                                        <span class="svg-icon svg-icon-md">
-                                            <?php echo Metronic::getSVG("media/svg/icons/General/Edit.svg"); ?>
-                                        </span>
-                                    </a>
-                                    <button type="submit" class="btn btn-sm btn-clean btn-icon " id="conferma"
-                                        onclick="ConfirmDelete()">
-                                        <span class="svg-icon svg-icon-md">
-                                            {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
-                                        </span>
-                                    </button>
-
-                                </form>
-
-                            </td>
-                        </tr>
-                        @endforeach
-
-
-                    </tbody>
-                </table>
-                <!--end::Example-->
-            </div>
-        </div>
-        <!--end::Card-->
-    </div>
-
 </div>
 
 

@@ -69,9 +69,8 @@ class CategoryController extends Controller
     {
         $page_title = 'Visualizza Categoria';
         $page_description = 'Some description for the page';
-        $categories=Category::all();
-        $editcategory=Category::find($category->id);
-        return view('pages.categories.show',compact('categories','editcategory','page_title','page_description'));
+        $category=Category::find($category->id);
+        return view('pages.categories.show',compact('category','page_title','page_description'));
 
     }
 
@@ -83,10 +82,7 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-        $page_title = 'Visualizza Categoria';
-        $page_description = 'Some description for the page';
-        $category=Category::find($category->id);
-        return view('pages.categories.edit',compact('category','page_title','page_description'));
+
     }
 
     /**
@@ -107,7 +103,7 @@ class CategoryController extends Controller
         $category->save();
 
         $notification = array(
-            'message' => 'Corso modificato con successo!',
+            'message' => 'Categoria modificata con successo!',
             'alert-type' => 'success'
         );
         return redirect(action('CategoryController@index'))->with($notification);
@@ -125,7 +121,7 @@ class CategoryController extends Controller
         $category->delete();
 
         $notification = array(
-            'message' => 'Categoria Eliminato con successo!',
+            'message' => 'Categoria eliminata con successo!',
             'alert-type' => 'success'
         );
 

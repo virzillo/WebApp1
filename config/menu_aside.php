@@ -93,11 +93,11 @@ return [
 
                         [
                             'title' => 'Visualizza',
-                            'page' => 'admin/categorie'
+                            'page' => 'admin/category'
                         ],
                         [
                             'title' => 'Inserisci',
-                            'page' => 'admin/categorie/crea'
+                            'page' => 'admin/category/create'
                         ],
 
                     ]
