@@ -141,7 +141,15 @@ return [
                 ],
 
             ]
+        ],[
+            'title' => 'Test',
+            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+            'bullet' => 'dot',
+            'title' => 'ShareServicePack',
+             'page' => 'admin/icons/shareserviceicons'
+
         ],
+
 
 
 
