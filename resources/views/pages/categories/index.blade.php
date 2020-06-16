@@ -5,6 +5,55 @@
 {{-- Content --}}
 @section('content')
 
+<div class="modal" tabindex="-1" role="dialog" id="createCategoryModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Crea Category</h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <form action="{{ route('category.store') }}" method="POST">
+                @csrf
+                <div class="modal-body">
+                    <div class="form-group">
+
+                    <select class="form-control" name="parent_id">
+                        <option value="">Select Parent Category</option>
+
+                        @foreach($categories as $category)
+                            <option value="{{ $category->id }}">{{ $category->titolo }}</option>
+                        @endforeach
+                    </select>
+                </div>
+
+
+                    <div class="form-group">
+                        <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label>Pubblicato:</label>
+                        <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
+                            <option value="si">si</option>
+                           <option value="no">no</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+
 <div class="alert alert-custom alert-white alert-shadow fade show gutter-b" role="alert">
     <div class="alert-icon">
     </div>
@@ -25,9 +74,13 @@
                         <span class="d-block text-muted pt-2 font-size-sm">User management made easy</span></h3>
                 </div>
                 <div class="card-toolbar">
-
+                    {{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createCategoryModal">
+                        Launch demo modal
+                      </button> --}}
                     <!--begin::Button-->
-                    <a href="{{ route('category.create') }}" class="btn btn-primary font-weight-bolder">
+                    {{-- <a href="{{ route('category.create') }}" class="btn btn-primary font-weight-bolder"> --}}
+                        <a type="button" class="btn btn-sm btn-primary mr-1 create-category"
+                            data-toggle="modal" data-target="#createCategoryModal">
                         <span class="svg-icon svg-icon-md">
                             <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -88,6 +141,7 @@
                                             {{ Metronic::getSVG("media/svg/icons/General/Edit.svg")}}
                                         </span>
                                     </a>
+
                                     <button type="submit" class="btn btn-sm btn-clean btn-icon "
                                         onclick="ConfirmDelete()">
                                         <span class="svg-icon svg-icon-md">
@@ -150,5 +204,7 @@
     $(document).ready(function() {
         $('.select2').select2();
     });
+
 </script>
+
 @endsection

@@ -24,8 +24,11 @@ class CategoryController extends Controller
     {
         $page_title = 'Categorie';
         $page_description = 'Some description for the page';
-        $categories=Category::all();
+        $categories = Category::with('children')->whereNull('parent_id')->get();
         return view('pages.categories.index',compact('categories','page_title','page_description'));
+
+
+
 
     }
 
@@ -38,8 +41,14 @@ class CategoryController extends Controller
     {
         $page_title = 'Crea Categoria';
         $page_description = 'Some description for the page';
-        $categories=Category::all();
-        return view('pages.categories.create',compact('categories','page_title','page_description'));
+        // $categories=Category::all();
+        // return view('pages.categories.create',compact('categories','page_title','page_description'));
+
+        $categories = Category::with('children')->whereNull('parent_id')->get();
+
+        return view('pages.categories.create')->with([
+            'categories'  => $categories
+        ]);
 
     }
 
@@ -51,12 +60,16 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
+
+
         Category::create($this->validateRequest());
         $notification = array(
             'message' => 'Corso inserito con successo!',
             'alert-type' => 'success'
         );
         return back()->with($notification);
+
+
     }
 
     /**
@@ -70,7 +83,8 @@ class CategoryController extends Controller
         $page_title = 'Visualizza Categoria';
         $page_description = 'Some description for the page';
         $category=Category::find($category->id);
-        return view('pages.categories.show',compact('category','page_title','page_description'));
+        $categories=Category::with('children')->where('parent_id', $category->id )->get();
+        return view('pages.categories.show',compact('category','categories','page_title','page_description'));
 
     }
 
@@ -115,10 +129,31 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy( $category)
+    public function destroy( Category $category)
     {
-        $category = Category::find($category->id);
+
+        // dd($category);
+        if ($category->children) {
+            foreach ($category->children()->with('projects')->get() as $child) {
+                foreach ($child->projects as $project) {
+                    $project->update(['category_id' => NULL]);
+                }
+            }
+
+            $category->children()->delete();
+        }
+
+        foreach ($category->projects as $project) {
+            $project->update(['category_id' => NULL]);
+        }
+
         $category->delete();
+
+        // return redirect()->route('category.index')->withSuccess('You have successfully deleted a Category!');
+
+
+        // $category = Category::find($category->id);
+        // $category->delete();
 
         $notification = array(
             'message' => 'Categoria eliminata con successo!',
@@ -132,9 +167,9 @@ class CategoryController extends Controller
     {
 
         return  request()->validate([
-            'titolo' => 'required|min:2',
+            'titolo' => 'required|min:3|max:255|string',
             'pubblicato' => 'required',
-
+            'parent_id' => 'sometimes|nullable|numeric'
         ]);
     }
 }
