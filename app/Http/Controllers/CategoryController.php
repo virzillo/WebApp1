@@ -80,11 +80,11 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        $page_title = 'Visualizza Categoria';
-        $page_description = 'Some description for the page';
-        $category=Category::find($category->id);
+        $cat=Category::find($category->id);
         $categories=Category::with('children')->where('parent_id', $category->id )->get();
-        return view('pages.categories.show',compact('category','categories','page_title','page_description'));
+        $page_title = 'Categoria '. $cat->titolo;
+        $page_description = 'Inserisci sottocategorie';
+        return view('pages.categories.show',compact('cat','categories','page_title','page_description'));
 
     }
 

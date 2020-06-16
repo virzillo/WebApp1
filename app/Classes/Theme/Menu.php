@@ -446,6 +446,8 @@ class Menu
         if (is_array($item)) {
             foreach ($item as $each) {
                 if (self::isActiveVerMenuItem($each, $page, $rec++)) {
+
+
                     return true;
                 }
             }
@@ -461,15 +463,20 @@ class Menu
             return false;
         }
 
+
+
+
         self::checkRecursion($rec);
 
         if (isset($item['page']) && $item['page'] == $page) {
             return true;
         }
 
+
         if (is_array($item)) {
             foreach ($item as $each) {
                 if (self::isActiveHorMenuItem($each, $page, $rec++)) {
+
                     return true;
                 }
             }

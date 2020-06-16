@@ -21,14 +21,14 @@
                 <div class="modal-body">
                     <div class="form-group">
 
-                    <select class="form-control" name="parent_id">
-                        <option value="">Select Parent Category</option>
+                        <select class="form-control" name="parent_id">
+                            <option value="">Select Parent Category</option>
 
-                        @foreach($categories as $category)
-                            <option value="{{ $category->id }}">{{ $category->titolo }}</option>
-                        @endforeach
-                    </select>
-                </div>
+                            @foreach($categories as $category)
+                                <option value="{{ $category->id }}">{{ $category->titolo }}</option>
+                            @endforeach
+                        </select>
+                    </div>
 
 
                     <div class="form-group">
@@ -39,7 +39,7 @@
                         <label>Pubblicato:</label>
                         <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
                             <option value="si">si</option>
-                           <option value="no">no</option>
+                            <option value="no">no</option>
                         </select>
                     </div>
                 </div>
@@ -48,24 +48,24 @@
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </div>
+            </form>
+
         </div>
-        </form>
     </div>
 </div>
 
 
-<div class="alert alert-custom alert-white alert-shadow fade show gutter-b" role="alert">
+{{-- <div class="alert alert-custom alert-white alert-shadow fade show gutter-b" role="alert">
     <div class="alert-icon">
     </div>
     <div class="alert-text">
         Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and
         toolkit.
         For more info visit
-        <a class="font-weight-bold" href="https://fontawesome.com/" target="_blank">Font Awesome's Home</a>.
     </div>
-</div>
+</div> --}}
 <div class="row">
-    <div class="col-xl-12">
+    <div class="col-xl-8">
         <div class="card card-custom">
             <!--begin::Header-->
             <div class="card-header flex-wrap border-0 pt-6 pb-0">
@@ -78,9 +78,10 @@
                         Launch demo modal
                       </button> --}}
                     <!--begin::Button-->
-                    {{-- <a href="{{ route('category.create') }}" class="btn btn-primary font-weight-bolder"> --}}
-                        <a type="button" class="btn btn-sm btn-primary mr-1 create-category"
-                            data-toggle="modal" data-target="#createCategoryModal">
+                    {{-- <a href="{{ route('category.create') }}" class="btn
+                    btn-primary font-weight-bolder"> --}}
+                    <a type="button" class="btn btn-sm btn-primary mr-1 create-category" data-toggle="modal"
+                        data-target="#createCategoryModal">
                         <span class="svg-icon svg-icon-md">
                             <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -115,44 +116,48 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($categories as $category)
-                        <tr>
-                            <td></td>
-                            <td>{{$category->id}}</td>
-                            <td>{{$category->titolo}}</td>
-                            <td>
-                                @if ($category->pubblicato === 'si')
-                                <span class="label label-lg font-weight-bold label-light-success label-inline">si</span>
+                        @foreach($categories as $category)
+                            <tr>
+                                <td></td>
+                                <td>{{ $category->id }}</td>
+                                <td>{{ $category->titolo }}</td>
+                                <td>
+                                    @if($category->pubblicato === 'si')
+                                        <span
+                                            class="label label-lg font-weight-bold label-light-success label-inline">si</span>
 
-                                @else
-                                <span class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
-                                @endif
-                            </td>
+                                    @else
+                                        <span
+                                            class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
+                                    @endif
+                                </td>
 
 
-                            <td class="warning" nowrap>
-                                <form action="{{route('category.destroy', $category->id)}}" method="POST">
-                                    @method('delete')
-                                    @csrf
+                                <td class="warning" nowrap>
+                                    <form
+                                        action="{{ route('category.destroy', $category->id) }}"
+                                        method="POST">
+                                        @method('delete')
+                                        @csrf
 
-                                    <a href="{{route('category.show', $category->id)}}"
-                                        class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
-                                        <span class="svg-icon svg-icon-md">
-                                            {{ Metronic::getSVG("media/svg/icons/General/Edit.svg")}}
-                                        </span>
-                                    </a>
+                                        <a href="{{ route('category.show', $category->id) }}"
+                                            class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
+                                            <span class="svg-icon svg-icon-md">
+                                                {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
+                                            </span>
+                                        </a>
 
-                                    <button type="submit" class="btn btn-sm btn-clean btn-icon "
-                                        onclick="ConfirmDelete()">
-                                        <span class="svg-icon svg-icon-md">
-                                            {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
-                                        </span>
-                                    </button>
+                                        <button type="submit" class="btn btn-sm btn-clean btn-icon "
+                                            onclick="ConfirmDelete()">
+                                            <span class="svg-icon svg-icon-md">
+                                                {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
+                                            </span>
+                                        </button>
 
-                                </form>
+                                    </form>
 
-                            </td>
-                        </tr>
+                                </td>
+                            </tr>
                         @endforeach
 
 
@@ -164,6 +169,50 @@
         </div>
     </div>
 
+    <div class="col-xl-4">
+        <div class="card card-custom">
+            <div class="card-header flex-wrap border-0 pt-6 pb-0">
+                <div class="card-title">
+                    <h3 class="card-label">Aggiungi categoria</h3>
+                </div>
+            </div>
+            <div class="card-body">
+                <form action="{{ route('category.store') }}" method="POST">
+                    @csrf
+                    <div class="modal-body">
+                        <div class="form-group">
+
+                            <select class="form-control" name="parent_id">
+                                <option value="">Select Parent Category</option>
+
+                                @foreach($categories as $category)
+                                    <option value="{{ $category->id }}">{{ $category->titolo }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label>Pubblicato:</label>
+                            <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
+                                <option value="si">si</option>
+                                <option value="no">no</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </div>
 
@@ -173,7 +222,8 @@
 
 {{-- Styles Section --}}
 @section('styles')
-<link href="{{ asset('plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet"
+    type="text/css" />
 @endsection
 
 
@@ -181,12 +231,15 @@
 @section('scripts')
 
 {{-- vendors --}}
-<script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}" type="text/javascript"></script>
+<script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}"
+    type="text/javascript"></script>
 
 {{-- page scripts --}}
-<script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript">
+</script>
 
-<script src="{{ asset('js/pages/features/miscellaneous/sweetalert2.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/pages/features/miscellaneous/sweetalert2.js') }}"
+    type="text/javascript"></script>
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 <script>
     function ConfirmDelete() {
@@ -201,7 +254,7 @@
 
 </script>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.select2').select2();
     });
 
