@@ -105,7 +105,7 @@
 
 
 
-                <table class="table table-bordered table-hover" id="kt_datatable">
+                <table class="table table-bordered table-vertical-center" id="kt_datatable">
                     <thead>
                         <tr>
                             <th></th>
@@ -141,16 +141,18 @@
                                         @csrf
 
                                         <a href="{{ route('category.show', $category->id) }}"
-                                            class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
-                                            <span class="svg-icon svg-icon-md">
+                                            class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
+                                            <span class="svg-icon svg-icon-md svg-icon-primary">
                                                 {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
                                             </span>
                                         </a>
 
-                                        <button type="submit" class="btn btn-sm btn-clean btn-icon "
+                                        <button type="submit" class="btn btn-icon btn-light btn-hover-primary btn-sm"
                                             onclick="ConfirmDelete()">
-                                            <span class="svg-icon svg-icon-md">
+                                            <span class="svg-icon svg-icon-md svg-icon-primary">
+                                                <!--begin::Svg Icon | path:assets/media/svg/icons/General/Trash.svg-->
                                                 {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
+                                                <!--end::Svg Icon-->
                                             </span>
                                         </button>
 
@@ -163,6 +165,8 @@
 
                     </tbody>
                 </table>
+
+
 
             </div>
             <!--end::Body-->

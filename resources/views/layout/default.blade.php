@@ -29,6 +29,7 @@
         @endforeach
 
         {{-- Includable CSS --}}
+        @stack('styles')
         @yield('styles')
     </head>
 

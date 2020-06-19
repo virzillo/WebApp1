@@ -142,11 +142,11 @@ return [
 
             ]
         ],[
-            'title' => 'Test',
+            'title' => 'Categorie',
             'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
             'bullet' => 'dot',
-            'title' => 'ShareServicePack',
-             'page' => 'admin/icons/shareserviceicons'
+             'page' => 'admin/category',
+             'root' => true,
 
         ],
 

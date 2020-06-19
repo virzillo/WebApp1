@@ -43,7 +43,7 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request);
     }
 
     /**
@@ -89,5 +89,11 @@ class ProjectController extends Controller
     public function destroy(Project $project)
     {
         //
+    }
+
+    public function check_slug(Request $request)
+    {
+        $slug = str_slug($request->title);
+        return response()->json(['slug' => $slug]);
     }
 }

@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('admin')->group(function () {
+Route::prefix('admin')->middleware('auth')->group(function () {
 Route::get('/dashboard', 'PagesController@index');
 
     Route::get('/utenti', 'UsersController@index');
@@ -29,7 +29,8 @@ Route::get('/dashboard', 'PagesController@index');
 
     Route::view('/progetti', 'pages.projects.index');
     Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
-    Route::get('/progetti/{id}', 'ProjectController@show')->name('modifica.progetto');
+    Route::get('/progetti/{project}', 'ProjectController@show')->name('modifica.progetto');
+    Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
 
     Route::get('/articoli', 'PostController@index')->name('articoli');
 
@@ -68,7 +69,8 @@ Route::get('/dashboard', 'PagesController@index');
 
 // Quick search dummy route to display html elements in search dropdown (header search)
 Route::get('/quick-search', 'PagesController@quickSearch')->name('quick-search');
-
+Route::get('servizi', 'ProjectController@check_slug')
+  ->name('pages.check_slug');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
