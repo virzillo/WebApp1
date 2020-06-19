@@ -91,9 +91,5 @@ class ProjectController extends Controller
         //
     }
 
-    public function check_slug(Request $request)
-    {
-        $slug = str_slug($request->title);
-        return response()->json(['slug' => $slug]);
-    }
+
 }

@@ -69,8 +69,7 @@ Route::get('/dashboard', 'PagesController@index');
 
 // Quick search dummy route to display html elements in search dropdown (header search)
 Route::get('/quick-search', 'PagesController@quickSearch')->name('quick-search');
-Route::get('servizi', 'ProjectController@check_slug')
-  ->name('pages.check_slug');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

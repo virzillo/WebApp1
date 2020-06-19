@@ -44,7 +44,7 @@
                     </div>
                     <div class="form-group">
                         <label>Descrizione:</label>
-                        <textarea type="text" class="form-control" id="descrizione" placeholder="inserisci descrizione" name="descrizione" rows="5"></textarea>
+                        <textarea type="text" class="form-control" id="descrizione" placeholder="inserisci descrizione" name="descrizione" ></textarea>
                         <span class="form-text text-muted"> </span>
                     </div>
                     <div class="form-group">
