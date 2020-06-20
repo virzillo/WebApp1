@@ -22,7 +22,7 @@
         @foreach(config('layout.resources.css') as $style)
             <link href="{{ config('layout.self.rtl') ? asset(Metronic::rtlCssPath($style)) : asset($style) }}" rel="stylesheet" type="text/css"/>
         @endforeach
-
+        <link rel="stylesheet" href="{{asset('css/custom.css')}}">
         {{-- Layout Themes (used by all pages) --}}
         @foreach (Metronic::initThemes() as $theme)
             <link href="{{ config('layout.self.rtl') ? asset(Metronic::rtlCssPath($theme)) : asset($theme) }}" rel="stylesheet" type="text/css"/>

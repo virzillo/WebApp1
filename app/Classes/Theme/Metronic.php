@@ -87,6 +87,7 @@ class Metronic
         return $css_path;
     }
 
+
     /**
      * Initialize theme CSS files
      */
