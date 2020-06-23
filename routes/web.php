@@ -28,9 +28,14 @@ Route::get('/dashboard', 'PagesController@index');
     Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
 
     Route::view('/progetti', 'pages.projects.index');
+    Route::view('/progetti/show', 'pages.projects.show');
+
     Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
+
     Route::get('/progetti/{project}', 'ProjectController@show')->name('modifica.progetto');
     Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
+    Route::post('/progetti/query/{id}', 'ProjectController@query')->name('query.progetto');
+
 
     Route::get('/articoli', 'PostController@index')->name('articoli');
 
@@ -47,11 +52,11 @@ Route::get('/dashboard', 'PagesController@index');
     // Route::get('/categorie/crea', 'CategoryController@create')->name('crea.categoria');
     // Route::get('/categorie/{category}', 'CategoryController@edit')->name('mostra.categoria');
 
-    // Route::post('/categorie', 'CategoryController@store')->name('salva.categoria');
     // Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
     // Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
     Route::resource('category' , 'CategoryController');
+
 
     // Demo routes
     Route::get('/datatables', 'PagesController@datatables');

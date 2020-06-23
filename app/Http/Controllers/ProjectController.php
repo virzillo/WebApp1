@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Project;
+use App\Service;
+use App\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ProjectController extends Controller
 {
@@ -31,7 +34,11 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        return view('pages.projects.create');
+        $page_title = 'Impianti';
+        $page_description = 'Some description for the page';
+        $categories = Category::with('children')->whereNull('parent_id')->get();
+        $services=Service::all();
+        return view('pages.projects.create',compact('categories','services','page_title','page_description'));
 
     }
 
@@ -43,7 +50,36 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
+
+        $validator = Validator::make($request->all(), [
+            'titolo' => 'required|min:3|max:255|string',
+            'descrizione' => 'required|min:3',
+            'testo' => 'required|min:3',
+            'immagine' => 'required|image',
+            'slug' => 'required|min:3',
+
+            'category_id' => 'sometimes|nullable|numeric',
+            'service_id' => 'sometimes|nullable|numeric',
+            'user_id' => 'sometimes|nullable|numeric',
+        ]);
+
+        if ($validator->fails()) {
+            $notification = array(
+                'message' => 'Ci sono degli errori!',
+                'alert-type' => 'danger'
+            );
+
+            return back()
+                        ->with($notification)
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+        Project::create($this->validateRequest());
+        $notification = array(
+            'message' => 'Corso inserito con successo!',
+            'alert-type' => 'success'
+        );
+        return back()->with($notification);
     }
 
     /**
@@ -91,5 +127,31 @@ class ProjectController extends Controller
         //
     }
 
+    public function query($id)
+    {
+        if(request()->ajax())
+        {
 
+            // $data=$id;
+            $data=Category::where('parent_id', $id )->get();
+            return response()->json($data);
+        }
+    }
+
+    private function validateRequest()
+    {
+
+        return  request()->validate([
+            'titolo' => 'required|min:3|max:255|string',
+            'descrizione' => 'required|min:3',
+            'testo' => 'required|min:3',
+            'immagine' => 'required|image',
+            'slug' => 'required|min:3',
+
+            'category_id' => 'sometimes|nullable|numeric',
+            'service_id' => 'sometimes|nullable|numeric',
+            'user_id' => 'sometimes|nullable|numeric',
+
+        ]);
+    }
 }
