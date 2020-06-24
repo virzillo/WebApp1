@@ -61,7 +61,7 @@
                 <div class="col-lg-4 ">
                         <div class="form-group">
                     <label>Categoria:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_3"  name="categoria">
+                    <select class="form-control kt-select2 select2" id="kt_select2_3"  name="category_id">
                         <option value="">Seleziona una categoria</option>
                         @foreach ($categories as $category)
                         <option value="{{$category->id}}">{{$category->titolo}}</option>
@@ -73,7 +73,7 @@
                 <div class="form-group">
                     <label>Sottocategoria:</label>
 
-                    <select class="form-control kt-select2 select2" id="kt_select2_4" name="sottocategoria">
+                    <select class="form-control kt-select2 select2" id="kt_select2_4" name="parent_id">
                         <option selected="true" disabled>Scegli sottocategoria</option>
                     </select>
                 </div>

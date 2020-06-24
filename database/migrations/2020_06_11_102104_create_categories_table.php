@@ -17,7 +17,8 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->integer('parent_id')->unsigned()->nullable();
             $table->string('titolo');
-            $table->enum('pubblicato',['si','no']);
+            $table->enum('pubblicato',['on',NULL])->nullable();
+
 
             $table->timestamps();
         });

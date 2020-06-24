@@ -21,7 +21,8 @@ class CreateServicesTable extends Migration
             $table->string('immagine')->nullable();
             $table->string('icona')->nullable();
 
-            $table->enum('pubblicato',['si','no']);
+             $table->enum('pubblicato',['on',NULL])->nullable();
+
 
             $table->timestamps();
         });

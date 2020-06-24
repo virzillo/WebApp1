@@ -46,8 +46,8 @@
                     <label>Pubblicato:</label>
                     <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
 
-                        <option value="si">si</option>
-                        <option value="no">no</option>
+                        <option value="on">si</option>
+                        <option value="">no</option>
 
 
                     </select>

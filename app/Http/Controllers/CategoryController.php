@@ -46,9 +46,7 @@ class CategoryController extends Controller
 
         $categories = Category::with('children')->whereNull('parent_id')->get();
 
-        return view('pages.categories.create')->with([
-            'categories'  => $categories
-        ]);
+        return view('pages.categories.create',compact('categories','page_title','page_description'));
 
     }
 
@@ -61,10 +59,9 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
 
-
         Category::create($this->validateRequest());
         $notification = array(
-            'message' => 'Corso inserito con successo!',
+            'message' => 'Categoria inserita con successo!',
             'alert-type' => 'success'
         );
         return back()->with($notification);
@@ -168,7 +165,7 @@ class CategoryController extends Controller
 
         return  request()->validate([
             'titolo' => 'required|min:3|max:255|string',
-            'pubblicato' => 'required',
+
             'parent_id' => 'sometimes|nullable|numeric'
         ]);
     }

@@ -138,7 +138,7 @@ class ServiceController extends Controller
             'titolo' => 'required|min:2',
             'descrizione' => 'required|min:2',
             'icona' => 'required|min:2',
-            'pubblicato' => 'required',
+
 
         ]);
     }

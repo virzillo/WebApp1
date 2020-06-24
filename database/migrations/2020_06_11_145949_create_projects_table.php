@@ -32,8 +32,8 @@ class CreateProjectsTable extends Migration
             $table->string('meta_descrizione')->nullable();
             $table->string('meta_keywords')->nullable();
 
-            $table->enum('pubblicato',['si','no'])->default('no');
-            $table->enum('evidenza',['si','no'])->default('no');
+            $table->enum('pubblicato',['on',NULL])->nullable();
+            $table->enum('evidenza',['on',NULL])->nullable();
 
             $table->timestamps();
             $table->timestamp('pubblicato_il')->nullable();

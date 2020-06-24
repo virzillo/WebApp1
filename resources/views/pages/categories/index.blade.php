@@ -32,14 +32,14 @@
 
 
                     <div class="form-group">
-                        <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
+                        <input type="text" name="titolo" class="form-control" value="{{old('titolo')}}" placeholder="Category Name"
                             required>
                     </div>
                     <div class="form-group">
                         <label>Pubblicato:</label>
                         <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-                            <option value="si">si</option>
-                            <option value="no">no</option>
+                            <option value="on">si</option>
+                            <option value="">no</option>
                         </select>
                     </div>
                 </div>
@@ -122,10 +122,9 @@
                                 <td>{{ $category->id }}</td>
                                 <td>{{ $category->titolo }}</td>
                                 <td>
-                                    @if($category->pubblicato === 'si')
+                                    @if($category->pubblicato)
                                         <span
                                             class="label label-lg font-weight-bold label-light-success label-inline">si</span>
-
                                     @else
                                         <span
                                             class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
@@ -203,8 +202,8 @@
                         <div class="form-group">
                             <label>Pubblicato:</label>
                             <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-                                <option value="si">si</option>
-                                <option value="no">no</option>
+                                <option value="on">si</option>
+                                <option value="">no</option>
                             </select>
                         </div>
                     </div>

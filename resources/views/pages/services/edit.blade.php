@@ -45,12 +45,12 @@
                 <div class="col-lg-6">
                     <label>Pubblicato:</label>
                     <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-                        @if ($service->pubblicato=='si')
-                        <option value="si">si</option>
-                        <option value="no">no</option>
+                        @if ($service->pubblicato)
+                        <option value="on">si</option>
+                        <option value="">no</option>
                         @else
-                            <option value="no">no</option>
-                            <option value="si">si</option>
+                            <option value="">no</option>
+                            <option value="on">si</option>
 
                         @endif
 

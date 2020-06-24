@@ -29,8 +29,8 @@ class CreatePostsTable extends Migration
             $table->text('testo')->nullable();;
             $table->string('immagine')->nullable();
             $table->string('slug')->index();
-            $table->enum('pubblicato',['si','no'])->default('no');
-            $table->enum('evidenza',['si','no'])->default('no');
+            $table->enum('pubblicato',['on',NULL])->nullable();
+            $table->enum('evidenza',['on',NULL])->nullable();
 
             $table->string('meta_titolo')->nullable();
             $table->string('meta_descrizione')->nullable();

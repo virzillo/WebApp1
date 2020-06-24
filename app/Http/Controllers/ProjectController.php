@@ -57,6 +57,9 @@ class ProjectController extends Controller
             'testo' => 'required|min:3',
             'immagine' => 'required|image',
             'slug' => 'required|min:3',
+            'meta_titolo'=>'min:2|string',
+            'meta_descrizione'=>'min:2|string',
+            'keywords'=>'min:2|string',
 
             'category_id' => 'sometimes|nullable|numeric',
             'service_id' => 'sometimes|nullable|numeric',
@@ -74,12 +77,27 @@ class ProjectController extends Controller
                         ->withErrors($validator)
                         ->withInput();
         }
-        Project::create($this->validateRequest());
-        $notification = array(
-            'message' => 'Corso inserito con successo!',
-            'alert-type' => 'success'
-        );
-        return back()->with($notification);
+            if($request['pubblicato']=='on'){$pubblicato='si';}
+
+            $project= Project::create([
+                'titolo' => $request['titolo'],
+                'descrizione'=> $request['descrizione'],
+                'testo'=> $request['testo'],
+                'slug'=> $request['slug'],
+
+
+                'category_id'=> $request['parent_id'],
+
+                'meta_titolo'=> $request['meta_titolo'],
+                'meta_descrizione'=> $request['meta_descrizione'],
+                'keywords'=> $request['keywords'],
+
+            ]);
+            $notification = array(
+                'message' => 'Corso inserito con successo!',
+                'alert-type' => 'success'
+            );
+            return back()->with($notification);
     }
 
     /**
