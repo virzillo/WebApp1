@@ -19,8 +19,6 @@ class CreateProjectsTable extends Migration
 
             $table->foreignId('category_id')->constrained('categories');
 
-            $table->foreignId('service_id')->constrained('services');
-
 
             $table->string('titolo');
             $table->string('descrizione')->nullable();

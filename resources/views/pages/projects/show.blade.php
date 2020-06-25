@@ -179,6 +179,7 @@
 {{-- Scripts Section --}}
 @section('scripts')
 
+
 <script>
     $(document).ready(function() {
         $('.select2').select2();
@@ -192,6 +193,8 @@
             tabsize: 2,
             height: 150
         });
+        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuProgetti').addClass("menu-item-open menu-item-here");
     });
 </script>
 <script>

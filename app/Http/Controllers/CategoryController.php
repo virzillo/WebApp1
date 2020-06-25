@@ -165,7 +165,7 @@ class CategoryController extends Controller
 
         return  request()->validate([
             'titolo' => 'required|min:3|max:255|string',
-
+            'pubblicato' =>'nullable',
             'parent_id' => 'sometimes|nullable|numeric'
         ]);
     }

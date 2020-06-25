@@ -32,12 +32,12 @@
             <div class="form-group row">
                     <div class="col-lg-6">
                         <label>Titolo:</label>
-                        <input type="text" class="form-control" placeholder="inserisci titolo" id="titolo" name="titolo">
+                        <input type="text" class="form-control" placeholder="inserisci titolo" id="titolo" name="titolo" value="{{old('titolo')}}">
                         <span class="form-text text-muted"> </span>
                     </div>
                     <div class="col-lg-6">
                         <label>Slug:</label>
-                        <input type="text" class="form-control" placeholder="inserisci slug" id="slug" name="slug">
+                        <input type="text" class="form-control" placeholder="inserisci slug" id="slug" name="slug" value="{{old('slug')}}">
                     </div>
 
             </div>
@@ -46,12 +46,12 @@
         <div class="col-lg-12">
             <div class="form-group">
                 <label>Descrizione:</label>
-                <textarea  class="form-control" id="descrizione" name="descrizione" ></textarea>
+                <textarea  class="form-control" id="descrizione" name="descrizione" >{{old('descrizione')}}</textarea>
                 <span class="form-text text-muted"> </span>
             </div>
             <div class="form-group">
                 <label>Testo:</label>
-                <textarea  class="form-control" id="testo"  name="testo"></textarea>
+                <textarea  class="form-control" id="testo"  name="testo">{{old('testo')}}</textarea>
                 <span class="form-text text-muted"> </span>
             </div>
         </div>
@@ -73,23 +73,39 @@
                 <div class="form-group">
                     <label>Sottocategoria:</label>
 
-                    <select class="form-control kt-select2 select2" id="kt_select2_4" name="parent_id">
+                    <select class="form-control kt-select2 select2" id="kt_select2_4" name="sottocategoria">
                         <option selected="true" disabled>Scegli sottocategoria</option>
                     </select>
                 </div>
             </div>
-            <div class="col-lg-4">
+            {{-- <div class="col-lg-4">
                 <div class="form-group">
                     <label>Servizi:</label>
 
-                    <select class="form-control kt-select2 select2" id="kt_select2_5" name="servizi" >
+                    <select class="form-control kt-select2 select2" id="kt_select2_5" name="servizi1" >
                         <option selected="true" disabled>Scegli servizi</option>
                         @foreach ($services as $service)
                         <option value="{{$service->id}}">{{$service->titolo}}</option>
                         @endforeach
                     </select>
                 </div>
+            </div> --}}
+            </div>
         </div>
+        <div class="col-lg-12">
+            <div class="form-group">
+                <label>Servizi:</label>
+                <div class="checkbox-inline">
+                    @foreach ($services as $service)
+                    <label class="checkbox">
+                        <label class="checkbox">
+                            <input type="checkbox" name="servizi[]" value="{{$service->id}}">{{$service->titolo}}
+                            <span></span>
+                        </label>
+                    @endforeach
+
+                </div>
+                <span class="form-text text-muted"></span>
             </div>
         </div>
 
@@ -97,18 +113,18 @@
             <div class="form-group row">
                 <div class="col-lg-6">
                     <label>Meta Titolo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci meta titolo" maxlength="70" id="meta_titolo" name="meta_titolo">
+                    <input type="text" class="form-control" placeholder="inserisci meta titolo" maxlength="70" id="meta_titolo" name="meta_titolo" value="{{old('meta_titolo')}}">
                     <span class="form-text text-muted" id="meta_titolo_messaggio" > Max 70 caratteri</span>
                 </div>
                 <div class="col-lg-6">
                 <label>Meta Descrizione:</label>
-                <input type="text" class="form-control" placeholder="inserisci meta descrizione" maxlength="160" id="meta_descrizione" name="meta_descrizione">
+                <input type="text" class="form-control" placeholder="inserisci meta descrizione" maxlength="160" id="meta_descrizione" name="meta_descrizione" value="{{old('meta_descrizione')}}">
                 <span class="form-text text-muted" id="meta_descrizione_messaggio"> Max 160 caratteri </span>
                 </div>
             </div>
             <div class="form-group">
                 <label>Keywords:</label>
-                <input id="kt_tagify_1" class="form-control tagify" name='keywords' placeholder="scrivi..." value=""  data-blacklist='.NET,PHP'/>
+                <input id="kt_tagify_1" class="form-control tagify" name='meta_keywords' placeholder="scrivi..." value="{{old('meta_keywords')}}"  data-blacklist='.NET,PHP'/>
 
                 <div class="mt-3">
                     <a href="javascript:;" id="kt_tagify_1_remove" class="btn btn-sm btn-light-primary font-weight-bold">Rimuovi tags</a>
@@ -125,7 +141,7 @@
 
                     <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Carica foto">
                     <i class="fa fa-pen icon-sm text-muted"></i>
-                    <input type="file" name="immagine" accept=".png, .jpg, .jpeg"/>
+                    <input type="file" name="immagine" accept=".png, .jpg, .jpeg" value="{{old('immagine')}}"/>
                     <input type="hidden" name="profile_avatar_remove"/>
                     </label>
 

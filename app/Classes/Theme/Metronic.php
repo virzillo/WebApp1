@@ -5,6 +5,8 @@ class Metronic
 {
     public static $attrs;
     public static $classes;
+    public static $idtags;
+
 
     public static function addAttr($scope, $name, $value)
     {
@@ -15,6 +17,24 @@ class Metronic
     {
         self::$classes[$scope][] = $class;
     }
+
+    // public static function addId($scope, $idtag)
+    // {
+    //     self::$idtags[$scope][] = $idtag;
+    // }
+
+    // public static function printId($scope)
+    // {
+    //     $idtags = [];
+
+    //     if (isset(self::$idtags[$scope]) && !empty(self::$idtags[$scope])) {
+    //         foreach (self::$idtags[$scope] as $name => $value) {
+    //             $idtags[] = $name . '="' . $value . '"';
+    //         }
+    //         echo ' ' . implode(' ', $idtags) . ' ';
+    //     }
+    //     echo '';
+    // }
 
     public static function printAttrs($scope)
     {

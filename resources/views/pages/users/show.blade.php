@@ -159,5 +159,14 @@
 {{-- Scripts Section --}}
 @section('scripts')
 
+<script>
+     $(document).ready(function() {
+        $('.select2').select2();
+        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuUtenti').addClass("menu-item-open menu-item-here");
+    });
+</script>
+
+
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 @endsection

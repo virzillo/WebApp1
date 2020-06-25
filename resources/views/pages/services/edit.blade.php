@@ -45,7 +45,7 @@
                 <div class="col-lg-6">
                     <label>Pubblicato:</label>
                     <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-                        @if ($service->pubblicato)
+                        @if ($service->pubblicato=='on')
                         <option value="on">si</option>
                         <option value="">no</option>
                         @else
@@ -92,6 +92,8 @@
 <script>
     $(document).ready(function() {
         $('.select2').select2();
+        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuServizi').addClass("menu-item-open menu-item-here");
     });
 </script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>

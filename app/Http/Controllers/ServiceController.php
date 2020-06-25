@@ -49,6 +49,7 @@ class ServiceController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request);
 
         Service::create($this->validateRequest());
         $notification = array(
@@ -137,6 +138,7 @@ class ServiceController extends Controller
         return  request()->validate([
             'titolo' => 'required|min:2',
             'descrizione' => 'required|min:2',
+            'pubblicato'=>'nullable',
             'icona' => 'required|min:2',
 
 

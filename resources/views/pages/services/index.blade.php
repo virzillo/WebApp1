@@ -123,7 +123,7 @@
 
                     <td><i class="{{$service->icona}}" aria-hidden="true"></i></td>
                     <td>
-                        @if ($service->pubblicato)
+                        @if ($service->pubblicato=='on')
                         <span class="label label-lg font-weight-bold label-light-success label-inline">si</span>
 
                         @else

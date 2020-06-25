@@ -271,6 +271,8 @@
 <script>
     $(document).ready(function() {
         $('.select2').select2();
+        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuCategorie').addClass("menu-item-open menu-item-here");
     });
 </script>
 <script type="text/javascript">

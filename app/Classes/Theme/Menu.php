@@ -30,6 +30,8 @@ class Menu
         } elseif (isset($item['title'])) {
             $item_class = '';
             $item_attr = '';
+            // $item_id = '';
+
 
             if (isset($item['submenu'])) {
                 $item_class .= ' menu-item-submenu'; // m-menu__item--active
@@ -69,7 +71,7 @@ class Menu
                 $item_class .= ' menu-item-active';
             }
 
-            echo '<li class="menu-item ' . $item_class . '" aria-haspopup="true" ' . $item_attr . '>';
+            echo '<li class="menu-item ' . $item_class . '" id="Menu'. $item['title'] .'" aria-haspopup="true" ' . $item_attr . '>';
             if (isset($item['parent'])) {
                 echo '<span class="menu-link">';
             } else {

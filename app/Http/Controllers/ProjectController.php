@@ -6,6 +6,7 @@ use App\Project;
 use App\Service;
 use App\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class ProjectController extends Controller
@@ -55,21 +56,25 @@ class ProjectController extends Controller
             'titolo' => 'required|min:3|max:255|string',
             'descrizione' => 'required|min:3',
             'testo' => 'required|min:3',
-            'immagine' => 'required|image',
+            'immagine' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'slug' => 'required|min:3',
             'meta_titolo'=>'min:2|string',
             'meta_descrizione'=>'min:2|string',
             'keywords'=>'min:2|string',
 
             'category_id' => 'sometimes|nullable|numeric',
-            'service_id' => 'sometimes|nullable|numeric',
-            'user_id' => 'sometimes|nullable|numeric',
-        ]);
+            'servizio' => 'sometimes|nullable|numeric',
 
+            'pubblicato' => 'min:3',
+            'evidenza' => 'nullable',
+
+        ]);
+            dump($validator);
         if ($validator->fails()) {
+
             $notification = array(
-                'message' => 'Ci sono degli errori!',
-                'alert-type' => 'danger'
+                'message' => $validator->errors(),
+                'alert-type' => 'error'
             );
 
             return back()
@@ -77,22 +82,31 @@ class ProjectController extends Controller
                         ->withErrors($validator)
                         ->withInput();
         }
-            if($request['pubblicato']=='on'){$pubblicato='si';}
 
-            $project= Project::create([
-                'titolo' => $request['titolo'],
-                'descrizione'=> $request['descrizione'],
-                'testo'=> $request['testo'],
-                'slug'=> $request['slug'],
+            $project= new Project;
+            $project->titolo=$request['titolo'];
+            $project->descrizione=$request['descrizione'];
+            $project->testo=$request['testo'];
+            $project->slug=$request['slug'];
+
+            $project->immagine=$request['immagine'];
 
 
-                'category_id'=> $request['parent_id'],
+            $project->category_id=$request['sottocategoria'];
 
-                'meta_titolo'=> $request['meta_titolo'],
-                'meta_descrizione'=> $request['meta_descrizione'],
-                'keywords'=> $request['keywords'],
+            $project->meta_titolo=$request['meta_titolo'];
+            $project->meta_descrizione=$request['meta_descrizione'];
+            $project->meta_keywords=$request['meta_keywords'];
+            $project->pubblicato=$request['pubblicato'];
+            $project->evidenza=$request['evidenza'];
+            $project->user_id=Auth::user()->id;
 
-            ]);
+
+            if ($project->save()){
+            $project->service()->sync($request['servizi']);
+            dd($request);
+            }
+
             $notification = array(
                 'message' => 'Corso inserito con successo!',
                 'alert-type' => 'success'
