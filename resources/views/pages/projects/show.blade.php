@@ -5,38 +5,39 @@
 {{-- Content --}}
 @section('content')
 
+@push('styles')
+    <!-- include summernote css/js -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+{{-- <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script> --}}
+@endpush
 
-
-<!--begin::Card-->
-<div class="card card-custom card-stretch">
-    <!--begin::Header-->
-    <div class="card-header py-3">
-        <div class="card-title align-items-start flex-column">
-            <h3 class="card-label font-weight-bolder text-dark">Personal Information</h3>
-            <span class="text-muted font-weight-bold font-size-sm mt-1">Update your personal informaiton</span>
-        </div>
+<div class="card card-custom gutter-b ">
+    <div class="card-header">
+        <h3 class="card-title">Visualizza  progetto</h3>
         <div class="card-toolbar">
-            {{-- <button type="reset" class="btn btn-success mr-2">Save Changes</button>
-            <button type="reset" class="btn btn-secondary">Cancel</button> --}}
+
+            <form method="POST" action="{{ route('modifica.progetto', $project->id) }}">
+                @csrf
+                <button type="submit" class="btn btn-primary mr-2">Salva</button>
+
+
         </div>
     </div>
-    <!--end::Header-->
     <!--begin::Form-->
 
+<div class="card-body">
 
-    <form method="POST" action="{{ route('salva.progetto') }}">
-        @csrf
         <div class="col-lg-12">
 
             <div class="form-group row">
                     <div class="col-lg-6">
                         <label>Titolo:</label>
-                        <input type="text" class="form-control" placeholder="inserisci titolo" id="titolo" name="titolo">
+                        <input type="text" class="form-control" placeholder="inserisci titolo" id="titolo" name="titolo" value="{{$project->titolo}}">
                         <span class="form-text text-muted"> </span>
                     </div>
                     <div class="col-lg-6">
                         <label>Slug:</label>
-                        <input type="text" class="form-control" placeholder="inserisci slug" id="slug" name="slug">
+                        <input type="text" class="form-control" placeholder="inserisci slug" id="slug" name="slug" value="{{$project->slug}}">
                     </div>
 
             </div>
@@ -45,12 +46,12 @@
         <div class="col-lg-12">
             <div class="form-group">
                 <label>Descrizione:</label>
-                <textarea  class="form-control" id="descrizione" name="descrizione" ></textarea>
+                <textarea  class="form-control" id="descrizione" name="descrizione" >{{$project->descrizione}}</textarea>
                 <span class="form-text text-muted"> </span>
             </div>
             <div class="form-group">
                 <label>Testo:</label>
-                <textarea  class="form-control" id="testo"  name="testo"></textarea>
+                <textarea  class="form-control" id="testo"  name="testo">{{$project->testo}}</textarea>
                 <span class="form-text text-muted"> </span>
             </div>
         </div>
@@ -60,11 +61,15 @@
                 <div class="col-lg-6 ">
                         <div class="form-group">
                     <label>Categoria:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_3" id="categoria" name="categoria">
-                        <option value="">Seleziona una categoria</option>
-                        {{-- @foreach ($categories as $category)
+                    <select class="form-control kt-select2 select2" id="kt_select2_3"  name="category_id">
+                        <option value=""></option>
+                        @foreach ($categories as $category)
+                        @if ($project->category->parent_id==$category->id)
+                        <option value="{{$category->id}}" selected>{{$category->titolo}}</option>
+                        @else
                         <option value="{{$category->id}}">{{$category->titolo}}</option>
-                        @endforeach --}}
+                        @endif
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -72,11 +77,34 @@
                 <div class="form-group">
                     <label>Sottocategoria:</label>
 
-                    <select class="form-control kt-select2 select2" id="kt_select2_4" id="sottocategorie" name="sottocategoria">
-                        <option value=""></option>
+                    <select class="form-control kt-select2 select2" id="kt_select2_4" name="sottocategoria">
+                        <option selected="true" disabled>Scegli sottocategoria</option>
                     </select>
                 </div>
             </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="form-group">
+                <label>Servizi:</label>
+                <div class="checkbox-inline">
+                    @foreach ($services as $service)
+                    <label class="checkbox">
+                        <label class="checkbox">
+                            @foreach ($project->service as $item)
+                            @if (($item->id)==$service->id)
+                            <input type="checkbox" name="servizi[]" value="{{$service->id}}" checked>{{$service->titolo}}
+                            @endif
+                            <input type="checkbox" name="servizi[]" value="{{$service->id}}">{{$service->titolo}}
+                            @endforeach
+
+
+                            <span></span>
+                        </label>
+                    @endforeach
+
+                </div>
+                <span class="form-text text-muted"></span>
             </div>
         </div>
 
@@ -84,19 +112,22 @@
             <div class="form-group row">
                 <div class="col-lg-6">
                     <label>Meta Titolo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci meta titolo" name="meta_titolo">
-                    <span class="form-text text-muted"> </span>
+                    <input type="text" class="form-control" placeholder="inserisci meta titolo" maxlength="70" id="meta_titolo" name="meta_titolo" value="{{$project->meta_titolo}}">
+                    <span class="form-text text-muted" id="meta_titolo_messaggio" > Max 70 caratteri</span>
                 </div>
                 <div class="col-lg-6">
                 <label>Meta Descrizione:</label>
-                <input type="text" class="form-control" placeholder="inserisci meta descrizione" name="meta_descrizione">
-                <span class="form-text text-muted"> </span>
+                <input type="text" class="form-control" placeholder="inserisci meta descrizione" maxlength="160" id="meta_descrizione" name="meta_descrizione" value="{{$project->meta_descrizione}}">
+                <span class="form-text text-muted" id="meta_descrizione_messaggio"> Max 160 caratteri </span>
                 </div>
             </div>
             <div class="form-group">
                 <label>Keywords:</label>
-                <input type="text" class="form-control" placeholder="inserisci meta descrizione" name="keywords">
-                <span class="form-text text-muted"> </span>
+                <input id="kt_tagify_1" class="form-control tagify" name='meta_keywords' placeholder="scrivi..." value="{{$project->meta_keywords}}"  data-blacklist='.NET,PHP'/>
+
+                <div class="mt-3">
+                    <a href="javascript:;" id="kt_tagify_1_remove" class="btn btn-sm btn-light-primary font-weight-bold">Rimuovi tags</a>
+                </div>
             </div>
         </div>
 
@@ -109,7 +140,7 @@
 
                     <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Carica foto">
                     <i class="fa fa-pen icon-sm text-muted"></i>
-                    <input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg"/>
+                    <input type="file" name="immagine" accept=".png, .jpg, .jpeg" value="{{old('immagine')}}"/>
                     <input type="hidden" name="profile_avatar_remove"/>
                     </label>
 
@@ -132,7 +163,8 @@
                 <div class="col-3">
                     <span class="switch switch-outline switch-icon switch-success">
                         <label>
-                            <input type="checkbox" checked="checked" name="pubblicato">
+                            <input type="checkbox" checked=" {{ ($project->pubblicato==='on') ?  'checked' :  ' '}}" name="pubblicato">
+
                             <span></span>
                         </label>
                     </span>
@@ -141,7 +173,7 @@
                 <div class="col-3">
                     <span class="switch switch-outline switch-icon switch-warning">
                         <label>
-                            <input type="checkbox" checked="checked" name="evidenza">
+                             <input type="checkbox" checked=" {{ ($project->evidenza==='on') ?  'checked' :  ' '}}" name="evidenza">
                             <span></span>
                         </label>
                     </span>
@@ -179,8 +211,113 @@
 {{-- Scripts Section --}}
 @section('scripts')
 
-
 <script>
+
+
+// Class definition
+var KTTagify = function() {
+
+// Private functions
+var demo1 = function() {
+    var input = document.getElementById('kt_tagify_1'),
+        // init Tagify script on the above inputs
+        tagify = new Tagify(input, {
+            whitelist: [],
+            blacklist: [".NET", "PHP"], // &lt;-- passed as an attribute in this demo
+            // transformTag: transformTag,
+            // dropdown: {
+            //     enabled: 3,
+            // }
+        })
+
+        // function transformTag(tagData) {
+        //     var states = [
+        //         'success',
+        //         'primary',
+        //         'danger',
+        //         'success',
+        //         'warning',
+        //         'dark',
+        //         'primary',
+        //         'info'];
+
+        //     tagData.class = 'tagify__tag tagify__tag--' + states[KTUtil.getRandomInt(0, 7)];
+
+        //     if (tagData.value.toLowerCase() == 'shit') {
+        //         tagData.value = 's✲✲t'
+        //     }
+        // }
+    // "remove all tags" button event listener
+    document.getElementById('kt_tagify_1_remove').addEventListener('click', tagify.removeAllTags.bind(tagify))
+
+    // Chainable event listeners
+    tagify.on('add', onAddTag)
+        .on('remove', onRemoveTag)
+        .on('input', onInput)
+        .on('edit', onTagEdit)
+        .on('invalid', onInvalidTag)
+        .on('click', onTagClick)
+        .on('dropdown:show', onDropdownShow)
+        .on('dropdown:hide', onDropdownHide)
+
+    // tag added callback
+    function onAddTag(e) {
+        console.log("onAddTag: ", e.detail);
+        console.log("original input value: ", input.value)
+        tagify.off('add', onAddTag) // exmaple of removing a custom Tagify event
+    }
+
+    // tag remvoed callback
+    function onRemoveTag(e) {
+        console.log(e.detail);
+        console.log("tagify instance value:", tagify.value)
+    }
+
+    // on character(s) added/removed (user is typing/deleting)
+    function onInput(e) {
+        console.log(e.detail);
+        console.log("onInput: ", e.detail);
+    }
+
+    function onTagEdit(e) {
+        console.log("onTagEdit: ", e.detail);
+    }
+
+    // invalid tag added callback
+    function onInvalidTag(e) {
+        console.log("onInvalidTag: ", e.detail);
+    }
+
+    // invalid tag added callback
+    function onTagClick(e) {
+        console.log(e.detail);
+        console.log("onTagClick: ", e.detail);
+    }
+
+    function onDropdownShow(e) {
+        console.log("onDropdownShow: ", e.detail)
+    }
+
+    function onDropdownHide(e) {
+        console.log("onDropdownHide: ", e.detail)
+    }
+}
+
+
+
+return {
+    // public functions
+    init: function() {
+        demo1();
+    }
+};
+}();
+
+jQuery(document).ready(function() {
+KTTagify.init();
+});
+
+    //init select2 field e textarea toolbar
     $(document).ready(function() {
         $('.select2').select2();
         $('#testo').summernote({
@@ -230,10 +367,9 @@
                             // });
             // });
 
-
 </script>
-
 <script>
+//script per generare lo slug
     function convertToSlug(Text)
     {
         return Text
@@ -249,26 +385,34 @@
 
         $("#slug").val(Text);
     });
+
 </script>
 <script>
-    function getResults(str) {
-      $.ajax({
-            url:'{{route('query.progetto')}}',
+
+//invia la scelta della categoria ricevendo lista sottocategorie
+    $('#kt_select2_3').on('change', function() {
+        let dropdown = $('#kt_select2_4');
+        dropdown.empty();
+        dropdown.append('<option selected="true" disabled>Scegli sottocategoria</option>');
+        dropdown.prop('selectedIndex', 0);
+        var id = $(this).val() ;
+        $.ajax({
+            url:'query/'+id,
             type:'POST',
-            data: 'q=' + str,
-            dataType: 'json',
-            success: function( json ) {
-                $('#sottocategorie').append(json);
-
+            dataType:'json',
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            success: function( response ) {
+                $.each(response, function (key, entry) {
+                    dropdown.append($('<option>').attr('value', entry.id).text(entry.titolo));
+                });
             }
+
         });
-        console.log(str);
-    };
+        });
 
-
-        $( '#sottocategorie' ).keyup( function() {
-            getResults( $( this ).val() );
-        } );
 </script>
-    <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+
+
+<script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+
 @endsection

@@ -25,7 +25,10 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        $page_title = 'Impianti';
+        $page_description = 'Some description for the page';
+        $projects=Project::all();
+        return view('pages.projects.index',compact('projects','page_title','page_description'));
     }
 
     /**
@@ -37,8 +40,8 @@ class ProjectController extends Controller
     {
         $page_title = 'Impianti';
         $page_description = 'Some description for the page';
-        $categories = Category::with('children')->whereNull('parent_id')->get();
-        $services=Service::all();
+        $categories = Category::with('children')->whereNull('parent_id')->where('pubblicato','on')->get();
+        $services=Service::where('pubblicato','on')->get();
         return view('pages.projects.create',compact('categories','services','page_title','page_description'));
 
     }
@@ -101,6 +104,8 @@ class ProjectController extends Controller
             $project->evidenza=$request['evidenza'];
             $project->user_id=Auth::user()->id;
 
+            $imageName = time().'.'.$request->immagine->extension();
+            $request->immagine->move(public_path('images'), $imageName);
 
             if ($project->save()){
             $project->service()->sync($request['servizi']);
@@ -122,7 +127,12 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-       return view('pages.projects.show');
+        $page_title = 'Impianti';
+        $page_description = 'Some description for the page';
+        $project=Project::find($project->id);
+        $categories = Category::with('children')->whereNull('parent_id')->where('pubblicato','on')->get();
+        $services=Service::where('pubblicato','on')->get();
+        return view('pages.projects.show',compact('project','categories','services','page_title','page_description'));
     }
 
     /**

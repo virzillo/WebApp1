@@ -27,14 +27,15 @@ Route::get('/dashboard', 'PagesController@index');
     Route::get('/utenti/{id}/modifica', 'UsersController@edit');
     Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
 
-    Route::view('/progetti', 'pages.projects.index');
-    Route::view('/progetti/show', 'pages.projects.show');
+    Route::get('/progetti', 'ProjectController@index')->name('progetto');
 
     Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
 
-    Route::get('/progetti/{project}', 'ProjectController@show')->name('modifica.progetto');
+    Route::get('/progetti/{project}', 'ProjectController@show')->name('mostra.progetto');
+    Route::put('/progetti/{project}', 'ProjectController@update')->name('modifica.progetto');
     Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
     Route::post('/progetti/query/{id}', 'ProjectController@query')->name('query.progetto');
+    Route::delete('/progetti/{project}', 'ProjectController@destroy')->name('elimina.progetto');
 
 
     Route::get('/articoli', 'PostController@index')->name('articoli');

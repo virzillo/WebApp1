@@ -70,13 +70,13 @@ return [
 
     // Page loader
     'page-loader' => [
-        'type' => '' // default, spinner-message, spinner-logo
+        'type' => 'default' // default, spinner-message, spinner-logo
     ],
 
     // Header
     'header' => [
         'self' => [
-            'display' => true,
+            'display' => false,
             'width' => 'fluid', // fixed, fluid
             'theme' => 'light', // light, dark
             'fixed' => [
@@ -185,7 +185,7 @@ return [
 
         // Notifications
         'notifications' => [
-            'display' => true,
+            'display' => false,
             'layout' => 'dropdown', // offcanvas, dropdown
             'dropdown' => [
                 'style' => 'dark' // light|dark
@@ -197,7 +197,7 @@ return [
 
         // Quick Actions
         'quick-actions' => [
-            'display' => true,
+            'display' => false,
             'layout' => 'dropdown', // offcanvas, dropdown
             'dropdown' => [
                 'style' => 'dark' // light|dark
@@ -210,7 +210,7 @@ return [
         // User
         'user' => [
             'display' => true,
-            'layout' => 'offcanvas', // offcanvas, dropdown
+            'layout' => 'dropdown', // offcanvas, dropdown
             'dropdown' => [
                 'style' => 'dark' // light|dark
             ],
@@ -234,7 +234,7 @@ return [
 
         // Quick Panel
         'quick-panel' => [
-            'display' => true,
+            'display' => false,
             'offcanvas' => [
                 'direction' => 'right'
             ]

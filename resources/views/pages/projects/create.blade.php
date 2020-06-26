@@ -58,7 +58,7 @@
         <div class="col-lg-12">
 
             <div class="form-group row">
-                <div class="col-lg-4 ">
+                <div class="col-lg-6 ">
                         <div class="form-group">
                     <label>Categoria:</label>
                     <select class="form-control kt-select2 select2" id="kt_select2_3"  name="category_id">
@@ -69,7 +69,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-lg-4 ">
+            <div class="col-lg-6 ">
                 <div class="form-group">
                     <label>Sottocategoria:</label>
 

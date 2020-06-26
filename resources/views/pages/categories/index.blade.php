@@ -102,7 +102,7 @@
                             <th>ID</th>
                             <th>Titolo</th>
                             <th>Pubbicato</th>
-                            <th>Actions</th>
+                            <th>Azioni</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -111,7 +111,7 @@
                                 <td>{{ $category->id }}</td>
                                 <td>{{ $category->titolo }}</td>
                                 <td>
-                                    @if($category->pubblicato)
+                                    @if($category->pubblicato=='on')
                                         <span
                                             class="label label-lg font-weight-bold label-light-success label-inline">si</span>
                                     @else
@@ -119,8 +119,6 @@
                                             class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
                                     @endif
                                 </td>
-
-
                                 <td class="warning" nowrap>
                                     <form
                                         action="{{ route('category.destroy', $category->id) }}"
