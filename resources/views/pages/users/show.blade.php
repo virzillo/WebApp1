@@ -6,23 +6,25 @@
 @section('content')
 
 
+<form method="POST" action="{{ route('modifica.utente',$user->id) }}">
+    @method('PUT')
+    @csrf
 
 <!--begin::Card-->
 <div class="card card-custom card-stretch">
     <!--begin::Header-->
     <div class="card-header py-3">
         <div class="card-title align-items-start flex-column">
-            <h3 class="card-label font-weight-bolder text-dark">Personal Information</h3>
-            <span class="text-muted font-weight-bold font-size-sm mt-1">Update your personal informaiton</span>
+            <h3 class="card-label font-weight-bolder text-dark">Scheda Utente</h3>
+            <span class="text-muted font-weight-bold font-size-sm mt-1">Modifica le tue impostazioni personali</span>
         </div>
         <div class="card-toolbar">
-            <button type="reset" class="btn btn-success mr-2">Save Changes</button>
-            <button type="reset" class="btn btn-secondary">Cancel</button>
+            <button type="submit" class="btn btn-success mr-2">Salva</button>
+            {{-- <button type="reset" class="btn btn-secondary">Cancel</button> --}}
         </div>
     </div>
     <!--end::Header-->
     <!--begin::Form-->
-    <form class="form">
         <!--begin::Body-->
         <div class="card-body">
             <div class="row">
@@ -54,7 +56,12 @@
             <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Nome</label>
                 <div class="col-lg-9 col-xl-6">
-                    <input class="form-control form-control-lg form-control-solid" type="text" value="{{$user->name}}" />
+                    <input class="form-control form-control-lg form-control-solid" type="text" value="{{$user->name}}" name="name"/>
+                    @error('name')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
                 </div>
             </div>
             <div class="form-group row">
@@ -66,14 +73,19 @@
                                 <i class="la la-at"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control form-control-lg form-control-solid" value="{{$user->email}}" placeholder="Email" />
+                        <input type="text" class="form-control form-control-lg form-control-solid" value="{{$user->email}}" placeholder="Email" name="email"/>
+                        @error('email')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
                     </div>
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Nuova Password</label>
                 <div class="col-lg-9 col-xl-6">
-                    <input id="password" type="password" class="form-control form-control-lg form-control-solid @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" >
+                    <input id="password" type="password" class="form-control form-control-lg form-control-solid @error('password') is-invalid @enderror" name="password"  autocomplete="new-password" >
 
                     @error('password')
                         <span class="invalid-feedback" role="alert">
@@ -85,13 +97,13 @@
             <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Ripeti password</label>
                 <div class="col-lg-9 col-xl-6">
-                    <input id="password-confirm" type="password" class="form-control form-control-lg form-control-solid" name="password_confirmation" required autocomplete="new-password">
+                    <input id="password-confirm" type="password" class="form-control form-control-lg form-control-solid" name="password_confirmation"  autocomplete="new-password">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Ruolo</label>
                 <div class="col-lg-9 col-xl-6">
-                    <input class="form-control form-control-lg form-control-solid" type="text" value="{{$user->getRoleNames()->first()}}" />
+                    <input class="form-control form-control-lg form-control-solid" type="text" value="{{$user->getRoleNames()->first()}}" name="role"/>
                     <span class="form-text text-muted"></span>
                 </div>
             </div>

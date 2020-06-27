@@ -15,6 +15,8 @@
                 @php $kt_logo_image = 'logo-light.png' @endphp
             @endif
 
+
+
             {{-- Header Menu --}}
             <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
                 @if(config('layout.aside.self.display') == false)

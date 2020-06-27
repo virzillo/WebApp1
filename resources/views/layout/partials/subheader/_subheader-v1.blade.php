@@ -34,7 +34,7 @@
         </div>
 
 		{{-- Toolbar --}}
-        <div class="d-flex align-items-center">
+        {{-- <div class="d-flex align-items-center">
 
             @hasSection('page_toolbar')
                 @section('page_toolbar')
@@ -45,7 +45,6 @@
                     {{ Metronic::getSVG("media/svg/icons/Files/File-plus.svg", "svg-icon-success svg-icon-2x") }}
                 </a>
                 <div class="dropdown-menu p-0 m-0 dropdown-menu-md dropdown-menu-right">
-                    {{-- Navigation --}}
                     <ul class="navi navi-hover">
                         <li class="navi-header font-weight-bold">
                             Jump to:
@@ -87,7 +86,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
     </div>
 </div>

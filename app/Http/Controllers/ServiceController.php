@@ -22,9 +22,8 @@ class ServiceController extends Controller
     public function index()
     {
         $page_title = 'Elenco Servizi';
-        $page_description = 'Some description for the page';
         $services=Service::all();
-        return view('pages.services.index',compact('services','page_title','page_description'));
+        return view('pages.services.index',compact('services','page_title'));
 
     }
 
@@ -80,7 +79,7 @@ class ServiceController extends Controller
     public function edit(Service $service)
     {
         $page_title = 'Modifica Servizio';
-        $page_description = 'Some description for the page';
+        $page_description = '';
         $service=Service::find($service->id);
         return view('pages.services.edit',compact('service','page_title','page_description'));
 

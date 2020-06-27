@@ -1,13 +1,16 @@
 {{-- Extends layout --}}
 @extends('layout.default')
 
-
+@push('styles')
+    <!-- include summernote css/js -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+@endpush
 {{-- Content --}}
 @section('content')
 
 
 
-<div class="card card-custom gutter-b example example-compact">
+<div class="card card-custom gutter-b">
     <div class="card-header">
         <h3 class="card-title">Crea nuovo servizio</h3>
         <div class="card-toolbar">
@@ -23,35 +26,34 @@
         @csrf
         <div class="card-body">
             <div class="form-group row">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <label>Titolo:</label>
                     <input type="text" class="form-control" placeholder="inserisci titolo" name="titolo">
                     <span class="form-text text-muted"> </span>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <label>Icona:</label>
                     <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona">
                     <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
                 </div>
+                <div class="col-lg-4">
+                    <label>Pubblicato:</label>
+                    <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
+                        <option value="on">si</option>
+                        <option value="">no</option>
+                    </select>
+                </div>
             </div>
             <div class="form-group row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <label>Descrizione:</label>
-                    <textarea name="descrizione" class="form-control" data-provide="markdown" rows="10"></textarea>
+
+                    <textarea name="descrizione" id="descrizione" class="form-control" data-provide="markdown" rows="10"></textarea>
                     <span class="form-text text-muted"> </span>
                 </div>
 
 
-                <div class="col-lg-6">
-                    <label>Pubblicato:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
 
-                        <option value="on">si</option>
-                        <option value="">no</option>
-
-
-                    </select>
-                </div>
             </div>
 
 
@@ -88,6 +90,11 @@
 <script>
     $(document).ready(function() {
         $('.select2').select2();
+        $('#descrizione').summernote({
+            placeholder: 'Inserisci descrizione',
+            tabsize: 2,
+            height: 150
+        });
     });
 </script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>

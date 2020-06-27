@@ -113,42 +113,42 @@ return [
                 ]
             ]
         ],
-        [
-            'title' => 'Utility',
-            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
-            'bullet' => 'dot',
-            'root' => true,
-            'submenu' => [
-                [
-                    'title' => 'Icone',
-                    'bullet' => 'dot',
-                    'submenu' => [
+        // [
+        //     'title' => 'Utility',
+        //     'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+        //     'bullet' => 'dot',
+        //     'root' => true,
+        //     'submenu' => [
+        //         [
+        //             'title' => 'Icone',
+        //             'bullet' => 'dot',
+        //             'submenu' => [
 
-                        [
-                            'title' => 'ShareServicePack',
-                            'page' => 'admin/icons/shareserviceicons'
-                        ],
+        //                 [
+        //                     'title' => 'ShareServicePack',
+        //                     'page' => 'admin/icons/shareserviceicons'
+        //                 ],
 
-                        [
-                            'title' => 'Fontawesome Pack',
-                            'page' => 'admin/icons/fontawesome'
-                        ],
-                        [
-                            'title' => 'Svg Pack',
-                            'page' => 'admin/icons/svg'
-                        ],
-                    ]
-                ],
+        //                 [
+        //                     'title' => 'Fontawesome Pack',
+        //                     'page' => 'admin/icons/fontawesome'
+        //                 ],
+        //                 [
+        //                     'title' => 'Svg Pack',
+        //                     'page' => 'admin/icons/svg'
+        //                 ],
+        //             ]
+        //         ],
 
-            ]
-        ],[
-            'title' => 'Categorie',
-            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
-            'bullet' => 'dot',
-             'page' => 'admin/category',
-             'root' => true,
+        //     ]
+        // ],[
+        //     'title' => 'Categorie',
+        //     'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+        //     'bullet' => 'dot',
+        //      'page' => 'admin/category',
+        //      'root' => true,
 
-        ],
+        // ],
 
 
 

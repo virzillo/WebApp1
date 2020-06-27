@@ -1,5 +1,6 @@
 @extends('layout.auth')
 
+@section('title', 'Registration')
 
 @section('content')
 {{-- <div class="container">

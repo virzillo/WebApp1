@@ -124,6 +124,41 @@ class UsersController extends Controller
         return view('pages.users.edit', compact('page_title', 'page_description', 'user'));
     }
 
+    public function update(Request $request)
+    {
+
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|min:3|max:255|string',
+            'email' => 'required|string',
+            'password'=>'confirmed'
+        ]);
+
+            $notifications=$validator->errors();
+        if ($validator->fails()) {
+            dd($validator);
+            return back()
+                        ->withErrors($validator)
+
+                        ->withInput()->with($notifications);
+        }
+
+        $user = User::find($request->id);
+        $user->name = $request->get('name');
+        $user->email = $request->get('email');
+        if ($request->get('password')){
+            $user->password = Hash::make($request->get('password'));
+        }
+
+        $user->save();
+
+        $notification = array(
+            'message' => 'Servizio modificato con successo!',
+            'alert-type' => 'success'
+        );
+        return redirect(action('ServiceController@index'))->with($notification);
+    }
+
     /**
      * Remove the specified resource from storage.
      *
@@ -144,4 +179,7 @@ class UsersController extends Controller
         );
         return back()->with($notification);
     }
+
+
+
 }

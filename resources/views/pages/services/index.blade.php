@@ -12,11 +12,11 @@
     <div class="card-header flex-wrap border-0 pt-6 pb-0">
         <div class="card-title">
             <h3 class="card-label">Gestione Servizi
-            <span class="d-block text-muted pt-2 font-size-sm">User management made easy</span></h3>
+            <span class="d-block text-muted pt-2 font-size-sm"></span></h3>
         </div>
         <div class="card-toolbar">
             <!--begin::Dropdown-->
-            <div class="dropdown dropdown-inline mr-2">
+            {{-- <div class="dropdown dropdown-inline mr-2">
                 <button type="button" class="btn btn-light-primary font-weight-bolder dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="svg-icon svg-icon-md">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/PenAndRuller.svg-->
@@ -78,21 +78,15 @@
                     <!--end::Navigation-->
                 </div>
                 <!--end::Dropdown Menu-->
-            </div>
+            </div> --}}
             <!--end::Dropdown-->
             <!--begin::Button-->
             <a href="{{route('crea.servizio')}}" class="btn btn-primary font-weight-bolder">
             <span class="svg-icon svg-icon-md">
                 <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <rect x="0" y="0" width="24" height="24" />
-                        <circle fill="#000000" cx="9" cy="15" r="6" />
-                        <path d="M8.8012943,7.00241953 C9.83837775,5.20768121 11.7781543,4 14,4 C17.3137085,4 20,6.6862915 20,10 C20,12.2218457 18.7923188,14.1616223 16.9975805,15.1987057 C16.9991904,15.1326658 17,15.0664274 17,15 C17,10.581722 13.418278,7 9,7 C8.93357256,7 8.86733422,7.00080962 8.8012943,7.00241953 Z" fill="#000000" opacity="0.3" />
-                    </g>
-                </svg>
+                {{Metronic::getSVG("assets/media/svg/icons/Design/Flatten.svg")}}
                 <!--end::Svg Icon-->
-            </span>New Record</a>
+            </span>Crea nuovo</a>
             <!--end::Button-->
         </div>
     </div>
@@ -102,22 +96,20 @@
 
 
 
-        <table class="table table-bordered table-hover" id="kt_datatable">
+        <table class="table table-bordered table-vertical-center" id="kt_datatable">
             <thead>
             <tr>
-                <th></th>
+
                 <th>ID</th>
                 <th>Titolo</th>
                 <th>Icona</th>
                 <th>Pubbicato</th>
-
                 <th>Actions</th>
             </tr>
             </thead>
             <tbody>
                 @foreach ($services as $service)
                 <tr>
-                    <td></td>
                     <td>{{$service->id}}</td>
                     <td>{{$service->titolo}}</td>
 
@@ -140,7 +132,7 @@
                             @csrf
 
 
-                        <a href="{{route('modifica.servizio',$service->id)}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
+                        <a href="{{route('modifica.servizio',$service->id)}}" class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
 
                             <span class="svg-icon svg-icon-md">
                                 <?php echo Metronic::getSVG("media/svg/icons/General/Edit.svg"); ?>
@@ -149,7 +141,7 @@
                         </a>
                         </a>
 
-                            <button type="submit"  class="btn btn-sm btn-clean btn-icon "  onclick="ConfirmDelete()">
+                            <button type="submit"  class="btn btn-icon btn-light btn-hover-danger btn-sm "  onclick="ConfirmDelete()">
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
 
@@ -186,29 +178,8 @@
     <script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}" type="text/javascript"></script>
 
     {{-- page scripts --}}
-    <script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript"></script>
-    {{-- <script src="{{ asset('js/pages/features/miscellaneous/toastr.js?v=7.0.3') }}"></script> --}}
-    {{-- <script>
-       toastr.options = {
-            "closeButton": false,
-            "debug": false,
-            "newestOnTop": false,
-            "progressBar": false,
-            "positionClass": "toast-top-right",
-            "preventDuplicates": false,
-            "onclick": null,
-            "showDuration": "300",
-            "hideDuration": "1000",
-            "timeOut": "5000",
-            "extendedTimeOut": "1000",
-            "showEasing": "swing",
-            "hideEasing": "linear",
-            "showMethod": "fadeIn",
-            "hideMethod": "fadeOut"
-            };
-
-toastr.success("New order has been placed!", "error");
-    </script> --}}
+   {{-- datatable init script --}}
+<script src="{{ asset('js/pages/my-script.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/pages/features/miscellaneous/sweetalert2.js') }}"  type="text/javascript"></script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
     <script>

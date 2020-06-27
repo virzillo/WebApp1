@@ -20,12 +20,12 @@ Route::get('/', function () {
 Route::prefix('admin')->middleware('auth')->group(function () {
 Route::get('/dashboard', 'PagesController@index');
 
-    Route::get('/utenti', 'UsersController@index');
+    Route::get('/utenti', 'UsersController@index')->name('utenti');
     Route::get('/utenti/inserisci', 'UsersController@create');
     Route::post('/utenti/inserisci', 'UsersController@register')->name('crea.utente');
-    Route::get('/utenti/{id}', 'UsersController@show');
-    Route::get('/utenti/{id}/modifica', 'UsersController@edit');
-    Route::delete('/utenti/{id}/elimina', 'UsersController@destroy')->name('elimina.utente');
+    Route::get('/utenti/{id}', 'UsersController@show')->name('utenti.profilo');
+    Route::put('/utenti/{id}', 'UsersController@update')->name('modifica.utente');
+    Route::delete('/utenti/{id}', 'UsersController@destroy')->name('elimina.utente');
 
     Route::get('/progetti', 'ProjectController@index')->name('progetto');
 
