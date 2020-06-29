@@ -78,7 +78,7 @@
             </div> --}}
             <!--end::Dropdown-->
             <!--begin::Button-->
-            <a href="" class="btn btn-primary font-weight-bolder">
+            <a href="{{route('crea.progetto')}}" class="btn btn-primary font-weight-bolder">
                 <span class="svg-icon svg-icon-md">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                     {{ Metronic::getSVG("assets/media/svg/icons/Design/Flatten.svg") }}
@@ -124,7 +124,7 @@
                     </td>
                     <td>
                         <div class="symbol symbol-50 flex-shrink-0">
-                            <img src="{{ $project->immagine }}" alt="{{ $project->immagine }}">
+                            <img src="{{url('/images/')}}/{{ $project->immagine }}" alt="{{ $project->immagine }}">
                         </div>
                     </td>
                     <td>

@@ -92,13 +92,15 @@
                     <label class="checkbox">
                         <label class="checkbox">
                             @foreach ($project->service as $item)
-                            @if (($item->id)==$service->id)
-                            <input type="checkbox" name="servizi[]" value="{{$service->id}}" checked>{{$service->titolo}}
-                            @endif
-                            <input type="checkbox" name="servizi[]" value="{{$service->id}}">{{$service->titolo}}
+                            <?php $check='';?>
+
+                                @if ($item->id===$service->id)
+                                <?php $check='checked';?>
+                                <?php break 1; ?>
+                                @endif
                             @endforeach
 
-
+                            <input type="checkbox" name="servizi[]" value="{{$service->id}}" {{$check}}>{{$service->titolo}}
                             <span></span>
                         </label>
                     @endforeach
@@ -135,7 +137,7 @@
             <div class="form-group " >
                     <label>Carica immagine:</label><br>
 
-                <div class="image-input image-input-outline" id="kt_image_4" style="background-image: url(assets/media/users/blank.png)">
+                <div class="image-input image-input-outline" id="kt_image_4" style="background-image: url({{url('images/')}}/{{$project->immagine}})">
                     <div class="image-input-wrapper immagine-post" style=""></div>
 
                     <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Carica foto">
@@ -388,13 +390,32 @@ KTTagify.init();
 
 </script>
 <script>
+// recupera le sottocategorie al caricamento della pagina
 
+$(document).ready(function(){
+    var id = <?=json_encode($project->category->parent_id)?>;
+    let dropdown = $('#kt_select2_4');
+        dropdown.empty();
+    alert(id);
+    $.ajax({
+            url:'query/'+id,
+            type:'POST',
+            dataType:'json',
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            success: function( response ) {
+                $.each(response, function (key, entry) {
+                    dropdown.append($('<option>').attr('value', entry.id).text(entry.titolo));
+                });
+            }
+
+        });
+
+});
 //invia la scelta della categoria ricevendo lista sottocategorie
     $('#kt_select2_3').on('change', function() {
         let dropdown = $('#kt_select2_4');
         dropdown.empty();
-        dropdown.append('<option selected="true" disabled>Scegli sottocategoria</option>');
-        dropdown.prop('selectedIndex', 0);
+
         var id = $(this).val() ;
         $.ajax({
             url:'query/'+id,

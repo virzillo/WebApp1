@@ -113,7 +113,8 @@ class UsersController extends Controller
         $page_title = 'Visualizza Utente';
         $page_description = 'Some description for the page';
         $user = User::where('id', $id)->first();
-        return view('pages.users.show', compact('page_title', 'page_description', 'user'));
+        $roles = Role::all();
+        return view('pages.users.show', compact('page_title', 'page_description', 'user','roles'));
     }
 
     public function edit($id)

@@ -103,8 +103,15 @@
             <div class="form-group row">
                 <label class="col-xl-3 col-lg-3 col-form-label text-right">Ruolo</label>
                 <div class="col-lg-9 col-xl-6">
-                    <input class="form-control form-control-lg form-control-solid" type="text" value="{{$user->getRoleNames()->first()}}" name="role"/>
-                    <span class="form-text text-muted"></span>
+                    <select class="form-control kt-select2 select2" id="kt_select2" name="role">
+                        @foreach ($roles as $role)
+                            @if ($user->getRoleNames()->first() == $role->name)
+                            <option value="{{$role->name}}"selected>{{$role->name}}</option>
+                            @else
+                            <option value="{{$role->name}}">{{$role->name}}</option>
+                            @endif
+                        @endforeach
+                    </select>
                 </div>
             </div>
             {{-- <div class="row">

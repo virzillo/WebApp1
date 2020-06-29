@@ -68,7 +68,7 @@ class ProjectController extends Controller
             'category_id' => 'sometimes|nullable|numeric',
             'servizio' => 'sometimes|nullable|numeric',
 
-            'pubblicato' => 'min:3',
+            'pubblicato' => 'nullable',
             'evidenza' => 'nullable',
 
         ]);
@@ -92,8 +92,9 @@ class ProjectController extends Controller
             $project->testo=$request['testo'];
             $project->slug=$request['slug'];
 
-            $project->immagine=$request['immagine'];
-
+            $imageName = time().'.'.$request->immagine->extension();
+            $request->immagine->move(public_path('images'), $imageName);
+            $project->immagine = $imageName ;
 
             $project->category_id=$request['sottocategoria'];
 
@@ -104,12 +105,10 @@ class ProjectController extends Controller
             $project->evidenza=$request['evidenza'];
             $project->user_id=Auth::user()->id;
 
-            $imageName = time().'.'.$request->immagine->extension();
-            $request->immagine->move(public_path('images'), $imageName);
+
 
             if ($project->save()){
             $project->service()->sync($request['servizi']);
-            dd($request);
             }
 
             $notification = array(
@@ -166,7 +165,17 @@ class ProjectController extends Controller
      */
     public function destroy(Project $project)
     {
-        //
+        $project = Project::find($project->id);
+        $image_path = public_path('images').'/'.$project->immagine;
+        unlink($image_path);
+        $project->delete();
+
+        $notification = array(
+            'message' => 'Record eliminato con successo!',
+            'alert-type' => 'success'
+        );
+
+        return back()->with($notification);
     }
 
     public function query($id)

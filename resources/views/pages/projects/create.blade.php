@@ -16,7 +16,7 @@
         <h3 class="card-title">Crea nuovo progetto</h3>
         <div class="card-toolbar">
 
-            <form method="POST" action="{{ route('salva.progetto') }}">
+            <form method="POST" action="{{ route('salva.progetto') }}" enctype="multipart/form-data">
                 @csrf
                 <button type="submit" class="btn btn-primary mr-2">Salva</button>
 
