@@ -16,7 +16,8 @@
         <h3 class="card-title">Visualizza  progetto</h3>
         <div class="card-toolbar">
 
-            <form method="POST" action="{{ route('modifica.progetto', $project->id) }}">
+            <form method="POST" action="{{ route('modifica.progetto', $project->id) }}" enctype="multipart/form-data">
+                @method('PUT')
                 @csrf
                 <button type="submit" class="btn btn-primary mr-2">Salva</button>
 
