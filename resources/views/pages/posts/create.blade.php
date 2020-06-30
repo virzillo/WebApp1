@@ -13,7 +13,7 @@
 
 <div class="card card-custom gutter-b ">
     <div class="card-header">
-        <h3 class="card-title">Crea nuovo impianto</h3>
+        <h3 class="card-title">Crea nuovo articolo</h3>
         <div class="card-toolbar">
 
             <form method="POST" action="{{ route('salva.progetto') }}" enctype="multipart/form-data">
@@ -30,18 +30,13 @@
         <div class="col-lg-12">
 
             <div class="form-group row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <label>Titolo:</label>
                     <input type="text" class="form-control" placeholder="inserisci titolo" id="titolo" name="titolo"
                         value="{{ old('titolo') }}">
                     <span class="form-text text-muted"> </span>
                 </div>
-                <div class="col-lg-4">
-                    <label>Codice:</label>
-                    <input type="text" class="form-control" placeholder="inserisci codice" id="codice" name="codice"
-                        value="{{ old('codice') }}">
-                </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <label>Slug:</label>
                     <input type="text" class="form-control" placeholder="inserisci slug" id="slug" name="slug"
                         value="{{ old('slug') }}">
@@ -50,84 +45,21 @@
             </div>
         </div>
         <div class="col-lg-12">
-            <div class="form-group row">
                 <div class="col-lg-6 ">
                     <div class="form-group">
                         <label>Categoria:</label>
-                        <select class="form-control kt-select2 select2" id="kt_select2_3" name="category_id">
+                        <select class="form-control kt-select2 select2" id="kt_select2_1" name="category_id">
                             <option value="">Seleziona una categoria</option>
-                            @foreach($categories as $category)
+                            {{-- @foreach($categories as $category)
                                 <option value="{{ $category->id }}">{{ $category->titolo }}</option>
-                            @endforeach
+                            @endforeach --}}
                         </select>
                     </div>
                 </div>
-                <div class="col-lg-6 ">
-                    <div class="form-group">
-                        <label>Sottocategoria:</label>
-                        <select class="form-control kt-select2 select2" id="kt_select2_4" name="sottocategoria">
-                            <option selected="true" disabled>Scegli sottocategoria</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="col-lg-12">
-            <div class="form-group">
-                <label>Servizi:</label>
-                <div class="checkbox-inline">
-                    @foreach($services as $service)
-                        <label class="checkbox">
-                            <label class="checkbox">
-                                <input type="checkbox" name="servizi[]"
-                                    value="{{ $service->id }}">{{ $service->titolo }}
-                                <span></span>
-                            </label>
-                    @endforeach
-                </div>
-                <span class="form-text text-muted"></span>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="form-group row">
-                <div class="col-lg-6">
-                    <label>Indirizzo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci indirizzo" id="indirizzo"
-                        name="indirizzo" value="{{ old('indirizzo') }}">
-                </div>
-                <div class="col-lg-2">
-                    <label>Provincia:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_5" name="provincia">
 
-                    </select>
-                </div>
-                <div class="col-lg-4">
-                    <label>Città:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_6" name="citta">
-                        <option selected="true" disabled>Scegli comune</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="form-group row">
-                <div class="col-lg-4">
-                    <label>Dimensione:</label>
-                    <input type="text" class="form-control" placeholder="inserisci dimensione" id="dimensione"
-                        name="dimensione" value="{{ old('dimensione') }}">
-                </div>
-                <div class="col-lg-4">
-                    <label>Prezzo:</label>
-                    <input type="number" class="form-control" placeholder="inserisci prezzo" id="prezzo" name="prezzo"
-                        value="{{ old('prezzo') }}">
-                </div>
-                <div class="col-lg-4">
-                    <label>Sconto:</label>
-                    <input type="number" class="form-control" placeholder="inserisci sconto" id="sconto" name="sconto"
-                        value="{{ old('sconto') }}">
-                </div>
-            </div>
-        </div>
+
+
         <div class="col-lg-12">
             <div class="form-group">
                 <label>Descrizione:</label>
@@ -140,20 +72,7 @@
                 <span class="form-text text-muted"> </span>
             </div>
         </div>
-        <div class="col-lg-12">
-            <div class="form-group row">
-                <div class="col-lg-6">
-                    <label>Condizioni di pagamento:</label>
-                    <textarea class="form-control" id="condizioni_pagamento" name="condizioni_pagamento">{{ old('condizioni_pagamento') }}</textarea>
-                    <span class="form-text text-muted"> </span>
-                </div>
-                <div class="col-lg-6">
-                    <label>Condizioni generali:</label>
-                    <textarea class="form-control" id="condizioni_generali" name="condizioni_generali">{{ old('condizioni_generali') }}</textarea>
-                    <span class="form-text text-muted"> </span>
-                </div>
-            </div>
-        </div>
+
 
         <div class="col-lg-12">
             <div class="form-group row">
@@ -216,17 +135,9 @@
         <div class="col-lg-12">
 
             <div class="form-group row">
-                <label class="col-lg-2 col-sm-2 col-form-label">Illuminato:</label>
-                <div class="col-lg-2 col-sm-2 ">
-                    <span class="switch switch-outline switch-icon switch-info">
-                        <label>
-                            <input type="checkbox" checked="checked" name="illuminato">
-                            <span></span>
-                        </label>
-                    </span>
-                </div>
-                <label class="col-lg-2 col-sm-2  col-form-label">Pubblicato</label>
-                <div class="col-lg-2 col-sm-2 ">
+
+                <label class="col-lg-3 col-sm-3  col-form-label">Pubblicato</label>
+                <div class="col-lg-3 col-sm-3 ">
                     <span class="switch switch-outline switch-icon switch-success">
                         <label>
                             <input type="checkbox" checked="checked" name="pubblicato">
@@ -234,8 +145,8 @@
                         </label>
                     </span>
                 </div>
-                <label class="col-lg-2 col-sm-2  col-form-label">In Evidenza:</label>
-                <div class="col-lg-2 col-sm-2 ">
+                <label class="col-lg-3 col-sm-3  col-form-label">In Evidenza:</label>
+                <div class="col-lg-3 col-sm-3 ">
                     <span class="switch switch-outline switch-icon switch-warning">
                         <label>
                             <input type="checkbox" checked="checked" name="evidenza">
@@ -294,23 +205,7 @@
                         // }
                     })
 
-                // function transformTag(tagData) {
-                //     var states = [
-                //         'success',
-                //         'primary',
-                //         'danger',
-                //         'success',
-                //         'warning',
-                //         'dark',
-                //         'primary',
-                //         'info'];
 
-                //     tagData.class = 'tagify__tag tagify__tag--' + states[KTUtil.getRandomInt(0, 7)];
-
-                //     if (tagData.value.toLowerCase() == 'shit') {
-                //         tagData.value = 's✲✲t'
-                //     }
-                // }
                 // "remove all tags" button event listener
                 document.getElementById('kt_tagify_1_remove').addEventListener('click', tagify.removeAllTags
                     .bind(tagify))
@@ -395,54 +290,13 @@
                 tabsize: 2,
                 height: 150
             });
-            $('#condizioni_pagamento').summernote({
-                placeholder: 'Inserisci condizioni pagamento',
-                tabsize: 2,
-                height: 150
-            });
-            $('#condizioni_generali').summernote({
-                placeholder: 'Inserisci condizioni generali',
-                tabsize: 2,
-                height: 150
-            });
+
         });
 
     </script>
     <script>
         var avatar4 = new KTImageInput('kt_image_4');
 
-        // avatar4.on('cancel', function(imageInput) {
-        // swal.fire({
-        // title: 'Immagine inserita con successo!',
-        // type: 'success',
-        // buttonsStyling: false,
-        // confirmButtonText: 'Awesome!',
-        // confirmButtonClass: 'btn btn-primary font-weight-bold'
-        // });
-        // });
-
-        // avatar4.on('change', function(imageInput) {
-        // swal.fire({
-        // title: 'Immagine sostituita con successo!',
-        // type: 'success',
-        // buttonsStyling: false,
-        // confirmButtonText: 'Awesome!',
-        // confirmButtonClass: 'btn btn-primary font-weight-bold'
-        // });
-        // });
-
-        // avatar4.on('remove', function(imageInput) {
-        // swal.fire({
-        // title: 'Immagine rimossa!',
-        // type: 'error',
-        // buttonsStyling: false,
-        // confirmButtonText: 'Got it!',
-        // confirmButtonClass: 'btn btn-primary font-weight-bold'
-        // });
-        // });
-
-    </script>
-    <script>
         //script per generare lo slug
         function convertToSlug(Text) {
             return Text
@@ -458,76 +312,7 @@
             $("#slug").val(Text);
         });
 
-    </script>
-    <script>
-        //invia la scelta della categoria ricevendo lista sottocategorie
-        $('#kt_select2_3').on('change', function () {
-            let dropdown = $('#kt_select2_4');
-            dropdown.empty();
-            dropdown.append('<option selected="true" disabled>Scegli sottocategoria</option>');
-            dropdown.prop('selectedIndex', 0);
-            var id = $(this).val();
-            $.ajax({
-                url: 'query/' + id,
-                type: 'POST',
-                dataType: 'json',
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
-                success: function (response) {
-                    $.each(response, function (key, entry) {
-                        dropdown.append($('<option>').attr('value', entry.id).text(entry
-                            .titolo));
-                    });
-                }
 
-            });
-        });
-
-//recupera provincie
-$(document).ready(function(){
-    let dropdown = $('#kt_select2_5');
-            dropdown.empty();
-            dropdown.append('<option selected="true" disabled>Scegli provincia</option>');
-            dropdown.prop('selectedIndex', 0);
-            // var val = $(this).val();
-    $.ajax({
-            url:'provincie/',
-            type:'GET',
-            dataType:'json',
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-            success: function( response ) {
-                $.each(response, function (key, entry) {
-                    dropdown.append($('<option>').attr('value', entry.provincia).text(entry.provincia));
-                });
-            }
-
-        });
-
-});
-//recupera comuni
-    $('#kt_select2_5').on('change', function () {
-            let dropdown = $('#kt_select2_6');
-            dropdown.empty();
-            dropdown.append('<option selected="true" disabled>Scegli comune</option>');
-            dropdown.prop('selectedIndex', 0);
-            var val = $(this).val();
-            $.ajax({
-                url: 'comuni/' + val,
-                type: 'POST',
-                dataType: 'json',
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
-                success: function (response) {
-                    $.each(response, function (key, entry) {
-                        dropdown.append($('<option>').attr('value', entry.comune).text(entry
-                            .comune));
-                    });
-                }
-
-            });
-        });
     </script>
 
 

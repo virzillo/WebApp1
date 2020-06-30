@@ -17,28 +17,12 @@ return [
             'section' => 'Custom',
         ],
         [
-            'title' => 'Applications',
+            'title' => 'Sito Web',
             'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg',
             'bullet' => 'line',
             'root' => true,
             'submenu' => [
-                [
-                    'title' => 'Utenti',
-                    'bullet' => 'dot',
-                    'submenu' => [
 
-                        [
-                            'title' => 'Visualizza',
-                            'page' => 'admin/utenti'
-                        ],
-
-                        [
-                            'title' => 'Inserisci',
-                            'page' => 'admin/utenti/inserisci'
-                        ],
-
-                    ]
-                ],
                 [
                     'title' => 'Articoli',
                     'bullet' => 'dot',
@@ -46,7 +30,7 @@ return [
 
                         [
                             'title' => 'Visualizza',
-                            'page' => 'admin/articoli'
+                            'page' => 'admin/posts'
                         ],
                         [
                             'title' => 'Inserisci',
@@ -56,7 +40,32 @@ return [
                     ]
                 ],
                 [
-                    'title' => 'Progetti',
+                    'title' => 'Categorie',
+                    'bullet' => 'dot',
+                    'submenu' => [
+
+                        [
+                            'title' => 'Visualizza',
+                            'page' => 'admin/postcategories'
+                        ],
+                        [
+                            'title' => 'Inserisci',
+                            'page' => ''
+                        ],
+
+                    ]
+                ],
+
+            ],
+        ],
+        [
+            'title' => 'Gestione Impianti',
+            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+            'bullet' => 'dot',
+            'root' => true,
+            'submenu' => [
+                [
+                    'title' => 'Impianti',
                     'bullet' => 'dot',
                     'submenu' => [
 
@@ -102,6 +111,35 @@ return [
 
                     ]
                 ],
+
+            ]
+        ],
+        [
+            'section' => 'Settings',
+        ],
+        [
+            'title' => 'Gestione',
+            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+            'bullet' => 'dot',
+            'root' => true,
+            'submenu' => [
+                [
+                    'title' => 'Utenti',
+                    'bullet' => 'dot',
+                    'submenu' => [
+
+                        [
+                            'title' => 'Visualizza',
+                            'page' => 'admin/utenti'
+                        ],
+
+                        [
+                            'title' => 'Inserisci',
+                            'page' => 'admin/utenti/inserisci'
+                        ],
+
+                    ]
+                ],
                 [
                     'title' => 'Inbox',
                     'bullet' => 'dot',
@@ -110,49 +148,62 @@ return [
                         'type' => 'label-danger label-inline',
                         'value' => 'new'
                     ]
-                ]
+                ],
+
             ]
         ],
+
+
         // [
-        //     'title' => 'Utility',
-        //     'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
-        //     'bullet' => 'dot',
+        //     'title' => 'Articoli',
+        //     'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg',
+        //     'bullet' => 'line',
         //     'root' => true,
         //     'submenu' => [
+
         //         [
-        //             'title' => 'Icone',
-        //             'bullet' => 'dot',
-        //             'submenu' => [
+        //             'title' => 'Visualizza',
+        //             'page' => 'admin/articoli'
 
-        //                 [
-        //                     'title' => 'ShareServicePack',
-        //                     'page' => 'admin/icons/shareserviceicons'
-        //                 ],
-
-        //                 [
-        //                     'title' => 'Fontawesome Pack',
-        //                     'page' => 'admin/icons/fontawesome'
-        //                 ],
-        //                 [
-        //                     'title' => 'Svg Pack',
-        //                     'page' => 'admin/icons/svg'
-        //                 ],
-        //             ]
         //         ],
+        //         [
+        //             'title' => 'Inserisci',
+        //             'page' => 'admin/articoli'
 
-        //     ]
-        // ],[
+        //         ],
+        //     ],
+        //     [
         //     'title' => 'Categorie',
-        //     'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
-        //     'bullet' => 'dot',
-        //      'page' => 'admin/category',
-        //      'root' => true,
+        //     'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg',
+        //     'bullet' => 'line',
+        //     'root' => true,
+        //     'submenu' => [
+
+        //         [
+        //             'title' => 'Visualizza',
+        //             'page' => 'admin/articoli'
+
+        //         ],
+        //         [
+        //             'title' => 'Inserisci',
+        //             'page' => 'admin/articoli'
+
+        //         ],
+        //         ],
+        //     ],
+
+        //     [
+        //         'title' => 'Inbox',
+        //         'bullet' => 'dot',
+        //         'page' => 'custom/apps/inbox',
+        //         'label' => [
+        //             'type' => 'label-danger label-inline',
+        //             'value' => 'new'
+        //         ]
+        //     ]
 
         // ],
 
 
-
-
-    ]
-
+    ],
 ];

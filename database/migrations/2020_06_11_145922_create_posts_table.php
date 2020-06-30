@@ -19,10 +19,7 @@ class CreatePostsTable extends Migration
 
             $table->foreignId('user_id')->constrained();
 
-            $table->foreignId('category_id')->constrained('categories');
-
-            $table->foreignId('service_id')->constrained('services');
-
+            $table->foreignId('category_id')->constrained('post_categories');
 
             $table->string('titolo');
             $table->string('descrizione')->nullable();

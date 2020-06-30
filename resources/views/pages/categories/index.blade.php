@@ -55,15 +55,6 @@
 </div>
 
 
-{{-- <div class="alert alert-custom alert-white alert-shadow fade show gutter-b" role="alert">
-    <div class="alert-icon">
-    </div>
-    <div class="alert-text">
-        Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and
-        toolkit.
-        For more info visit
-    </div>
-</div> --}}
 <div class="row">
     <div class="col-xl-8">
         <div class="card card-custom">

@@ -62,6 +62,7 @@ Route::get('/dashboard', 'PagesController@index');
     // Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
     Route::resource('category' , 'CategoryController');
+    Route::resource('postcategory' , 'PostCategoryController');
 
 
     // Demo routes
