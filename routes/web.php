@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('website.pages.home');
 });
-
+Route::get('/impianti', function () {
+    return view('website.impianti.index');
+});
 Route::prefix('admin')->middleware('auth')->group(function () {
 Route::get('/dashboard', 'PagesController@index');
 
@@ -32,9 +34,12 @@ Route::get('/dashboard', 'PagesController@index');
     Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
 
     Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
+    Route::get('/progetti/provincie', 'ProjectController@provincie')->name('query.provincie');
     Route::get('/progetti/{project}', 'ProjectController@show')->name('mostra.progetto');
     Route::put('/progetti/{project}', 'ProjectController@update')->name('modifica.progetto');
     Route::post('/progetti/query/{id}', 'ProjectController@query')->name('query.progetto');
+    Route::post('/progetti/comuni/{val}', 'ProjectController@comuni')->name('query.comuni');
+
     Route::delete('/progetti/{project}', 'ProjectController@destroy')->name('elimina.progetto');
 
 

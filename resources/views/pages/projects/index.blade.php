@@ -100,9 +100,14 @@
                     <th>ID</th>
                     <th>Nome</th>
                     <th>Immagine</th>
+                    <th>Dimensione</th>
+                    <th>Provincia</th>
+                    <th>Città</th>
+                    <th>Prezzo</th>
+                    <th>Categoria</th>
+
                     <th>Pubbicato</th>
                     <th>Evidenza</th>
-                    <th>Categoria</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -127,6 +132,12 @@
                             <img src="{{url('/images/')}}/{{ $project->immagine }}" alt="{{ $project->immagine }}">
                         </div>
                     </td>
+                    <td>{{ $project->dimensione }}</td>
+                    <td>{{ $project->provincia }}</td>
+                    <td>{{ $project->citta }}</td>
+                    <td>{{ $project->dimensione }}</td>
+                    <td> {{ $project->category->titolo }}</td>
+
                     <td>
                         @if ( $project->pubblicato == 'on' )
                             <span class="label label-lg font-weight-bold label-light-success label-inline">si</span>
@@ -141,7 +152,6 @@
                             <span class="label label-lg font-weight-bold label-light-warning label-inline">no</span>
                         @endif
                     </td>
-                    <td> {{ $project->category->titolo }}</td>
 
                     <td class="warning" nowrap>
                         <form action="{{route('elimina.progetto', $project->id) }}"
