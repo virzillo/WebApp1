@@ -92,7 +92,7 @@
 <script>
     $(document).ready(function() {
         $('.select2').select2();
-        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuGestioneImpianti').addClass("menu-item-open");
         $('#MenuServizi').addClass("menu-item-open menu-item-here");
     });
 </script>

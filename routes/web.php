@@ -63,6 +63,7 @@ Route::get('/dashboard', 'PagesController@index');
 
     Route::resource('category' , 'CategoryController');
     Route::resource('postcategory' , 'PostCategoryController');
+    Route::resource('post' , 'PostController');
 
 
     // Demo routes

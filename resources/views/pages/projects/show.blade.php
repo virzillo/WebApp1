@@ -435,7 +435,7 @@
             height: 150
         });
 
-        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuGestioneImpianti').addClass("menu-item-open");
         $('#MenuProgetti').addClass("menu-item-open menu-item-here");
     });
 

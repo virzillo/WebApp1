@@ -108,7 +108,9 @@
 
                     <th>Pubbicato</th>
                     <th>Evidenza</th>
-                    <th>Actions</th>
+                    <th>Data</th>
+
+                    <th>Azioni</th>
                 </tr>
             </thead>
             <tbody>
@@ -152,6 +154,7 @@
                             <span class="label label-lg font-weight-bold label-light-warning label-inline">no</span>
                         @endif
                     </td>
+                    <td>{{$project->created_at->format('d/m/Y')}}</td>
 
                     <td class="warning" nowrap>
                         <form action="{{route('elimina.progetto', $project->id) }}"

@@ -17,7 +17,7 @@ return [
             'section' => 'Custom',
         ],
         [
-            'title' => 'Sito Web',
+            'title' => 'SitoWeb',
             'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg',
             'bullet' => 'line',
             'root' => true,
@@ -30,11 +30,11 @@ return [
 
                         [
                             'title' => 'Visualizza',
-                            'page' => 'admin/posts'
+                            'page' => 'admin/post'
                         ],
                         [
                             'title' => 'Inserisci',
-                            'page' => ''
+                            'page' => 'admin/post/create'
                         ],
 
                     ]
@@ -46,11 +46,11 @@ return [
 
                         [
                             'title' => 'Visualizza',
-                            'page' => 'admin/postcategories'
+                            'page' => 'admin/postcategory'
                         ],
                         [
                             'title' => 'Inserisci',
-                            'page' => ''
+                            'page' => 'admin/postcategory/create'
                         ],
 
                     ]
@@ -59,7 +59,7 @@ return [
             ],
         ],
         [
-            'title' => 'Gestione Impianti',
+            'title' => 'GestioneImpianti',
             'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
             'bullet' => 'dot',
             'root' => true,

@@ -80,7 +80,8 @@
 <script>
     $(document).ready(function() {
         $('.select2').select2();
-
+        $('#MenuSitoWeb').addClass("menu-item-open");
+        $('#MenuCategorie').addClass("menu-item-open menu-item-here");
     });
 </script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>

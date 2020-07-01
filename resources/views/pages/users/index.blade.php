@@ -98,6 +98,8 @@
                 <th>Nome</th>
                 <th>Email</th>
                 <th>Ruolo</th>
+                <th>Data</th>
+
                 <th>Azioni</th>
             </tr>
             </thead>
@@ -108,6 +110,7 @@
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
                     <td>{{$user->getRoleNames()->first()}}</td>
+                    <td>{{$user->created_at->format('d/m/Y')}}</td>
 
                     <td class="warning" nowrap>
                         {{-- --}}

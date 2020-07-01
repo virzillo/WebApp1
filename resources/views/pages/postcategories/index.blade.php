@@ -39,6 +39,7 @@
                 <th>Id</th>
                 <th>Titolo</th>
                 <th>Pubbicato</th>
+                <th>Data</th>
                 <th>Azioni</th>
             </tr>
             </thead>
@@ -56,6 +57,7 @@
                         <span class="label label-lg font-weight-bold label-light-danger label-inline">no</span>
                         @endif
                     </td>
+                    <td>{{$postcategory->created_at->format('d/m/Y')}}</td>
 
 
 

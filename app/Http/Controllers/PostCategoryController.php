@@ -21,10 +21,10 @@ class PostCategoryController extends Controller
      */
     public function index()
     {
-        $postcategory=PostCategory::all();
+        $postcategories=PostCategory::all();
         $page_title = 'Categorie';
         $page_description = 'Some description for the page';
-        return view('pages.postcategories.index',compact('postcategory','page_title','page_description'));
+        return view('pages.postcategories.index',compact('postcategories','page_title','page_description'));
 
     }
 

@@ -104,7 +104,9 @@
                 <th>Titolo</th>
                 <th>Icona</th>
                 <th>Pubbicato</th>
-                <th>Actions</th>
+                <th>Data</th>
+
+                <th>Azioni</th>
             </tr>
             </thead>
             <tbody>
@@ -123,6 +125,7 @@
                         @endif
                     </td>
 
+                    <td>{{$service->created_at->format('d/m/Y')}}</td>
 
 
                     <td  nowrap>

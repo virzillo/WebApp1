@@ -21,7 +21,10 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('pages.posts.index');
+        $posts=Post::all();
+        $page_title = 'Articoli';
+        $page_description = '';
+        return view('pages.posts.index',compact('posts','page_title','page_description'));
     }
 
     /**
