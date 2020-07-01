@@ -22,7 +22,7 @@ class CreatePostsTable extends Migration
             $table->foreignId('category_id')->constrained('post_categories');
 
             $table->string('titolo');
-            $table->string('descrizione')->nullable();
+            $table->text('descrizione')->nullable();
             $table->text('testo')->nullable();;
             $table->string('immagine')->nullable();
             $table->string('slug')->index();

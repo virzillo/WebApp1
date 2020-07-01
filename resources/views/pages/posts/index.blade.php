@@ -17,12 +17,12 @@
         <div class="card-toolbar">
 
             <!--begin::Button-->
-            <a href="{{route('crea.progetto')}}" class="btn btn-primary font-weight-bolder">
+            <a href="{{route('post.create')}}" class="btn btn-primary font-weight-bolder">
                 <span class="svg-icon svg-icon-md">
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                     {{ Metronic::getSVG("assets/media/svg/icons/Design/Flatten.svg") }}
                     <!--end::Svg Icon-->
-                </span>New Record</a>
+                </span>Nuovo</a>
             <!--end::Button-->
         </div>
     </div>
@@ -67,7 +67,7 @@
                     </td>
                     <td>
                         <div class="symbol symbol-50 flex-shrink-0">
-                            <img src="{{url('/images/')}}/{{ $post->immagine }}" alt="{{ $post->immagine }}">
+                            <img src="{{ url('/storage/'.$post->immagine) }} " alt="{{ $post->immagine }}">
                         </div>
                     </td>
 
@@ -95,7 +95,7 @@
                             @method('delete')
                             @csrf
                             {{ method_field('DELETE') }} {{ csrf_field() }}
-                            <a href="{{route('mostra.progetto',$post->id )}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
+                            <a href="{{route('post.show',$post->id )}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Visualizza">
                                 <span class="svg-icon svg-icon-md svg-icon-primary">
                                     {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
                                 </span>

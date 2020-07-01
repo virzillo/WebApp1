@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-lg-4">
                     <label>Città:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_6" name="citta">
+                    <select class="form-control kt-select2 select2" id="kt_select2_6" name="comune">
                         <option selected="true">{{ $project->comune }}</option>
                     </select>
                 </div>
@@ -210,7 +210,7 @@
                 <label>Carica immagine:</label><br>
 
                 <div class="image-input image-input-outline" id="kt_image_4"
-                    style="background-image: url({{ url('images/') }}/{{ $project->immagine }})">
+                    style="background-image: url({{ url('/storage/') }}/{{ $project->immagine }})">
                     <div class="image-input-wrapper immagine-post" style=""></div>
 
                     <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow"
@@ -436,7 +436,7 @@
         });
 
         $('#MenuGestioneImpianti').addClass("menu-item-open");
-        $('#MenuProgetti').addClass("menu-item-open menu-item-here");
+        $('#MenuImpianti').addClass("menu-item-open menu-item-here");
     });
 
 </script>

@@ -131,12 +131,12 @@
                     </td>
                     <td>
                         <div class="symbol symbol-50 flex-shrink-0">
-                            <img src="{{url('/images/')}}/{{ $project->immagine }}" alt="{{ $project->immagine }}">
+                            <img src="{{ url('/storage/'.$project->immagine) }} " alt="{{ $project->immagine }}">
                         </div>
                     </td>
                     <td>{{ $project->dimensione }}</td>
                     <td>{{ $project->provincia }}</td>
-                    <td>{{ $project->citta }}</td>
+                    <td>{{ $project->comune }}</td>
                     <td>{{ $project->dimensione }}</td>
                     <td> {{ $project->category->titolo }}</td>
 

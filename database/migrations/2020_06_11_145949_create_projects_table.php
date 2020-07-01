@@ -32,7 +32,7 @@ class CreateProjectsTable extends Migration
             $table->float('sconto')->nullable();
 
             $table->string('provincia')->nullable();
-            $table->string('citta')->nullable();
+            $table->string('comune')->nullable();
 
             $table->string('codice')->nullable();
             $table->text('condizioni_pagamento')->nullable();

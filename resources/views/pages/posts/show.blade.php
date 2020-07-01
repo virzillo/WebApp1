@@ -13,11 +13,13 @@
 
 <div class="card card-custom gutter-b ">
     <div class="card-header">
-        <h3 class="card-title">Crea nuovo articolo</h3>
+        <h3 class="card-title">Visualizza articolo</h3>
         <div class="card-toolbar">
 
-            <form method="POST" action="{{ route('post.store') }}" enctype="multipart/form-data">
-                @csrf
+                <form method="POST" action="{{ route('post.update', $post->id) }}"
+                    enctype="multipart/form-data">
+                    @method('PUT')
+                    @csrf
                 <button type="submit" class="btn btn-primary mr-2">Salva</button>
 
 
@@ -33,13 +35,13 @@
                 <div class="col-lg-6">
                     <label>Titolo:</label>
                     <input type="text" class="form-control" placeholder="inserisci titolo" id="titolo" name="titolo"
-                        value="{{ old('titolo') }}">
+                        value="{{ $post->titolo }}">
                     <span class="form-text text-muted"> </span>
                 </div>
                 <div class="col-lg-6">
                     <label>Slug:</label>
                     <input type="text" class="form-control" placeholder="inserisci slug" id="slug" name="slug"
-                        value="{{ old('slug') }}">
+                        value="{{ $post->slug }}">
                 </div>
 
             </div>
@@ -50,7 +52,9 @@
                 <select class="form-control kt-select2 select2" id="kt_select2_1" name="category_id">
                     <option value="">Seleziona una categoria</option>
                     @foreach($postcategories as $postcategory)
-                        <option value="{{ $postcategory->id }}">{{ $postcategory->titolo }}</option>
+                        <option value="{{ $postcategory->id }}"
+                            {{ ($post->category_id===$postcategory->id) ?  'selected' :  ' ' }}
+                            >{{ $postcategory->titolo }}</option>
                     @endforeach
                 </select>
             </div>
@@ -61,12 +65,12 @@
         <div class="col-lg-12">
             <div class="form-group">
                 <label>Descrizione:</label>
-                <textarea class="form-control" id="descrizione" name="descrizione">{{ old('descrizione') }}</textarea>
+                <textarea class="form-control" id="descrizione" name="descrizione">{{ $post->descrizione }}</textarea>
                 <span class="form-text text-muted"> </span>
             </div>
             <div class="form-group">
                 <label>Testo:</label>
-                <textarea class="form-control" id="testo" name="testo">{{ old('testo') }}</textarea>
+                <textarea class="form-control" id="testo" name="testo">{{ $post->testo }}</textarea>
                 <span class="form-text text-muted"> </span>
             </div>
         </div>
@@ -77,21 +81,21 @@
                 <div class="col-lg-6">
                     <label>Meta Titolo:</label>
                     <input type="text" class="form-control" placeholder="inserisci meta titolo" maxlength="70"
-                        id="meta_titolo" name="meta_titolo" value="{{ old('meta_titolo') }}">
+                        id="meta_titolo" name="meta_titolo" value="{{ $post->meta_titolo }}">
                     <span class="form-text text-muted" id="meta_titolo_messaggio"> Max 70 caratteri</span>
                 </div>
                 <div class="col-lg-6">
                     <label>Meta Descrizione:</label>
                     <input type="text" class="form-control" placeholder="inserisci meta descrizione" maxlength="160"
                         id="meta_descrizione" name="meta_descrizione"
-                        value="{{ old('meta_descrizione') }}">
+                        value="{{ $post->meta_descrizione }}">
                     <span class="form-text text-muted" id="meta_descrizione_messaggio"> Max 160 caratteri </span>
                 </div>
             </div>
             <div class="form-group">
                 <label>Keywords:</label>
                 <input id="kt_tagify_1" class="form-control tagify" name='meta_keywords' placeholder="scrivi..."
-                    value="{{ old('meta_keywords') }}" data-blacklist='.NET,PHP' />
+                    value="{{ $post->meta_keywords }}" data-blacklist='.NET,PHP' />
 
                 <div class="mt-3">
                     <a href="javascript:;" id="kt_tagify_1_remove"
@@ -105,14 +109,14 @@
                 <label>Carica immagine:</label><br>
 
                 <div class="image-input image-input-outline" id="kt_image_4"
-                    style="background-image: url({{url('/')}}/media/users/blank.png)">
+                    style="background-image: url({{url('/storage/'.$post->immagine)}})">
                     <div class="image-input-wrapper immagine-post" style=""></div>
 
                     <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow"
                         data-action="change" data-toggle="tooltip" title="" data-original-title="Carica foto">
                         <i class="fa fa-pen icon-sm text-muted"></i>
                         <input type="file" name="immagine" accept=".png, .jpg, .jpeg"
-                            value="{{ old('immagine') }}" />
+                            value="{{ $post->immagine }}" />
                         <input type="hidden" name="profile_avatar_remove" />
                     </label>
 
@@ -133,21 +137,25 @@
         <div class="col-lg-12">
 
             <div class="form-group row">
-
                 <label class="col-lg-3 col-sm-3  col-form-label">Pubblicato</label>
                 <div class="col-lg-3 col-sm-3 ">
                     <span class="switch switch-outline switch-icon switch-success">
                         <label>
-                            <input type="checkbox" checked="checked" name="pubblicato">
+                            <input type="checkbox"
+                                checked="{{ ($post->pubblicato==='on') ?  'checked' :  ' ' }}"
+                                name="pubblicato">
                             <span></span>
                         </label>
                     </span>
                 </div>
+
                 <label class="col-lg-3 col-sm-3  col-form-label">In Evidenza:</label>
                 <div class="col-lg-3 col-sm-3 ">
                     <span class="switch switch-outline switch-icon switch-warning">
                         <label>
-                            <input type="checkbox" checked="checked" name="evidenza">
+                            <input type="checkbox"
+                            checked=" {{ ($post->evidenza==='on') ?  'checked' :  ' ' }}"
+                            name="evidenza">
                             <span></span>
                         </label>
                     </span>
@@ -288,6 +296,8 @@
                 tabsize: 2,
                 height: 150
             });
+            $('#MenuSitoWeb').addClass("menu-item-open");
+            $('#MenuArticoli').addClass("menu-item-open menu-item-here");
 
         });
 

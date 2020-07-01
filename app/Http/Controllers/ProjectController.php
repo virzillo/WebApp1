@@ -7,9 +7,10 @@ use App\Project;
 use App\Service;
 use App\Category;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
 
 class ProjectController extends Controller
 {
@@ -70,8 +71,8 @@ class ProjectController extends Controller
             'provincia'=>'min:2|string',
             'comune'=>'min:2|string',
             'indirizzo'=>'min:2|string',
-            'prezzo'=>'min:1|number',
-            'sconto'=>'min:1|number',
+            'prezzo'=>'min:1|numeric',
+            'sconto'=>'min:1|numeric',
             'dimensione'=>'min:1|string',
             'codice'=>'min:1|string',
 
@@ -107,9 +108,10 @@ class ProjectController extends Controller
             $project->testo=$request['testo'];
             $project->slug=$request['slug'];
 
-            $imageName = time().'.'.$request->immagine->extension();
-            $request->immagine->move(public_path('images'), $imageName);
-            $project->immagine = $imageName ;
+            // $imageName = time().'.'.$request->immagine->extension();
+            // $request->immagine->move(public_path('images'), $imageName);
+            // $project->immagine = $imageName ;
+            $project->immagine  = $request->file('immagine')->store('public/image/impianti');
 
             $project->category_id=$request['sottocategoria'];
 
@@ -141,7 +143,7 @@ class ProjectController extends Controller
             }
 
             $notification = array(
-                'message' => 'Corso inserito con successo!',
+                'message' => 'Impianto inserito con successo!',
                 'alert-type' => 'success'
             );
             return back()->with($notification);
@@ -197,8 +199,8 @@ class ProjectController extends Controller
             'provincia'=>'min:2|string',
             'comune'=>'min:2|string',
             'indirizzo'=>'min:2|string',
-            'prezzo'=>'min:1|number',
-            'sconto'=>'min:1|number',
+            'prezzo'=>'min:1|numeric',
+            'sconto'=>'min:1|numeric',
             'dimensione'=>'min:1|string',
 
             'condizione_pagamento'=>'min:1|nullable|string',
@@ -234,9 +236,10 @@ class ProjectController extends Controller
             $project->slug=$request->get('slug');
 
             if($request->hasFile('immagine')){
-                $imageName = time().'.'.$request->immagine->extension();
-                $request->immagine->move(public_path('images'), $imageName);
-                $project->immagine = $imageName ;
+                // $imageName = time().'.'.$request->immagine->extension();
+                // $request->immagine->move(public_path('images'), $imageName);
+                // $project->immagine = $imageName ;
+                $project->immagine  = $request->file('immagine')->store('image/impianti');
             }
 
 
@@ -270,7 +273,7 @@ class ProjectController extends Controller
             $project->save();
 
             $notification = array(
-                'message' => 'Servizio modificato con successo!',
+                'message' => 'Impianto modificato con successo!',
                 'alert-type' => 'success'
             );
             return redirect(action('ProjectController@index'))->with($notification);
@@ -285,10 +288,17 @@ class ProjectController extends Controller
     public function destroy(Project $project)
     {
         $project = Project::find($project->id);
-        $image_path = public_path('images').'/'.$project->immagine;
-        unlink($image_path);
+        Storage::delete($project->immagine);
         $project->service()->detach();
-        $project->delete();
+            $project->delete();
+
+
+
+        // $image_path = public_path('images').'/'.$project->immagine;
+
+        // unlink($image_path);
+        // $project->service()->detach();
+        // $project->delete();
 
         $notification = array(
             'message' => 'Record eliminato con successo!',
@@ -317,7 +327,7 @@ class ProjectController extends Controller
 
 
            $data = DB::table('cities')->select('provincia')->groupByRaw('provincia')->get();
-
+            // $data=DB::table('provincies')->get();
 
 
             return response()->json($data);

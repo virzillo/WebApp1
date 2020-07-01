@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-lg-4">
                     <label>Città:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_6" name="citta">
+                    <select class="form-control kt-select2 select2" id="kt_select2_6" name="comune">
                         <option selected="true" disabled>Scegli comune</option>
                     </select>
                 </div>

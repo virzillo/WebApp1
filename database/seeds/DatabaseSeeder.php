@@ -19,9 +19,12 @@ class DatabaseSeeder extends Seeder
 
 
         // $path = storage_path('cities.sql');
-        $path = url('storage/cities.sql');
+        $pathcities = url('storage/cities.sql');
+        $pathprovinces = url('storage/provinces.sql');
 
-        DB::unprepared(file_get_contents($path));
+        DB::unprepared(file_get_contents($pathcities));
         $this->command->info('Country table seeded!');
+        DB::unprepared(file_get_contents($pathprovinces));
+        $this->command->info('Province table seeded!');
     }
 }
