@@ -92,7 +92,10 @@ class SliderController extends Controller
      */
     public function show(Slider $slider)
     {
-        //
+        $page_title = 'Modifica slider';
+        $page_description = '';
+        $slider=Slider::find($slider->id);
+        return view('pages.sliders.show',compact('slider','page_title','page_description'));
     }
 
     /**
@@ -103,7 +106,7 @@ class SliderController extends Controller
      */
     public function edit(Slider $slider)
     {
-        //
+
     }
 
     /**

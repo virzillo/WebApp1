@@ -217,7 +217,7 @@
                         data-action="change" data-toggle="tooltip" title="" data-original-title="Carica foto">
                         <i class="fa fa-pen icon-sm text-muted"></i>
                         <input type="file" name="immagine" accept=".png, .jpg, .jpeg"
-                            value="{{ old('immagine') }}" />
+                            value="{{ $project->immagine }}" />
                         <input type="hidden" name="profile_avatar_remove" />
                     </label>
 
