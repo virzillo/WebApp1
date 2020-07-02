@@ -492,7 +492,7 @@ $(document).ready(function(){
             dropdown.prop('selectedIndex', 0);
             // var val = $(this).val();
     $.ajax({
-            url:'provincie/',
+            url:'province/',
             type:'GET',
             dataType:'json',
             headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
@@ -520,6 +520,7 @@ $(document).ready(function(){
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
                 success: function (response) {
+
                     $.each(response, function (key, entry) {
                         dropdown.append($('<option>').attr('value', entry.comune).text(entry
                             .comune));

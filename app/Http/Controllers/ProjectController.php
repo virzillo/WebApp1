@@ -319,15 +319,15 @@ class ProjectController extends Controller
         }
     }
 
-    public function provincie()
+    public function province()
     {
         if(request()->ajax())
         {
 
 
 
-           $data = DB::table('cities')->select('provincia')->groupByRaw('provincia')->get();
-            // $data=DB::table('provincies')->get();
+        //    $data = DB::table('cities')->select('provincia')->groupByRaw('provincia')->get();
+            $data=DB::table('provinces')->select('provincia')->get();
 
 
             return response()->json($data);
@@ -338,9 +338,10 @@ class ProjectController extends Controller
         if(request()->ajax())
         {
 
-            // $data=$id;
 
-           $data = DB::table('cities')->select('comune')->where('provincia',$val)->get();
+            $data = DB::table('provinces')->select('sigla')->where('provincia',$val)->get();
+            $sigla=$data[0]->sigla;
+            $data = DB::table('cities')->select('comune')->where('provincia',$sigla)->get();
 
             // $data = DB::table('cities')->orderBy('provincia','asc')->groupBy('provincia')->get();
 
