@@ -239,7 +239,7 @@ class ProjectController extends Controller
                 // $imageName = time().'.'.$request->immagine->extension();
                 // $request->immagine->move(public_path('images'), $imageName);
                 // $project->immagine = $imageName ;
-                $project->immagine  = $request->file('immagine')->store('image/impianti');
+                $project->immagine  = $request->file('immagine')->store('public/image/impianti');
             }
 
 

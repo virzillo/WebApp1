@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Slider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
 class SliderController extends Controller
@@ -118,7 +119,42 @@ class SliderController extends Controller
      */
     public function update(Request $request, Slider $slider)
     {
-        //
+        $validator = Validator::make($request->all(), [
+            'titolo' => 'required|min:2|string',
+            'sottotitolo' => 'string|min:2',
+            'pubblicato'=>'nullable',
+            'immagine' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+        ]);
+
+        if ($validator->fails()) {
+
+            $notification = array(
+                'message' => $validator->errors(),
+                'alert-type' => 'error'
+            );
+
+            return back()
+                        ->with($notification)
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+
+        $slider = Slider::find($slider->id);
+        $slider->titolo = $request->get('titolo');
+        $slider->sottotitolo = $request->get('sottotitolo');
+        if($request->hasFile('immagine')){
+            $slider->immagine  = $request->file('immagine')->store('public/image/slider');
+        }
+
+        $slider->pubblicato = $request->get('pubblicato');
+
+        $slider->save();
+
+        $notification = array(
+            'message' => 'Slider modificato con successo!',
+            'alert-type' => 'success'
+        );
+        return redirect(action('SliderController@index'))->with($notification);
     }
 
     /**
@@ -129,7 +165,17 @@ class SliderController extends Controller
      */
     public function destroy(Slider $slider)
     {
-        //
+        $slider = Slider::find($slider->id);
+        Storage::delete($slider->immagine);
+        $slider->delete();
+
+
+        $notification = array(
+            'message' => 'Slider eliminato con successo!',
+            'alert-type' => 'success'
+        );
+
+        return back()->with($notification);
     }
 
 
