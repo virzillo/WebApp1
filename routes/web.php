@@ -43,7 +43,6 @@ Route::get('/dashboard', 'PagesController@index');
     Route::delete('/progetti/{project}', 'ProjectController@destroy')->name('elimina.progetto');
 
 
-    Route::get('/articoli', 'PostController@index')->name('articoli');
 
     Route::get('/servizi', 'ServiceController@index')->name('servizi');
     Route::get('/servizi/crea', 'ServiceController@create')->name('crea.servizio');
@@ -64,19 +63,20 @@ Route::get('/dashboard', 'PagesController@index');
     Route::resource('category' , 'CategoryController');
     Route::resource('postcategory' , 'PostCategoryController');
     Route::resource('post' , 'PostController');
+    Route::resource('slider' , 'SliderController');
 
 
     // Demo routes
-    Route::get('/datatables', 'PagesController@datatables');
-    Route::get('/ktdatatables', 'PagesController@ktDatatables');
-    Route::get('/select2', 'PagesController@select2');
-    Route::get('/icons/custom-icons', 'PagesController@customIcons');
-    Route::get('/icons/flaticon', 'PagesController@flaticon');
-    Route::get('/icons/fontawesome', 'PagesController@fontawesome');
-    Route::get('/icons/lineawesome', 'PagesController@lineawesome');
-    Route::get('/icons/socicons', 'PagesController@socicons');
-    Route::get('/icons/svg', 'PagesController@svg');
-    Route::get('/icons/shareserviceicons', 'PagesController@shareserviceicons');
+    // Route::get('/datatables', 'PagesController@datatables');
+    // Route::get('/ktdatatables', 'PagesController@ktDatatables');
+    // Route::get('/select2', 'PagesController@select2');
+    // Route::get('/icons/custom-icons', 'PagesController@customIcons');
+    // Route::get('/icons/flaticon', 'PagesController@flaticon');
+    // Route::get('/icons/fontawesome', 'PagesController@fontawesome');
+    // Route::get('/icons/lineawesome', 'PagesController@lineawesome');
+    // Route::get('/icons/socicons', 'PagesController@socicons');
+    // Route::get('/icons/svg', 'PagesController@svg');
+    // Route::get('/icons/shareserviceicons', 'PagesController@shareserviceicons');
 
 });
 

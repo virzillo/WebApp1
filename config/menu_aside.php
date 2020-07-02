@@ -22,7 +22,22 @@ return [
             'bullet' => 'line',
             'root' => true,
             'submenu' => [
+                [
+                    'title' => 'Slider',
+                    'bullet' => 'dot',
+                    'submenu' => [
 
+                        [
+                            'title' => 'Visualizza',
+                            'page' => 'admin/slider'
+                        ],
+                        [
+                            'title' => 'Inserisci',
+                            'page' => 'admin/slider/create'
+                        ],
+
+                    ]
+                ],
                 [
                     'title' => 'Articoli',
                     'bullet' => 'dot',

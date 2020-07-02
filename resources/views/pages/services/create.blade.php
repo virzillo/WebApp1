@@ -28,12 +28,12 @@
             <div class="form-group row">
                 <div class="col-lg-4">
                     <label>Titolo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci titolo" name="titolo">
+                    <input type="text" class="form-control" placeholder="inserisci titolo" name="titolo" required>
                     <span class="form-text text-muted"> </span>
                 </div>
                 <div class="col-lg-4">
                     <label>Icona:</label>
-                    <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona">
+                    <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
                     <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
                 </div>
                 <div class="col-lg-4">
@@ -64,9 +64,9 @@
 
                 </div>
                 <div class="col-lg-6 text-right">
-                    {{-- <button type="reset" class="btn btn-danger">Delete</button> --}}
+
+                    <a href="{{route('servizi')}}" type="button" class="btn btn-secondary">Back</a>
                     <button type="submit" class="btn btn-primary mr-2">Save</button>
-                    <button type="reset" class="btn btn-secondary">Cancel</button>
                 </div>
             </div>
         </div>

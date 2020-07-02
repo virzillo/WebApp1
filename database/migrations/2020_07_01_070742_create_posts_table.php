@@ -23,7 +23,7 @@ class CreatePostsTable extends Migration
 
             $table->string('titolo');
             $table->text('descrizione')->nullable();
-            $table->text('testo')->nullable();;
+            $table->text('testo')->nullable();
             $table->string('immagine')->nullable();
             $table->string('slug')->index();
             $table->enum('pubblicato',['on',NULL])->nullable();
