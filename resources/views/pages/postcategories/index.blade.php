@@ -62,25 +62,18 @@
 
 
                     <td  nowrap>
-                        <form action="{{route('postcategory.destroy', $postcategory->id)}}" method="POST">
-                        <form action="" method="">
+                        <form action="{{route('postcategory.destroy', $postcategory->id)}}" method="POST" id="form-delete">
                             @method('delete')
                             @csrf
-
-
                         <a href="{{route('postcategory.show',$postcategory->id)}}" class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
 
                             <span class="svg-icon svg-icon-md">
                                 {{ Metronic::getSVG("media/svg/icons/General/Edit.svg")}}
-
                             </span>
                         </a>
-                        </a>
-
-                            <button type="submit"  class="btn btn-icon btn-light btn-hover-danger btn-sm "  onclick="ConfirmDelete()">
+                            <button type="button"  class="btn btn-icon btn-light btn-hover-danger btn-sm "  id="confirm-delete">
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
-
                                 </span>
                             </button>
 
@@ -121,16 +114,20 @@
     <script>
 
 
-                 function ConfirmDelete()
-                    {
-
-                        var x = confirm("Are you sure you want to delete?");
-      if (x)
-
-          return;
-      else
-        return false;
-                    }
+$("button#confirm-delete").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete").submit();
+        }
+    });
+});
             </script>
 
 @endsection

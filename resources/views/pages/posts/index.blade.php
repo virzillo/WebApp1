@@ -90,8 +90,7 @@
                     <td>{{$post->created_at->format('d/m/Y')}}</td>
                     <td class="warning" nowrap>
                         <form action="{{route('post.destroy', $post->id) }}"
-                        method="POST">
-                        <form action="" method="">
+                        method="POST" id="form-delete">
                             @method('delete')
                             @csrf
                             {{ method_field('DELETE') }} {{ csrf_field() }}
@@ -100,7 +99,7 @@
                                     {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
                                 </span>
                             </a>
-                            <button type="submit" class="btn btn-sm btn-clean btn-icon " onclick="ConfirmDelete()">
+                            <button type="button" class="btn btn-sm btn-clean btn-icon " id="confirm-delete">
                                 <span class="svg-icon svg-icon-md svg-icon-primary">
                                     <!--begin::Svg Icon | path:assets/media/svg/icons/General/Trash.svg-->
                                     {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
@@ -142,15 +141,21 @@
     type="text/javascript"></script>
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 <script>
-    function ConfirmDelete() {
 
-        var x = confirm("Are you sure you want to delete?");
-        if (x)
-
-            return;
-        else
-            return false;
-    }
+$("button#confirm-delete").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete").submit();
+        }
+    });
+});
 
 </script>
 

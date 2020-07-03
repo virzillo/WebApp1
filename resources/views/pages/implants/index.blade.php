@@ -106,7 +106,7 @@
                                     {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
                                 </span>
                             </a>
-                            <button type="button" class="btn btn-sm btn-clean btn-icon " id="delete-confirm">
+                            <button type="button" class="btn btn-sm btn-clean btn-icon " id="confirm-delete">
                                 <span class="svg-icon svg-icon-md svg-icon-primary">
                                     <!--begin::Svg Icon | path:assets/media/svg/icons/General/Trash.svg-->
                                     {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
@@ -149,7 +149,7 @@
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 <script>
 
-   $("button#delete-confirm").click(function(e) {
+   $("button#confirm-delete").click(function(e) {
     event.preventDefault();
     Swal.fire({
         title: "Sei sicuro?",

@@ -68,22 +68,17 @@
 
 
                     <td  nowrap>
-                        <form action="{{route('slider.destroy', $slider->id)}}" method="POST">
-                        <form action="" method="">
+                        <form action="{{route('slider.destroy', $slider->id)}}" method="POST" id="form-delete">
                             @method('delete')
                             @csrf
-
-
                         <a href="{{route('slider.show',$slider->id)}}" class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
 
                             <span class="svg-icon svg-icon-md">
-                                <?php echo Metronic::getSVG("media/svg/icons/General/Edit.svg"); ?>
+                               {{ Metronic::getSVG("media/svg/icons/General/Edit.svg")}}
 
                             </span>
                         </a>
-                        </a>
-
-                            <button type="submit"  class="btn btn-icon btn-light btn-hover-danger btn-sm "  onclick="ConfirmDelete()">
+                            <button type="button"  class="btn btn-icon btn-light btn-hover-danger btn-sm "  id="confirm-delete">
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
 
@@ -124,19 +119,24 @@
 <script src="{{ asset('js/pages/my-script.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/pages/features/miscellaneous/sweetalert2.js') }}"  type="text/javascript"></script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-    <script>
+<script>
 
 
-                 function ConfirmDelete()
-                    {
+$("button#confirm-delete").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete").submit();
+        }
+    });
+});
 
-                        var x = confirm("Are you sure you want to delete?");
-      if (x)
-
-          return;
-      else
-        return false;
-                    }
-            </script>
+</script>
 
 @endsection

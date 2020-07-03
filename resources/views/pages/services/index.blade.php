@@ -66,19 +66,15 @@
 
                     <td  nowrap>
                         <form action="{{route('service.destroy',$service->id)}}" method="POST" id="form-delete">
-
                             @method('delete')
                             @csrf
-
                         <a href="{{route('service.show',$service->id)}}" class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
-
                             <span class="svg-icon svg-icon-md">
                                 <?php echo Metronic::getSVG("media/svg/icons/General/Edit.svg"); ?>
 
                             </span>
                         </a>
-
-                            <button type="button"  class="btn btn-icon btn-light btn-hover-danger btn-sm " id="delete-confirm"  >
+                            <button type="button"  class="btn btn-icon btn-light btn-hover-danger btn-sm " id="confirm-delete"  >
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
 
@@ -123,7 +119,7 @@
 
 
 
-$("button#delete-confirm").click(function(e) {
+$("button#confirm-delete").click(function(e) {
     event.preventDefault();
     Swal.fire({
         title: "Sei sicuro?",

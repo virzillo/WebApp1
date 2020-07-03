@@ -113,22 +113,17 @@
                     <td>{{$user->created_at->format('d/m/Y')}}</td>
 
                     <td class="warning" nowrap>
-                        {{-- --}}
-                        <form action="{{route('elimina.utente', $user->id)}}" method="POST">
+                        <form action="{{route('elimina.utente', $user->id)}}" method="POST" id="form-delete">
 
                             @method('delete')
                             @csrf
-                            {{-- {{ method_field('DELETE') }} {{csrf_field()}} --}}
-
                         <a href="utenti/{{$user->id}}" class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
                             <span class="svg-icon svg-icon-md">
                                 {{Metronic::getSVG("media/svg/icons/General/Edit.svg")}}
 
                             </span>
                         </a>
-                        </a>
-
-                            <button type="submit"  class="btn btn-icon btn-light btn-hover-danger btn-sm "onclick="ConfirmDelete()">
+                            <button type="button"  class="btn btn-icon btn-light btn-hover-danger btn-sm " id="confirm-delete">
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
 
@@ -172,39 +167,20 @@
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
     <script>
 
-
-
-        //     $('#conferma').on('click', function(){
-        //     swal({
-        //         title: "Are you sure?",
-        //         text: "You will not be able to recover this imaginary file!",
-        //         type: "warning",
-        //         showCancelButton: true,
-        //         confirmButtonClass: 'btn-danger',
-        //         confirmButtonText: 'Yes, delete it!',
-        //         cancelButtonText: "No, cancel plx!",
-        //         closeOnConfirm: false,
-        //         closeOnCancel: false
-        //       },
-        //       function (isConfirm) {
-        //         if (isConfirm) {
-        //           swal("Deleted!", "Your imaginary file has been deleted!", "success");
-        //         } else {
-        //           swal("Cancelled", "Your imaginary file is safe :)", "error");
-        //         }
-        //       });
-        //   });
-
-                 function ConfirmDelete()
-                    {
-
-                        var x = confirm("Are you sure you want to delete?");
-      if (x)
-
-          return;
-      else
-        return false;
-                    }
+$("button#confirm-delete").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete").submit();
+        }
+    });
+});
             </script>
 
 @endsection
