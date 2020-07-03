@@ -12,7 +12,7 @@
 
 
 
-<div class="card card-custom gutter-b example example-compact">
+<div class="card card-custom gutter-b">
     <div class="card-header">
         <h3 class="card-title">Modifica servizio</h3>
         <div class="card-toolbar">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-lg-4">
                     <label>Icona:</label>
-                    <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" value="{{$service->icona}}">
+                    <input type="text" class="form-control" placeholder="inserisci icona"  name="icona" value="{{$service->icona}}">
                     <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
                 </div>
                 <div class="col-lg-4">

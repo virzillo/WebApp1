@@ -29,15 +29,15 @@ Route::get('/dashboard', 'PagesController@index');
     Route::put('/utenti/{id}', 'UsersController@update')->name('modifica.utente');
     Route::delete('/utenti/{id}', 'UsersController@destroy')->name('elimina.utente');
 
-    Route::get('/progetti', 'ProjectController@index')->name('progetto');
-    Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
-    Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
-    Route::get('/progetti/province', 'ProjectController@province')->name('query.province');
-    Route::get('/progetti/{project}', 'ProjectController@show')->name('mostra.progetto');
-    Route::put('/progetti/{project}', 'ProjectController@update')->name('modifica.progetto');
-    Route::post('/progetti/query/{id}', 'ProjectController@query')->name('query.progetto');
-    Route::post('/progetti/comuni/{val}', 'ProjectController@comuni')->name('query.comuni');
-    Route::delete('/progetti/{project}', 'ProjectController@destroy')->name('elimina.progetto');
+    // Route::get('/progetti', 'ProjectController@index')->name('progetto');
+    // Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
+    // Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
+    // Route::get('/progetti/province', 'ProjectController@province')->name('query.province');
+    // Route::get('/progetti/{project}', 'ProjectController@show')->name('mostra.progetto');
+    // Route::put('/progetti/{project}', 'ProjectController@update')->name('modifica.progetto');
+    // Route::post('/progetti/query/{id}', 'ProjectController@query')->name('query.progetto');
+    // Route::post('/progetti/comuni/{val}', 'ProjectController@comuni')->name('query.comuni');
+    // Route::delete('/progetti/{project}', 'ProjectController@destroy')->name('elimina.progetto');
 
 
 
@@ -72,13 +72,13 @@ Route::get('/dashboard', 'PagesController@index');
     // Route::get('/datatables', 'PagesController@datatables');
     // Route::get('/ktdatatables', 'PagesController@ktDatatables');
     // Route::get('/select2', 'PagesController@select2');
-    // Route::get('/icons/custom-icons', 'PagesController@customIcons');
-    // Route::get('/icons/flaticon', 'PagesController@flaticon');
-    // Route::get('/icons/fontawesome', 'PagesController@fontawesome');
-    // Route::get('/icons/lineawesome', 'PagesController@lineawesome');
-    // Route::get('/icons/socicons', 'PagesController@socicons');
-    // Route::get('/icons/svg', 'PagesController@svg');
-    // Route::get('/icons/shareserviceicons', 'PagesController@shareserviceicons');
+    Route::get('/icons/custom-icons', 'PagesController@customIcons');
+    Route::get('/icons/flaticon', 'PagesController@flaticon');
+    Route::get('/icons/fontawesome', 'PagesController@fontawesome');
+    Route::get('/icons/lineawesome', 'PagesController@lineawesome');
+    Route::get('/icons/socicons', 'PagesController@socicons');
+    Route::get('/icons/svg', 'PagesController@svg');
+    Route::get('/icons/shareserviceicons', 'PagesController@shareserviceicons');
 
 });
 

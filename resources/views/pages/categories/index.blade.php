@@ -85,8 +85,6 @@
             <!--begin::Body-->
             <div class="card-body">
 
-
-
                 <table class="table table-bordered table-vertical-center" id="kt_datatable">
                     <thead>
                         <tr>
@@ -113,38 +111,29 @@
                                 <td class="warning" nowrap>
                                     <form
                                         action="{{ route('category.destroy', $category->id) }}"
-                                        method="POST">
+                                        method="POST" id="form-delete">
                                         @method('delete')
                                         @csrf
-
                                         <a href="{{ route('category.show', $category->id) }}"
-                                            class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
+                                            class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza categoria e aggiungi sottocategorie">
                                             <span class="svg-icon svg-icon-md svg-icon-primary">
                                                 {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
                                             </span>
                                         </a>
-
-                                        <button type="submit" class="btn btn-icon btn-light btn-hover-primary btn-sm"
-                                            onclick="ConfirmDelete()">
-                                            <span class="svg-icon svg-icon-md svg-icon-primary">
+                                        <button type="button" class="btn btn-icon btn-light btn-hover-primary btn-sm"
+                                            id="confirm-delete" title="Elimina record">
+                                            <span class="svg-icon svg-icon-md svg-icon-danger">
                                                 <!--begin::Svg Icon | path:assets/media/svg/icons/General/Trash.svg-->
                                                 {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
                                                 <!--end::Svg Icon-->
                                             </span>
                                         </button>
-
                                     </form>
-
                                 </td>
                             </tr>
                         @endforeach
-
-
                     </tbody>
                 </table>
-
-
-
             </div>
             <!--end::Body-->
         </div>
@@ -179,7 +168,7 @@
                         </div>
                         <div class="form-group">
                             <label>Pubblicato:</label>
-                            <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
+                            <select class="form-control kt-select2 select2" id="kt_select2_2" name="pubblicato">
                                 <option value="on">si</option>
                                 <option value="">no</option>
                             </select>
@@ -224,23 +213,26 @@
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 <script>
 
-
-
-
-    function ConfirmDelete() {
-
-        var x = confirm("Are you sure you want to delete?");
-        if (x)
-
-            return;
-        else
-            return false;
-    }
+$("button#confirm-delete").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete").submit();
+        }
+    });
+});
 
 </script>
 <script>
     $(document).ready(function () {
         $('.select2').select2();
+
     });
 
 </script>

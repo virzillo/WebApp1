@@ -258,14 +258,15 @@
 {{-- page scripts --}}
 <script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript"></script>
 
-<script>
+<script type="text/javascript">
     $(document).ready(function() {
         $('.select2').select2();
-        $('#MenuApplications').addClass("menu-item-open");
+        $('#MenuGestioneImpianti').addClass("menu-item-open");
         $('#MenuCategorie').addClass("menu-item-open menu-item-here");
     });
 </script>
 <script type="text/javascript">
+
     $('.edit-category').on('click', function () {
         var id = $(this).data('id');
         var titolo = $(this).data('titolo');

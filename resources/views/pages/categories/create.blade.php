@@ -54,127 +54,141 @@
 
 </div> --}}
 
-<div class="card card-custom gutter-b example example-compact">
-    <div class="card">
-        <div class="card-header">
-            <h3>Create Category</h3>
-        </div>
 
-        <div class="card-body">
-            <form action="{{ route('category.store') }}" method="POST">
-                @csrf
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card card-custom">
+            <div class="card-header flex-wrap border-0 pt-6 pb-0">
+                <div class="card-title">
+                    <h3 class="card-label">Crea Categorie
+                </div>
+            </div>
+            <div class="card-body">
+                <form action="{{ route('category.store') }}" method="POST">
+                    @csrf
 
-                <div class="form-group row">
+                    <div class="form-group row">
+                        <div class="col-lg-4"> <label>Categoria:</label>
+                            <select class="form-control" name="parent_id">
+                                <option value="">Seleziona categoria genitore</option>
+
+                                @foreach($categories as $category)
+                                    <option value="{{ $category->id }}">{{ $category->titolo }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+                        <div class="col-lg-4"> <label>Titolo:</label>
+                            <input type="text" name="titolo" class="form-control"
+                                value="{{ old('titolo') }}" placeholder="Nome categoria" required>
+                        </div>
+
+
                     <div class="col-lg-4">
-                    <select class="form-control" name="parent_id">
-                        <option value="">Select Parent Category</option>
 
-                        @foreach($categories as $category)
-                            <option value="{{ $category->id }}">{{ $category->titolo }}</option>
-                        @endforeach
-                    </select>
+                            <label>Pubblicato:</label>
+                            <select class="form-control kt-select2 select2" id="kt_select2_5" name="pubblicato">
+                                <option value="on">si</option>
+                                <option value="">no</option>
+                            </select>
+
                     </div>
-
-                    <div class="col-lg-4">
-                    <input type="text" name="titolo" class="form-control"
-                        value="{{ old('titolo') }}" placeholder="Category Name" required>
                 </div>
-
-                    <div class="col-lg-4">
-                <div class="form-group">
-                    <label>Pubblicato:</label>
-                    <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-
-                        <option value="si">si</option>
-                        <option value="no">no</option>
-
-
-                    </select>
-                </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+                </form>
             </div>
-                <div class="form-group">
-
-                    <button type="submit" class="btn btn-primary">Create</button>
-                </div>
-            </form>
         </div>
     </div>
-</div>
 
-<div class="card card-custom gutter-b example example-compact">
-
-    <div class="form-group row">
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-header">
-                    <h3>Categories</h3>
+    <div class="col-lg-4">
+        <div class="card card-custom">
+            <div class="card-header flex-wrap border-0 pt-6 pb-0">
+                <div class="card-title">
+                    <h3 class="card-label">Categorie
                 </div>
-                <div class="card-body">
-                    <ul class="list-group">
-                        @foreach($categories as $category)
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    {{ $category->titolo }}
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    @foreach($categories as $category)
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                {{ $category->titolo }}
 
-                                    <div class="button-group d-flex">
-                                        <button type="button" class="btn btn-sm btn-primary mr-1 edit-category"
-                                            data-toggle="modal" data-target="#editCategoryModal"
-                                            data-id="{{ $category->id }}"
-                                            data-pubblicato="{{ $category->pubblicato }}"
-                                            data-name="{{ $category->titolo }}">Edit</button>
+                                <div class="button-group d-flex">
+                                    <button type="button" class="btn btn-sm btn-clean btn-icon mr-2 edit-category"
+                                        data-toggle="modal" data-target="#editCategoryModal"
+                                        data-id="{{ $category->id }}"
+                                        data-pubblicato="{{ $category->pubblicato }}"
+                                        data-name="{{ $category->titolo }}">
+                                        <span class="svg-icon svg-icon-md svg-icon-primary">
+                                            {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
+                                        </span>
+                                    </button>
 
-                                        <form
-                                            action="{{ route('category.destroy', $category->id) }}"
-                                            method="POST">
-                                            @csrf
-                                            @method('DELETE')
+                                    <form
+                                        action="{{ route('category.destroy', $category->id) }}"
+                                        method="POST" id="form-delete1">
+                                        @csrf
+                                        @method('DELETE')
 
-                                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                                        </form>
-                                    </div>
+                                        <button type="button" class="btn btn-sm btn-clean btn-icon mr-2">
+                                            <span class="svg-icon svg-icon-md svg-icon-danger" id="confirm-delete1">
+                                                {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
+                                            </span>
+                                        </button>
+                                    </form>
                                 </div>
+                            </div>
 
-                                @if($category->children)
-                                    <ul class="list-group mt-2">
-                                        @foreach($category->children as $child)
-                                            <li class="list-group-item">
-                                                <div class="d-flex justify-content-between">
-                                                    {{ $child->titolo }}
+                            @if($category->children)
+                                <ul class="list-group mt-2">
+                                    @foreach($category->children as $child)
+                                        <li class="list-group-item">
+                                            <div class="d-flex justify-content-between">
+                                                {{ $child->titolo }}
 
 
-                                                    <div class="button-group d-flex">
+                                                <div class="button-group d-flex">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-clean btn-icon mr-2 edit-category"
+                                                        data-toggle="modal" data-target="#editCategoryModal"
+                                                        data-id="{{ $child->id }}"
+                                                        data-titolo="{{ $child->titolo }}">
+                                                        <span class="svg-icon svg-icon-md svg-icon-primary">
+                                                            {{ Metronic::getSVG("media/svg/icons/General/Edit.svg") }}
+                                                        </span>
+                                                    </button>
+
+                                                    <form
+                                                        action="{{ route('category.destroy', $child->id) }}"
+                                                        method="POST" id="form-delete2">
+                                                        @csrf
+                                                        @method('DELETE')
+
                                                         <button type="button"
-                                                            class="btn btn-sm btn-primary mr-1 edit-category"
-                                                            data-toggle="modal" data-target="#editCategoryModal"
-                                                            data-id="{{ $child->id }}"
-                                                            data-titolo="{{ $child->titolo }}">Edit</button>
-
-                                                        <form
-                                                            action="{{ route('category.destroy', $child->id) }}"
-                                                            method="POST">
-                                                            @csrf
-                                                            @method('DELETE')
-
-                                                            <button type="submit"
-                                                                class="btn btn-sm btn-danger">Delete</button>
-                                                        </form>
-                                                    </div>
-
+                                                            class="btn btn-sm btn-clean btn-icon mr-2"
+                                                            id="confirm-delete2">
+                                                            <span class="svg-icon svg-icon-md svg-icon-danger">
+                                                                {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
+                                                            </span>
+                                                        </button>
+                                                    </form>
                                                 </div>
-                                            </li>
-                                        @endforeach
-                                    </ul>
-                                @endif
-                            </li>
-                        @endforeach
-                    </ul>
-                </div>
+
+                                            </div>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            @endif
+                        </li>
+                    @endforeach
+                </ul>
             </div>
         </div>
-
-
-
     </div>
+
 </div>
 
 
@@ -272,6 +286,35 @@
         $('#editCategoryModal form input[name="pubblicato"]').val(pubblicato);
 
     });
+
+    $("button#confirm-delete1").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete1").submit();
+        }
+    });
+});
+$("button#confirm-delete2").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#form-delete2").submit();
+        }
+    });
+});
 
 </script>
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
