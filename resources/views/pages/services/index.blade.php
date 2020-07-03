@@ -65,7 +65,7 @@
 
 
                     <td  nowrap>
-                        <form action="{{route('service.destroy',$service->id)}}" method="POST" id="del">
+                        <form action="{{route('service.destroy',$service->id)}}" method="POST" id="form-delete">
 
                             @method('delete')
                             @csrf
@@ -133,7 +133,7 @@ $("button#delete-confirm").click(function(e) {
         confirmButtonText: "Si, eliminalo!!"
     }).then(function(result) {
         if (result.value) {
-            $("#del").submit();
+            $("#form-delete").submit();
         }
     });
 });

@@ -1,7 +1,9 @@
 <?php
 
+use App\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
+use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Permission;
 
 
@@ -48,5 +50,13 @@ class RolesAndPermissionsSeeder extends Seeder
 
           $role = Role::create(['name' => 'super-admin']);
           $role->givePermissionTo(Permission::all());
+
+
+            $user=User::create([
+                'name' => 'Virgilio Riccardo',
+                'email' => 'riccardo.virgilio@gmail.com',
+                'password' => Hash::make('Vrz021281'),
+            ]);
+            $user->assignRole('super-admin');
     }
 }

@@ -86,11 +86,11 @@ return [
 
                         [
                             'title' => 'Visualizza',
-                            'page' => 'admin/progetti'
+                            'page' => 'admin/implant'
                         ],
                         [
                             'title' => 'Inserisci',
-                            'page' => 'admin/progetti/crea'
+                            'page' => 'admin/implant/create'
                         ],
 
                     ]

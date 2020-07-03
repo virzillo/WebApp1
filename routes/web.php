@@ -56,6 +56,11 @@ Route::get('/dashboard', 'PagesController@index');
     // Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
     // Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
+    Route::resource('implant' , 'ImplantController');
+    Route::get('/implant/province', 'ProjectController@province')->name('query.province');
+    Route::post('/implant/query/{id}', 'ProjectController@query')->name('query.progetto');
+    Route::post('/implant/comuni/{val}', 'ProjectController@comuni')->name('query.comuni');
+
     Route::resource('service' , 'ServiceController');
     Route::resource('category' , 'CategoryController');
     Route::resource('postcategory' , 'PostCategoryController');
