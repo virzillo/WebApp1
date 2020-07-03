@@ -30,27 +30,23 @@ Route::get('/dashboard', 'PagesController@index');
     Route::delete('/utenti/{id}', 'UsersController@destroy')->name('elimina.utente');
 
     Route::get('/progetti', 'ProjectController@index')->name('progetto');
-
     Route::get('/progetti/crea', 'ProjectController@create')->name('crea.progetto');
-
     Route::post('/progetti', 'ProjectController@store')->name('salva.progetto');
     Route::get('/progetti/province', 'ProjectController@province')->name('query.province');
     Route::get('/progetti/{project}', 'ProjectController@show')->name('mostra.progetto');
     Route::put('/progetti/{project}', 'ProjectController@update')->name('modifica.progetto');
     Route::post('/progetti/query/{id}', 'ProjectController@query')->name('query.progetto');
     Route::post('/progetti/comuni/{val}', 'ProjectController@comuni')->name('query.comuni');
-
     Route::delete('/progetti/{project}', 'ProjectController@destroy')->name('elimina.progetto');
 
 
 
-    Route::get('/servizi', 'ServiceController@index')->name('servizi');
-    Route::get('/servizi/crea', 'ServiceController@create')->name('crea.servizio');
-    Route::get('/servizi/{service}', 'ServiceController@edit')->name('mostra.servizio');
-    Route::post('/servizi', 'ServiceController@store')->name('salva.servizio');
-    Route::put('/servizi/{service}', 'ServiceController@update')->name('modifica.servizio');
-    Route::delete('/servizi/{service}', 'ServiceController@destroy')->name('elimina.servizio');
-
+    // Route::get('/servizi', 'ServiceController@index')->name('servizi');
+    // Route::get('/servizi/crea', 'ServiceController@create')->name('crea.servizio');
+    // Route::get('/servizi/{service}', 'ServiceController@edit')->name('mostra.servizio');
+    // Route::post('/servizi', 'ServiceController@store')->name('salva.servizio');
+    // Route::put('/servizi/{service}', 'ServiceController@update')->name('modifica.servizio');
+    // Route::delete('/servizi/{service}', 'ServiceController@destroy')->name('elimina.servizio');
 
 
     // Route::get('/categorie', 'CategoryController@index')->name('categorie');
@@ -60,6 +56,7 @@ Route::get('/dashboard', 'PagesController@index');
     // Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
     // Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
+    Route::resource('service' , 'ServiceController');
     Route::resource('category' , 'CategoryController');
     Route::resource('postcategory' , 'PostCategoryController');
     Route::resource('post' , 'PostController');

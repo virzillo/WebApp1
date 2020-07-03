@@ -154,7 +154,7 @@ return [
 
         'menu' => [
             'dropdown' => false, // ok
-            'scroll' => false, // ok
+            'scroll' => true, // ok
             'submenu' => [
                 'accordion' => true, // true, false
                 'dropdown' => [

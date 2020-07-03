@@ -67,7 +67,10 @@ class ServiceController extends Controller
      */
     public function show(Service $service)
     {
-
+        $page_title = 'Modifica Servizio';
+        $page_description = '';
+        $service=Service::find($service->id);
+        return view('pages.services.show',compact('service','page_title','page_description'));
     }
 
     /**
@@ -78,10 +81,7 @@ class ServiceController extends Controller
      */
     public function edit(Service $service)
     {
-        $page_title = 'Modifica Servizio';
-        $page_description = '';
-        $service=Service::find($service->id);
-        return view('pages.services.edit',compact('service','page_title','page_description'));
+
 
     }
 

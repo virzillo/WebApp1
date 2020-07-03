@@ -102,11 +102,11 @@ return [
 
                         [
                             'title' => 'Visualizza',
-                            'page' => 'admin/servizi'
+                            'page' => 'admin/service'
                         ],
                         [
                             'title' => 'Inserisci',
-                            'page' => 'admin/servizi/crea'
+                            'page' => 'admin/service/create'
                         ],
                     ]
                 ],

@@ -282,7 +282,7 @@
 
                 </div>
                 <div class="col-lg-6 text-right">
-                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <a href="{{route('project.index')}}" type="button" class="btn btn-secondary">Back</a>
                     <button type="submit" class="btn btn-primary mr-2">Salva</button>
                 </div>
             </div>
