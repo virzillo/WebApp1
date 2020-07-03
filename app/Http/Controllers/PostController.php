@@ -92,7 +92,7 @@ class PostController extends Controller
             // $imageName = time().'.'.$request->immagine->extension();
             // $request->immagine->move(public_path('images'), $imageName);
             // $post->immagine = $imageName ;
-            $post->immagine  = $request->file('immagine')->store('public/image/post');
+            $post->immagine  = $request->file('immagine')->store('image/post');
             $post->category_id=$request['category_id'];
 
             $post->meta_titolo=$request['meta_titolo'];
@@ -189,7 +189,7 @@ class PostController extends Controller
                 // $imageName = time().'.'.$request->immagine->extension();
                 // $request->immagine->move(public_path('images'), $imageName);
                 // $project->immagine = $imageName ;
-                $post->immagine  = $request->file('immagine')->store('public/image/post');
+                $post->immagine  = $request->file('immagine')->store('image/post');
             }
 
 

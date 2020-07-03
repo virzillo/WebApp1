@@ -43,7 +43,7 @@
             <div class="form-group row">
                 <div class="col-lg-12">
                     <label>Sottotitolo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci Sottotitolo"  value="{{ old('sottotitolo') }}" name="Sottotitolo">
+                    <input type="text" class="form-control" placeholder="inserisci Sottotitolo"  value="{{ old('sottotitolo') }}" name="sottotitolo">
 
                 </div>
             </div>
@@ -58,8 +58,7 @@
                         <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow"
                             data-action="change" data-toggle="tooltip" title="" data-original-title="Carica foto">
                             <i class="fa fa-pen icon-sm text-muted"></i>
-                            <input type="file" name="immagine" accept=".png, .jpg, .jpeg"
-                                value="{{ old('immagine') }}" />
+                            <input type="file" name="immagine" value="{{ old('immagine') }}" />
                             <input type="hidden" name="profile_avatar_remove" />
                         </label>
 
@@ -107,10 +106,10 @@
 {{-- Scripts Section --}}
 @section('scripts')
 <script>
-       var avatar4 = new KTImageInput('kt_image_4');
+
     $(document).ready(function() {
         $('.select2').select2();
-
+        var avatar4 = new KTImageInput('kt_image_4');
     });
 </script>
     <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>

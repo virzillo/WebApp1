@@ -74,7 +74,7 @@ class SliderController extends Controller
         $slider->sottotitolo=$request['descrizione'];
         $slider->pubblicato=$request['pubblicato'];
 
-        $slider->immagine  = $request->file('immagine')->store('public/image/slider');
+        $slider->immagine  = $request->file('immagine')->store('image/slider');
 
         $slider->save();
 
@@ -143,7 +143,7 @@ class SliderController extends Controller
         $slider->titolo = $request->get('titolo');
         $slider->sottotitolo = $request->get('sottotitolo');
         if($request->hasFile('immagine')){
-            $slider->immagine  = $request->file('immagine')->store('public/image/slider');
+            $slider->immagine  = $request->file('immagine')->store('image/slider');
         }
 
         $slider->pubblicato = $request->get('pubblicato');

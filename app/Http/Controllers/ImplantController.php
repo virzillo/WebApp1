@@ -108,7 +108,7 @@ class ImplantController extends Controller
             // $imageName = time().'.'.$request->immagine->extension();
             // $request->immagine->move(public_path('images'), $imageName);
             // $project->immagine = $imageName ;
-            $implant->immagine  = $request->file('immagine')->store('public/image/impianti');
+            $implant->immagine  = $request->file('immagine')->store('image/impianti');
 
             $implant->category_id=$request['sottocategoria'];
 
@@ -233,7 +233,7 @@ class ImplantController extends Controller
             $implant->slug=$request->get('slug');
 
             if($request->hasFile('immagine')){
-                $implant->immagine  = $request->file('immagine')->store('public/image/impianti');
+                $implant->immagine  = $request->file('immagine')->store('image/impianti');
             }
 
 
