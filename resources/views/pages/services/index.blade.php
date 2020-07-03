@@ -129,11 +129,10 @@
 
 
                     <td  nowrap>
-                        <form action="{{route('elimina.servizio', $service->id)}}" method="POST">
-                        <form action="" method="">
+                        <form action="{{route('elimina.servizio',$service->id)}}" method="POST" id="del">
+
                             @method('delete')
                             @csrf
-
 
                         <a href="{{route('modifica.servizio',$service->id)}}" class="btn btn-icon btn-light btn-hover-primary btn-sm" title="Visualizza">
 
@@ -142,9 +141,8 @@
 
                             </span>
                         </a>
-                        </a>
 
-                            <button type="submit"  class="btn btn-icon btn-light btn-hover-danger btn-sm "  onclick="ConfirmDelete()">
+                            <button type="button"  class="btn btn-icon btn-light btn-hover-danger btn-sm " id="delete-confirm"  >
                                 <span class="svg-icon svg-icon-md">
                                     {{Metronic::getSVG("media/svg/icons/General/Trash.svg")}}
 
@@ -188,16 +186,22 @@
     <script>
 
 
-                 function ConfirmDelete()
-                    {
 
-                        var x = confirm("Are you sure you want to delete?");
-      if (x)
+$("button#delete-confirm").click(function(e) {
+    event.preventDefault();
+    Swal.fire({
+        title: "Sei sicuro?",
+        text: "Stai per eliminare un record!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si, eliminalo!!"
+    }).then(function(result) {
+        if (result.value) {
+            $("#del").submit();
+        }
+    });
+});
 
-          return;
-      else
-        return false;
-                    }
-            </script>
+</script>
 
 @endsection
