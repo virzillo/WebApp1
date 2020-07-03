@@ -1,5 +1,6 @@
 <?php
 
+use App\PostCategory;
 use App\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
@@ -56,6 +57,10 @@ class RolesAndPermissionsSeeder extends Seeder
                 'name' => 'Virgilio Riccardo',
                 'email' => 'riccardo.virgilio@gmail.com',
                 'password' => Hash::make('Vrz021281'),
+            ]);
+           PostCategory::create([
+                'titolo' => 'senza categoria',
+                'pubblicato' => 'on',
             ]);
             $user->assignRole('super-admin');
     }
