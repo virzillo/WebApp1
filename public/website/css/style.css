@@ -1,6 +1,6 @@
 /*******
 Project/Template Name:  Edumy - LMS Online Education Course & School HTML Template
-Template Url:  
+Template Url:
 Author: CreativeLayers
 Author Url: https://themeforest.net/user/creativelayers/portfolio
 Version: 1.0
@@ -882,7 +882,7 @@ li.has-children a{
 }
 /*== Menu Style For Home V1 & V2 ==*/
 .menu-style-one nav.transparent,
-.menu-style-one nav.transparent .wrap-core-nav-list, 
+.menu-style-one nav.transparent .wrap-core-nav-list,
 .menu-style-one nav.transparent .nav-header {
   background-color: transparent;
 }
@@ -1448,7 +1448,7 @@ header.header-nav.menu_style_home_three a.navbar_brand:before{
 }
 /*
 header.header-nav.menu_style_home_one.stricky-fixed .sign_up_btn li{
-  border-right: 1px solid #dadada; 
+  border-right: 1px solid #dadada;
 }*/
 .sign_up_btn li:first-child .btn span{
   padding-left: 10px;
@@ -2024,9 +2024,9 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 
 }
 .home1-mainslider .banner-style-one .slide:before,.home1-mainslider .banner-style-two .slide:before{
-  background-image: -moz-linear-gradient( 135deg, rgb(255,16,83) 0%, rgb(52,82,255) 100%);
-  background-image: -webkit-linear-gradient( 135deg, rgb(255,16,83) 0%, rgb(52,82,255) 100%);
-  background-image: -ms-linear-gradient( 135deg, rgb(255,16,83) 0%, rgb(52,82,255) 100%);
+  background-image: -moz-linear-gradient( 135deg, rgb(39, 39, 39) 0%, rgb(82, 81, 81) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(39, 39, 39) 0%, rgb(82, 81, 81) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(39, 39, 39) 0%, rgb(82, 81, 81) 100%);
   bottom: 0;
   content: "";
   left: 0;
@@ -2625,7 +2625,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 .home_icon_box .icon{
   margin-bottom: 10px;
-  
+
 }
 .home_icon_box:hover {
   opacity: .5;
@@ -2980,7 +2980,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   display: block;
   height: 30px;
   text-align: center;
-  width: 90px;  
+  width: 90px;
 }
 .cs_row_one .cs_review_seller li:first-child a span{
   font-size: 13px;
@@ -3167,7 +3167,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 .cs_row_three .course_content .details .cc_tab .panel-body .cs_list li{
   border-bottom: 1px solid #eeeeee;
-  padding: 20px 25px;  
+  padding: 20px 25px;
 }
 .cs_row_three .course_content .details .cc_tab .panel-body .cs_list li:last-child{
   border-bottom: none;
@@ -3406,7 +3406,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 
 .top_courses.home2 {
-  
+
   border:none;
 }
 
@@ -3465,7 +3465,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   -moz-transform:scale(0);
   -ms-transform:scale(0);
   -o-transform:scale(0);
-  transform:scale(0);  
+  transform:scale(0);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -3574,7 +3574,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 
 .top_courses .details .tc_footer .tc_meta li .flaticon-comment{
-  position: relative; 
+  position: relative;
   top: 3px;
   font-size: 16px;
 }
@@ -3592,7 +3592,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   width: 90%;
 }
 .courses-list{
-  background-color: #f9fafc;  
+  background-color: #f9fafc;
 }
 .my_course_content{
   border-radius: 5px;
@@ -4039,11 +4039,11 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   padding: 5px 40px;
 }
 .pjc_all_btn.home5 a.btn{
-  border: 1px solid #262626; 
+  border: 1px solid #262626;
   color: #262626;
 }
 .pjc_all_btn.home5 a.btn:hover{
-  border: 1px solid #2441e7; 
+  border: 1px solid #2441e7;
   color: #ffffff;
 }
 /*== Funfact Counter ==*/
@@ -4126,7 +4126,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 .brdr_left_right {
   position: relative;
 }
-.brdr_left_right:before { 
+.brdr_left_right:before {
   background-color: #383838;
   bottom: 0;
   content: "";
@@ -4213,7 +4213,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   background-color: #f9fafc;
 }
 .footer_one.home3:before {
-  background-image: url(../images/background/1.png);
+  /* background-image: url(../images/background/1.png); */
   bottom: 0;
   content: "";
   left: 0;
@@ -4342,7 +4342,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 .footer_apps_widget.home3 .app_grid .play_store_btn:active,
 .footer_apps_widget.home3 .app_grid .play_store_btn:focus{
   box-shadow: none;
-  outline: none;  
+  outline: none;
 }
 .logo-widget{
   position: relative;
@@ -4452,7 +4452,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 .footer_company_widget.home5 h4,
 .footer_program_widget.home5 h4,
-.footer_apps_widget.home5 h4{ 
+.footer_apps_widget.home5 h4{
   color: #262626;
 }
 .footer_one.home3 .footer_contact_widget li a,
@@ -4502,9 +4502,9 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   width: 130px;
   z-index: 1;
 }
-.btn-light:not(:disabled):not(.disabled).active, 
-.btn-light:not(:disabled):not(.disabled):active, 
-.show>.btn-light.dropdown-toggle {  
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
   background-color: transparent;
   box-shadow: none;
   color: #ffffff;
@@ -5013,7 +5013,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 .tes-nav img {
   float: none;
-  display: inline-block;    
+  display: inline-block;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -5372,7 +5372,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
   background-color: #f8faf9;
   color: #221f1f;
   font-size: 17px;
-  font-weight: bold;  
+  font-weight: bold;
   padding: 5px 20px 3px;
 }
 .blog_post_home4 .bph4_thumb .bph4_date_meta .year,
@@ -5605,7 +5605,7 @@ ul.mc_parent_list li{
   margin-right: -3px !important;
 }
 ul.mc_parent_list ul.mc_child_list.one li{
-  padding: 10px 200px 10px 50px;  
+  padding: 10px 200px 10px 50px;
 }
 ul.mc_parent_list ul.mc_child_list.one li,
 ul.mc_parent_list ul.mc_child_list.two li,
@@ -5850,13 +5850,13 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   border-color: rgb(221, 221, 221);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
-  
+
 }
 .login_form .form-control{
   border: 1px solid #dddddd;
   color: #6f7074;
   border-radius: 5px;
-  
+
   color: #6f7074;
   height: 50px;
   margin-bottom: 20px;
@@ -6129,7 +6129,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   width: 100px;
 }
 .ui_kit_tooltip .btn:hover {
-  color: 
+  color:
 }
 .ui_kit_tooltip .btn:focus {
   box-shadow: none;
@@ -6611,13 +6611,13 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   border-radius: 5px;
-  
+
 }
 
 .blog_grid_post .thumb{
   position: relative;
   overflow: hidden;
-  
+
 }
 .blog_grid_post .thumb:before{
   background-color: rgba(0,0,0, .3);
@@ -6710,7 +6710,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; 
+  transition: all 0.3s ease 0s;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-top-right-radius: 5px !important;
@@ -6741,7 +6741,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   font-size: 15px;
   font-family: "Open Sans";
   color: rgb(126, 126, 126);
-  line-height: 1.6;  
+  line-height: 1.6;
 }
 .blog_grid_post.style2.event_lists .details ul{
   margin-top: 25px;
@@ -6965,7 +6965,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   margin-bottom: 30px;
   padding: 30px;
   text-align: center;
-  
+
 }
 .instructor_pricing_widget.csv2{
   margin-top: -300px;
@@ -7457,7 +7457,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 }
 .password_change_form form button:focus {
   box-shadow: none;
-  outline: none;  
+  outline: none;
 }
 /*== Header User Notification & User ID ==*/
 .header_user_notif {
@@ -7696,7 +7696,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   border: 1px solid #dddddd;
   border-right: none;
   border-radius: 5px 0px 0px 5px;
-  
+
   height: 48px;
   margin-right: 0 !important;
   padding-left: 20px;
@@ -9095,34 +9095,34 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   background-color: #111111;
 }
 .bgc-split {
-  background-color: #181413 !important; 
+  background-color: #181413 !important;
 }
 .bgc-primary {
-  background-color: #337ab7; 
+  background-color: #337ab7;
 }
 .bgc-success {
-  background-color: #5cb85c; 
+  background-color: #5cb85c;
 }
 .bgc-info {
   background-color: #5bc0de;
 }
 .bgc-warning {
-  background-color: #f0ad4e; 
+  background-color: #f0ad4e;
 }
 .bgc-danger {
-  background-color: #d9534f; 
+  background-color: #d9534f;
 }
 .bgc-white {
-  background-color: #ffffff !important; 
+  background-color: #ffffff !important;
 }
 .bgc-lightgray {
-  background-color: #D3D3D3; 
+  background-color: #D3D3D3;
 }
 .bgc-snowshade {
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
 }
 .bgc-snowshade2 {
-  background-color: #fafafa; 
+  background-color: #fafafa;
 }
 .bgc-golden {
   background-color: #febe42;
@@ -9131,10 +9131,10 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   color: #f1f1f1;
 }
 .color-whitef2 {
-  color: #f2f2f2; 
+  color: #f2f2f2;
 }
 .color-whitef3 {
-  color: #f3f3f3; 
+  color: #f3f3f3;
 }
 .color-whitef4 {
   color: #f4f4f4;
@@ -9279,7 +9279,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 .btn-thm.white:focus{
   background-color: #2441e7;
   border-color: #2441e7;
-  color: #ffffff;  
+  color: #ffffff;
 }
 .btn-thm2 {
   background-color: #192675;
@@ -9321,11 +9321,11 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   border-radius: 0px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   border: 2px solid #051925;
 }
-.btn-dark:hover, 
-.btn-dark:active, 
+.btn-dark:hover,
+.btn-dark:active,
 .btn-dark:focus {
   background-color: #ffffff;
   border-color: #051925;
@@ -9393,7 +9393,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 .btn-blue:hover, .btn-blue:active, .btn-blue:focus {
   background-color: #2441e7;
   border-color: #2441e7;
-  color: #ffffff; 
+  color: #ffffff;
 }
 .btn-transparent {
   background-color: transparent;
@@ -10771,7 +10771,7 @@ section {
   outline: none;
 }
 #mc_embed_signup input::placeholder {
-    color: #ffffff; 
+    color: #ffffff;
 }
 #mc_embed_signup .mc-field-group{
   margin-bottom: 40px;
@@ -10873,7 +10873,7 @@ canvas {
   line-height: 1.2;
 }
 .tags-bar {
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -10962,7 +10962,7 @@ canvas {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
-  transform: rotate(0deg);  
+  transform: rotate(0deg);
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -11237,7 +11237,7 @@ body.translated{
   border-width: 2px;
   border-color: rgb(36, 65, 231);
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);  
+  background-color: rgb(255, 255, 255);
   color: rgb(36, 65, 231);
 }
 .checkout_form .checkout_coupon form button.btn2{
@@ -11370,7 +11370,7 @@ body.translated{
   vertical-align: middle;
 }
 .cart_page_form.style2 .table_body th{
- width: 55%; 
+ width: 55%;
 }
 .cart_page_form.style2 .table_body td{
  width: 13%;
@@ -11714,7 +11714,7 @@ body.translated{
   border-color: rgb(221, 221, 221);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
-  
+
   height: 48px;
   max-width: 653px;
 }
@@ -11851,7 +11851,7 @@ body.translated{
     transform: rotate(45deg);
 }
 .custom-switch .custom-control-label::before {
-    
+
     border-radius: 30px;
 }
 .shadow_box{

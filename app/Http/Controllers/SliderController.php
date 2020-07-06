@@ -52,6 +52,7 @@ class SliderController extends Controller
         $validator = Validator::make($request->all(), [
             'titolo' => 'required|min:2|string',
             'sottotitolo' => 'string|min:2',
+            'link' => 'string|min:2',
             'pubblicato'=>'nullable',
             'immagine' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
@@ -72,6 +73,7 @@ class SliderController extends Controller
         $slider= new Slider;
         $slider->titolo=$request['titolo'];
         $slider->sottotitolo=$request['descrizione'];
+        $slider->link=$request['link'];
         $slider->pubblicato=$request['pubblicato'];
 
         $slider->immagine  = $request->file('immagine')->store('image/slider');
@@ -122,6 +124,7 @@ class SliderController extends Controller
         $validator = Validator::make($request->all(), [
             'titolo' => 'required|min:2|string',
             'sottotitolo' => 'string|min:2',
+            'link' => 'string|min:2',
             'pubblicato'=>'nullable',
             'immagine' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
@@ -142,6 +145,7 @@ class SliderController extends Controller
         $slider = Slider::find($slider->id);
         $slider->titolo = $request->get('titolo');
         $slider->sottotitolo = $request->get('sottotitolo');
+        $slider->link = $request->get('link');
         if($request->hasFile('immagine')){
             $slider->immagine  = $request->file('immagine')->store('image/slider');
         }

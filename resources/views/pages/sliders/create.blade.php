@@ -47,6 +47,13 @@
 
                 </div>
             </div>
+            <div class="form-group row">
+                <div class="col-lg-12">
+                    <label>Link:</label>
+                    <input type="text" class="form-control" placeholder="inserisci Link"  value="{{ old('link') }}" name="link">
+
+                </div>
+            </div>
             <div class="col-lg-12">
                 <div class="form-group ">
                     <label>Carica immagine:</label><br>

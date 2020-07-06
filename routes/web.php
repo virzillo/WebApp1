@@ -13,12 +13,21 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('website.pages.home');
+
+Route::get('/', 'PagesController@home');
+Route::get('/impianti', 'SitoImpiantiController@index')->name('Parco impianti');
+
+Route::get('/contatti', function () {
+    return view('website.pages.contatti');
 });
-Route::get('/impianti', function () {
-    return view('website.impianti.index');
+Route::get('/chi-siamo', function () {
+    return view('website.pages.chi-siamo');
 });
+
+Route::get('/blog', function () {
+    return view('website.blog.index');
+});
+
 Route::prefix('admin')->middleware('auth')->group(function () {
 Route::get('/dashboard', 'PagesController@index');
 
@@ -56,10 +65,10 @@ Route::get('/dashboard', 'PagesController@index');
     // Route::put('/categorie/{category}', 'CategoryController@update')->name('modifica.categoria');
     // Route::delete('/categorie/{category}', 'CategoryController@destroy')->name('elimina.categoria');
 
-    Route::resource('implant' , 'ImplantController');
     Route::get('/implant/province', 'ProjectController@province')->name('query.province');
     Route::post('/implant/query/{id}', 'ProjectController@query')->name('query.progetto');
     Route::post('/implant/comuni/{val}', 'ProjectController@comuni')->name('query.comuni');
+    Route::resource('implant' , 'ImplantController');
 
     Route::resource('service' , 'ServiceController');
     Route::resource('category' , 'CategoryController');

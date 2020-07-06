@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Slider;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -10,7 +11,7 @@ class PagesController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except('home');
     }
 
 
@@ -119,5 +120,13 @@ class PagesController extends Controller
     public function quickSearch()
     {
         return view('layout.partials.extras._quick_search_result');
+    }
+
+    public function home(){
+
+        $page_title = 'Home';
+        $page_description = '';
+        $sliders=Slider::all();
+        return view('website.pages.home', compact('sliders','page_title', 'page_description'));
     }
 }

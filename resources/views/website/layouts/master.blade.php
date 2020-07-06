@@ -13,7 +13,7 @@
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="{{url('website')}}/css/responsive.css">
 <!-- Title -->
-<title>Edumy - LMS Online Education Course & School HTML Template</title>
+<title>MGS Pubblicità</title>
 <!-- Favicon -->
 <link href="{{url('website/')}}/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 <link href="{{url('website/')}}/images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -29,13 +29,11 @@
 <div class="wrapper">
 	<div class="preloader"></div>
 
-	@include('website.layouts.header-top')
+	{{-- @include('website.layouts.header-top') --}}
 	<!-- Main Header Nav -->
 	@include('website.layouts.header')
 
 
-	{{-- <!-- Main Header Nav For Mobile -->
-	@include('website.layouts.header-nav-mobile') --}}
 	<!-- Home Design -->
 	@yield('content')
 
@@ -65,5 +63,6 @@
 <script type="text/javascript" src="{{url('website')}}/js/timepicker.js"></script>
 <!-- Custom script for all pages -->
 <script type="text/javascript" src="{{url('website')}}/js/script.js"></script>
+@stack('script')
 </body>
 </html>

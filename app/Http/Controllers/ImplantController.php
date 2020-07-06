@@ -99,7 +99,7 @@ class ImplantController extends Controller
                         ->withInput();
         }
 
-            $implant= new Project;
+            $implant= new Implant;
             $implant->titolo=$request['titolo'];
             $implant->descrizione=$request['descrizione'];
             $implant->testo=$request['testo'];
@@ -281,7 +281,7 @@ class ImplantController extends Controller
      */
     public function destroy(Implant $implant)
     {
-        $implant = Project::find($implant->id);
+        $implant = Implant::find($implant->id);
         Storage::delete($implant->immagine);
         $implant->service()->detach();
         $implant->delete();

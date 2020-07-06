@@ -2,22 +2,81 @@
 
 
 @section('content')
-<section class="home-three home3-overlay home3_bgi6">
-    <div class="container">
-        <div class="row posr">
-            <div class="col-lg-12">
-                <div class="home-text text-center">
-                    <h2 class="fz50">Find the Best Courses</h2>
-                    <p class="color-white">Technology is brining a massive wave of evolution on learning things on different ways.</p>
-                    <a class="btn home_btn" href="#">Ready to get Started?</a>
-                </div>
-            </div>
-        </div>
-        <div class="row_style">
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" preserveAspectRatio="none"> <path d="M 1000 280 l 2 -253 c -155 -36 -310 135 -415 164 c -102.64 28.35 -149 -32 -235 -31 c -80 1 -142 53 -229 80 c -65.54 20.34 -101 15 -126 11.61 v 54.39 z"></path><path d="M 1000 261 l 2 -222 c -157 -43 -312 144 -405 178 c -101.11 33.38 -159 -47 -242 -46 c -80 1 -153.09 54.07 -229 87 c -65.21 25.59 -104.07 16.72 -126 16.61 v 22.39 z"></path><path d="M 1000 296 l 1 -230.29 c -217 -12.71 -300.47 129.15 -404 156.29 c -103 27 -174 -30 -257 -29 c -80 1 -130.09 37.07 -214 70 c -61.23 24 -108 15.61 -126 10.61 v 22.39 z"></path></svg>
-        </div>
-    </div>
-</section>
+	<!-- 2nd Home Slider -->
+	<div class="home1-mainslider">
+		<div class="container-fluid p0">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main-banner-wrapper">
+					    <div class="banner-style-one owl-theme owl-carousel">
+                            <div class="slide slide-one" style="background-image: url(images/home/2.jpg);height: 95vh;">
+					            <div class="container">
+					                <div class="row home-content">
+					                    <div class="col-lg-12 text-center p0">
+					                        <h3 class="banner-title">Self EducatIon Resources and Infos</h3>
+					                        <p>Technology is brining a massive wave of evolution on learning things on different ways</p>
+					                        <div class="btn-block"><a href="#" class="banner-btn">Ready to get Started?</a></div>
+					                    </div>
+					                </div>
+					            </div>
+					        </div>
+                           @foreach ($sliders as $slider)
+                           <div class="slide slide-two" style="background-image: url({{ url('/storage/'.$slider->immagine) }}); height: 95vh;">
+                            <div class="container">
+                                <div class="row home-content">
+                                    <div class="col-lg-12 text-center p0">
+                                        <h3 class="banner-title">{{$slider->titolo}}</h3>
+                                        <p>{{$slider->sottotitolo}}</p>
+                                        <?php if (isset($slider->link)) { ?>
+                                              <div class="btn-block"><a href="{{$slider->link}}" class="banner-btn">Scopri di più</a></div>
+                                        <?php } ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                           @endforeach
+					    </div>
+					    <div class="carousel-btn-block banner-carousel-btn">
+					        <span class="carousel-btn left-btn"><i class="flaticon-left-arrow left"></i> <span class="left">PR <br> EV</span></span>
+					        <span class="carousel-btn right-btn"><span class="right">NE <br> XT</span> <i class="flaticon-right-arrow-1 right"></i></span>
+					    </div><!-- /.carousel-btn-block banner-carousel-btn -->
+					</div><!-- /.main-banner-wrapper -->
+				</div>
+			</div>
+		</div>
+		{{-- <div class="container home_iconbox_container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-sm-6 col-lg-3">
+							<div class="home_icon_box">
+								<div class="icon"><img src="images/home/hicon1.png" alt="hicon1.png"></div>
+								<p>Learn From The Experts</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="home_icon_box">
+								<div class="icon mt15"><img src="images/home/hicon2.png" alt="hicon2.png"></div>
+								<p>Book Library & Store</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="home_icon_box">
+								<div class="icon"><img src="images/home/hicon3.png" alt="hicon3.png"></div>
+								<p>Worldwide Recognize</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="home_icon_box">
+								<div class="icon"><img src="images/home/hicon4.png" alt="hicon4.png"></div>
+								<p>Best Industry Leaders</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> --}}
+	</div>
 
 <!-- about3 home3 -->
 <section class="home3_about home3_wave">
@@ -401,7 +460,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="about_home3_shape_container">
-                    <div class="about_home3_shape2"><img src="images/about/shape2.png" alt="shape2.png"></div>
+                    <div class="about_home3_shape2"><img src="{{url('/website')}}/images/about/shape2.png" alt="shape2.png"></div>
                 </div>
             </div>
         </div>

@@ -19,6 +19,8 @@ class CreateSlidersTable extends Migration
             $table->string('titolo');
             $table->string('sottotitolo')->nullable();
             $table->string('immagine')->nullable();
+            $table->string('link')->nullable();
+
             $table->enum('pubblicato',['on',NULL])->nullable();
 
             $table->timestamps();

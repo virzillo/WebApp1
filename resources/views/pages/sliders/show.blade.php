@@ -43,8 +43,14 @@
             <div class="form-group row">
                 <div class="col-lg-12">
                     <label>Sottotitolo:</label>
-                    <input type="text" class="form-control" placeholder="inserisci Sottotitolo"  value="{{$slider->sottotitolo}}" name="Sottotitolo">
+                    <input type="text" class="form-control" placeholder="inserisci Sottotitolo"  value="{{$slider->sottotitolo}}" name="sottotitolo">
 
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-lg-12">
+                    <label>Link:</label>
+                    <input type="text" class="form-control" placeholder="inserisci Link"  value="{{$slider->link}}" name="link">
                 </div>
             </div>
             <div class="col-lg-12">

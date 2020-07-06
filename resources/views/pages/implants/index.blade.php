@@ -76,7 +76,7 @@
                     <td>{{ $implant->dimensione }}</td>
                     <td>{{ $implant->provincia }}</td>
                     <td>{{ $implant->comune }}</td>
-                    <td>{{ $implant->dimensione }}</td>
+                    <td>{{ $implant->prezzo }} €</td>
                     <td> {{ $implant->category->titolo }}</td>
 
                     <td>

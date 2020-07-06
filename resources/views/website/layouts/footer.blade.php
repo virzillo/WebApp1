@@ -4,21 +4,22 @@
         <div class="row">
             <div class="col-sm-6 col-md-4 col-md-3 col-lg-3">
                 <div class="footer_contact_widget home3">
-                    <h4>CONTACT</h4>
-                    <p>329 Queensberry Street, North Melbourne </p>
-                    <p>VIC 3051, Australia.</p>
-                    <p>123 456 7890</p>
-                    <p>support@edumy.com</p>
+                    <h4>CONTATTI</h4>
+                    <p>Via Beato Junipero Serra, 19 </p>
+                    <p>70125 Bari (BA)</p>
+                    <p>080 809.33.70</p>
+                    <p>info@msgpubblicita.it</p>
+                    <p>msg@pecditta.com</p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
                 <div class="footer_company_widget home3">
                     <h4>COMPANY</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="page-contact.html">Contact</a></li>
-                        <li><a href="#">Become a Teacher</a></li>
+                        <li><a href="{{url('/chi-siamo')}}">Chi Siamo</a></li>
+                        <li><a href="{{url('/blog')}}">Blog</a></li>
+                        <li><a href="{{url('/contatti')}}">Contatti</a></li>
+                        <li><a href="{{url('/contatti')}}">Richiedi un preventivo</a></li>
                     </ul>
                 </div>
             </div>
@@ -75,14 +76,14 @@
         <div class="row">
             <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 pb15 pt15">
                 <div class="logo-widget home3">
-                    <img class="img-fluid" src="images/header-logo3.png" alt="header-logo3.png">
-                    <span>EDUMY</span>
+                <img class="img-fluid" src="{{url('/website')}}/images/header-logo3.png" alt="header-logo3.png">
+                    <span>MGS</span>
                 </div>
             </div>
             <div class="col-sm-8 col-md-5 col-lg-6 col-xl-6 pb25 pt25 brdr_left_right home3">
                 <div class="footer_menu_widget home3">
                     <ul>
-                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item"><a href="{{url('/')}}">Home</a></li>
                         <li class="list-inline-item"><a href="#">Privacy</a></li>
                         <li class="list-inline-item"><a href="#">Terms</a></li>
                         <li class="list-inline-item"><a href="#">Sitemap</a></li>
@@ -95,10 +96,10 @@
                     <ul>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        {{-- <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li> --}}
                     </ul>
                 </div>
             </div>
@@ -112,7 +113,7 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="copyright-widget text-center">
-                    <p>Copyright Edumy © 2019. All Rights Reserved.</p>
+                    <p>Copyright MGS Pubblicità © 2020. P.I. e C.F. 07727180726 | Powered by ShareService</p>
                 </div>
             </div>
         </div>
