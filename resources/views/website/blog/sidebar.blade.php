@@ -10,23 +10,16 @@
         </div>
         <div class="blog_category_widget">
             <ul class="list-group">
-                <h4 class="title">Category</h4>
+                <h4 class="title">Categorie</h4>
+                @foreach ($postcategories as $postcategory)
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Admissions <span class="float-right">6</span>
+                    <a href="{{route('categoria.blog',$postcategory->titolo)}}"> {{ucfirst($postcategory->titolo)}} </a><span class="float-right">6</span>
                 </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    News <span class="float-right">1</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Event <span class="float-right">6</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Focus in the lab <span class="float-right">16</span>
-                </li>
+                @endforeach
             </ul>
         </div>
         <div class="blog_recent_post_widget media_widget">
-            <h4 class="title">Recent Posts</h4>
+            <h4 class="title">Articoli recenti</h4>
             <div class="media">
                 <img class="align-self-start mr-3" src="images/blog/s1.jpg" alt="s1.jpg">
                 <div class="media-body">

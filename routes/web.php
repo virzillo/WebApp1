@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', 'PagesController@home');
 Route::get('/impianti', 'SitoImpiantiController@index')->name('Parco impianti');
+Route::get('/blog', 'SitoBlogController@index')->name('Blog');
+Route::get('/blog/{postcategory:titolo}', 'SitoBlogController@category')->name('categoria.blog');
+Route::get('/blog/{post}', 'SitoBlogController@show')->name('show.blog');
 
 Route::get('/contatti', function () {
     return view('website.pages.contatti');
@@ -24,9 +27,6 @@ Route::get('/chi-siamo', function () {
     return view('website.pages.chi-siamo');
 });
 
-Route::get('/blog', function () {
-    return view('website.blog.index');
-});
 
 Route::prefix('admin')->middleware('auth')->group(function () {
 Route::get('/dashboard', 'PagesController@index');
