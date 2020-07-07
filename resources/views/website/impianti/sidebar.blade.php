@@ -13,12 +13,15 @@
                   <div class="panel-body">
                     @foreach($category->children as $child)
                       <div class="ui_kit_checkbox">
+
                           <div class="custom-control custom-checkbox">
-                              <input type="checkbox" class="custom-control-input" name="categoria" value="{{$child->titolo}}" id="{{$child->titolo}}">
-                              <label class="custom-control-label" for="customCheck14"> {{ ucfirst($child->titolo) }} <span class="float-right">(03)</span></label>
+                           <input type="checkbox" class="custom-control-input" name="categoria" value="{{$child->titolo}}" id="{{$child->titolo}}_{{$child->id}}">
+                              <label class="custom-control-label" for="{{$child->titolo}}_{{$child->id}}">  {{ ucfirst($child->titolo) }} </label>
                           </div>
+
                           {{-- <a class="color-orose" href="#"><span class="fa fa-plus pr10"></span> See More</a> --}}
                       </div>
+
                       @endforeach
                   </div>
               </div>
@@ -39,11 +42,12 @@
                 <div id="panelBodyAuthors" class="panel-collapse collapse show">
                     <div class="panel-body">
                         <div class="cl_skill_checkbox">
-                            <div class="content ui_kit_checkbox style2 text-left">
+                            <div class="content ui_kit_checkbox style2 text-left"> <?php $i=0; ?>
                                 @foreach ($citta as $item)
+                                <?php $i++; ?>
                                 <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" name="provincia" value="{{$item->provincia}} " id="{{$item->provincia}} ">
-                                    <label class="custom-control-label" for="customCheck80">{{$item->provincia}} <span class="float-right">(03)</span></label>
+                                    <input type="checkbox" class="custom-control-input" name="provincia" value="{{$item->provincia}} " id="{{$item->provincia . $i}}">
+                                    <label class="custom-control-label" for="{{$item->provincia . $i}}">{{$item->provincia}} <span class="float-right"></span></label>
                                 </div>
                                 @endforeach
                             </div>
@@ -91,8 +95,8 @@
                         <div class="ui_kit_checkbox">
                             @foreach ($services as $service)
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" name="servizio" value="{{$service->titolo}} " id="{{$service->titolo}} ">
-                                <label class="custom-control-label" for="customCheck14">{{$service->titolo}} <span class="float-right">(03)</span></label>
+                                <input type="checkbox" class="custom-control-input" name="servizio" value="{{$service->titolo}} " id="{{$service->titolo}}_{{$service->id}} ">
+                                <label class="custom-control-label" for="{{$service->titolo}}_{{$service->id}} ">{{$service->titolo}} <span class="float-right"></span></label>
                             </div>
                             @endforeach
                         </div>
@@ -149,3 +153,5 @@
         <p>Every course comes with a 30-day money-back guarantee</p>
     </div>
 </div>
+
+

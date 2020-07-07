@@ -150,11 +150,10 @@
 
     // create a collection containing all of the filterable elements
     var $filteredResults = $('.item');
-
       var $filterCategoryApplied = 0;
 
     $.each(allFilters, function(arIndex, filterName) {
-    // console.log(filterName);
+    console.log(filterName);
       var $filterCheckboxCategory = $('input[name='+filterName+']').filter(':checked');
 
     console.log(filterName + ' length = ' + $filterCheckboxCategory.length);
@@ -190,10 +189,10 @@
     // loop over the selected filter name -> (array) values pairs
     $.each(selectedFilters, function(name, filterValues) {
 
-    // console.log(selectedFilters['categoria'].length);
-    // console.log(name);
-    // console.log(filterValues);
-    // console.log(filterValues.length);
+    console.log(selectedFilters['categoria'].length);
+    console.log(name);
+    console.log(filterValues);
+    console.log(filterValues.length);
 
 
 
@@ -224,6 +223,6 @@
     $('.item').hide().filter($filteredResults).show();
 
     });
-    </script>
+</script>
 @endpush
 
