@@ -31,12 +31,12 @@
                             <div class="col-sm-6 col-lg-6 col-xl-6">
 								<div class="blog_grid_post mb30">
 									<div class="thumb" style="max-height: 260px;">
-										<img class="img-fluid" src="{{ url('/storage/'.$post->immagine) }}" alt="{{$post->immagine}}">
-										<div class="tag">{{$post->category->titolo}}</div>
-										<div class="post_date"><h2> </h2> <span>{{$post->created_at->format('d/m/Y')}}</span></div>
+                                        <img class="img-fluid" src="{{ url('/storage/'.$post->immagine) }}" alt="{{$post->immagine}}">
+                                        <div class="tag">{{$post->category->titolo}}</div>
+                                        <div class="post_date"><h2> </h2> <span>{{$post->created_at->format('d/m/Y')}}</span></div>
 									</div>
 									<div class="details">
-										<h3>{{$post->titolo}}</h3>
+										<h3><a class="tc_preview_course" href="{{route('show.blog',$post->slug)}}">{{$post->titolo}}</a></h3>
 										<ul class="post_meta">
 											<li><a href="#"><span class="flaticon-profile"></span></a></li>
 											<li><a href="#"><span>{{$post->user->name}}</span></a></li>

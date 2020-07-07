@@ -20,7 +20,7 @@ class SitoBlogController extends Controller
     {
         $page_title = 'Articolo';
         $page_description = '';
-        $post=Post::find($post->id)->where('pubblicato','on');
+        $post=Post::where('slug',$post->slug)->where('pubblicato','on')->first();
         $postcategories=PostCategory::all()->where('pubblicato','on');
         return view('website.blog.show',compact('post','postcategories','page_title','page_description'));
     }
@@ -36,6 +36,15 @@ class SitoBlogController extends Controller
         $postcategories = PostCategory::all()->where('pubblicato','on');
         // dd($post);
         return view('website.blog.categoryindex',compact('posts','postcategories','page_title','page_description'));
+    }
+
+    public function find(Post $post)
+    {
+        $page_title = 'Articolo';
+        $page_description = '';
+        $post=Post::where('name','LIKE','%'.$post->slug.'%')->where('pubblicato','on')->get();
+        $postcategories=PostCategory::all()->where('pubblicato','on');
+        return view('website.blog.show',compact('post','postcategories','page_title','page_description'));
     }
 
 }

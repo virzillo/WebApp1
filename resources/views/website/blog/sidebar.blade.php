@@ -2,10 +2,13 @@
     <div class="main_blog_post_widget_list">
         <div class="blog_search_widget">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Search Here" aria-label="Recipient's username" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="flaticon-magnifying-glass"></span></button>
-                </div>
+                {{-- <form action="{{route('find.blog')}}" method="post">
+                    @csrf --}}
+                    <input type="text" class="form-control" name="valore" placeholder="Cerca qui" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><span class="flaticon-magnifying-glass"></span></button>
+                    </div>
+                {{-- </form> --}}
             </div>
         </div>
         <div class="blog_category_widget">
