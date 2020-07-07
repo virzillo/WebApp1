@@ -1,15 +1,18 @@
 <div class="col-lg-4 col-xl-3 pl10 pr10">
     <div class="main_blog_post_widget_list">
         <div class="blog_search_widget">
+            <form action="{{route('find.blog')}}" method="post">
+                @csrf
             <div class="input-group mb-3">
-                {{-- <form action="{{route('find.blog')}}" method="post">
-                    @csrf --}}
+
+
                     <input type="text" class="form-control" name="valore" placeholder="Cerca qui" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><span class="flaticon-magnifying-glass"></span></button>
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="flaticon-magnifying-glass"></span></button>
                     </div>
-                {{-- </form> --}}
             </div>
+        </form>
+
         </div>
         <div class="blog_category_widget">
             <ul class="list-group">

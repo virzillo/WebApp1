@@ -29,9 +29,9 @@
                     @if ($post)
                     <div class="mbp_thumb_post">
                         <div class="thumb">
-                            <img class="img-fluid" src="images/blog/12.jpg" alt="12.jpg">
+                            <img class="img-fluid" src="{{ url('/storage/'.$post->immagine) }}" alt="{{$post->immagine}}">
                             <div class="tag">{{$post->category->titolo}}</div>
-                            <div class="post_date"><h2>28</h2> <span>DECEMBER</span></div>
+                            <div class="post_date"><h2></h2> <span>{{$post->created_at->format('d/m/Y')}}</span></div>
                         </div>
                         <div class="details">
                             <h3>{{$post->titolo}}</h3>

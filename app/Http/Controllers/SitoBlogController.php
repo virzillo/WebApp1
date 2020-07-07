@@ -38,13 +38,14 @@ class SitoBlogController extends Controller
         return view('website.blog.categoryindex',compact('posts','postcategories','page_title','page_description'));
     }
 
-    public function find(Post $post)
+    public function find(Request $request)
     {
+        $valore=$request->valore;
         $page_title = 'Articolo';
         $page_description = '';
-        $post=Post::where('name','LIKE','%'.$post->slug.'%')->where('pubblicato','on')->get();
+        $posts=Post::where('slug','LIKE','%'.$valore.'%')->where('pubblicato','on')->paginate(1);
         $postcategories=PostCategory::all()->where('pubblicato','on');
-        return view('website.blog.show',compact('post','postcategories','page_title','page_description'));
+        return view('website.blog.index',compact('posts','postcategories','page_title','page_description'));
     }
 
 }
