@@ -11,7 +11,7 @@
                 <div class="breadcrumb_content">
                     <h4 class="breadcrumb_title">Blog</h4>
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Blog</li>
                     </ol>
                 </div>
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-lg-8 col-xl-9">
                 <div class="main_blog_post_content">
-                    @if ($post)
+                    @if ($post<>'')
                     <div class="mbp_thumb_post">
                         <div class="thumb">
                             <img class="img-fluid" src="{{ url('/storage/'.$post->immagine) }}" alt="{{$post->immagine}}">
@@ -57,7 +57,6 @@
                             <li><a href="#"><i class="fa fa-google"></i></a></li>
                         </ul>
                     </div>
-                    @endif
 
                     <div class="mbp_pagination_tab">
                         <div class="row">
@@ -77,6 +76,7 @@
                             <li class="list-inline-item float-right"></li>
                         </ul>
                     </div>
+
                     {{-- <div class="product_single_content style2 mb30">
                         <h4 class="aii_title">Reviews</h4>
                         <div class="mbp_pagination_comments">
@@ -184,6 +184,15 @@
                             </form>
                         </div>
                     </div> --}}
+                    @else
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mbp_pagination mt20">
+                                <h2>Non ci sono articoli!</h2>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
                 </div>
             </div>
           @include('website.blog.sidebar')

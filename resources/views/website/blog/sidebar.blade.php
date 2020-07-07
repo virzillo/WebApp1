@@ -19,12 +19,12 @@
                 <h4 class="title">Categorie</h4>
                 @foreach ($postcategories as $postcategory)
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <a href="{{route('categoria.blog',$postcategory->titolo)}}"> {{ucfirst($postcategory->titolo)}} </a><span class="float-right">6</span>
+                    <a href="{{route('categoria.blog',$postcategory->titolo)}}"> {{ucfirst($postcategory->titolo)}} </a><span class="float-right"></span>
                 </li>
                 @endforeach
             </ul>
         </div>
-        <div class="blog_recent_post_widget media_widget">
+        {{-- <div class="blog_recent_post_widget media_widget">
             <h4 class="title">Articoli recenti</h4>
             <div class="media">
                 <img class="align-self-start mr-3" src="images/blog/s1.jpg" alt="s1.jpg">
@@ -56,6 +56,6 @@
                 <li class="list-inline-item"><a href="#">Beginner</a></li>
                 <li class="list-inline-item"><a href="#">UX/UI</a></li>
             </ul>
-        </div>
+        </div> --}}
     </div>
 </div>

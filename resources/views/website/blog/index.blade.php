@@ -26,7 +26,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-xl-9">
 					<div class="main_blog_post_content">
-						<div class="row">
+                        @if (($posts<>''))
+                        <div class="row">
                             @foreach ($posts as $post)
                             <div class="col-sm-6 col-lg-6 col-xl-6">
 								<div class="blog_grid_post mb30">
@@ -73,6 +74,16 @@
 								</div>
 							</div>
 						</div>
+                        @else
+                        <div class="row">
+							<div class="col-lg-12">
+								<div class="mbp_pagination mt20">
+                                    <h2>Non ci sono articoli!</h2>
+                                </div>
+                            </div>
+                        </div>
+                        @endif
+
 					</div>
 				</div>
 			@include('website.blog.sidebar')
