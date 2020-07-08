@@ -19,4 +19,10 @@ class Implant extends Model
     {
         return $this->belongsToMany(Service::class);
     }
+
+    public function scopeOfType($query, $type)
+    {
+        return $query->where('type', $type);
+    }
+
 }

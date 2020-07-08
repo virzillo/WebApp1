@@ -13,23 +13,23 @@
 							<div class="cs_ins_container">
 								<div class="cs_instructor">
 									<ul class="cs_instrct_list float-left mb0">
-										<li class="list-inline-item"><img class="thumb" src="images/team/4.png" alt="4.png"></li>
-										<li class="list-inline-item"><a class="color-white" href="#">Ali TUFAN</a></li>
-										<li class="list-inline-item"><a class="color-white" href="#">Last updated 11/2019</a></li>
+										<li class="list-inline-item"><img class="thumb" src="{{ url('/storage/'.$implant->immagine) }}" alt="4.png"></li>
+										<li class="list-inline-item"><a class="color-white" href="#">{{$implant->citta}}</a></li>
+										<li class="list-inline-item"><a class="color-white" href="#">{{$implant->created_at->format('d/m/Y')}}</a></li>
 									</ul>
 								</div>
-								<h3 class="cs_title color-white">Designing a Responsive Mobile Website with Muse</h3>
+								<h3 class="cs_title color-white">{{$implant->titolo}}</h3>
 								<ul class="cs_review_seller">
-									<li class="list-inline-item"><a class="color-white" href="#"><span>Best Seller</span></a></li>
+									<li class="list-inline-item"><a class="color-white" href="#"><span>Prezzo</span></a></li>
+									{{-- <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
 									<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
 									<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
 									<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
-									<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
-									<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
-									<li class="list-inline-item"><a class="color-white" href="#">4.5 (11,382 Ratings)</a></li>
+									<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li> --}}
+									<li class="list-inline-item"><a class="color-white" href="#">€ {{$implant->prezzo}}</a></li>
 								</ul>
 								<ul class="cs_review_enroll">
-									<li class="list-inline-item"><a class="color-white" href="#"><span class="flaticon-profile"></span> 57,869 students enrolled</a></li>
+									<li class="list-inline-item"><a class="color-white" href="#"><span class="flaticon-profile"></span> 57,869 visualizzato</a></li>
 									<li class="list-inline-item"><a class="color-white" href="#"><span class="flaticon-comment"></span> 25 Review</a></li>
 								</ul>
 								<ul class="cs_watch_list float-right mb0">
@@ -57,41 +57,27 @@
 									<div class="cs_ins_container">
 										<div class="courses_big_thumb">
 											<div class="thumb">
-												<iframe class="iframe_video" src="//www.youtube.com/embed/57LQI8DKwec" frameborder="0" allowfullscreen></iframe>
+												<img class="img-whp" src="{{ url('/storage/'.$implant->immagine) }}" alt="{{$implant->immagine}}">
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="cs_row_two">
 									<div class="cs_overview b0p0">
-										<h4 class="title">Overview</h4>
-										<h4 class="subtitle">Course Description</h4>
-										<p class="mb30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-										<p class="mb20">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-										<h4 class="subtitle">What you'll learn</h4>
-										<ul class="cs_course_syslebus">
-											<li><i class="fa fa-check"></i><p>Become a UX designer.</p></li>
-											<li><i class="fa fa-check"></i><p>You will be able to add UX designer to your CV</p></li>
-											<li><i class="fa fa-check"></i><p>Become a UI designer.</p></li>
-											<li><i class="fa fa-check"></i><p>Build & test a full website design.</p></li>
-											<li><i class="fa fa-check"></i><p>Build & test a full mobile app.</p></li>
-										</ul>
-										<ul class="cs_course_syslebus2">
-											<li><i class="fa fa-check"></i><p>Learn to design websites & mobile phone apps.</p></li>
-											<li><i class="fa fa-check"></i><p>You'll learn how to choose colors.</p></li>
-											<li><i class="fa fa-check"></i><p>Prototype your designs with interactions.</p></li>
-											<li><i class="fa fa-check"></i><p>Export production ready assets.</p></li>
-											<li><i class="fa fa-check"></i><p>All the techniques used by UX professionals</p></li>
-										</ul>
-										<h4 class="subtitle">Requirements</h4>
-										<ul class="list_requiremetn">
-											<li><i class="fa fa-circle"></i><p>You will need a copy of Adobe XD 2019 or above. A free trial can be downloaded from Adobe.</p></li>
-											<li><i class="fa fa-circle"></i><p>No previous design experience is needed.</p></li>
-											<li><i class="fa fa-circle"></i><p>No previous Adobe XD skills are needed.</p></li>
-										</ul>
+										<h4 class="title">Descrizione</h4>
+										{{-- <h4 class="subtitle">Descrizione</h4> --}}
+										<p class="mb30">{!! $implant->descrizione !!}</p>
+
+									</div>
+                                </div>
+                                <div class="cs_row_two">
+									<div class="cs_overview b0p0">
+										<h4 class="title">Specifiche</h4>
+										<p class="mb30">{!! $implant->testo !!}</p>
+
 									</div>
 								</div>
-								<div class="cs_row_three">
+								{{-- <div class="cs_row_three">
 									<div class="course_content b0p0">
 										<div class="cc_headers">
 											<h4 class="title">Course Content</h4>
@@ -343,12 +329,12 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> --}}
 								<div class="cs_row_seven">
 									<div class="sfeedbacks b0p0">
 										<div class="mbp_comment_form style2 pb0">
-											<h4>Add Reviews & Rate</h4>
-											<ul>
+											<h4>Richiedi preventivo</h4>
+											{{-- <ul>
 												<li class="list-inline-item pr15"><p>What is it like to Course?</p></li>
 												<li class="list-inline-item">
 													<span class="sspd_review">
@@ -362,7 +348,7 @@
 														</ul>
 													</span>
 												</li>
-											</ul>
+											</ul> --}}
 											<form class="comments_form">
 												<div class="form-group">
 											    	<label for="exampleInputName1">Review Title</label>

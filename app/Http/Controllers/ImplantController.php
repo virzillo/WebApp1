@@ -30,6 +30,8 @@ class ImplantController extends Controller
         $page_title = 'Impianti';
         $page_description = ' | Some description for the page';
         $implants=Implant::all();
+        // $numcat=count(Implant::ofType('pubblicato')->get());
+        // dd($numcat);
         return view('pages.implants.index',compact('implants','page_title','page_description'));
     }
 
