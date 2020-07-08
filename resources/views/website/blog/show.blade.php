@@ -38,8 +38,8 @@
                             <ul class="post_meta">
                                 <li><a href="#"><span class="flaticon-profile"></span></a></li>
                                 <li><a href="#"><span>{{$post->user->name}}</span></a></li>
-                                <li><a href="#"><span class="flaticon-comment"></span></a></li>
-                                <li><a href="#"><span>7 comments</span></a></li>
+                                <li><a href="#"><span class="flaticon-profile"></span></a></li>
+                                <li><a href="#"><span>{{$post->views}} visualizzazioni</span></a></li>
                             </ul>
                             <h4>Descrizione</h4>
                             <p>{!! $post->descrizione !!}</p>
@@ -58,7 +58,7 @@
                         </ul>
                     </div>
 
-                    <div class="mbp_pagination_tab">
+                    {{-- <div class="mbp_pagination_tab">
                         <div class="row">
                             <div class="col-sm-6 col-lg-6">
                                 <div class="pag_prev">
@@ -75,7 +75,7 @@
                             <li class="list-inline-item float-left"></li>
                             <li class="list-inline-item float-right"></li>
                         </ul>
-                    </div>
+                    </div> --}}
 
                     {{-- <div class="product_single_content style2 mb30">
                         <h4 class="aii_title">Reviews</h4>

@@ -10,10 +10,10 @@
 			<div class="row">
 				<div class="col-xl-6 offset-xl-3 text-center">
 					<div class="breadcrumb_content">
-						<h4 class="breadcrumb_title">Courses</h4>
+						<h4 class="breadcrumb_title">Impianti</h4>
 						<ol class="breadcrumb">
 						    <li class="breadcrumb-item"><a href="#">Home</a></li>
-						    <li class="breadcrumb-item active" aria-current="page">Courses</li>
+						    <li class="breadcrumb-item active" aria-current="page">Impianti</li>
 						</ol>
 					</div>
 				</div>
@@ -65,13 +65,13 @@
 										<img class="img-whp" src="{{ url('/storage/'.$implant->immagine) }}" alt="{{$implant->immagine}}">
 										<div class="overlay">
 											<div class="icon"><span class="flaticon-like"></span></div>
-											<a class="tc_preview_course" href="#">Visualizza</a>
+											<a class="tc_preview_course" href="{{route('visualizza.impianto',$implant->slug)}}">Visualizza</a>
 										</div>
 									</div>
 									<div class="details">
 										<div class="tc_content">
 											<p>{{$implant->citta}}</p>
-											<h5>{{$implant->titolo}}</h5>
+											<a class="tc_preview_course" href="{{route('visualizza.impianto',$implant->slug)}}"><h5>{{$implant->titolo}}</h5></a>
 											<p>{!! $implant->descrizione !!}</p>
 										</div>
 										<div class="tc_footer">

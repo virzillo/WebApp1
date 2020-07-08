@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use App\PostView;
 use App\PostCategory;
 use Illuminate\Http\Request;
 
@@ -22,6 +23,12 @@ class SitoBlogController extends Controller
         $page_description = '';
         $post=Post::where('slug',$post->slug)->where('pubblicato','on')->first();
         $postcategories=PostCategory::all()->where('pubblicato','on');
+
+
+
+        $post->increment('views');//I have a separate column for views in the post table. This will increment the views column in the posts table.
+        PostView::createViewLog($post);
+
         return view('website.blog.show',compact('post','postcategories','page_title','page_description'));
     }
 

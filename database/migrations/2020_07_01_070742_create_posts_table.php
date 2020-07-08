@@ -32,7 +32,7 @@ class CreatePostsTable extends Migration
             $table->string('meta_titolo')->nullable();
             $table->string('meta_descrizione')->nullable();
             $table->string('meta_keywords')->nullable();
-
+            $table->bigIncrements('views');
             $table->timestamps();
             $table->timestamp('pubblicato_il')->nullable();
         });

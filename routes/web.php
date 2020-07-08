@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', 'PagesController@home');
 Route::get('/impianti', 'SitoImpiantiController@index')->name('Parco impianti');
+Route::get('/impianti/{implant:slug}', 'SitoImpiantiController@show')->name('visualizza.impianto');
+
 Route::get('/blog', 'SitoBlogController@index')->name('Blog');
 Route::post('/blog', 'SitoBlogController@find')->name('find.blog');
 Route::get('/blog/{postcategory:titolo}/categoria', 'SitoBlogController@category')->name('categoria.blog');

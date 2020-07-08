@@ -25,4 +25,20 @@ class SitoImpiantiController extends Controller
         // dd($citta);
         return view('website.impianti.index',compact('impianti','categories','citta','services','page_title','page_description'));
     }
+
+    public function show(Implant $implant)
+    {
+        $page_title = 'Parco Impianti';
+        $page_description = '';
+        $implant=Implant::where('slug',$implant->slug)->where('pubblicato','on')->first();
+        $implantcategories=Category::all()->where('pubblicato','on');
+
+
+
+        // $implant->increment('views');//I have a separate column for views in the post table. This will increment the views column in the posts table.
+        // PostImplantViewView::createViewLog($implant);
+
+        return view('website.impianti.show',compact('implant','implantcategories','page_title','page_description'));
+    }
+
 }

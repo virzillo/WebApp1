@@ -16,7 +16,7 @@ class CreatePostViewsTable extends Migration
         Schema::create('post_views', function (Blueprint $table) {
             $table->id();
             $table->unsignedInteger("post_id");
-            $table->string("titleslug");
+            $table->string("slug");
             $table->string("url");
             $table->string("session_id");
             $table->unsignedInteger('user_id')->nullable();

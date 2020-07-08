@@ -28,7 +28,7 @@
                 <li>
                     <a href="{{url('/impianti')}}"><span class="title">Impianti</span></a>
                     <!-- Level Two-->
-                    <ul>
+                    {{-- <ul>
                         <li>
                             <a href="#">Courses List</a>
                             <!-- Level Three-->
@@ -49,7 +49,7 @@
                         </li>
                         <li><a href="page-instructors.html">Instructors</a></li>
                         <li><a href="page-instructors-single.html">Instructor Single</a></li>
-                    </ul>
+                    </ul> --}}
                 </li>
                 <li>
                     <a href="{{url('/')}}"><span class="title">Servizi</span></a>

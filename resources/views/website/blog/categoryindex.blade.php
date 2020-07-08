@@ -41,8 +41,8 @@
 										<ul class="post_meta">
 											<li><a href="#"><span class="flaticon-profile"></span></a></li>
 											<li><a href="#"><span>{{$post->user->name}}</span></a></li>
-											<li><a href="#"><span class="flaticon-comment"></span></a></li>
-											<li><a href="#"><span>7 comments</span></a></li>
+											<li><a href="#"><span class="flaticon-search"></span></a></li>
+											<li><a href="#"><span>{{$post->views}} visualizzazioni</span></a></li>
 										</ul>
 										<p>{!! substr($post->descrizione ,0,150 )!!} <small>... leggi</small></p>
 									</div>
