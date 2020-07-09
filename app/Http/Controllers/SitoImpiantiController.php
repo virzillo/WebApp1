@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Implant;
 use App\Category;
+use App\ImplantView;
 use App\Province;
 use App\Service;
 use Illuminate\Http\Request;
@@ -33,10 +34,9 @@ class SitoImpiantiController extends Controller
         $implant=Implant::where('slug',$implant->slug)->where('pubblicato','on')->first();
         $implantcategories=Category::all()->where('pubblicato','on');
 
+        $implant->increment('views');//I have a separate column for views in the post table. This will increment the views column in the posts table.
+        ImplantView::createViewLog($implant);
 
-
-        // $implant->increment('views');//I have a separate column for views in the post table. This will increment the views column in the posts table.
-        // PostImplantViewView::createViewLog($implant);
 
         return view('website.impianti.show',compact('implant','implantcategories','page_title','page_description'));
     }

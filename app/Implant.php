@@ -25,4 +25,16 @@ class Implant extends Model
         return $query->where('type', $type);
     }
 
+    public function showImplant()
+    {
+        if(auth()->id()==null){
+            return $this->implantView()
+            ->where('ip', '=',  request()->ip())->exists();
+        }
+
+        return $this->implantView()
+        ->where(function($implantViewsQuery) { $implantViewsQuery
+            ->where('session_id', '=', request()->getSession()->getId())
+            ->orWhere('user_id', '=', (auth()->check()));})->exists();
+    }
 }

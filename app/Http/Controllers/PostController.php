@@ -239,10 +239,5 @@ class PostController extends Controller
         return back()->with($notification);
     }
 
-    if($post->showPost()){// this will test if the user viwed the post or not
-        return $post;
-    }
 
-    $post->increment('views');//I have a separate column for views in the post table. This will increment the views column in the posts table.
-    PostView::createViewLog($post);
 }

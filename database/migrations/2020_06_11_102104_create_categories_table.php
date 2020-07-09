@@ -17,6 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->integer('parent_id')->unsigned()->nullable();
             $table->string('titolo');
+            $table->string('icona')->nullable();
             $table->enum('pubblicato',['on',NULL])->nullable();
 
 

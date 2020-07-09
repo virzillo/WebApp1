@@ -41,6 +41,8 @@ class CreateImplantsTable extends Migration
             $table->string('meta_titolo')->nullable();
             $table->string('meta_descrizione')->nullable();
             $table->string('meta_keywords')->nullable();
+            $table->bigIncrements('views');
+
 
             $table->enum('pubblicato',['on',NULL])->nullable();
             $table->enum('evidenza',['on',NULL])->nullable();
