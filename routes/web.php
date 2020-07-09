@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 
-Route::get('/', 'PagesController@home');
+Route::get('/', 'PagesController@home')->name('homepage');
 Route::get('/impianti', 'SitoImpiantiController@index')->name('Parco impianti');
 Route::get('/impianti/{implant:slug}', 'SitoImpiantiController@show')->name('visualizza.impianto');
 

@@ -19,22 +19,36 @@
 					                    </div>
 					                </div>
 					            </div>
-					        </div>
-                           @foreach ($sliders as $slider)
-                           <div class="slide slide-two" style="background-image: url({{ url('/storage/'.$slider->immagine) }}); height: 95vh;">
-                            <div class="container">
-                                <div class="row home-content">
-                                    <div class="col-lg-12 text-center p0">
-                                        <h3 class="banner-title">{{$slider->titolo}}</h3>
-                                        <p>{{$slider->sottotitolo}}</p>
-                                        <?php if (isset($slider->link)) { ?>
-                                              <div class="btn-block"><a href="{{$slider->link}}" class="banner-btn">Scopri di più</a></div>
-                                        <?php } ?>
+                            </div>
+                            <div class="slide slide-one" style="background-image: url(images/home/2.jpg);height: 95vh;">
+					            <div class="container">
+					                <div class="row home-content">
+					                    <div class="col-lg-12 text-center p0">
+					                        <h3 class="banner-title">Self EducatIon Resources and Infos</h3>
+					                        <p>Technology is brining a massive wave of evolution on learning things on different ways</p>
+					                        <div class="btn-block"><a href="#" class="banner-btn">Ready to get Started?</a></div>
+					                    </div>
+					                </div>
+					            </div>
+                            </div>
+                        @if ($sliders<>'')
+                            @foreach ($sliders as $slider)
+                            <div class="slide slide-two" style="background-image: url({{ url('/storage/'.$slider->immagine) }}); height: 95vh;">
+                                <div class="container">
+                                    <div class="row home-content">
+                                        <div class="col-lg-12 text-center p0">
+                                            <h3 class="banner-title">{{$slider->titolo}}</h3>
+                                            <p>{{$slider->sottotitolo}}</p>
+                                            <?php if (isset($slider->link)) { ?>
+                                                <div class="btn-block"><a href="{{$slider->link}}" class="banner-btn">Scopri di più</a></div>
+                                            <?php } ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                           @endforeach
+                            @endforeach
+                        @endif
+
 					    </div>
 					    <div class="carousel-btn-block banner-carousel-btn">
 					        <span class="carousel-btn left-btn"><i class="flaticon-left-arrow left"></i> <span class="left">PR <br> EV</span></span>

@@ -8,10 +8,10 @@
 			<div class="row">
 				<div class="col-xl-6 offset-xl-3 text-center">
 					<div class="breadcrumb_content">
-						<h4 class="breadcrumb_title">About Us</h4>
+						<h4 class="breadcrumb_title">Chi Siamo</h4>
 						<ol class="breadcrumb">
-						    <li class="breadcrumb-item"><a href="#">Home</a></li>
-						    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+						    <li class="breadcrumb-item"><a href="{{route('homepage')}}">Home</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Chi Siamo</li>
 						</ol>
 					</div>
 				</div>
@@ -25,15 +25,17 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="about_content">
-						<h3>Our Values</h3>
-						<p class="color-black22 mt20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis,et quasi architecto beatae vitae dicta sunt explicabo.</p>
-						<p class="mt15">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis,et quasi architecto beatae vitae dicta sunt explicabo.</p>
-						<p class="mt20">Nemo enim ipsam,voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia,consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.,Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit, sed quia non numquam eius modi tempora</p>
+						<h3>IL NOSTRO UFFICIO</h3>
+						<p class="color-black22 mt20">La sua dinamicità ed organizzazione rende M.S.G. s.r.l. leader nel settore della pubblicità OUTDOOR/INDOOR, con una vasta gamma di impiantistica pubblicitaria di ogni dimensione e forma. Ad oggi, grazie a Partnership e accordi consolidati con Media Nazionali, la M.S.G. s.r.l. è in grado di seguire i suoi clienti a 360° in tutta Italia.
+                            </p>
+						<p class="mt15"> Desideriamo unicamente affiancare e sostenere i nostri clienti nel conseguimento dei loro obiettivi di marketing e di vendita, senza dimenticare mai di garantire il giusto rapporto qualità/prezzo.
+                          </p>
+						<p class="mt20">  Attraverso un processo aziendale ben strutturato, assicuriamo la corretta e puntuale affissione della vostra campagna pubblicitaria, rispettando le date di esposizione stabilite e certificando tutto il processo lavorativo svolto, prima con l'invio della "nota posizione" che comunica l'avvenuta installazione e subito dopo con il report fotografico grazie al quale potete visualizzare tutti gli impianti noleggiati.</p>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="about_thumb">
-						<img class="img-fluid" src="images/about/8.jpg" alt="8.jpg">
+						<img class="img-fluid" src="{{asset('website/images/about/960x820_1.jpg')}}" alt="8.jpg">
 					</div>
 				</div>
 			</div>

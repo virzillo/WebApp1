@@ -139,7 +139,6 @@
           allFilters.push(this.name);
       }
     });
-     console.log(allFilters);
 
 
 
@@ -153,8 +152,10 @@
       var $filterCategoryApplied = 0;
 
     $.each(allFilters, function(arIndex, filterName) {
-    console.log(filterName);
-      var $filterCheckboxCategory = $('input[name='+filterName+']').filter(':checked');
+    //     filterName=allFilters[1];
+    //  console.log(arIndex);
+
+      var $filterCheckboxCategory = $('input[name=' + filterName + ']').filter(':checked');
 
     console.log(filterName + ' length = ' + $filterCheckboxCategory.length);
 
@@ -189,7 +190,7 @@
     // loop over the selected filter name -> (array) values pairs
     $.each(selectedFilters, function(name, filterValues) {
 
-    console.log(selectedFilters['categoria'].length);
+    // console.log(selectedFilters['categoria'].length);
     console.log(name);
     console.log(filterValues);
     console.log(filterValues.length);

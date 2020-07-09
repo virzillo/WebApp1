@@ -2,7 +2,7 @@
     <div class="mobile-menu">
         <div class="header stylehome1">
             <div class="main_logo_home2">
-                <img class="nav_logo_img img-fluid float-left mt20" src="{{url('/website')}}/images/header-logo.png" alt="header-logo.png">
+                <img class="nav_logo_img img-fluid float-left mt20" src="{{asset('/website/images/Logomgs.png')}}" alt="Logomgs">
                 <span>MGS</span>
             </div>
             <ul class="menu_bar_home2">
@@ -15,7 +15,7 @@
                             <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button2"><i class="fa fa-times"></i></a>
                             <div id="mk-fullscreen-search-wrapper2">
                               <form method="get" id="mk-fullscreen-searchform2">
-                                <input type="text" value="" placeholder="Search courses..." id="mk-fullscreen-search-input2">
+                                <input type="text" value="" placeholder="Cerca impianti..." id="mk-fullscreen-search-input2">
                                 <i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit"></i>
                               </form>
                             </div>
@@ -28,7 +28,7 @@
     </div><!-- /.mobile-menu -->
     <nav id="menu" class="stylehome1">
         <ul>
-            <li> <a href="{{url('/')}}"><span class="title">Home</span></a></li>
+            <li> <a href="{{route('homepage')}}"><span class="title">Home</span></a></li>
             {{-- <li><span>Blog</span>
                 <ul>
                     <li><a href="page-blog-v1.html">Blog List 1</a></li>
