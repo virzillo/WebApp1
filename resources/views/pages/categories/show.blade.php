@@ -13,18 +13,13 @@
             <div class="card-header">
                 <h3 class="card-title">Sottocategorie di {{$cat->titolo}}</h3>
                 <div class="card-toolbar">
-                    {{-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createCategoryModal">
-                        Launch demo modal
-                      </button> --}}
-                    <!--begin::Button-->
-                    {{-- <a href="{{ route('category.create') }}" class="btn btn-primary font-weight-bolder"> --}}
                         <a type="button" class="btn btn-sm btn-primary mr-1 create-category"
                             data-toggle="modal" data-target="#createCategoryModal">
                         <span class="svg-icon svg-icon-md">
                             <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                             {{ Metronic::getSVG("assets/media/svg/icons/Design/Flatten.svg")}}
                             <!--end::Svg Icon-->
-                        </span>Crea nuovo</a>
+                        </span>Modifica</a>
                     <!--end::Button-->
                 </div>
             </div>
@@ -36,6 +31,7 @@
                         <th></th>
                         <th>ID</th>
                         <th>Titolo</th>
+                        <th>Icona</th>
                         <th>Pubbicato</th>
                         <th>Actions</th>
                     </tr>
@@ -46,6 +42,7 @@
                         <td></td>
                         <td>{{$category->id}}</td>
                         <td>{{$category->titolo}}</td>
+                        <td>{{$category->icona}}</td>
                         <td>
                             @if ($category->pubblicato=='on')
                             <span class="label label-lg font-weight-bold label-light-success label-inline">si</span>
@@ -103,27 +100,28 @@
                 </div>
             </div>
             <form action="{{ route('category.store') }}" method="POST">
+                @csrf
             <div class="card-body">
-                    @csrf
-                    <div class="modal-body">
-                        <div class="form-group row">
-                        <input type="hidden" name="parent_id" value="{{$cat->id}}">
-                            <div class="col-lg-6">
-                                <label>Titolo:</label>
-                                <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
-                                required>
-                            </div>
-                            <div class="col-lg-6">
-                                <label>Pubblicato:</label>
-                                <select class="form-control kt-select2 select2" id="kt_select2_2" name="pubblicato">
-                                    <option value="on">si</option>
-                                   <option value="">no</option>
-                                </select>
-                            </div>
+                <div class="form-group row">
+                    <input type="hidden" name="parent_id" value="{{$cat->id}}">
+                        <div class="col-lg-4">
+                            <label>Titolo:</label>
+                            <input type="text" name="titolo" class="form-control" value="" placeholder="Nome categoria"
+                            required>
                         </div>
-
-                    </div>
-
+                        <div class="col-lg-4">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
+                            <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Pubblicato:</label>
+                            <select class="form-control kt-select2 select2" id="kt_select2_2" name="pubblicato">
+                                <option value="on">si</option>
+                            <option value="">no</option>
+                            </select>
+                        </div>
+                </div>
             </div>
             <div class="card-footer">
                 <div class="row">
@@ -155,12 +153,17 @@
                 @csrf
                 <div class="card-body">
                     <div class="form-group row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <label>Titolo:</label>
                             <input type="text" class="form-control" placeholder="inserisci titolo" name="titolo" value="{{$cat->titolo}}">
                             <span class="form-text text-muted"> </span>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
+                            <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
+                        </div>
+                        <div class="col-lg-4">
                             <label>Pubblicato:</label>
                             <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato" >
                                 @if($cat->pubblicato)
@@ -181,8 +184,7 @@
 
                         </div>
                         <div class="col-lg-6 text-right">
-                            <button type="submit" class="btn btn-primary mr-2">Save</button>
-                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                            <button type="submit" class="btn btn-primary mr-2">Salva</button>
                         </div>
                     </div>
                 </div>
@@ -209,29 +211,35 @@
                 @method('PUT')
                 @csrf
                 <div class="modal-body">
-
-
-                    {{-- <input type="hidden" name="parent_id" value="{{$cat->id}}"> --}}
                     <div class="form-group">
-                        <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
+                        <input type="text" name="titolo" class="form-control" value="{{$cat->titolo}}" placeholder="Nome categoria"
                             required>
                     </div>
-                    <div class="form-group">
-                        <label>Pubblicato:</label>
+                    <div class="form-group row">
+                        <div class="col-lg-6">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="{{$cat->icona}} " name="icona" required>
+                            <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
+                        </div>
+                        <div class="col-lg-6">
+                            <label>Pubblicato:</label><br>
+                            <select class="form-control kt-select2 select2" id="kt_select2_3" name="pubblicato">
+                                @if($cat->pubblicato)
+                                <option value="on">si</option>
+                                <option value="">no</option>
+                                @else
+                                <option value="">no</option>
+                                <option value="on">si</option>
+                                @endif
+                            </select>
+                        </div>
 
-                        <select class="form-control kt-select2 select2" id="kt_select2_3" name="pubblicato">
-                            <option value="on">si</option>
-                            <option value="">no</option>
-
-                        </select>
                     </div>
                 </div>
-
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                    <button type="submit" class="btn btn-primary">Salva</button>
                 </div>
-
             </form>
         </div>
 
@@ -259,13 +267,13 @@
 <script src="{{ asset('js/pages/crud/datatables/basic/basic.js') }}" type="text/javascript"></script>
 
 <script type="text/javascript">
+
     $(document).ready(function() {
         $('.select2').select2();
-        $('#MenuGestioneImpianti').addClass("menu-item-open");
-        $('#MenuCategorie').addClass("menu-item-open menu-item-here");
+        $('li#MenuGestioneImpianti').addClass("menu-item-open");
+        $('li#MenuCategorie').addClass("menu-item-open menu-item-here");
     });
-</script>
-<script type="text/javascript">
+
 
     $('.edit-category').on('click', function () {
         var id = $(this).data('id');

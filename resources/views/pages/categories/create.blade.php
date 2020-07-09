@@ -78,13 +78,17 @@
                             </select>
                         </div>
 
-                        <div class="col-lg-4"> <label>Titolo:</label>
+                        <div class="col-lg-3"> <label>Titolo:</label>
                             <input type="text" name="titolo" class="form-control"
                                 value="{{ old('titolo') }}" placeholder="Nome categoria" required>
                         </div>
 
-
-                    <div class="col-lg-4">
+                        <div class="col-lg-3">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
+                            <span class="form-text text-muted ml-2"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
+                        </div>
+                    <div class="col-lg-2">
 
                             <label>Pubblicato:</label>
                             <select class="form-control kt-select2 select2" id="kt_select2_5" name="pubblicato">
@@ -95,7 +99,7 @@
                     </div>
                 </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary">Create</button>
+                        <button type="submit" class="btn btn-primary" style="float: right;">Crea</button>
                     </div>
                 </form>
             </div>
@@ -133,8 +137,8 @@
                                         @csrf
                                         @method('DELETE')
 
-                                        <button type="button" class="btn btn-sm btn-clean btn-icon mr-2">
-                                            <span class="svg-icon svg-icon-md svg-icon-danger" id="confirm-delete1">
+                                        <button type="button" class="btn btn-sm btn-clean btn-icon mr-2" id="confirm-delete1">
+                                            <span class="svg-icon svg-icon-md svg-icon-danger" >
                                                 {{ Metronic::getSVG("media/svg/icons/General/Trash.svg") }}
                                             </span>
                                         </button>
@@ -191,12 +195,12 @@
 
 </div>
 
-
+@if (isset($category))
 <div class="modal" tabindex="-1" role="dialog" id="editCategoryModal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Edit Category</h5>
+                <h5 class="modal-title">Modifica categoria</h5>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -209,35 +213,44 @@
 
                 <div class="modal-body">
                     <div class="form-group">
-                        <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
+                        <input type="text" name="titolo" class="form-control" value="" placeholder="Nome categoria"
                             required>
                     </div>
-                    <div class="form-group">
-                        <label>Pubblicato:</label>
-                        <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-                            @if ($category->pubblicato=='si')
-                            <option value="si">si</option>
-                           <option value="no">no</option>
+                    <div class="form-group row">
+                        <div class="col-lg-8">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
+                            <span class="form-text text-muted ml-2"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Pubblicato:</label><br>
+                            <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
+                                @if ($category->pubblicato=='si')
+                                <option value="si">si</option>
+                               <option value="no">no</option>
 
-                       @else
-                           <option value="no">no</option>
-                           <option value="si">si</option>
+                           @else
+                               <option value="no">no</option>
+                               <option value="si">si</option>
 
-                       @endif
+                           @endif
+                            </select>
+                        </div>
 
-
-                        </select>
                     </div>
+
                 </div>
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="submit" class="btn btn-primary">Salva</button>
                 </div>
         </div>
         </form>
     </div>
 </div>
+@endif
+
 
 
 @endsection
@@ -278,23 +291,25 @@
         var id = $(this).data('id');
         var titolo = $(this).data('titolo');
         var pubblicato = $(this).data('pubblicato');
+        var icona = $(this).data('icona');
 
         var url = "{{ url('admin/category') }}/" + id;
 
         $('#editCategoryModal form').attr('action', url);
         $('#editCategoryModal form input[name="titolo"]').val(titolo);
         $('#editCategoryModal form input[name="pubblicato"]').val(pubblicato);
+        $('#editCategoryModal form input[name="icona"]').val(icona);
 
     });
 
     $("button#confirm-delete1").click(function(e) {
     event.preventDefault();
     Swal.fire({
-        title: "Sei sicuro?",
+        title: "Attenzione",
         text: "Stai per eliminare un record!",
         icon: "warning",
         showCancelButton: true,
-        confirmButtonText: "Si, eliminalo!!"
+        confirmButtonText: "Elimina"
     }).then(function(result) {
         if (result.value) {
             $("#form-delete1").submit();
@@ -304,11 +319,11 @@
 $("button#confirm-delete2").click(function(e) {
     event.preventDefault();
     Swal.fire({
-        title: "Sei sicuro?",
+        title: "Attenzione",
         text: "Stai per eliminare un record!",
         icon: "warning",
         showCancelButton: true,
-        confirmButtonText: "Si, eliminalo!!"
+        confirmButtonText: "Elimina"
     }).then(function(result) {
         if (result.value) {
             $("#form-delete2").submit();

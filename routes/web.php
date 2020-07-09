@@ -79,6 +79,8 @@ Route::get('/dashboard', 'PagesController@index');
     Route::resource('post' , 'PostController');
     Route::resource('slider' , 'SliderController');
 
+    Route::get('/logviewspost', 'LogViewsController@post')->name('logviews.post');
+    Route::get('/logviewsimplant', 'LogViewsController@implant')->name('logviews.implant');
 
     // Demo routes
     // Route::get('/datatables', 'PagesController@datatables');

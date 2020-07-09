@@ -22,7 +22,7 @@
                     <div class="form-group">
 
                         <select class="form-control" name="parent_id">
-                            <option value="">Select Parent Category</option>
+                            <option value="">Categoria principale</option>
 
                             @foreach($categories as $category)
                                 <option value="{{ $category->id }}">{{ $category->titolo }}</option>
@@ -32,21 +32,33 @@
 
 
                     <div class="form-group">
-                        <input type="text" name="titolo" class="form-control" value="{{old('titolo')}}" placeholder="Category Name"
+                        <input type="text" name="titolo" class="form-control" value="{{old('titolo')}}" placeholder="Nome categoria"
                             required>
                     </div>
+                    <div class="form-group row">
+                        <div class="col-lg-8">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
+                            <span class="form-text text-muted ml-2"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Pubblicato:</label><br>
+                            <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
+                                <option value="on">si</option>
+                                <option value="">no</option>
+                            </select>
+                        </div>
+
+                    </div>
+
                     <div class="form-group">
-                        <label>Pubblicato:</label>
-                        <select class="form-control kt-select2 select2" id="kt_select2_1" name="pubblicato">
-                            <option value="on">si</option>
-                            <option value="">no</option>
-                        </select>
+
                     </div>
                 </div>
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="submit" class="btn btn-primary">Salva</button>
                 </div>
             </form>
 
@@ -90,6 +102,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Titolo</th>
+                            <th>Icona</th>
                             <th>Pubbicato</th>
                             <th>Azioni</th>
                         </tr>
@@ -99,6 +112,7 @@
                             <tr>
                                 <td>{{ $category->id }}</td>
                                 <td>{{ $category->titolo }}</td>
+                                <td><i class="{{$category->icona}}" aria-hidden="true"></i></td>
                                 <td>
                                     @if($category->pubblicato=='on')
                                         <span
@@ -153,7 +167,7 @@
                         <div class="form-group">
 
                             <select class="form-control" name="parent_id">
-                                <option value="">Select Parent Category</option>
+                                <option value="">Categoria principale</option>
 
                                 @foreach($categories as $category)
                                     <option value="{{ $category->id }}">{{ $category->titolo }}</option>
@@ -163,8 +177,13 @@
 
 
                         <div class="form-group">
-                            <input type="text" name="titolo" class="form-control" value="" placeholder="Category Name"
+                            <input type="text" name="titolo" class="form-control" value="" placeholder="Nome categoria"
                                 required>
+                        </div>
+                        <div class="form-group">
+                            <label>Icona:</label>
+                            <input type="text" class="form-control" placeholder="inserisci icona" value="fa " name="icona" required>
+                            <span class="form-text text-muted"><a href="/admin/icons/shareserviceicons" class="" target="_blank">elenco</a> </span>
                         </div>
                         <div class="form-group">
                             <label>Pubblicato:</label>
@@ -176,8 +195,7 @@
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Update</button>
+                        <button type="submit" class="btn btn-primary">Salva</button>
                     </div>
                 </form>
             </div>

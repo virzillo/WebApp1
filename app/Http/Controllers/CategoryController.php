@@ -110,6 +110,7 @@ class CategoryController extends Controller
         $category = Category::find($category->id);
         $category->titolo = $request->get('titolo');
         $category->pubblicato = $request->get('pubblicato');
+        $category->icona = $request->get('icona');
 
         $category->save();
 
@@ -117,7 +118,9 @@ class CategoryController extends Controller
             'message' => 'Categoria modificata con successo!',
             'alert-type' => 'success'
         );
-        return redirect(action('CategoryController@index'))->with($notification);
+        // return redirect(action('CategoryController@index'))->with($notification);
+        return back()->with($notification);
+
     }
 
     /**
@@ -166,6 +169,7 @@ class CategoryController extends Controller
         return  request()->validate([
             'titolo' => 'required|min:3|max:255|string',
             'pubblicato' =>'nullable',
+            'icona' =>'nullable',
             'parent_id' => 'sometimes|nullable|numeric'
         ]);
     }

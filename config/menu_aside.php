@@ -156,6 +156,22 @@ return [
                     ]
                 ],
                 [
+                    'title' => 'LogVisualizzazioni',
+                    'bullet' => 'dot',
+                    'submenu' => [
+
+                        [
+                            'title' => 'Articoli',
+                            'page' => 'admin/logviewspost'
+                        ],
+                        [
+                            'title' => 'Impianti',
+                            'page' => 'admin/logviewsimplant'
+                        ],
+
+                    ]
+                ],
+                [
                     'title' => 'Inbox',
                     'bullet' => 'dot',
                     'page' => 'custom/apps/inbox',
