@@ -25,7 +25,7 @@ class CategoryController extends Controller
         $page_title = 'Categorie';
         $page_description = 'Some description for the page';
         $categories = Category::with('children')->whereNull('parent_id')->get();
-        return view('pages.categories.index',compact('categories','page_title','page_description'));
+        return view('backend.categories.index',compact('categories','page_title','page_description'));
 
 
 
@@ -46,7 +46,7 @@ class CategoryController extends Controller
 
         $categories = Category::with('children')->whereNull('parent_id')->get();
 
-        return view('pages.categories.create',compact('categories','page_title','page_description'));
+        return view('backend.categories.create',compact('categories','page_title','page_description'));
 
     }
 
@@ -81,7 +81,7 @@ class CategoryController extends Controller
         $categories=Category::with('children')->where('parent_id', $category->id )->get();
         $page_title = 'Categoria '. $cat->titolo;
         $page_description = 'Inserisci sottocategorie';
-        return view('pages.categories.show',compact('cat','categories','page_title','page_description'));
+        return view('backend.categories.show',compact('cat','categories','page_title','page_description'));
 
     }
 

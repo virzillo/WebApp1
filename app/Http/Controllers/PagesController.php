@@ -20,7 +20,7 @@ class PagesController extends Controller
         $page_title = 'Dashboard';
         $page_description = 'Some description for the page';
 
-        return view('pages.dashboard', compact('page_title', 'page_description'));
+        return view('backend.dashboard', compact('page_title', 'page_description'));
     }
 
     /**
@@ -33,7 +33,7 @@ class PagesController extends Controller
         $page_title = 'Datatables';
         $page_description = 'This is datatables test page';
 
-        return view('pages.datatables', compact('page_title', 'page_description'));
+        return view('backend.datatables', compact('page_title', 'page_description'));
     }
 
     // KTDatatables
@@ -42,7 +42,7 @@ class PagesController extends Controller
         $page_title = 'KTDatatables';
         $page_description = 'This is KTdatatables test page';
 
-        return view('pages.ktdatatables', compact('page_title', 'page_description'));
+        return view('backend.ktdatatables', compact('page_title', 'page_description'));
     }
 
     // Select2
@@ -51,7 +51,7 @@ class PagesController extends Controller
         $page_title = 'Select 2';
         $page_description = 'This is Select2 test page';
 
-        return view('pages.select2', compact('page_title', 'page_description'));
+        return view('backend.select2', compact('page_title', 'page_description'));
     }
 
     // custom-icons
@@ -60,7 +60,7 @@ class PagesController extends Controller
         $page_title = 'customIcons';
         $page_description = 'This is customIcons test page';
 
-        return view('pages.icons.custom-icons', compact('page_title', 'page_description'));
+        return view('backend.icons.custom-icons', compact('page_title', 'page_description'));
     }
 
     // flaticon
@@ -69,7 +69,7 @@ class PagesController extends Controller
         $page_title = 'flaticon';
         $page_description = 'This is flaticon test page';
 
-        return view('pages.icons.flaticon', compact('page_title', 'page_description'));
+        return view('backend.icons.flaticon', compact('page_title', 'page_description'));
     }
 
     // fontawesome
@@ -78,7 +78,7 @@ class PagesController extends Controller
         $page_title = 'fontawesome';
         $page_description = 'This is fontawesome test page';
 
-        return view('pages.icons.fontawesome', compact('page_title', 'page_description'));
+        return view('backend.icons.fontawesome', compact('page_title', 'page_description'));
     }
 
     // lineawesome
@@ -87,7 +87,7 @@ class PagesController extends Controller
         $page_title = 'lineawesome';
         $page_description = 'This is lineawesome test page';
 
-        return view('pages.icons.lineawesome', compact('page_title', 'page_description'));
+        return view('backend.icons.lineawesome', compact('page_title', 'page_description'));
     }
 
     // socicons
@@ -96,7 +96,7 @@ class PagesController extends Controller
         $page_title = 'socicons';
         $page_description = 'This is socicons test page';
 
-        return view('pages.icons.socicons', compact('page_title', 'page_description'));
+        return view('backend.icons.socicons', compact('page_title', 'page_description'));
     }
 
     // svg
@@ -105,7 +105,7 @@ class PagesController extends Controller
         $page_title = 'svg';
         $page_description = 'This is svg test page';
 
-        return view('pages.icons.svg', compact('page_title', 'page_description'));
+        return view('backend.icons.svg', compact('page_title', 'page_description'));
     }
 
     public function shareserviceicons()
@@ -113,7 +113,7 @@ class PagesController extends Controller
         $page_title = 'share service pack';
         $page_description = 'Elenco codici per icone';
 
-        return view('pages.icons.shareserviceicons', compact('page_title', 'page_description'));
+        return view('backend.icons.shareserviceicons', compact('page_title', 'page_description'));
     }
 
     // Quicksearch Result

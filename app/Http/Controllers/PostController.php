@@ -28,7 +28,7 @@ class PostController extends Controller
         $posts=Post::all();
         $page_title = 'Articoli';
         $page_description = '';
-        return view('pages.posts.index',compact('posts','page_title','page_description'));
+        return view('backend.posts.index',compact('posts','page_title','page_description'));
     }
 
     /**
@@ -41,7 +41,7 @@ class PostController extends Controller
         $postcategories=PostCategory::all();
         $page_title = 'Crea Articolo';
         $page_description = '';
-        return view('pages.posts.create',compact('postcategories','page_title','page_description'));
+        return view('backend.posts.create',compact('postcategories','page_title','page_description'));
     }
 
     /**
@@ -124,7 +124,7 @@ class PostController extends Controller
         $page_description = 'Some description for the page';
         $post=Post::find($post->id);
         $postcategories = PostCategory::all();
-        return view('pages.posts.show',compact('post','postcategories','page_title','page_description'));
+        return view('backend.posts.show',compact('post','postcategories','page_title','page_description'));
     }
 
     /**

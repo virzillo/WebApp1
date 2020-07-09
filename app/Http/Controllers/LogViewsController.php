@@ -24,7 +24,7 @@ class LogViewsController extends Controller
         $postviews=PostView::all();
         $page_title = 'Log Visualizzazione post';
         $page_description = '';
-        return view('pages.logs.post',compact('postviews','page_title','page_description'));
+        return view('backend.logs.post',compact('postviews','page_title','page_description'));
 
     }
 
@@ -33,7 +33,7 @@ class LogViewsController extends Controller
         $implantviews=ImplantView::all();
         $page_title = 'Log Visualizzazione impianti';
         $page_description = '';
-        return view('pages.logs.implant',compact('implantviews','page_title','page_description'));
+        return view('backend.logs.implant',compact('implantviews','page_title','page_description'));
 
     }
 }

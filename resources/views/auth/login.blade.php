@@ -1,4 +1,4 @@
-@extends('layout.auth')
+@extends('backend.layout.auth')
 
 
 

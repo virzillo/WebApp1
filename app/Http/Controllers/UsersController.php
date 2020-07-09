@@ -96,7 +96,7 @@ class UsersController extends Controller
         $page_title = 'Utenti';
         $page_description = 'Some description for the page';
         $users = User::all();
-        return view('pages.users.index', compact('page_title', 'page_description', 'users'));
+        return view('backend.users.index', compact('page_title', 'page_description', 'users'));
     }
 
     public function create()
@@ -104,7 +104,7 @@ class UsersController extends Controller
         $page_title = 'Crea Utente';
         $page_description = 'Some description for the page';
         $roles = Role::all();
-        return view('pages.users.create', compact('page_title', 'page_description', 'roles'));
+        return view('backend.users.create', compact('page_title', 'page_description', 'roles'));
     }
 
     public function show($id)
@@ -114,7 +114,7 @@ class UsersController extends Controller
         $page_description = 'Some description for the page';
         $user = User::where('id', $id)->first();
         $roles = Role::all();
-        return view('pages.users.show', compact('page_title', 'page_description', 'user','roles'));
+        return view('backend.users.show', compact('page_title', 'page_description', 'user','roles'));
     }
 
     public function edit($id)
@@ -122,7 +122,7 @@ class UsersController extends Controller
         $page_title = 'Modifica Utente';
         $page_description = 'Some description for the page';
         $user = User::find($id);
-        return view('pages.users.edit', compact('page_title', 'page_description', 'user'));
+        return view('backend.users.edit', compact('page_title', 'page_description', 'user'));
     }
 
     public function update(Request $request)

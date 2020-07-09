@@ -32,7 +32,7 @@ class ImplantController extends Controller
         $implants=Implant::all();
         // $numcat=count(Implant::ofType('pubblicato')->get());
         // dd($numcat);
-        return view('pages.implants.index',compact('implants','page_title','page_description'));
+        return view('backend.implants.index',compact('implants','page_title','page_description'));
     }
 
     /**
@@ -46,7 +46,7 @@ class ImplantController extends Controller
         $page_description = ' | Some description for the page';
         $categories = Category::with('children')->whereNull('parent_id')->where('pubblicato','on')->get();
         $services=Service::where('pubblicato','on')->get();
-        return view('pages.implants.create',compact('categories','services','page_title','page_description'));
+        return view('backend.implants.create',compact('categories','services','page_title','page_description'));
     }
 
     /**
@@ -161,7 +161,7 @@ class ImplantController extends Controller
         $implant=Implant::find($implant->id);
         $categories = Category::with('children')->whereNull('parent_id')->where('pubblicato','on')->get();
         $services=Service::where('pubblicato','on')->get();
-        return view('pages.implants.show',compact('implant','categories','services','page_title','page_description'));
+        return view('backend.implants.show',compact('implant','categories','services','page_title','page_description'));
     }
 
     /**

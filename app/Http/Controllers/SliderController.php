@@ -26,7 +26,7 @@ class SliderController extends Controller
     {
         $page_title = 'Elenco Slider';
         $sliders=Slider::all();
-        return view('pages.sliders.index',compact('sliders','page_title'));
+        return view('backend.sliders.index',compact('sliders','page_title'));
     }
 
     /**
@@ -38,7 +38,7 @@ class SliderController extends Controller
     {
         $page_title = 'Crea Slider';
         $page_description = '';
-        return view('pages.sliders.create',compact('page_title','page_description'));
+        return view('backend.sliders.create',compact('page_title','page_description'));
     }
 
     /**
@@ -98,7 +98,7 @@ class SliderController extends Controller
         $page_title = 'Modifica slider';
         $page_description = '';
         $slider=Slider::find($slider->id);
-        return view('pages.sliders.show',compact('slider','page_title','page_description'));
+        return view('backend.sliders.show',compact('slider','page_title','page_description'));
     }
 
     /**

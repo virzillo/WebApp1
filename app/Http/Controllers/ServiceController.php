@@ -23,7 +23,7 @@ class ServiceController extends Controller
     {
         $page_title = 'Elenco Servizi';
         $services=Service::all();
-        return view('pages.services.index',compact('services','page_title'));
+        return view('backend.services.index',compact('services','page_title'));
 
     }
 
@@ -36,7 +36,7 @@ class ServiceController extends Controller
     {
         $page_title = 'Crea Servizio';
         $page_description = 'Some description for the page';
-        return view('pages.services.create',compact('page_title','page_description'));
+        return view('backend.services.create',compact('page_title','page_description'));
 
     }
 
@@ -70,7 +70,7 @@ class ServiceController extends Controller
         $page_title = 'Modifica Servizio';
         $page_description = '';
         $service=Service::find($service->id);
-        return view('pages.services.show',compact('service','page_title','page_description'));
+        return view('backend.services.show',compact('service','page_title','page_description'));
     }
 
     /**

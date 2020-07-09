@@ -24,7 +24,7 @@ class PostCategoryController extends Controller
         $postcategories=PostCategory::all();
         $page_title = 'Categorie';
         $page_description = 'Some description for the page';
-        return view('pages.postcategories.index',compact('postcategories','page_title','page_description'));
+        return view('backend.postcategories.index',compact('postcategories','page_title','page_description'));
 
     }
 
@@ -37,7 +37,7 @@ class PostCategoryController extends Controller
     {
         $page_title = 'Crea Categoria';
         $page_description = 'Some description for the page';
-        return view('pages.postcategories.create',compact('page_title','page_description'));
+        return view('backend.postcategories.create',compact('page_title','page_description'));
     }
 
     /**
@@ -68,7 +68,7 @@ class PostCategoryController extends Controller
         $page_title = 'Modifica Categoria';
         $page_description = '';
         $postcategory = PostCategory::find($id);
-        return view('pages.postcategories.show',compact('postcategory','page_title','page_description'));
+        return view('backend.postcategories.show',compact('postcategory','page_title','page_description'));
     }
 
     /**
